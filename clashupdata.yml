@@ -5,316 +5,388 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇯🇵VIP3|日本01解锁流媒体_1', server: hd.out01.nodeserver.top, port: 23040, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇭🇰VIP1|香港03解锁流媒体_2', server: hd.out03.nodeserver.top, port: 23011, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇸🇬VIP3|新加坡02解锁流媒体_3', server: hd.out02.nodeserver.top, port: 23049, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇭🇰VIP2|香港02解锁流媒体_4', server: hd.out02.nodeserver.top, port: 23026, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '美国感谢订阅--科技网络_43', server: 192.46.211.249, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国感谢订阅--科技网络_86', server: 192.46.211.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇯🇵VIP1|日本01解锁流媒体_7', server: hd.out01.nodeserver.top, port: 23005, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇮🇳IN_36', server: 172.105.38.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+27_37', server: 45.79.121.236, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇮🇳+077+印度+TG@shoucangAV_78', server: 45.79.122.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇸🇬VIP1|新加坡02解锁流媒体_11', server: hd.out02.nodeserver.top, port: 23014, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇲🇾 062 马来西亚_12', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-mlxy, ws-headers: {Host: baidu.com}}
-  - {name: '🇭🇰VIP1|香港02主力节点_13', server: hd.out02.nodeserver.top, port: 23010, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1', server: 45.79.127.97, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰VIP1|香港04解锁流媒体_15', server: hd.out04.nodeserver.top, port: 23012, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
   - {name: '🇸🇬VIP1|新加坡01解锁流媒体_16', server: hd.out01.nodeserver.top, port: 23013, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇭🇰VIP2|香港01主力节点_17', server: hd.out01.nodeserver.top, port: 23025, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇭🇰VIP1|香港01主力节点_18', server: hd.out01.nodeserver.top, port: 23009, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇮🇳+印度欢迎订阅Youtube破解资源君+8_20', server: 172.105.59.32, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34', server: 172.105.57.249, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸VIP2|西雅图02原生NTT_21', server: hd.out02.nodeserver.top, port: 23079, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '印度感谢订阅——科技网络_148', server: 45.79.122.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸VIP1|美国01解锁流媒体_23', server: hd.out01.nodeserver.top, port: 23019, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇮🇳+079+印度+TG@freeyule_56', server: 45.79.122.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸+258+美国+TG@freeyule_62', server: 192.46.211.249, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇮🇳IN_6117', server: 45.79.127.97, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度感谢订阅——科技网络_134', server: 192.46.211.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇧🇬VIP2|英国02_28', server: hd.out02.nodeserver.top, port: 23024, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇸🇬VIP3|新加坡01解锁流媒体_29', server: hd.out01.nodeserver.top, port: 23048, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36', server: 172.105.57.249, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '欧洲感谢订阅——科技网络_123', server: 193.29.107.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: '🇸🇬VIP1|新加坡03解锁流媒体_2', server: hd.out03.nodeserver.top, port: 23015, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇯🇵 VIP2 日本 02 流媒体解锁_3', server: ppy.out02.nodeserver.top, port: 26007, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇭🇰 VIP2 香港 07 流媒体解锁_4', server: ppy.out02.nodeserver.top, port: 26016, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇭🇰 VIP2 香港 10 流媒体解锁_5', server: ppy.out01.nodeserver.top, port: 26019, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇭🇰 VIP2 香港 06 流媒体解锁_6', server: ppy.out01.nodeserver.top, port: 26015, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
   - {name: '🇸🇬VIP1|新加坡04解锁流媒体_32', server: hd.out04.nodeserver.top, port: 23016, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
-  - {name: '🇮🇳+印度欢迎订阅Youtube破解资源君+2_59', server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇲 美国自建_48', server: 45.88.179.34, port: 30678, type: vmess, uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.88.179.34}}
+  - {name: '🇭🇰 VIP2 香港 08 流媒体解锁_8', server: ppy.out01.nodeserver.top, port: 26017, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇸🇬VIP3|新加坡01解锁流媒体_29', server: hd.out01.nodeserver.top, port: 23048, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇯🇵VIP3|日本02解锁流媒体_10', server: hd.out02.nodeserver.top, port: 23041, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇯🇵VIP1|日本01解锁流媒体_7', server: hd.out01.nodeserver.top, port: 23005, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇯🇵 VIP2 日本 01 流媒体解锁_12', server: ppy.out01.nodeserver.top, port: 26006, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇸🇬 VIP2 新加坡 01 流媒体解锁_13', server: ppy.out02.nodeserver.top, port: 26020, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇯🇵 VIP2 日本 03 流媒体解锁_14', server: ppy.out03.nodeserver.top, port: 26008, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇸🇬 VIP2 新加坡 03 流媒体解锁_15', server: ppy.out02.nodeserver.top, port: 26022, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇭🇰VIP1|香港03解锁流媒体_2', server: hd.out03.nodeserver.top, port: 23011, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇭🇰 VIP2 香港 05 流媒体解锁_17', server: ppy.out02.nodeserver.top, port: 26014, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科技）_18', server: 45.79.127.97, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34', server: 172.105.57.249, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1', server: 45.79.127.97, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇲+美国欢迎订阅Youtube破解资源君+14_21', server: 192.46.211.249, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22', server: 45.79.127.97, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_23', server: 45.79.122.28, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇭🇰 VIP2 香港 03 流媒体解锁_24', server: ppy.out02.nodeserver.top, port: 26012, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇺🇸VIP1|美国01解锁流媒体_23', server: hd.out01.nodeserver.top, port: 23019, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇸🇬 VIP2 新加坡 02 流媒体解锁_26', server: ppy.out01.nodeserver.top, port: 26021, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
+  - {name: '🇮🇳VIP2|印度01_27', server: hd.out01.nodeserver.top, port: 23021, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇮🇳+印度欢迎订阅Youtube破解资源君+4_28', server: 172.105.59.32, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇳IN_36', server: 172.105.38.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30', server: 172.105.63.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇮🇳+印度Youtube频道：工具大师！+3_31', server: 172.105.38.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇯🇵VIP3|日本01解锁流媒体_1', server: hd.out01.nodeserver.top, port: 23040, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '印度感谢订阅——科技网络_134', server: 192.46.211.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34', server: 172.105.63.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+23_35', server: 172.105.63.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_36', server: 45.79.122.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇮🇳+印度Youtube频道：工具大师！+11_37', server: 172.105.63.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_38', server: 172.105.38.55, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇧🇬VIP2|英国02_28', server: hd.out02.nodeserver.top, port: 23024, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇭🇰VIP1|香港01主力节点_18', server: hd.out01.nodeserver.top, port: 23009, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇭🇰VIP2|香港03原生IP解锁流媒体_41', server: hd.out01.nodeserver.top, port: 23052, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '美国感谢订阅--科技网络_86', server: 192.46.211.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36', server: 172.105.57.249, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵VIP3|日本01解锁流媒体_1
-      - 🇭🇰VIP1|香港03解锁流媒体_2
-      - 🇸🇬VIP3|新加坡02解锁流媒体_3
-      - 🇭🇰VIP2|香港02解锁流媒体_4
-      - 美国感谢订阅--科技网络_43
-      - 美国感谢订阅--科技网络_86
-      - 🇯🇵VIP1|日本01解锁流媒体_7
-      - 🇮🇳IN_36
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+27_37
-      - 🇮🇳+077+印度+TG@shoucangAV_78
-      - 🇸🇬VIP1|新加坡02解锁流媒体_11
-      - 🇲🇾 062 马来西亚_12
-      - 🇭🇰VIP1|香港02主力节点_13
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
-      - 🇭🇰VIP1|香港04解锁流媒体_15
       - 🇸🇬VIP1|新加坡01解锁流媒体_16
-      - 🇭🇰VIP2|香港01主力节点_17
-      - 🇭🇰VIP1|香港01主力节点_18
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+8_20
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
-      - 🇺🇸VIP2|西雅图02原生NTT_21
-      - 印度感谢订阅——科技网络_148
-      - 🇺🇸VIP1|美国01解锁流媒体_23
-      - 🇮🇳+079+印度+TG@freeyule_56
-      - 🇺🇸+258+美国+TG@freeyule_62
-      - 🇮🇳IN_6117
-      - 印度感谢订阅——科技网络_134
-      - 🇧🇬VIP2|英国02_28
-      - 🇸🇬VIP3|新加坡01解锁流媒体_29
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
-      - 欧洲感谢订阅——科技网络_123
+      - 🇸🇬VIP1|新加坡03解锁流媒体_2
+      - 🇯🇵 VIP2 日本 02 流媒体解锁_3
+      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
+      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
+      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
       - 🇸🇬VIP1|新加坡04解锁流媒体_32
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+2_59
-      - 🇺🇲 美国自建_48
+      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
+      - 🇸🇬VIP3|新加坡01解锁流媒体_29
+      - 🇯🇵VIP3|日本02解锁流媒体_10
+      - 🇯🇵VIP1|日本01解锁流媒体_7
+      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
+      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
+      - 🇯🇵 VIP2 日本 03 流媒体解锁_14
+      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
+      - 🇭🇰VIP1|香港03解锁流媒体_2
+      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科技）_18
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
+      - 🇺🇲+美国欢迎订阅Youtube破解资源君+14_21
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_23
+      - 🇭🇰 VIP2 香港 03 流媒体解锁_24
+      - 🇺🇸VIP1|美国01解锁流媒体_23
+      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
+      - 🇮🇳VIP2|印度01_27
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+4_28
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
+      - 🇮🇳+印度Youtube频道：工具大师！+3_31
+      - 🇯🇵VIP3|日本01解锁流媒体_1
+      - 印度感谢订阅——科技网络_134
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+23_35
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_36
+      - 🇮🇳+印度Youtube频道：工具大师！+11_37
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_38
+      - 🇧🇬VIP2|英国02_28
+      - 🇭🇰VIP1|香港01主力节点_18
+      - 🇭🇰VIP2|香港03原生IP解锁流媒体_41
+      - 美国感谢订阅--科技网络_86
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵VIP3|日本01解锁流媒体_1
-      - 🇭🇰VIP1|香港03解锁流媒体_2
-      - 🇸🇬VIP3|新加坡02解锁流媒体_3
-      - 🇭🇰VIP2|香港02解锁流媒体_4
-      - 美国感谢订阅--科技网络_43
-      - 美国感谢订阅--科技网络_86
-      - 🇯🇵VIP1|日本01解锁流媒体_7
-      - 🇮🇳IN_36
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+27_37
-      - 🇮🇳+077+印度+TG@shoucangAV_78
-      - 🇸🇬VIP1|新加坡02解锁流媒体_11
-      - 🇲🇾 062 马来西亚_12
-      - 🇭🇰VIP1|香港02主力节点_13
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
-      - 🇭🇰VIP1|香港04解锁流媒体_15
       - 🇸🇬VIP1|新加坡01解锁流媒体_16
-      - 🇭🇰VIP2|香港01主力节点_17
-      - 🇭🇰VIP1|香港01主力节点_18
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+8_20
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
-      - 🇺🇸VIP2|西雅图02原生NTT_21
-      - 印度感谢订阅——科技网络_148
-      - 🇺🇸VIP1|美国01解锁流媒体_23
-      - 🇮🇳+079+印度+TG@freeyule_56
-      - 🇺🇸+258+美国+TG@freeyule_62
-      - 🇮🇳IN_6117
-      - 印度感谢订阅——科技网络_134
-      - 🇧🇬VIP2|英国02_28
-      - 🇸🇬VIP3|新加坡01解锁流媒体_29
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
-      - 欧洲感谢订阅——科技网络_123
+      - 🇸🇬VIP1|新加坡03解锁流媒体_2
+      - 🇯🇵 VIP2 日本 02 流媒体解锁_3
+      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
+      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
+      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
       - 🇸🇬VIP1|新加坡04解锁流媒体_32
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+2_59
-      - 🇺🇲 美国自建_48
+      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
+      - 🇸🇬VIP3|新加坡01解锁流媒体_29
+      - 🇯🇵VIP3|日本02解锁流媒体_10
+      - 🇯🇵VIP1|日本01解锁流媒体_7
+      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
+      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
+      - 🇯🇵 VIP2 日本 03 流媒体解锁_14
+      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
+      - 🇭🇰VIP1|香港03解锁流媒体_2
+      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科技）_18
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
+      - 🇺🇲+美国欢迎订阅Youtube破解资源君+14_21
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_23
+      - 🇭🇰 VIP2 香港 03 流媒体解锁_24
+      - 🇺🇸VIP1|美国01解锁流媒体_23
+      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
+      - 🇮🇳VIP2|印度01_27
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+4_28
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
+      - 🇮🇳+印度Youtube频道：工具大师！+3_31
+      - 🇯🇵VIP3|日本01解锁流媒体_1
+      - 印度感谢订阅——科技网络_134
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+23_35
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_36
+      - 🇮🇳+印度Youtube频道：工具大师！+11_37
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_38
+      - 🇧🇬VIP2|英国02_28
+      - 🇭🇰VIP1|香港01主力节点_18
+      - 🇭🇰VIP2|香港03原生IP解锁流媒体_41
+      - 美国感谢订阅--科技网络_86
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵VIP3|日本01解锁流媒体_1
-      - 🇭🇰VIP1|香港03解锁流媒体_2
-      - 🇸🇬VIP3|新加坡02解锁流媒体_3
-      - 🇭🇰VIP2|香港02解锁流媒体_4
-      - 美国感谢订阅--科技网络_43
-      - 美国感谢订阅--科技网络_86
-      - 🇯🇵VIP1|日本01解锁流媒体_7
-      - 🇮🇳IN_36
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+27_37
-      - 🇮🇳+077+印度+TG@shoucangAV_78
-      - 🇸🇬VIP1|新加坡02解锁流媒体_11
-      - 🇲🇾 062 马来西亚_12
-      - 🇭🇰VIP1|香港02主力节点_13
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
-      - 🇭🇰VIP1|香港04解锁流媒体_15
       - 🇸🇬VIP1|新加坡01解锁流媒体_16
-      - 🇭🇰VIP2|香港01主力节点_17
-      - 🇭🇰VIP1|香港01主力节点_18
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+8_20
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
-      - 🇺🇸VIP2|西雅图02原生NTT_21
-      - 印度感谢订阅——科技网络_148
-      - 🇺🇸VIP1|美国01解锁流媒体_23
-      - 🇮🇳+079+印度+TG@freeyule_56
-      - 🇺🇸+258+美国+TG@freeyule_62
-      - 🇮🇳IN_6117
-      - 印度感谢订阅——科技网络_134
-      - 🇧🇬VIP2|英国02_28
-      - 🇸🇬VIP3|新加坡01解锁流媒体_29
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
-      - 欧洲感谢订阅——科技网络_123
+      - 🇸🇬VIP1|新加坡03解锁流媒体_2
+      - 🇯🇵 VIP2 日本 02 流媒体解锁_3
+      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
+      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
+      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
       - 🇸🇬VIP1|新加坡04解锁流媒体_32
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+2_59
-      - 🇺🇲 美国自建_48
+      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
+      - 🇸🇬VIP3|新加坡01解锁流媒体_29
+      - 🇯🇵VIP3|日本02解锁流媒体_10
+      - 🇯🇵VIP1|日本01解锁流媒体_7
+      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
+      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
+      - 🇯🇵 VIP2 日本 03 流媒体解锁_14
+      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
+      - 🇭🇰VIP1|香港03解锁流媒体_2
+      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科技）_18
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
+      - 🇺🇲+美国欢迎订阅Youtube破解资源君+14_21
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_23
+      - 🇭🇰 VIP2 香港 03 流媒体解锁_24
+      - 🇺🇸VIP1|美国01解锁流媒体_23
+      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
+      - 🇮🇳VIP2|印度01_27
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+4_28
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
+      - 🇮🇳+印度Youtube频道：工具大师！+3_31
+      - 🇯🇵VIP3|日本01解锁流媒体_1
+      - 印度感谢订阅——科技网络_134
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+23_35
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_36
+      - 🇮🇳+印度Youtube频道：工具大师！+11_37
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_38
+      - 🇧🇬VIP2|英国02_28
+      - 🇭🇰VIP1|香港01主力节点_18
+      - 🇭🇰VIP2|香港03原生IP解锁流媒体_41
+      - 美国感谢订阅--科技网络_86
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵VIP3|日本01解锁流媒体_1
-      - 🇭🇰VIP1|香港03解锁流媒体_2
-      - 🇸🇬VIP3|新加坡02解锁流媒体_3
-      - 🇭🇰VIP2|香港02解锁流媒体_4
-      - 美国感谢订阅--科技网络_43
-      - 美国感谢订阅--科技网络_86
-      - 🇯🇵VIP1|日本01解锁流媒体_7
-      - 🇮🇳IN_36
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+27_37
-      - 🇮🇳+077+印度+TG@shoucangAV_78
-      - 🇸🇬VIP1|新加坡02解锁流媒体_11
-      - 🇲🇾 062 马来西亚_12
-      - 🇭🇰VIP1|香港02主力节点_13
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
-      - 🇭🇰VIP1|香港04解锁流媒体_15
       - 🇸🇬VIP1|新加坡01解锁流媒体_16
-      - 🇭🇰VIP2|香港01主力节点_17
-      - 🇭🇰VIP1|香港01主力节点_18
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+8_20
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
-      - 🇺🇸VIP2|西雅图02原生NTT_21
-      - 印度感谢订阅——科技网络_148
-      - 🇺🇸VIP1|美国01解锁流媒体_23
-      - 🇮🇳+079+印度+TG@freeyule_56
-      - 🇺🇸+258+美国+TG@freeyule_62
-      - 🇮🇳IN_6117
-      - 印度感谢订阅——科技网络_134
-      - 🇧🇬VIP2|英国02_28
-      - 🇸🇬VIP3|新加坡01解锁流媒体_29
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
-      - 欧洲感谢订阅——科技网络_123
+      - 🇸🇬VIP1|新加坡03解锁流媒体_2
+      - 🇯🇵 VIP2 日本 02 流媒体解锁_3
+      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
+      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
+      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
       - 🇸🇬VIP1|新加坡04解锁流媒体_32
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+2_59
-      - 🇺🇲 美国自建_48
+      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
+      - 🇸🇬VIP3|新加坡01解锁流媒体_29
+      - 🇯🇵VIP3|日本02解锁流媒体_10
+      - 🇯🇵VIP1|日本01解锁流媒体_7
+      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
+      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
+      - 🇯🇵 VIP2 日本 03 流媒体解锁_14
+      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
+      - 🇭🇰VIP1|香港03解锁流媒体_2
+      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科技）_18
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
+      - 🇺🇲+美国欢迎订阅Youtube破解资源君+14_21
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_23
+      - 🇭🇰 VIP2 香港 03 流媒体解锁_24
+      - 🇺🇸VIP1|美国01解锁流媒体_23
+      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
+      - 🇮🇳VIP2|印度01_27
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+4_28
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
+      - 🇮🇳+印度Youtube频道：工具大师！+3_31
+      - 🇯🇵VIP3|日本01解锁流媒体_1
+      - 印度感谢订阅——科技网络_134
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+23_35
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_36
+      - 🇮🇳+印度Youtube频道：工具大师！+11_37
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_38
+      - 🇧🇬VIP2|英国02_28
+      - 🇭🇰VIP1|香港01主力节点_18
+      - 🇭🇰VIP2|香港03原生IP解锁流媒体_41
+      - 美国感谢订阅--科技网络_86
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵VIP3|日本01解锁流媒体_1
-      - 🇭🇰VIP1|香港03解锁流媒体_2
-      - 🇸🇬VIP3|新加坡02解锁流媒体_3
-      - 🇭🇰VIP2|香港02解锁流媒体_4
-      - 美国感谢订阅--科技网络_43
-      - 美国感谢订阅--科技网络_86
-      - 🇯🇵VIP1|日本01解锁流媒体_7
-      - 🇮🇳IN_36
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+27_37
-      - 🇮🇳+077+印度+TG@shoucangAV_78
-      - 🇸🇬VIP1|新加坡02解锁流媒体_11
-      - 🇲🇾 062 马来西亚_12
-      - 🇭🇰VIP1|香港02主力节点_13
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
-      - 🇭🇰VIP1|香港04解锁流媒体_15
       - 🇸🇬VIP1|新加坡01解锁流媒体_16
-      - 🇭🇰VIP2|香港01主力节点_17
-      - 🇭🇰VIP1|香港01主力节点_18
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+8_20
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
-      - 🇺🇸VIP2|西雅图02原生NTT_21
-      - 印度感谢订阅——科技网络_148
-      - 🇺🇸VIP1|美国01解锁流媒体_23
-      - 🇮🇳+079+印度+TG@freeyule_56
-      - 🇺🇸+258+美国+TG@freeyule_62
-      - 🇮🇳IN_6117
-      - 印度感谢订阅——科技网络_134
-      - 🇧🇬VIP2|英国02_28
-      - 🇸🇬VIP3|新加坡01解锁流媒体_29
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
-      - 欧洲感谢订阅——科技网络_123
+      - 🇸🇬VIP1|新加坡03解锁流媒体_2
+      - 🇯🇵 VIP2 日本 02 流媒体解锁_3
+      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
+      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
+      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
       - 🇸🇬VIP1|新加坡04解锁流媒体_32
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+2_59
-      - 🇺🇲 美国自建_48
+      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
+      - 🇸🇬VIP3|新加坡01解锁流媒体_29
+      - 🇯🇵VIP3|日本02解锁流媒体_10
+      - 🇯🇵VIP1|日本01解锁流媒体_7
+      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
+      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
+      - 🇯🇵 VIP2 日本 03 流媒体解锁_14
+      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
+      - 🇭🇰VIP1|香港03解锁流媒体_2
+      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科技）_18
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
+      - 🇺🇲+美国欢迎订阅Youtube破解资源君+14_21
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_23
+      - 🇭🇰 VIP2 香港 03 流媒体解锁_24
+      - 🇺🇸VIP1|美国01解锁流媒体_23
+      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
+      - 🇮🇳VIP2|印度01_27
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+4_28
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
+      - 🇮🇳+印度Youtube频道：工具大师！+3_31
+      - 🇯🇵VIP3|日本01解锁流媒体_1
+      - 印度感谢订阅——科技网络_134
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+23_35
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_36
+      - 🇮🇳+印度Youtube频道：工具大师！+11_37
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_38
+      - 🇧🇬VIP2|英国02_28
+      - 🇭🇰VIP1|香港01主力节点_18
+      - 🇭🇰VIP2|香港03原生IP解锁流媒体_41
+      - 美国感谢订阅--科技网络_86
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵VIP3|日本01解锁流媒体_1
-      - 🇭🇰VIP1|香港03解锁流媒体_2
-      - 🇸🇬VIP3|新加坡02解锁流媒体_3
-      - 🇭🇰VIP2|香港02解锁流媒体_4
-      - 美国感谢订阅--科技网络_43
-      - 美国感谢订阅--科技网络_86
-      - 🇯🇵VIP1|日本01解锁流媒体_7
-      - 🇮🇳IN_36
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+27_37
-      - 🇮🇳+077+印度+TG@shoucangAV_78
-      - 🇸🇬VIP1|新加坡02解锁流媒体_11
-      - 🇲🇾 062 马来西亚_12
-      - 🇭🇰VIP1|香港02主力节点_13
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
-      - 🇭🇰VIP1|香港04解锁流媒体_15
       - 🇸🇬VIP1|新加坡01解锁流媒体_16
-      - 🇭🇰VIP2|香港01主力节点_17
-      - 🇭🇰VIP1|香港01主力节点_18
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+8_20
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
-      - 🇺🇸VIP2|西雅图02原生NTT_21
-      - 印度感谢订阅——科技网络_148
-      - 🇺🇸VIP1|美国01解锁流媒体_23
-      - 🇮🇳+079+印度+TG@freeyule_56
-      - 🇺🇸+258+美国+TG@freeyule_62
-      - 🇮🇳IN_6117
-      - 印度感谢订阅——科技网络_134
-      - 🇧🇬VIP2|英国02_28
-      - 🇸🇬VIP3|新加坡01解锁流媒体_29
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
-      - 欧洲感谢订阅——科技网络_123
+      - 🇸🇬VIP1|新加坡03解锁流媒体_2
+      - 🇯🇵 VIP2 日本 02 流媒体解锁_3
+      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
+      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
+      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
       - 🇸🇬VIP1|新加坡04解锁流媒体_32
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+2_59
-      - 🇺🇲 美国自建_48
+      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
+      - 🇸🇬VIP3|新加坡01解锁流媒体_29
+      - 🇯🇵VIP3|日本02解锁流媒体_10
+      - 🇯🇵VIP1|日本01解锁流媒体_7
+      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
+      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
+      - 🇯🇵 VIP2 日本 03 流媒体解锁_14
+      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
+      - 🇭🇰VIP1|香港03解锁流媒体_2
+      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科技）_18
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
+      - 🇺🇲+美国欢迎订阅Youtube破解资源君+14_21
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_23
+      - 🇭🇰 VIP2 香港 03 流媒体解锁_24
+      - 🇺🇸VIP1|美国01解锁流媒体_23
+      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
+      - 🇮🇳VIP2|印度01_27
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+4_28
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
+      - 🇮🇳+印度Youtube频道：工具大师！+3_31
+      - 🇯🇵VIP3|日本01解锁流媒体_1
+      - 印度感谢订阅——科技网络_134
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+23_35
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_36
+      - 🇮🇳+印度Youtube频道：工具大师！+11_37
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_38
+      - 🇧🇬VIP2|英国02_28
+      - 🇭🇰VIP1|香港01主力节点_18
+      - 🇭🇰VIP2|香港03原生IP解锁流媒体_41
+      - 美国感谢订阅--科技网络_86
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵VIP3|日本01解锁流媒体_1
-      - 🇭🇰VIP1|香港03解锁流媒体_2
-      - 🇸🇬VIP3|新加坡02解锁流媒体_3
-      - 🇭🇰VIP2|香港02解锁流媒体_4
-      - 美国感谢订阅--科技网络_43
-      - 美国感谢订阅--科技网络_86
-      - 🇯🇵VIP1|日本01解锁流媒体_7
-      - 🇮🇳IN_36
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+27_37
-      - 🇮🇳+077+印度+TG@shoucangAV_78
-      - 🇸🇬VIP1|新加坡02解锁流媒体_11
-      - 🇲🇾 062 马来西亚_12
-      - 🇭🇰VIP1|香港02主力节点_13
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
-      - 🇭🇰VIP1|香港04解锁流媒体_15
       - 🇸🇬VIP1|新加坡01解锁流媒体_16
-      - 🇭🇰VIP2|香港01主力节点_17
-      - 🇭🇰VIP1|香港01主力节点_18
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+8_20
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
-      - 🇺🇸VIP2|西雅图02原生NTT_21
-      - 印度感谢订阅——科技网络_148
-      - 🇺🇸VIP1|美国01解锁流媒体_23
-      - 🇮🇳+079+印度+TG@freeyule_56
-      - 🇺🇸+258+美国+TG@freeyule_62
-      - 🇮🇳IN_6117
-      - 印度感谢订阅——科技网络_134
-      - 🇧🇬VIP2|英国02_28
-      - 🇸🇬VIP3|新加坡01解锁流媒体_29
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
-      - 欧洲感谢订阅——科技网络_123
+      - 🇸🇬VIP1|新加坡03解锁流媒体_2
+      - 🇯🇵 VIP2 日本 02 流媒体解锁_3
+      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
+      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
+      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
       - 🇸🇬VIP1|新加坡04解锁流媒体_32
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+2_59
-      - 🇺🇲 美国自建_48
+      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
+      - 🇸🇬VIP3|新加坡01解锁流媒体_29
+      - 🇯🇵VIP3|日本02解锁流媒体_10
+      - 🇯🇵VIP1|日本01解锁流媒体_7
+      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
+      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
+      - 🇯🇵 VIP2 日本 03 流媒体解锁_14
+      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
+      - 🇭🇰VIP1|香港03解锁流媒体_2
+      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科技）_18
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
+      - 🇺🇲+美国欢迎订阅Youtube破解资源君+14_21
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_23
+      - 🇭🇰 VIP2 香港 03 流媒体解锁_24
+      - 🇺🇸VIP1|美国01解锁流媒体_23
+      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
+      - 🇮🇳VIP2|印度01_27
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+4_28
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
+      - 🇮🇳+印度Youtube频道：工具大师！+3_31
+      - 🇯🇵VIP3|日本01解锁流媒体_1
+      - 印度感谢订阅——科技网络_134
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+23_35
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_36
+      - 🇮🇳+印度Youtube频道：工具大师！+11_37
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_38
+      - 🇧🇬VIP2|英国02_28
+      - 🇭🇰VIP1|香港01主力节点_18
+      - 🇭🇰VIP2|香港03原生IP解锁流媒体_41
+      - 美国感谢订阅--科技网络_86
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -330,40 +402,49 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵VIP3|日本01解锁流媒体_1
-      - 🇭🇰VIP1|香港03解锁流媒体_2
-      - 🇸🇬VIP3|新加坡02解锁流媒体_3
-      - 🇭🇰VIP2|香港02解锁流媒体_4
-      - 美国感谢订阅--科技网络_43
-      - 美国感谢订阅--科技网络_86
-      - 🇯🇵VIP1|日本01解锁流媒体_7
-      - 🇮🇳IN_36
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+27_37
-      - 🇮🇳+077+印度+TG@shoucangAV_78
-      - 🇸🇬VIP1|新加坡02解锁流媒体_11
-      - 🇲🇾 062 马来西亚_12
-      - 🇭🇰VIP1|香港02主力节点_13
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
-      - 🇭🇰VIP1|香港04解锁流媒体_15
       - 🇸🇬VIP1|新加坡01解锁流媒体_16
-      - 🇭🇰VIP2|香港01主力节点_17
-      - 🇭🇰VIP1|香港01主力节点_18
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+8_20
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
-      - 🇺🇸VIP2|西雅图02原生NTT_21
-      - 印度感谢订阅——科技网络_148
-      - 🇺🇸VIP1|美国01解锁流媒体_23
-      - 🇮🇳+079+印度+TG@freeyule_56
-      - 🇺🇸+258+美国+TG@freeyule_62
-      - 🇮🇳IN_6117
-      - 印度感谢订阅——科技网络_134
-      - 🇧🇬VIP2|英国02_28
-      - 🇸🇬VIP3|新加坡01解锁流媒体_29
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
-      - 欧洲感谢订阅——科技网络_123
+      - 🇸🇬VIP1|新加坡03解锁流媒体_2
+      - 🇯🇵 VIP2 日本 02 流媒体解锁_3
+      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
+      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
+      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
       - 🇸🇬VIP1|新加坡04解锁流媒体_32
-      - 🇮🇳+印度欢迎订阅Youtube破解资源君+2_59
-      - 🇺🇲 美国自建_48
+      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
+      - 🇸🇬VIP3|新加坡01解锁流媒体_29
+      - 🇯🇵VIP3|日本02解锁流媒体_10
+      - 🇯🇵VIP1|日本01解锁流媒体_7
+      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
+      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
+      - 🇯🇵 VIP2 日本 03 流媒体解锁_14
+      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
+      - 🇭🇰VIP1|香港03解锁流媒体_2
+      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科技）_18
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_1
+      - 🇺🇲+美国欢迎订阅Youtube破解资源君+14_21
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_23
+      - 🇭🇰 VIP2 香港 03 流媒体解锁_24
+      - 🇺🇸VIP1|美国01解锁流媒体_23
+      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
+      - 🇮🇳VIP2|印度01_27
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+4_28
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
+      - 🇮🇳+印度Youtube频道：工具大师！+3_31
+      - 🇯🇵VIP3|日本01解锁流媒体_1
+      - 印度感谢订阅——科技网络_134
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+23_35
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_36
+      - 🇮🇳+印度Youtube频道：工具大师！+11_37
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_38
+      - 🇧🇬VIP2|英国02_28
+      - 🇭🇰VIP1|香港01主力节点_18
+      - 🇭🇰VIP2|香港03原生IP解锁流媒体_41
+      - 美国感谢订阅--科技网络_86
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
