@@ -5,372 +5,700 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '印度感谢订阅——科技网络_151', server: 172.105.38.55, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇸🇬 VIP2 新加坡 04 流媒体解锁_2', server: ppy.out01.nodeserver.top, port: 26023, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇭🇰 VIP2 香港 07 流媒体解锁_4', server: ppy.out02.nodeserver.top, port: 26016, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇭🇰 VIP2 香港 10 流媒体解锁_5', server: ppy.out01.nodeserver.top, port: 26019, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇸🇬 VIP2 新加坡 01 流媒体解锁_13', server: ppy.out02.nodeserver.top, port: 26020, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇭🇰 VIP2 香港 05 流媒体解锁_17', server: ppy.out02.nodeserver.top, port: 26014, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇭🇰 VIP2 香港 06 流媒体解锁_6', server: ppy.out01.nodeserver.top, port: 26015, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇭🇰 035机场∞香港_1', server: ppy.out01.nodeserver.top, port: 26013, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇯🇵 VIP2 日本 02 流媒体解锁_9', server: ppy.out02.nodeserver.top, port: 26007, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇭🇰 VIP2 香港 02 流媒体解锁_5', server: ppy.out01.nodeserver.top, port: 26011, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇭🇰 VIP2 香港 08 流媒体解锁_8', server: ppy.out01.nodeserver.top, port: 26017, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇭🇰 039机场∞香港_13', server: ppy.out02.nodeserver.top, port: 26010, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇯🇵 VIP2 日本 01 流媒体解锁_12', server: ppy.out01.nodeserver.top, port: 26006, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '印度感谢订阅——科技网络_32', server: 45.79.121.236, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸 030机场∞美国_29', server: ppy.out01.nodeserver.top, port: 26005, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16', server: 45.79.127.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加利福尼亚（欢迎订阅youtube：8度科技）_17', server: 45.79.121.236, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18', server: 45.79.127.97, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34', server: 172.105.63.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇸🇬 VIP2 新加坡 02 流媒体解锁_26', server: ppy.out01.nodeserver.top, port: 26021, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21', server: 172.105.38.55, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇮🇳IN+|+2.95Mb_22', server: 172.105.38.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇮🇳+009印度∞直连_20', server: 45.79.127.97, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸+US_09+@WangCai_1+5', server: 167.88.61.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25', server: 45.79.122.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Lv3·1.0x 日本02|IP均衡优化|混合负载_1', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsrb2, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 台湾02|IP均衡优化|混合负载_2', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-tw2, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv2·1.0x 新加坡05|IP均衡优化|混合负载_3', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsxjp5, ws-headers: {Host: baidu.com}}
+  - {name: 'Relay_🇨🇳CN-🇸🇬SG_2061', server: 120.240.86.53, port: 28592, type: vmess, uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Lv2·1.0x 日本04|IP均衡优化|混合负载_5', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsrb4, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 日本01|IP均衡优化|混合负载_6', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsrb1, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv2·1.0x 韩国03|IP均衡优化|混合负载_7', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-kr3, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 香港HKT04|DIA|IP均衡优化|混合负载|香港原生_8', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-hgc4, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv2·1.0x 日本05|IP均衡优化|混合负载_9', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsrb5, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv2·1.0x 新加坡03|IP均衡优化|混合负载_10', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsxjp3, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 新加坡05|IP均衡优化|混合负载_11', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsxjp5, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 韩国02|IP均衡优化|混合负载_12', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-kr2, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv2·1.0x 香港01|IP均衡优化 混合负载_13', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-hk1, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 香港03|IP均衡优化|混合负载_14', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-hk3, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 日本05|IP均衡优化|混合负载_15', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsrb5, ws-headers: {Host: baidu.com}}
+  - {name: 'Relay_🇨🇳CN-🇯🇵JP_2055', server: 120.240.86.53, port: 29955, type: vmess, uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Lv2·1.0x 韩国01|IP均衡优化|混合负载_17', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-kr1, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv2·1.0x 新加坡02|IP均衡优化|混合负载_18', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsxjp2, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 新加坡03|IP均衡优化|混合负载_19', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsxjp3, ws-headers: {Host: baidu.com}}
+  - {name: '广移 香港 ZR公益_20', server: gzcm.xhbao.me, port: 58963, type: vmess, uuid: 00138042-5598-459e-a56b-d1c7833e5a28, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: 'Lv2·1.0x 韩国04|IP均衡优化|混合负载_21', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-kr4, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv2·1.0x 韩国02|IP均衡优化|混合负载_22', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-kr2, ws-headers: {Host: baidu.com}}
+  - {name: '江门 香港 ZR公益_23', server: cmjm.xhbao.me, port: 58963, type: vmess, uuid: 00138042-5598-459e-a56b-d1c7833e5a28, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: 'Lv3·1.0x 日本04|IP均衡优化|混合负载_24', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsrb4, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 马来西亚|IP均衡优化|混合负载_25', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-mlxy, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 新加坡02|IP均衡优化|混合负载_26', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsxjp2, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 香港HKT01|DIA|IP均衡优化|混合负载|香港原生_27', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-hgc1, ws-headers: {Host: baidu.com}}
+  - {name: 'Relay_🇯🇵JP-🇯🇵JP_6592', server: azhk2.publicss.cc, port: 80, type: vmess, uuid: e0ccff28-4c8e-4936-a91e-3898037764e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Lv2·1.0x 台湾03|IP均衡优化|混合负载_29', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-tw3, ws-headers: {Host: baidu.com}}
+  - {name: '🇮🇳+IN_491', server: 172.105.55.72, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_16', server: 172.105.55.72, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: '🇮🇳+印度Youtube频道：工具大师！+11_37', server: 172.105.63.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇸🇬 VIP2 新加坡 03 流媒体解锁_15', server: ppy.out02.nodeserver.top, port: 26022, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '🇹🇼 VIP2 台湾 01 流媒体解锁_28', server: ppy.out02.nodeserver.top, port: 26024, type: vmess, uuid: 35929a96-257a-3507-831c-b6d627e620b4, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '印度感谢订阅——科技网络_143', server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_133', server: 172.104.206.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22', server: 45.79.127.97, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '印度感谢订阅——科技网络_150', server: 45.79.127.97, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度感谢订阅——科技网络_30', server: 45.79.122.28, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇮🇳IN+|+2.42Mb_16', server: 172.105.63.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34', server: 172.105.57.249, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+230+美国+TG@shoucangAV_33', server: 192.46.211.249, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_34', server: 172.105.59.32, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Relay_🇨🇳CN-🇯🇵JP_2060', server: 1.transit.t.qjnodeip.xyz, port: 48404, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Jp2, ws-headers: {Host: jp.dadwff.xyz}}
+  - {name: '🇮🇳+印度Youtube频道：工具大师！+5_36', server: 172.105.55.72, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30', server: 172.105.63.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇮🇳IN_36', server: 172.105.38.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇮🇳IN+|+2.42Mb_16', server: 172.105.63.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16', server: 45.79.127.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '印度感谢订阅——科技网络_143', server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇳+084+印度+TG@freeyule_41', server: 45.79.122.28, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36', server: 172.105.57.249, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '印度感谢订阅——科技网络_151', server: 172.105.38.55, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22', server: 45.79.127.97, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇮🇳IN+|+2.95Mb_22', server: 172.105.38.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Lv2·1.0x 新加坡04|IP均衡优化|混合负载_46', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-awsxjp4, ws-headers: {Host: baidu.com}}
+  - {name: '🇺🇸+258+美国+TG@freeyule_47', server: 192.46.211.249, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇳+印度欢迎订阅Youtube破解资源君+3_48', server: 45.79.122.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18', server: 45.79.127.97, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '印度感谢订阅——科技网络_139', server: 172.105.63.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇮🇳+009印度∞直连_20', server: 45.79.127.97, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '印度感谢订阅——科技网络_150', server: 45.79.127.97, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '直连 香港 ZR公益_53', server: 16.162.32.76, port: 8888, type: vmess, uuid: 00138042-5598-459e-a56b-d1c7833e5a28, alterId: 1, cipher: auto, tls: false, network: ws}
+  - {name: '🇺🇸+274+美国+TG@shoucangAV_54', server: 192.46.211.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国感谢订阅——科技网络_133', server: 172.104.206.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: '🇺🇸+美国Youtube频道：工具大师！+14_39', server: 172.104.206.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+13_57', server: 172.105.59.32, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '印度感谢订阅——科技网络_153', server: 45.79.127.97, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21', server: 172.105.38.55, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇮🇳+077+印度+TG@shoucangAV_60', server: 45.79.122.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+4_61', server: 172.105.55.72, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25', server: 45.79.122.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Lv3·1.0x 香港02|IP均衡优化|混合负载_63', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-hk2, ws-headers: {Host: baidu.com}}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_4', server: 172.105.55.72, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '印度感谢订阅——科技网络_147', server: 172.105.59.32, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Lv2·1.0x 香港02|IP均衡优化|混合负载_66', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-hk2, ws-headers: {Host: baidu.com}}
+  - {name: '印度感谢订阅——科技网络_30', server: 45.79.122.28, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇮🇳IN_36', server: 172.105.38.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34', server: 172.105.57.249, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Lv2·1.0x 美国原生03|IP均衡优化|混合负载_70', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-us3, ws-headers: {Host: baidu.com}}
   - {name: '🇺🇸+美国Youtube频道：工具大师！+34_40', server: 172.104.206.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸+071机场∞美国_72', server: 167.88.61.110, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸+136机场∞美国_73', server: 167.88.61.77, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '加利福尼亚（欢迎订阅youtube：8度科技）_17', server: 45.79.121.236, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+094机场∞美国_75', server: 167.88.61.15, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '印度感谢订阅——科技网络_32', server: 45.79.121.236, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+US_10+@WangCai_1+5', server: 167.88.61.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: '🇺🇲 美国自建_48', server: 45.88.179.34, port: 30678, type: vmess, uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.88.179.34}}
+  - {name: 'Lv3·1.0x 香港HKT02|DIA|IP均衡优化|混合负载|香港原生_79', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-hgc2, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv3·1.0x 台湾01|IP均衡优化|混合负载_80', server: lv3fl2ciw6cwas22peq.v22222.xyz, port: 33332, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-tw1, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv2·1.0x 台湾01|IP均衡优化|混合负载_81', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-tw1, ws-headers: {Host: baidu.com}}
+  - {name: 'Lv2·2.0x 香港HGC02|DIA|IP均衡优化|混合负载|香港原生_82', server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-hgc2, ws-headers: {Host: baidu.com}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度感谢订阅——科技网络_151
-      - 🇸🇬 VIP2 新加坡 04 流媒体解锁_2
-      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
-      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
-      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
-      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
-      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
-      - 🇭🇰 035机场∞香港_1
-      - 🇯🇵 VIP2 日本 02 流媒体解锁_9
-      - 🇭🇰 VIP2 香港 02 流媒体解锁_5
-      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
-      - 🇭🇰 039机场∞香港_13
-      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
-      - 印度感谢订阅——科技网络_32
-      - 🇺🇸 030机场∞美国_29
-      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
-      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
-      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
-      - 🇮🇳IN+|+2.95Mb_22
-      - 🇮🇳+009印度∞直连_20
-      - 🇺🇸+US_09+@WangCai_1+5
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 日本02|IP均衡优化|混合负载_1
+      - Lv3·1.0x 台湾02|IP均衡优化|混合负载_2
+      - Lv2·1.0x 新加坡05|IP均衡优化|混合负载_3
+      - Relay_🇨🇳CN-🇸🇬SG_2061
+      - Lv2·1.0x 日本04|IP均衡优化|混合负载_5
+      - Lv3·1.0x 日本01|IP均衡优化|混合负载_6
+      - Lv2·1.0x 韩国03|IP均衡优化|混合负载_7
+      - Lv3·1.0x 香港HKT04|DIA|IP均衡优化|混合负载|香港原生_8
+      - Lv2·1.0x 日本05|IP均衡优化|混合负载_9
+      - Lv2·1.0x 新加坡03|IP均衡优化|混合负载_10
+      - Lv3·1.0x 新加坡05|IP均衡优化|混合负载_11
+      - Lv3·1.0x 韩国02|IP均衡优化|混合负载_12
+      - Lv2·1.0x 香港01|IP均衡优化 混合负载_13
+      - Lv3·1.0x 香港03|IP均衡优化|混合负载_14
+      - Lv3·1.0x 日本05|IP均衡优化|混合负载_15
+      - Relay_🇨🇳CN-🇯🇵JP_2055
+      - Lv2·1.0x 韩国01|IP均衡优化|混合负载_17
+      - Lv2·1.0x 新加坡02|IP均衡优化|混合负载_18
+      - Lv3·1.0x 新加坡03|IP均衡优化|混合负载_19
+      - 广移 香港 ZR公益_20
+      - Lv2·1.0x 韩国04|IP均衡优化|混合负载_21
+      - Lv2·1.0x 韩国02|IP均衡优化|混合负载_22
+      - 江门 香港 ZR公益_23
+      - Lv3·1.0x 日本04|IP均衡优化|混合负载_24
+      - Lv3·1.0x 马来西亚|IP均衡优化|混合负载_25
+      - Lv3·1.0x 新加坡02|IP均衡优化|混合负载_26
+      - Lv3·1.0x 香港HKT01|DIA|IP均衡优化|混合负载|香港原生_27
+      - Relay_🇯🇵JP-🇯🇵JP_6592
+      - Lv2·1.0x 台湾03|IP均衡优化|混合负载_29
+      - 🇮🇳+IN_491
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_16
       - 🇮🇳+印度Youtube频道：工具大师！+11_37
-      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
-      - 🇹🇼 VIP2 台湾 01 流媒体解锁_28
-      - 印度感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_133
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
-      - 印度感谢订阅——科技网络_150
-      - 印度感谢订阅——科技网络_30
-      - 🇮🇳IN+|+2.42Mb_16
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+230+美国+TG@shoucangAV_33
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_34
+      - Relay_🇨🇳CN-🇯🇵JP_2060
+      - 🇮🇳+印度Youtube频道：工具大师！+5_36
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
-      - 🇮🇳IN_36
+      - 🇮🇳IN+|+2.42Mb_16
+      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
+      - 印度感谢订阅——科技网络_143
+      - 🇮🇳+084+印度+TG@freeyule_41
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
+      - 印度感谢订阅——科技网络_151
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇮🇳IN+|+2.95Mb_22
+      - Lv2·1.0x 新加坡04|IP均衡优化|混合负载_46
+      - 🇺🇸+258+美国+TG@freeyule_47
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+3_48
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
+      - 印度感谢订阅——科技网络_139
+      - 🇮🇳+009印度∞直连_20
+      - 印度感谢订阅——科技网络_150
+      - 直连 香港 ZR公益_53
+      - 🇺🇸+274+美国+TG@shoucangAV_54
+      - 美国感谢订阅——科技网络_133
       - 🇺🇸+美国Youtube频道：工具大师！+14_39
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+13_57
+      - 印度感谢订阅——科技网络_153
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
+      - 🇮🇳+077+印度+TG@shoucangAV_60
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+4_61
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 香港02|IP均衡优化|混合负载_63
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_4
+      - 印度感谢订阅——科技网络_147
+      - Lv2·1.0x 香港02|IP均衡优化|混合负载_66
+      - 印度感谢订阅——科技网络_30
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - Lv2·1.0x 美国原生03|IP均衡优化|混合负载_70
       - 🇺🇸+美国Youtube频道：工具大师！+34_40
+      - 🇺🇸+071机场∞美国_72
+      - 🇺🇸+136机场∞美国_73
+      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
+      - 🇺🇸+094机场∞美国_75
+      - 印度感谢订阅——科技网络_32
+      - 🇺🇸+US_10+@WangCai_1+5
       - 🇺🇲 美国自建_48
+      - Lv3·1.0x 香港HKT02|DIA|IP均衡优化|混合负载|香港原生_79
+      - Lv3·1.0x 台湾01|IP均衡优化|混合负载_80
+      - Lv2·1.0x 台湾01|IP均衡优化|混合负载_81
+      - Lv2·2.0x 香港HGC02|DIA|IP均衡优化|混合负载|香港原生_82
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 印度感谢订阅——科技网络_151
-      - 🇸🇬 VIP2 新加坡 04 流媒体解锁_2
-      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
-      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
-      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
-      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
-      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
-      - 🇭🇰 035机场∞香港_1
-      - 🇯🇵 VIP2 日本 02 流媒体解锁_9
-      - 🇭🇰 VIP2 香港 02 流媒体解锁_5
-      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
-      - 🇭🇰 039机场∞香港_13
-      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
-      - 印度感谢订阅——科技网络_32
-      - 🇺🇸 030机场∞美国_29
-      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
-      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
-      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
-      - 🇮🇳IN+|+2.95Mb_22
-      - 🇮🇳+009印度∞直连_20
-      - 🇺🇸+US_09+@WangCai_1+5
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 日本02|IP均衡优化|混合负载_1
+      - Lv3·1.0x 台湾02|IP均衡优化|混合负载_2
+      - Lv2·1.0x 新加坡05|IP均衡优化|混合负载_3
+      - Relay_🇨🇳CN-🇸🇬SG_2061
+      - Lv2·1.0x 日本04|IP均衡优化|混合负载_5
+      - Lv3·1.0x 日本01|IP均衡优化|混合负载_6
+      - Lv2·1.0x 韩国03|IP均衡优化|混合负载_7
+      - Lv3·1.0x 香港HKT04|DIA|IP均衡优化|混合负载|香港原生_8
+      - Lv2·1.0x 日本05|IP均衡优化|混合负载_9
+      - Lv2·1.0x 新加坡03|IP均衡优化|混合负载_10
+      - Lv3·1.0x 新加坡05|IP均衡优化|混合负载_11
+      - Lv3·1.0x 韩国02|IP均衡优化|混合负载_12
+      - Lv2·1.0x 香港01|IP均衡优化 混合负载_13
+      - Lv3·1.0x 香港03|IP均衡优化|混合负载_14
+      - Lv3·1.0x 日本05|IP均衡优化|混合负载_15
+      - Relay_🇨🇳CN-🇯🇵JP_2055
+      - Lv2·1.0x 韩国01|IP均衡优化|混合负载_17
+      - Lv2·1.0x 新加坡02|IP均衡优化|混合负载_18
+      - Lv3·1.0x 新加坡03|IP均衡优化|混合负载_19
+      - 广移 香港 ZR公益_20
+      - Lv2·1.0x 韩国04|IP均衡优化|混合负载_21
+      - Lv2·1.0x 韩国02|IP均衡优化|混合负载_22
+      - 江门 香港 ZR公益_23
+      - Lv3·1.0x 日本04|IP均衡优化|混合负载_24
+      - Lv3·1.0x 马来西亚|IP均衡优化|混合负载_25
+      - Lv3·1.0x 新加坡02|IP均衡优化|混合负载_26
+      - Lv3·1.0x 香港HKT01|DIA|IP均衡优化|混合负载|香港原生_27
+      - Relay_🇯🇵JP-🇯🇵JP_6592
+      - Lv2·1.0x 台湾03|IP均衡优化|混合负载_29
+      - 🇮🇳+IN_491
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_16
       - 🇮🇳+印度Youtube频道：工具大师！+11_37
-      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
-      - 🇹🇼 VIP2 台湾 01 流媒体解锁_28
-      - 印度感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_133
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
-      - 印度感谢订阅——科技网络_150
-      - 印度感谢订阅——科技网络_30
-      - 🇮🇳IN+|+2.42Mb_16
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+230+美国+TG@shoucangAV_33
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_34
+      - Relay_🇨🇳CN-🇯🇵JP_2060
+      - 🇮🇳+印度Youtube频道：工具大师！+5_36
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
-      - 🇮🇳IN_36
+      - 🇮🇳IN+|+2.42Mb_16
+      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
+      - 印度感谢订阅——科技网络_143
+      - 🇮🇳+084+印度+TG@freeyule_41
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
+      - 印度感谢订阅——科技网络_151
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇮🇳IN+|+2.95Mb_22
+      - Lv2·1.0x 新加坡04|IP均衡优化|混合负载_46
+      - 🇺🇸+258+美国+TG@freeyule_47
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+3_48
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
+      - 印度感谢订阅——科技网络_139
+      - 🇮🇳+009印度∞直连_20
+      - 印度感谢订阅——科技网络_150
+      - 直连 香港 ZR公益_53
+      - 🇺🇸+274+美国+TG@shoucangAV_54
+      - 美国感谢订阅——科技网络_133
       - 🇺🇸+美国Youtube频道：工具大师！+14_39
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+13_57
+      - 印度感谢订阅——科技网络_153
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
+      - 🇮🇳+077+印度+TG@shoucangAV_60
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+4_61
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 香港02|IP均衡优化|混合负载_63
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_4
+      - 印度感谢订阅——科技网络_147
+      - Lv2·1.0x 香港02|IP均衡优化|混合负载_66
+      - 印度感谢订阅——科技网络_30
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - Lv2·1.0x 美国原生03|IP均衡优化|混合负载_70
       - 🇺🇸+美国Youtube频道：工具大师！+34_40
+      - 🇺🇸+071机场∞美国_72
+      - 🇺🇸+136机场∞美国_73
+      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
+      - 🇺🇸+094机场∞美国_75
+      - 印度感谢订阅——科技网络_32
+      - 🇺🇸+US_10+@WangCai_1+5
       - 🇺🇲 美国自建_48
+      - Lv3·1.0x 香港HKT02|DIA|IP均衡优化|混合负载|香港原生_79
+      - Lv3·1.0x 台湾01|IP均衡优化|混合负载_80
+      - Lv2·1.0x 台湾01|IP均衡优化|混合负载_81
+      - Lv2·2.0x 香港HGC02|DIA|IP均衡优化|混合负载|香港原生_82
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度感谢订阅——科技网络_151
-      - 🇸🇬 VIP2 新加坡 04 流媒体解锁_2
-      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
-      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
-      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
-      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
-      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
-      - 🇭🇰 035机场∞香港_1
-      - 🇯🇵 VIP2 日本 02 流媒体解锁_9
-      - 🇭🇰 VIP2 香港 02 流媒体解锁_5
-      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
-      - 🇭🇰 039机场∞香港_13
-      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
-      - 印度感谢订阅——科技网络_32
-      - 🇺🇸 030机场∞美国_29
-      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
-      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
-      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
-      - 🇮🇳IN+|+2.95Mb_22
-      - 🇮🇳+009印度∞直连_20
-      - 🇺🇸+US_09+@WangCai_1+5
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 日本02|IP均衡优化|混合负载_1
+      - Lv3·1.0x 台湾02|IP均衡优化|混合负载_2
+      - Lv2·1.0x 新加坡05|IP均衡优化|混合负载_3
+      - Relay_🇨🇳CN-🇸🇬SG_2061
+      - Lv2·1.0x 日本04|IP均衡优化|混合负载_5
+      - Lv3·1.0x 日本01|IP均衡优化|混合负载_6
+      - Lv2·1.0x 韩国03|IP均衡优化|混合负载_7
+      - Lv3·1.0x 香港HKT04|DIA|IP均衡优化|混合负载|香港原生_8
+      - Lv2·1.0x 日本05|IP均衡优化|混合负载_9
+      - Lv2·1.0x 新加坡03|IP均衡优化|混合负载_10
+      - Lv3·1.0x 新加坡05|IP均衡优化|混合负载_11
+      - Lv3·1.0x 韩国02|IP均衡优化|混合负载_12
+      - Lv2·1.0x 香港01|IP均衡优化 混合负载_13
+      - Lv3·1.0x 香港03|IP均衡优化|混合负载_14
+      - Lv3·1.0x 日本05|IP均衡优化|混合负载_15
+      - Relay_🇨🇳CN-🇯🇵JP_2055
+      - Lv2·1.0x 韩国01|IP均衡优化|混合负载_17
+      - Lv2·1.0x 新加坡02|IP均衡优化|混合负载_18
+      - Lv3·1.0x 新加坡03|IP均衡优化|混合负载_19
+      - 广移 香港 ZR公益_20
+      - Lv2·1.0x 韩国04|IP均衡优化|混合负载_21
+      - Lv2·1.0x 韩国02|IP均衡优化|混合负载_22
+      - 江门 香港 ZR公益_23
+      - Lv3·1.0x 日本04|IP均衡优化|混合负载_24
+      - Lv3·1.0x 马来西亚|IP均衡优化|混合负载_25
+      - Lv3·1.0x 新加坡02|IP均衡优化|混合负载_26
+      - Lv3·1.0x 香港HKT01|DIA|IP均衡优化|混合负载|香港原生_27
+      - Relay_🇯🇵JP-🇯🇵JP_6592
+      - Lv2·1.0x 台湾03|IP均衡优化|混合负载_29
+      - 🇮🇳+IN_491
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_16
       - 🇮🇳+印度Youtube频道：工具大师！+11_37
-      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
-      - 🇹🇼 VIP2 台湾 01 流媒体解锁_28
-      - 印度感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_133
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
-      - 印度感谢订阅——科技网络_150
-      - 印度感谢订阅——科技网络_30
-      - 🇮🇳IN+|+2.42Mb_16
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+230+美国+TG@shoucangAV_33
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_34
+      - Relay_🇨🇳CN-🇯🇵JP_2060
+      - 🇮🇳+印度Youtube频道：工具大师！+5_36
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
-      - 🇮🇳IN_36
+      - 🇮🇳IN+|+2.42Mb_16
+      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
+      - 印度感谢订阅——科技网络_143
+      - 🇮🇳+084+印度+TG@freeyule_41
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
+      - 印度感谢订阅——科技网络_151
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇮🇳IN+|+2.95Mb_22
+      - Lv2·1.0x 新加坡04|IP均衡优化|混合负载_46
+      - 🇺🇸+258+美国+TG@freeyule_47
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+3_48
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
+      - 印度感谢订阅——科技网络_139
+      - 🇮🇳+009印度∞直连_20
+      - 印度感谢订阅——科技网络_150
+      - 直连 香港 ZR公益_53
+      - 🇺🇸+274+美国+TG@shoucangAV_54
+      - 美国感谢订阅——科技网络_133
       - 🇺🇸+美国Youtube频道：工具大师！+14_39
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+13_57
+      - 印度感谢订阅——科技网络_153
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
+      - 🇮🇳+077+印度+TG@shoucangAV_60
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+4_61
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 香港02|IP均衡优化|混合负载_63
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_4
+      - 印度感谢订阅——科技网络_147
+      - Lv2·1.0x 香港02|IP均衡优化|混合负载_66
+      - 印度感谢订阅——科技网络_30
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - Lv2·1.0x 美国原生03|IP均衡优化|混合负载_70
       - 🇺🇸+美国Youtube频道：工具大师！+34_40
+      - 🇺🇸+071机场∞美国_72
+      - 🇺🇸+136机场∞美国_73
+      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
+      - 🇺🇸+094机场∞美国_75
+      - 印度感谢订阅——科技网络_32
+      - 🇺🇸+US_10+@WangCai_1+5
       - 🇺🇲 美国自建_48
+      - Lv3·1.0x 香港HKT02|DIA|IP均衡优化|混合负载|香港原生_79
+      - Lv3·1.0x 台湾01|IP均衡优化|混合负载_80
+      - Lv2·1.0x 台湾01|IP均衡优化|混合负载_81
+      - Lv2·2.0x 香港HGC02|DIA|IP均衡优化|混合负载|香港原生_82
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 印度感谢订阅——科技网络_151
-      - 🇸🇬 VIP2 新加坡 04 流媒体解锁_2
-      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
-      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
-      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
-      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
-      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
-      - 🇭🇰 035机场∞香港_1
-      - 🇯🇵 VIP2 日本 02 流媒体解锁_9
-      - 🇭🇰 VIP2 香港 02 流媒体解锁_5
-      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
-      - 🇭🇰 039机场∞香港_13
-      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
-      - 印度感谢订阅——科技网络_32
-      - 🇺🇸 030机场∞美国_29
-      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
-      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
-      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
-      - 🇮🇳IN+|+2.95Mb_22
-      - 🇮🇳+009印度∞直连_20
-      - 🇺🇸+US_09+@WangCai_1+5
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 日本02|IP均衡优化|混合负载_1
+      - Lv3·1.0x 台湾02|IP均衡优化|混合负载_2
+      - Lv2·1.0x 新加坡05|IP均衡优化|混合负载_3
+      - Relay_🇨🇳CN-🇸🇬SG_2061
+      - Lv2·1.0x 日本04|IP均衡优化|混合负载_5
+      - Lv3·1.0x 日本01|IP均衡优化|混合负载_6
+      - Lv2·1.0x 韩国03|IP均衡优化|混合负载_7
+      - Lv3·1.0x 香港HKT04|DIA|IP均衡优化|混合负载|香港原生_8
+      - Lv2·1.0x 日本05|IP均衡优化|混合负载_9
+      - Lv2·1.0x 新加坡03|IP均衡优化|混合负载_10
+      - Lv3·1.0x 新加坡05|IP均衡优化|混合负载_11
+      - Lv3·1.0x 韩国02|IP均衡优化|混合负载_12
+      - Lv2·1.0x 香港01|IP均衡优化 混合负载_13
+      - Lv3·1.0x 香港03|IP均衡优化|混合负载_14
+      - Lv3·1.0x 日本05|IP均衡优化|混合负载_15
+      - Relay_🇨🇳CN-🇯🇵JP_2055
+      - Lv2·1.0x 韩国01|IP均衡优化|混合负载_17
+      - Lv2·1.0x 新加坡02|IP均衡优化|混合负载_18
+      - Lv3·1.0x 新加坡03|IP均衡优化|混合负载_19
+      - 广移 香港 ZR公益_20
+      - Lv2·1.0x 韩国04|IP均衡优化|混合负载_21
+      - Lv2·1.0x 韩国02|IP均衡优化|混合负载_22
+      - 江门 香港 ZR公益_23
+      - Lv3·1.0x 日本04|IP均衡优化|混合负载_24
+      - Lv3·1.0x 马来西亚|IP均衡优化|混合负载_25
+      - Lv3·1.0x 新加坡02|IP均衡优化|混合负载_26
+      - Lv3·1.0x 香港HKT01|DIA|IP均衡优化|混合负载|香港原生_27
+      - Relay_🇯🇵JP-🇯🇵JP_6592
+      - Lv2·1.0x 台湾03|IP均衡优化|混合负载_29
+      - 🇮🇳+IN_491
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_16
       - 🇮🇳+印度Youtube频道：工具大师！+11_37
-      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
-      - 🇹🇼 VIP2 台湾 01 流媒体解锁_28
-      - 印度感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_133
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
-      - 印度感谢订阅——科技网络_150
-      - 印度感谢订阅——科技网络_30
-      - 🇮🇳IN+|+2.42Mb_16
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+230+美国+TG@shoucangAV_33
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_34
+      - Relay_🇨🇳CN-🇯🇵JP_2060
+      - 🇮🇳+印度Youtube频道：工具大师！+5_36
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
-      - 🇮🇳IN_36
+      - 🇮🇳IN+|+2.42Mb_16
+      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
+      - 印度感谢订阅——科技网络_143
+      - 🇮🇳+084+印度+TG@freeyule_41
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
+      - 印度感谢订阅——科技网络_151
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇮🇳IN+|+2.95Mb_22
+      - Lv2·1.0x 新加坡04|IP均衡优化|混合负载_46
+      - 🇺🇸+258+美国+TG@freeyule_47
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+3_48
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
+      - 印度感谢订阅——科技网络_139
+      - 🇮🇳+009印度∞直连_20
+      - 印度感谢订阅——科技网络_150
+      - 直连 香港 ZR公益_53
+      - 🇺🇸+274+美国+TG@shoucangAV_54
+      - 美国感谢订阅——科技网络_133
       - 🇺🇸+美国Youtube频道：工具大师！+14_39
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+13_57
+      - 印度感谢订阅——科技网络_153
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
+      - 🇮🇳+077+印度+TG@shoucangAV_60
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+4_61
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 香港02|IP均衡优化|混合负载_63
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_4
+      - 印度感谢订阅——科技网络_147
+      - Lv2·1.0x 香港02|IP均衡优化|混合负载_66
+      - 印度感谢订阅——科技网络_30
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - Lv2·1.0x 美国原生03|IP均衡优化|混合负载_70
       - 🇺🇸+美国Youtube频道：工具大师！+34_40
+      - 🇺🇸+071机场∞美国_72
+      - 🇺🇸+136机场∞美国_73
+      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
+      - 🇺🇸+094机场∞美国_75
+      - 印度感谢订阅——科技网络_32
+      - 🇺🇸+US_10+@WangCai_1+5
       - 🇺🇲 美国自建_48
+      - Lv3·1.0x 香港HKT02|DIA|IP均衡优化|混合负载|香港原生_79
+      - Lv3·1.0x 台湾01|IP均衡优化|混合负载_80
+      - Lv2·1.0x 台湾01|IP均衡优化|混合负载_81
+      - Lv2·2.0x 香港HGC02|DIA|IP均衡优化|混合负载|香港原生_82
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 印度感谢订阅——科技网络_151
-      - 🇸🇬 VIP2 新加坡 04 流媒体解锁_2
-      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
-      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
-      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
-      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
-      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
-      - 🇭🇰 035机场∞香港_1
-      - 🇯🇵 VIP2 日本 02 流媒体解锁_9
-      - 🇭🇰 VIP2 香港 02 流媒体解锁_5
-      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
-      - 🇭🇰 039机场∞香港_13
-      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
-      - 印度感谢订阅——科技网络_32
-      - 🇺🇸 030机场∞美国_29
-      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
-      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
-      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
-      - 🇮🇳IN+|+2.95Mb_22
-      - 🇮🇳+009印度∞直连_20
-      - 🇺🇸+US_09+@WangCai_1+5
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 日本02|IP均衡优化|混合负载_1
+      - Lv3·1.0x 台湾02|IP均衡优化|混合负载_2
+      - Lv2·1.0x 新加坡05|IP均衡优化|混合负载_3
+      - Relay_🇨🇳CN-🇸🇬SG_2061
+      - Lv2·1.0x 日本04|IP均衡优化|混合负载_5
+      - Lv3·1.0x 日本01|IP均衡优化|混合负载_6
+      - Lv2·1.0x 韩国03|IP均衡优化|混合负载_7
+      - Lv3·1.0x 香港HKT04|DIA|IP均衡优化|混合负载|香港原生_8
+      - Lv2·1.0x 日本05|IP均衡优化|混合负载_9
+      - Lv2·1.0x 新加坡03|IP均衡优化|混合负载_10
+      - Lv3·1.0x 新加坡05|IP均衡优化|混合负载_11
+      - Lv3·1.0x 韩国02|IP均衡优化|混合负载_12
+      - Lv2·1.0x 香港01|IP均衡优化 混合负载_13
+      - Lv3·1.0x 香港03|IP均衡优化|混合负载_14
+      - Lv3·1.0x 日本05|IP均衡优化|混合负载_15
+      - Relay_🇨🇳CN-🇯🇵JP_2055
+      - Lv2·1.0x 韩国01|IP均衡优化|混合负载_17
+      - Lv2·1.0x 新加坡02|IP均衡优化|混合负载_18
+      - Lv3·1.0x 新加坡03|IP均衡优化|混合负载_19
+      - 广移 香港 ZR公益_20
+      - Lv2·1.0x 韩国04|IP均衡优化|混合负载_21
+      - Lv2·1.0x 韩国02|IP均衡优化|混合负载_22
+      - 江门 香港 ZR公益_23
+      - Lv3·1.0x 日本04|IP均衡优化|混合负载_24
+      - Lv3·1.0x 马来西亚|IP均衡优化|混合负载_25
+      - Lv3·1.0x 新加坡02|IP均衡优化|混合负载_26
+      - Lv3·1.0x 香港HKT01|DIA|IP均衡优化|混合负载|香港原生_27
+      - Relay_🇯🇵JP-🇯🇵JP_6592
+      - Lv2·1.0x 台湾03|IP均衡优化|混合负载_29
+      - 🇮🇳+IN_491
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_16
       - 🇮🇳+印度Youtube频道：工具大师！+11_37
-      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
-      - 🇹🇼 VIP2 台湾 01 流媒体解锁_28
-      - 印度感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_133
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
-      - 印度感谢订阅——科技网络_150
-      - 印度感谢订阅——科技网络_30
-      - 🇮🇳IN+|+2.42Mb_16
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+230+美国+TG@shoucangAV_33
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_34
+      - Relay_🇨🇳CN-🇯🇵JP_2060
+      - 🇮🇳+印度Youtube频道：工具大师！+5_36
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
-      - 🇮🇳IN_36
+      - 🇮🇳IN+|+2.42Mb_16
+      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
+      - 印度感谢订阅——科技网络_143
+      - 🇮🇳+084+印度+TG@freeyule_41
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
+      - 印度感谢订阅——科技网络_151
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇮🇳IN+|+2.95Mb_22
+      - Lv2·1.0x 新加坡04|IP均衡优化|混合负载_46
+      - 🇺🇸+258+美国+TG@freeyule_47
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+3_48
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
+      - 印度感谢订阅——科技网络_139
+      - 🇮🇳+009印度∞直连_20
+      - 印度感谢订阅——科技网络_150
+      - 直连 香港 ZR公益_53
+      - 🇺🇸+274+美国+TG@shoucangAV_54
+      - 美国感谢订阅——科技网络_133
       - 🇺🇸+美国Youtube频道：工具大师！+14_39
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+13_57
+      - 印度感谢订阅——科技网络_153
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
+      - 🇮🇳+077+印度+TG@shoucangAV_60
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+4_61
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 香港02|IP均衡优化|混合负载_63
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_4
+      - 印度感谢订阅——科技网络_147
+      - Lv2·1.0x 香港02|IP均衡优化|混合负载_66
+      - 印度感谢订阅——科技网络_30
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - Lv2·1.0x 美国原生03|IP均衡优化|混合负载_70
       - 🇺🇸+美国Youtube频道：工具大师！+34_40
+      - 🇺🇸+071机场∞美国_72
+      - 🇺🇸+136机场∞美国_73
+      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
+      - 🇺🇸+094机场∞美国_75
+      - 印度感谢订阅——科技网络_32
+      - 🇺🇸+US_10+@WangCai_1+5
       - 🇺🇲 美国自建_48
+      - Lv3·1.0x 香港HKT02|DIA|IP均衡优化|混合负载|香港原生_79
+      - Lv3·1.0x 台湾01|IP均衡优化|混合负载_80
+      - Lv2·1.0x 台湾01|IP均衡优化|混合负载_81
+      - Lv2·2.0x 香港HGC02|DIA|IP均衡优化|混合负载|香港原生_82
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 印度感谢订阅——科技网络_151
-      - 🇸🇬 VIP2 新加坡 04 流媒体解锁_2
-      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
-      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
-      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
-      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
-      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
-      - 🇭🇰 035机场∞香港_1
-      - 🇯🇵 VIP2 日本 02 流媒体解锁_9
-      - 🇭🇰 VIP2 香港 02 流媒体解锁_5
-      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
-      - 🇭🇰 039机场∞香港_13
-      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
-      - 印度感谢订阅——科技网络_32
-      - 🇺🇸 030机场∞美国_29
-      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
-      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
-      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
-      - 🇮🇳IN+|+2.95Mb_22
-      - 🇮🇳+009印度∞直连_20
-      - 🇺🇸+US_09+@WangCai_1+5
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 日本02|IP均衡优化|混合负载_1
+      - Lv3·1.0x 台湾02|IP均衡优化|混合负载_2
+      - Lv2·1.0x 新加坡05|IP均衡优化|混合负载_3
+      - Relay_🇨🇳CN-🇸🇬SG_2061
+      - Lv2·1.0x 日本04|IP均衡优化|混合负载_5
+      - Lv3·1.0x 日本01|IP均衡优化|混合负载_6
+      - Lv2·1.0x 韩国03|IP均衡优化|混合负载_7
+      - Lv3·1.0x 香港HKT04|DIA|IP均衡优化|混合负载|香港原生_8
+      - Lv2·1.0x 日本05|IP均衡优化|混合负载_9
+      - Lv2·1.0x 新加坡03|IP均衡优化|混合负载_10
+      - Lv3·1.0x 新加坡05|IP均衡优化|混合负载_11
+      - Lv3·1.0x 韩国02|IP均衡优化|混合负载_12
+      - Lv2·1.0x 香港01|IP均衡优化 混合负载_13
+      - Lv3·1.0x 香港03|IP均衡优化|混合负载_14
+      - Lv3·1.0x 日本05|IP均衡优化|混合负载_15
+      - Relay_🇨🇳CN-🇯🇵JP_2055
+      - Lv2·1.0x 韩国01|IP均衡优化|混合负载_17
+      - Lv2·1.0x 新加坡02|IP均衡优化|混合负载_18
+      - Lv3·1.0x 新加坡03|IP均衡优化|混合负载_19
+      - 广移 香港 ZR公益_20
+      - Lv2·1.0x 韩国04|IP均衡优化|混合负载_21
+      - Lv2·1.0x 韩国02|IP均衡优化|混合负载_22
+      - 江门 香港 ZR公益_23
+      - Lv3·1.0x 日本04|IP均衡优化|混合负载_24
+      - Lv3·1.0x 马来西亚|IP均衡优化|混合负载_25
+      - Lv3·1.0x 新加坡02|IP均衡优化|混合负载_26
+      - Lv3·1.0x 香港HKT01|DIA|IP均衡优化|混合负载|香港原生_27
+      - Relay_🇯🇵JP-🇯🇵JP_6592
+      - Lv2·1.0x 台湾03|IP均衡优化|混合负载_29
+      - 🇮🇳+IN_491
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_16
       - 🇮🇳+印度Youtube频道：工具大师！+11_37
-      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
-      - 🇹🇼 VIP2 台湾 01 流媒体解锁_28
-      - 印度感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_133
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
-      - 印度感谢订阅——科技网络_150
-      - 印度感谢订阅——科技网络_30
-      - 🇮🇳IN+|+2.42Mb_16
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+230+美国+TG@shoucangAV_33
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_34
+      - Relay_🇨🇳CN-🇯🇵JP_2060
+      - 🇮🇳+印度Youtube频道：工具大师！+5_36
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
-      - 🇮🇳IN_36
+      - 🇮🇳IN+|+2.42Mb_16
+      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
+      - 印度感谢订阅——科技网络_143
+      - 🇮🇳+084+印度+TG@freeyule_41
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
+      - 印度感谢订阅——科技网络_151
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇮🇳IN+|+2.95Mb_22
+      - Lv2·1.0x 新加坡04|IP均衡优化|混合负载_46
+      - 🇺🇸+258+美国+TG@freeyule_47
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+3_48
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
+      - 印度感谢订阅——科技网络_139
+      - 🇮🇳+009印度∞直连_20
+      - 印度感谢订阅——科技网络_150
+      - 直连 香港 ZR公益_53
+      - 🇺🇸+274+美国+TG@shoucangAV_54
+      - 美国感谢订阅——科技网络_133
       - 🇺🇸+美国Youtube频道：工具大师！+14_39
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+13_57
+      - 印度感谢订阅——科技网络_153
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
+      - 🇮🇳+077+印度+TG@shoucangAV_60
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+4_61
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 香港02|IP均衡优化|混合负载_63
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_4
+      - 印度感谢订阅——科技网络_147
+      - Lv2·1.0x 香港02|IP均衡优化|混合负载_66
+      - 印度感谢订阅——科技网络_30
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - Lv2·1.0x 美国原生03|IP均衡优化|混合负载_70
       - 🇺🇸+美国Youtube频道：工具大师！+34_40
+      - 🇺🇸+071机场∞美国_72
+      - 🇺🇸+136机场∞美国_73
+      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
+      - 🇺🇸+094机场∞美国_75
+      - 印度感谢订阅——科技网络_32
+      - 🇺🇸+US_10+@WangCai_1+5
       - 🇺🇲 美国自建_48
+      - Lv3·1.0x 香港HKT02|DIA|IP均衡优化|混合负载|香港原生_79
+      - Lv3·1.0x 台湾01|IP均衡优化|混合负载_80
+      - Lv2·1.0x 台湾01|IP均衡优化|混合负载_81
+      - Lv2·2.0x 香港HGC02|DIA|IP均衡优化|混合负载|香港原生_82
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 印度感谢订阅——科技网络_151
-      - 🇸🇬 VIP2 新加坡 04 流媒体解锁_2
-      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
-      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
-      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
-      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
-      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
-      - 🇭🇰 035机场∞香港_1
-      - 🇯🇵 VIP2 日本 02 流媒体解锁_9
-      - 🇭🇰 VIP2 香港 02 流媒体解锁_5
-      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
-      - 🇭🇰 039机场∞香港_13
-      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
-      - 印度感谢订阅——科技网络_32
-      - 🇺🇸 030机场∞美国_29
-      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
-      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
-      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
-      - 🇮🇳IN+|+2.95Mb_22
-      - 🇮🇳+009印度∞直连_20
-      - 🇺🇸+US_09+@WangCai_1+5
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 日本02|IP均衡优化|混合负载_1
+      - Lv3·1.0x 台湾02|IP均衡优化|混合负载_2
+      - Lv2·1.0x 新加坡05|IP均衡优化|混合负载_3
+      - Relay_🇨🇳CN-🇸🇬SG_2061
+      - Lv2·1.0x 日本04|IP均衡优化|混合负载_5
+      - Lv3·1.0x 日本01|IP均衡优化|混合负载_6
+      - Lv2·1.0x 韩国03|IP均衡优化|混合负载_7
+      - Lv3·1.0x 香港HKT04|DIA|IP均衡优化|混合负载|香港原生_8
+      - Lv2·1.0x 日本05|IP均衡优化|混合负载_9
+      - Lv2·1.0x 新加坡03|IP均衡优化|混合负载_10
+      - Lv3·1.0x 新加坡05|IP均衡优化|混合负载_11
+      - Lv3·1.0x 韩国02|IP均衡优化|混合负载_12
+      - Lv2·1.0x 香港01|IP均衡优化 混合负载_13
+      - Lv3·1.0x 香港03|IP均衡优化|混合负载_14
+      - Lv3·1.0x 日本05|IP均衡优化|混合负载_15
+      - Relay_🇨🇳CN-🇯🇵JP_2055
+      - Lv2·1.0x 韩国01|IP均衡优化|混合负载_17
+      - Lv2·1.0x 新加坡02|IP均衡优化|混合负载_18
+      - Lv3·1.0x 新加坡03|IP均衡优化|混合负载_19
+      - 广移 香港 ZR公益_20
+      - Lv2·1.0x 韩国04|IP均衡优化|混合负载_21
+      - Lv2·1.0x 韩国02|IP均衡优化|混合负载_22
+      - 江门 香港 ZR公益_23
+      - Lv3·1.0x 日本04|IP均衡优化|混合负载_24
+      - Lv3·1.0x 马来西亚|IP均衡优化|混合负载_25
+      - Lv3·1.0x 新加坡02|IP均衡优化|混合负载_26
+      - Lv3·1.0x 香港HKT01|DIA|IP均衡优化|混合负载|香港原生_27
+      - Relay_🇯🇵JP-🇯🇵JP_6592
+      - Lv2·1.0x 台湾03|IP均衡优化|混合负载_29
+      - 🇮🇳+IN_491
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_16
       - 🇮🇳+印度Youtube频道：工具大师！+11_37
-      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
-      - 🇹🇼 VIP2 台湾 01 流媒体解锁_28
-      - 印度感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_133
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
-      - 印度感谢订阅——科技网络_150
-      - 印度感谢订阅——科技网络_30
-      - 🇮🇳IN+|+2.42Mb_16
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+230+美国+TG@shoucangAV_33
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_34
+      - Relay_🇨🇳CN-🇯🇵JP_2060
+      - 🇮🇳+印度Youtube频道：工具大师！+5_36
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
-      - 🇮🇳IN_36
+      - 🇮🇳IN+|+2.42Mb_16
+      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
+      - 印度感谢订阅——科技网络_143
+      - 🇮🇳+084+印度+TG@freeyule_41
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
+      - 印度感谢订阅——科技网络_151
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇮🇳IN+|+2.95Mb_22
+      - Lv2·1.0x 新加坡04|IP均衡优化|混合负载_46
+      - 🇺🇸+258+美国+TG@freeyule_47
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+3_48
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
+      - 印度感谢订阅——科技网络_139
+      - 🇮🇳+009印度∞直连_20
+      - 印度感谢订阅——科技网络_150
+      - 直连 香港 ZR公益_53
+      - 🇺🇸+274+美国+TG@shoucangAV_54
+      - 美国感谢订阅——科技网络_133
       - 🇺🇸+美国Youtube频道：工具大师！+14_39
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+13_57
+      - 印度感谢订阅——科技网络_153
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
+      - 🇮🇳+077+印度+TG@shoucangAV_60
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+4_61
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 香港02|IP均衡优化|混合负载_63
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_4
+      - 印度感谢订阅——科技网络_147
+      - Lv2·1.0x 香港02|IP均衡优化|混合负载_66
+      - 印度感谢订阅——科技网络_30
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - Lv2·1.0x 美国原生03|IP均衡优化|混合负载_70
       - 🇺🇸+美国Youtube频道：工具大师！+34_40
+      - 🇺🇸+071机场∞美国_72
+      - 🇺🇸+136机场∞美国_73
+      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
+      - 🇺🇸+094机场∞美国_75
+      - 印度感谢订阅——科技网络_32
+      - 🇺🇸+US_10+@WangCai_1+5
       - 🇺🇲 美国自建_48
+      - Lv3·1.0x 香港HKT02|DIA|IP均衡优化|混合负载|香港原生_79
+      - Lv3·1.0x 台湾01|IP均衡优化|混合负载_80
+      - Lv2·1.0x 台湾01|IP均衡优化|混合负载_81
+      - Lv2·2.0x 香港HGC02|DIA|IP均衡优化|混合负载|香港原生_82
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -386,47 +714,88 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 印度感谢订阅——科技网络_151
-      - 🇸🇬 VIP2 新加坡 04 流媒体解锁_2
-      - 🇭🇰 VIP2 香港 07 流媒体解锁_4
-      - 🇭🇰 VIP2 香港 10 流媒体解锁_5
-      - 🇸🇬 VIP2 新加坡 01 流媒体解锁_13
-      - 🇭🇰 VIP2 香港 05 流媒体解锁_17
-      - 🇭🇰 VIP2 香港 06 流媒体解锁_6
-      - 🇭🇰 035机场∞香港_1
-      - 🇯🇵 VIP2 日本 02 流媒体解锁_9
-      - 🇭🇰 VIP2 香港 02 流媒体解锁_5
-      - 🇭🇰 VIP2 香港 08 流媒体解锁_8
-      - 🇭🇰 039机场∞香港_13
-      - 🇯🇵 VIP2 日本 01 流媒体解锁_12
-      - 印度感谢订阅——科技网络_32
-      - 🇺🇸 030机场∞美国_29
-      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
-      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+20_34
-      - 🇸🇬 VIP2 新加坡 02 流媒体解锁_26
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
-      - 🇮🇳IN+|+2.95Mb_22
-      - 🇮🇳+009印度∞直连_20
-      - 🇺🇸+US_09+@WangCai_1+5
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 日本02|IP均衡优化|混合负载_1
+      - Lv3·1.0x 台湾02|IP均衡优化|混合负载_2
+      - Lv2·1.0x 新加坡05|IP均衡优化|混合负载_3
+      - Relay_🇨🇳CN-🇸🇬SG_2061
+      - Lv2·1.0x 日本04|IP均衡优化|混合负载_5
+      - Lv3·1.0x 日本01|IP均衡优化|混合负载_6
+      - Lv2·1.0x 韩国03|IP均衡优化|混合负载_7
+      - Lv3·1.0x 香港HKT04|DIA|IP均衡优化|混合负载|香港原生_8
+      - Lv2·1.0x 日本05|IP均衡优化|混合负载_9
+      - Lv2·1.0x 新加坡03|IP均衡优化|混合负载_10
+      - Lv3·1.0x 新加坡05|IP均衡优化|混合负载_11
+      - Lv3·1.0x 韩国02|IP均衡优化|混合负载_12
+      - Lv2·1.0x 香港01|IP均衡优化 混合负载_13
+      - Lv3·1.0x 香港03|IP均衡优化|混合负载_14
+      - Lv3·1.0x 日本05|IP均衡优化|混合负载_15
+      - Relay_🇨🇳CN-🇯🇵JP_2055
+      - Lv2·1.0x 韩国01|IP均衡优化|混合负载_17
+      - Lv2·1.0x 新加坡02|IP均衡优化|混合负载_18
+      - Lv3·1.0x 新加坡03|IP均衡优化|混合负载_19
+      - 广移 香港 ZR公益_20
+      - Lv2·1.0x 韩国04|IP均衡优化|混合负载_21
+      - Lv2·1.0x 韩国02|IP均衡优化|混合负载_22
+      - 江门 香港 ZR公益_23
+      - Lv3·1.0x 日本04|IP均衡优化|混合负载_24
+      - Lv3·1.0x 马来西亚|IP均衡优化|混合负载_25
+      - Lv3·1.0x 新加坡02|IP均衡优化|混合负载_26
+      - Lv3·1.0x 香港HKT01|DIA|IP均衡优化|混合负载|香港原生_27
+      - Relay_🇯🇵JP-🇯🇵JP_6592
+      - Lv2·1.0x 台湾03|IP均衡优化|混合负载_29
+      - 🇮🇳+IN_491
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_16
       - 🇮🇳+印度Youtube频道：工具大师！+11_37
-      - 🇸🇬 VIP2 新加坡 03 流媒体解锁_15
-      - 🇹🇼 VIP2 台湾 01 流媒体解锁_28
-      - 印度感谢订阅——科技网络_143
-      - 美国感谢订阅——科技网络_133
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
-      - 印度感谢订阅——科技网络_150
-      - 印度感谢订阅——科技网络_30
-      - 🇮🇳IN+|+2.42Mb_16
-      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - 🇺🇸+230+美国+TG@shoucangAV_33
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+14_34
+      - Relay_🇨🇳CN-🇯🇵JP_2060
+      - 🇮🇳+印度Youtube频道：工具大师！+5_36
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+26_30
-      - 🇮🇳IN_36
+      - 🇮🇳IN+|+2.42Mb_16
+      - 🇺🇸+美国+（欢迎订阅youtube：8度科技）+2_16
+      - 印度感谢订阅——科技网络_143
+      - 🇮🇳+084+印度+TG@freeyule_41
       - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_36
+      - 印度感谢订阅——科技网络_151
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+12_22
+      - 🇮🇳IN+|+2.95Mb_22
+      - Lv2·1.0x 新加坡04|IP均衡优化|混合负载_46
+      - 🇺🇸+258+美国+TG@freeyule_47
+      - 🇮🇳+印度欢迎订阅Youtube破解资源君+3_48
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+24_18
+      - 印度感谢订阅——科技网络_139
+      - 🇮🇳+009印度∞直连_20
+      - 印度感谢订阅——科技网络_150
+      - 直连 香港 ZR公益_53
+      - 🇺🇸+274+美国+TG@shoucangAV_54
+      - 美国感谢订阅——科技网络_133
       - 🇺🇸+美国Youtube频道：工具大师！+14_39
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+13_57
+      - 印度感谢订阅——科技网络_153
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+16_21
+      - 🇮🇳+077+印度+TG@shoucangAV_60
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+4_61
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_25
+      - Lv3·1.0x 香港02|IP均衡优化|混合负载_63
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科+8_4
+      - 印度感谢订阅——科技网络_147
+      - Lv2·1.0x 香港02|IP均衡优化|混合负载_66
+      - 印度感谢订阅——科技网络_30
+      - 🇮🇳IN_36
+      - 🇺🇸+美国+费利蒙（欢迎订阅youtube：8度科_34
+      - Lv2·1.0x 美国原生03|IP均衡优化|混合负载_70
       - 🇺🇸+美国Youtube频道：工具大师！+34_40
+      - 🇺🇸+071机场∞美国_72
+      - 🇺🇸+136机场∞美国_73
+      - 加利福尼亚（欢迎订阅youtube：8度科技）_17
+      - 🇺🇸+094机场∞美国_75
+      - 印度感谢订阅——科技网络_32
+      - 🇺🇸+US_10+@WangCai_1+5
       - 🇺🇲 美国自建_48
+      - Lv3·1.0x 香港HKT02|DIA|IP均衡优化|混合负载|香港原生_79
+      - Lv3·1.0x 台湾01|IP均衡优化|混合负载_80
+      - Lv2·1.0x 台湾01|IP均衡优化|混合负载_81
+      - Lv2·2.0x 香港HGC02|DIA|IP均衡优化|混合负载|香港原生_82
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
