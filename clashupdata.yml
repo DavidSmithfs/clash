@@ -5,388 +5,1024 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Relay_🇨🇳CN-🇭🇰HK_1859', server: 183.249.161.156, port: 31121, type: vmess, uuid: 3dabb51b-d338-3132-90a2-239aeb286ac0, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: /go}
-  - {name: 'Pool_🇭🇰HK_4277', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'TG@安卓盒子_12', server: azhk2.zz123.xyz, port: 38141, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_37', server: azhk2.zz123.xyz, port: 32819, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_25', server: azhk2.zz123.xyz, port: 35724, type: vmess, uuid: b02255d6-6912-34da-9f25-d49a996e5014, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_31', server: azhk2.zz123.xyz, port: 38141, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_15', server: azhk2.zz123.xyz, port: 33959, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_43', server: azhk2.zz123.xyz, port: 35724, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_26', server: azhk2.zz123.xyz, port: 32819, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_23', server: azhk2.zz123.xyz, port: 35724, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_11', server: azhk2.zz123.xyz, port: 34083, type: vmess, uuid: b02255d6-6912-34da-9f25-d49a996e5014, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_35', server: azhk2.zz123.xyz, port: 34083, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_36', server: azhk2.zz123.xyz, port: 54188, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_28', server: azhk2.zz123.xyz, port: 54188, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_27', server: azhk2.zz123.xyz, port: 54188, type: vmess, uuid: b02255d6-6912-34da-9f25-d49a996e5014, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_18', server: 129.154.63.241, port: 39000, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_17', server: azhk2.zz123.xyz, port: 38141, type: vmess, uuid: b02255d6-6912-34da-9f25-d49a996e5014, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_38', server: azhk2.zz123.xyz, port: 46101, type: vmess, uuid: b02255d6-6912-34da-9f25-d49a996e5014, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_40', server: azhk2.zz123.xyz, port: 46101, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_22', server: azhk2.zz123.xyz, port: 32915, type: vmess, uuid: b02255d6-6912-34da-9f25-d49a996e5014, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_14', server: azhk2.zz123.xyz, port: 33413, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_29', server: azhk2.zz123.xyz, port: 33959, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_34', server: azhk2.zz123.xyz, port: 46101, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_24', server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 6484b9e6-05ef-4cd5-a6fa-573b531669b4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 'TG@安卓盒子_20', server: azhk2.zz123.xyz, port: 32915, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_30', server: azhk2.zz123.xyz, port: 32915, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'Pool_🇭🇰HK_4389', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸+美国+10_28', server: 167.88.61.15, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸+美国+15_29', server: 167.88.61.15, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国感谢订阅——科技网络_132', server: 167.88.61.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '美国感谢订阅——科技网络_3', server: 172.252.99.27, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: '🇭🇰 Relay_🇭🇰HK-🇭🇰HK_4417', server: hkt.comefromchinatown.com, port: 80, type: vmess, uuid: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: broadcastlv.chat.bilibili.com}}
-  - {name: '加拿大感谢订阅——科技网络_20', server: 134.195.196.179, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '加拿大感谢订阅——科技网络_21', server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '加拿大感谢订阅——科技网络_202', server: 134.195.196.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'n_45.88.179.12_36', server: 45.88.179.12, port: 30678, type: vmess, uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.88.179.34}}
-  - {name: 'TG@安卓盒子_39', server: azhk2.zz123.xyz, port: 34083, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'TG@安卓盒子_13', server: azhk2.zz123.xyz, port: 33413, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'Pool_+|+2.60Mb_39', server: 185.124.240.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: '美国感谢订阅——科技网络_90', server: usgia.jjyun.ren, port: 88, type: vmess, uuid: fd0c6ac5-8438-4fe7-9197-e56891547896, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
-  - {name: '🇺🇸+美国+14_41', server: 167.88.61.15, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇲 【426节点池】US_8403', server: usgia.jjyun.ren, port: 88, type: vmess, uuid: 8c7c1292-766c-417d-9bf5-7e12a68ef158, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usgia.jjyun.ren}}
-  - {name: '加拿大感谢订阅——科技网络_190', server: 134.195.196.179, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - name: CH_09+@WangCai_1 4
+    server: 156.146.62.45
+    port: 33998
+    type: ss
+    cipher: aes-256-gcm
+    password: NHwQTPLCfaTMSqTnU3mjcSxe
+    _index: 0
+  - name: CH_09+@WangCai_1 5
+    server: 156.146.62.50
+    port: 33998
+    type: ss
+    cipher: aes-256-gcm
+    password: NHwQTPLCfaTMSqTnU3mjcSxe
+  - name: CH_54+@WangCai_1 4
+    server: 156.146.62.45
+    port: 47027
+    type: ss
+    cipher: aes-256-gcm
+    password: Vt5pBJFwdtNB26cJbTXxm88Z
+  - name: CH_04+@WangCai_1 4
+    server: 156.146.62.45
+    port: 31944
+    type: ss
+    cipher: aes-256-gcm
+    password: aYNeKDMzYQYw4KbUbJA8Wszq
+  - name: CH_53+@WangCai_1 4
+    server: 156.146.62.45
+    port: 46726
+    type: ss
+    cipher: aes-256-gcm
+    password: 2fqKbFPGHpcmMTJzGsUbsfYf
+  - name: CH_04+@WangCai_1 5
+    server: 156.146.62.50
+    port: 31944
+    type: ss
+    cipher: aes-256-gcm
+    password: aYNeKDMzYQYw4KbUbJA8Wszq
+  - name: CH_57+@WangCai_1 4
+    server: 156.146.62.45
+    port: 47861
+    type: ss
+    cipher: aes-256-gcm
+    password: LJcChRsGQRhywrtXUU55TLTu
+  - name: CH_01+@WangCai_1 4
+    server: 156.146.62.50
+    port: 31572
+    type: ss
+    cipher: aes-256-gcm
+    password: n8w4StnbVD9dmXYn4Ajt87EA
+  - name: CH_69+@WangCai_1 3
+    server: 156.146.62.45
+    port: 49719
+    type: ss
+    cipher: aes-256-gcm
+    password: 42SjT9vBF6ma9eFF3URaJpQ4
+  - name: CH_75+@WangCai_1
+    server: 156.146.62.37
+    port: 50232
+    type: ss
+    cipher: aes-256-gcm
+    password: CjchzpwdSjRtDjezYMwx9BKM
+  - name: CH_05+@WangCai_1
+    server: 156.146.62.37
+    port: 32558
+    type: ss
+    cipher: aes-256-gcm
+    password: gJYzm3TLbdL495ryQptaJXQk
+  - name: CH_41+@WangCai_1
+    server: 156.146.62.37
+    port: 44628
+    type: ss
+    cipher: aes-256-gcm
+    password: VASQbVcukHfdBGmeS9L7Z8TT
+  - name: CH_65+@WangCai_1 4
+    server: 156.146.62.50
+    port: 49396
+    type: ss
+    cipher: aes-256-gcm
+    password: BdRWC38L5JUDMTYNNxJGcUwB
+  - name: CH_81+@WangCai_1 5
+    server: 156.146.62.50
+    port: 44102
+    type: ss
+    cipher: aes-256-gcm
+    password: zHKYS9DeAjvv43EwgDfyEg4d
+  - name: CH_83+@WangCai_1 4
+    server: 156.146.62.45
+    port: 41306
+    type: ss
+    cipher: aes-256-gcm
+    password: pzB5Y2twNtqFzWhEbBsPJMjj
+  - name: CH_34+@WangCai_1 4
+    server: 156.146.62.50
+    port: 42185
+    type: ss
+    cipher: aes-256-gcm
+    password: FaTG4zALZru72gxjgSHQ7Jdh
+  - name: CH_50+@WangCai_1 5
+    server: 156.146.62.50
+    port: 46354
+    type: ss
+    cipher: aes-256-gcm
+    password: MYPKdC7n6qjL6xmJBBcrzzqS
+  - name: CH_38+@WangCai_1
+    server: 156.146.62.37
+    port: 43963
+    type: ss
+    cipher: aes-256-gcm
+    password: Tuw6zzZM6JwWNZyYF9ckC4JZ
+  - name: CH_02+@WangCai_1 5
+    server: 156.146.62.50
+    port: 31757
+    type: ss
+    cipher: aes-256-gcm
+    password: wj7nDCuNARchSeKNCN8VFK62
+  - name: CH_70+@WangCai_1 4
+    server: 156.146.62.45
+    port: 50024
+    type: ss
+    cipher: aes-256-gcm
+    password: b2jDPHUQxCNa2KmGHZjy7C4B
+  - name: CH_09+@WangCai_1
+    server: 156.146.62.37
+    port: 33998
+    type: ss
+    cipher: aes-256-gcm
+    password: NHwQTPLCfaTMSqTnU3mjcSxe
+  - name: CH_36+@WangCai_1 5
+    server: 156.146.62.50
+    port: 42816
+    type: ss
+    cipher: aes-256-gcm
+    password: tBKBf4pVzNCFKdbPgvwrNXq3
+  - name: CH_80+@WangCai_1 4
+    server: 156.146.62.45
+    port: 40711
+    type: ss
+    cipher: aes-256-gcm
+    password: rnngxSTJrXWKXHkvrF3npp9B
+  - name: CH_11+@WangCai_1 4
+    server: 156.146.62.45
+    port: 34815
+    type: ss
+    cipher: aes-256-gcm
+    password: LkFAzkzXkSCRYa2CsRdL8cGb
+  - name: CH_79+@WangCai_1
+    server: 156.146.62.37
+    port: 32971
+    type: ss
+    cipher: aes-256-gcm
+    password: vwS65ZXyZg85ApwZ2bBh6zFZ
+  - name: CH_60+@WangCai_1 5
+    server: 156.146.62.50
+    port: 48938
+    type: ss
+    cipher: aes-256-gcm
+    password: 4ejJ8n5ddLuYDUHGXJre2ufJ
+  - name: CH_81+@WangCai_1
+    server: 156.146.62.37
+    port: 44102
+    type: ss
+    cipher: aes-256-gcm
+    password: zHKYS9DeAjvv43EwgDfyEg4d
+  - name: CH_25+@WangCai_1 2
+    server: 156.146.62.45
+    port: 39772
+    type: ss
+    cipher: aes-256-gcm
+    password: CUndSZnYsPKcu6Kj8THVMBHD
+  - name: CH_19+@WangCai_1
+    server: 156.146.62.37
+    port: 38033
+    type: ss
+    cipher: aes-256-gcm
+    password: xpQwyV4W5FdA6NMANJJx73US
+  - name: CH_15+@WangCai_1 5
+    server: 156.146.62.50
+    port: 36460
+    type: ss
+    cipher: aes-256-gcm
+    password: yUXad7DGF8L5cTShEpnp2N6z
+  - name: CH_02+@WangCai_1 4
+    server: 156.146.62.45
+    port: 31757
+    type: ss
+    cipher: aes-256-gcm
+    password: wj7nDCuNARchSeKNCN8VFK62
+  - name: CH_68+@WangCai_1
+    server: 156.146.62.37
+    port: 49653
+    type: ss
+    cipher: aes-256-gcm
+    password: Y9GcTPemHMKEkrfGQPJqFDNr
+  - name: CH_49+@WangCai_1 4
+    server: 156.146.62.45
+    port: 45948
+    type: ss
+    cipher: aes-256-gcm
+    password: j76EXqJcQhuQTr3EvUf7xaK9
+  - name: CH_18+@WangCai_1 4
+    server: 156.146.62.45
+    port: 37588
+    type: ss
+    cipher: aes-256-gcm
+    password: kD9vkjnE6dsUzwQfvKkPkQAd
+  - name: CH_15+@WangCai_1
+    server: 156.146.62.37
+    port: 36460
+    type: ss
+    cipher: aes-256-gcm
+    password: yUXad7DGF8L5cTShEpnp2N6z
+  - name: CH_25+@WangCai_1 3
+    server: 156.146.62.50
+    port: 39772
+    type: ss
+    cipher: aes-256-gcm
+    password: CUndSZnYsPKcu6Kj8THVMBHD
+  - name: CH_47+@WangCai_1 4
+    server: 156.146.62.45
+    port: 45329
+    type: ss
+    cipher: aes-256-gcm
+    password: CXSjgD7u7Ar7GxkZ4CgTMUsj
+  - name: CH_59+@WangCai_1 4
+    server: 156.146.62.45
+    port: 48794
+    type: ss
+    cipher: aes-256-gcm
+    password: r9Q3adc3ru9sfBDPEj4yp6U6
+  - name: CH_35+@WangCai_1 4
+    server: 156.146.62.45
+    port: 42304
+    type: ss
+    cipher: aes-256-gcm
+    password: p26v2JwhQVHDHsXk66fXt56r
+  - name: CH_65+@WangCai_1 3
+    server: 156.146.62.45
+    port: 49396
+    type: ss
+    cipher: aes-256-gcm
+    password: BdRWC38L5JUDMTYNNxJGcUwB
+  - name: CH_43+@WangCai_1 5
+    server: 156.146.62.50
+    port: 44745
+    type: ss
+    cipher: aes-256-gcm
+    password: fyXdw87yCH9SAmFkPvsvLVqC
+  - name: CH_64+@WangCai_1
+    server: 156.146.62.37
+    port: 49339
+    type: ss
+    cipher: aes-256-gcm
+    password: suucSeVLmt6PQKAP77NtGw9x
+  - name: CH_62+@WangCai_1 4
+    server: 156.146.62.45
+    port: 49126
+    type: ss
+    cipher: aes-256-gcm
+    password: wrCaGtrUbzeRqQLdc8Kmk3Nd
+  - name: CH_51+@WangCai_1 4
+    server: 156.146.62.45
+    port: 46412
+    type: ss
+    cipher: aes-256-gcm
+    password: GEqk9WGyybeyXW97YEdanDYs
+  - name: CH_17+@WangCai_1
+    server: 156.146.62.37
+    port: 37559
+    type: ss
+    cipher: aes-256-gcm
+    password: Qbt22F6JsxzFGqcsK5SaR8q3
+  - name: CH_16+@WangCai_1 5
+    server: 156.146.62.50
+    port: 37473
+    type: ss
+    cipher: aes-256-gcm
+    password: enctdKyJfSu76VqznKwTt6Ap
+  - name: CH_62+@WangCai_1
+    server: 156.146.62.37
+    port: 49126
+    type: ss
+    cipher: aes-256-gcm
+    password: wrCaGtrUbzeRqQLdc8Kmk3Nd
+  - name: CH_06+@WangCai_1 5
+    server: 156.146.62.50
+    port: 32843
+    type: ss
+    cipher: aes-256-gcm
+    password: G35YSR2LFNEM9bq2dkjmKQRr
+  - name: CH_14+@WangCai_1 5
+    server: 156.146.62.50
+    port: 35371
+    type: ss
+    cipher: aes-256-gcm
+    password: pjeDhAJGuML8xKUxcjRqq6a9
+  - name: CH_23+@WangCai_1 4
+    server: 156.146.62.45
+    port: 39556
+    type: ss
+    cipher: aes-256-gcm
+    password: g4AfpNELpdYEeLYhM8XCX9se
+  - name: CH_33+@WangCai_1
+    server: 156.146.62.37
+    port: 42166
+    type: ss
+    cipher: aes-256-gcm
+    password: H9Dbn3szZMqLR3NpgEFEPCKb
+  - name: CH_48+@WangCai_1 4
+    server: 156.146.62.45
+    port: 45746
+    type: ss
+    cipher: aes-256-gcm
+    password: wEsFcHCvbL4eJkL4DZQa7RgR
+  - name: CH_08+@WangCai_1 4
+    server: 156.146.62.45
+    port: 33992
+    type: ss
+    cipher: aes-256-gcm
+    password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  - name: CH_39+@WangCai_1
+    server: 156.146.62.37
+    port: 44236
+    type: ss
+    cipher: aes-256-gcm
+    password: FWrXcxPZjJxAN89xLgqY3Acp
+  - name: CH_83+@WangCai_1 5
+    server: 156.146.62.50
+    port: 41306
+    type: ss
+    cipher: aes-256-gcm
+    password: pzB5Y2twNtqFzWhEbBsPJMjj
+  - name: CH_18+@WangCai_1
+    server: 156.146.62.37
+    port: 37588
+    type: ss
+    cipher: aes-256-gcm
+    password: kD9vkjnE6dsUzwQfvKkPkQAd
+  - name: CH_10+@WangCai_1 5
+    server: 156.146.62.50
+    port: 34687
+    type: ss
+    cipher: aes-256-gcm
+    password: txmK9WhwP6WPhP7hqSBLVxpN
+  - name: CH_47+@WangCai_1 5
+    server: 156.146.62.50
+    port: 45329
+    type: ss
+    cipher: aes-256-gcm
+    password: CXSjgD7u7Ar7GxkZ4CgTMUsj
+  - name: CH_13+@WangCai_1 5
+    server: 156.146.62.50
+    port: 35294
+    type: ss
+    cipher: aes-256-gcm
+    password: J9Y2ncrdPEC38gwydNFFGBna
+  - name: CH_18+@WangCai_1 5
+    server: 156.146.62.50
+    port: 37588
+    type: ss
+    cipher: aes-256-gcm
+    password: kD9vkjnE6dsUzwQfvKkPkQAd
+  - name: CH_05+@WangCai_1 5
+    server: 156.146.62.50
+    port: 32558
+    type: ss
+    cipher: aes-256-gcm
+    password: gJYzm3TLbdL495ryQptaJXQk
+  - name: CH_10+@WangCai_1 4
+    server: 156.146.62.45
+    port: 34687
+    type: ss
+    cipher: aes-256-gcm
+    password: txmK9WhwP6WPhP7hqSBLVxpN
+  - name: CH_56+@WangCai_1 5
+    server: 156.146.62.50
+    port: 47553
+    type: ss
+    cipher: aes-256-gcm
+    password: t2JnnFqjDMmzWurseJPgBsYY
+  - name: CH_27+@WangCai_1 5
+    server: 156.146.62.50
+    port: 40220
+    type: ss
+    cipher: aes-256-gcm
+    password: ugyBkSEFxVEmUYSHyvxmWNj9
+  - name: CH_58+@WangCai_1 4
+    server: 156.146.62.45
+    port: 48089
+    type: ss
+    cipher: aes-256-gcm
+    password: apqQgXJyVDsdJMAYV4xspRFK
+  - name: CH_79+@WangCai_1 5
+    server: 156.146.62.50
+    port: 32971
+    type: ss
+    cipher: aes-256-gcm
+    password: vwS65ZXyZg85ApwZ2bBh6zFZ
+  - name: CH_76+@WangCai_1 4
+    server: 156.146.62.45
+    port: 50695
+    type: ss
+    cipher: aes-256-gcm
+    password: gqtwGu9bVreJqL3FTHSVKGzy
+  - name: CH_16+@WangCai_1 4
+    server: 156.146.62.45
+    port: 37473
+    type: ss
+    cipher: aes-256-gcm
+    password: enctdKyJfSu76VqznKwTt6Ap
+  - name: CH_17+@WangCai_1 3
+    server: 156.146.62.45
+    port: 37559
+    type: ss
+    cipher: aes-256-gcm
+    password: Qbt22F6JsxzFGqcsK5SaR8q3
+  - name: CH_21+@WangCai_1 4
+    server: 156.146.62.45
+    port: 38742
+    type: ss
+    cipher: aes-256-gcm
+    password: DKXfWwc4ebscpXTKpbt85rSH
+  - name: CH_20+@WangCai_1
+    server: 156.146.62.37
+    port: 38620
+    type: ss
+    cipher: aes-256-gcm
+    password: Kquv5UhvZXNMemAQy8DxZ7qn
+  - name: CH_03+@WangCai_1 5
+    server: 156.146.62.50
+    port: 31764
+    type: ss
+    cipher: aes-256-gcm
+    password: YgusH2MWA8PWc3p2VDsR7AVv
+  - name: CH_36+@WangCai_1
+    server: 156.146.62.37
+    port: 42816
+    type: ss
+    cipher: aes-256-gcm
+    password: tBKBf4pVzNCFKdbPgvwrNXq3
+  - name: CH_10+@WangCai_1
+    server: 156.146.62.37
+    port: 34687
+    type: ss
+    cipher: aes-256-gcm
+    password: txmK9WhwP6WPhP7hqSBLVxpN
+  - name: CH_39+@WangCai_1 4
+    server: 156.146.62.45
+    port: 44236
+    type: ss
+    cipher: aes-256-gcm
+    password: FWrXcxPZjJxAN89xLgqY3Acp
+  - name: CH_46+@WangCai_1
+    server: 156.146.62.37
+    port: 45291
+    type: ss
+    cipher: aes-256-gcm
+    password: ecfJrNtBZwT748hxJ3ZyzZj2
+  - name: CH_56+@WangCai_1
+    server: 156.146.62.37
+    port: 47553
+    type: ss
+    cipher: aes-256-gcm
+    password: t2JnnFqjDMmzWurseJPgBsYY
+  - name: CH_37+@WangCai_1 4
+    server: 156.146.62.45
+    port: 43893
+    type: ss
+    cipher: aes-256-gcm
+    password: YyCBeDdYX4cadHpCkkmdJLq8
+  - name: CH_22+@WangCai_1 4
+    server: 156.146.62.45
+    port: 38747
+    type: ss
+    cipher: aes-256-gcm
+    password: RtbLkxbJZpUQ6m8y4qAeLYZj
+  - name: CH_37+@WangCai_1
+    server: 156.146.62.37
+    port: 43893
+    type: ss
+    cipher: aes-256-gcm
+    password: YyCBeDdYX4cadHpCkkmdJLq8
+  - name: 🇺🇲 美国自建v2ray
+    server: 45.88.179.12
+    port: 30678
+    type: vmess
+    uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4
+    alterId: 233
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 45.88.179.34
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_1859
-      - Pool_🇭🇰HK_4277
-      - TG@安卓盒子_12
-      - TG@安卓盒子_37
-      - TG@安卓盒子_25
-      - TG@安卓盒子_31
-      - TG@安卓盒子_15
-      - TG@安卓盒子_43
-      - TG@安卓盒子_26
-      - TG@安卓盒子_23
-      - TG@安卓盒子_11
-      - TG@安卓盒子_35
-      - TG@安卓盒子_36
-      - TG@安卓盒子_28
-      - TG@安卓盒子_27
-      - TG@安卓盒子_18
-      - TG@安卓盒子_17
-      - TG@安卓盒子_38
-      - TG@安卓盒子_40
-      - TG@安卓盒子_22
-      - TG@安卓盒子_14
-      - TG@安卓盒子_29
-      - TG@安卓盒子_34
-      - TG@安卓盒子_24
-      - TG@安卓盒子_20
-      - TG@安卓盒子_30
-      - Pool_🇭🇰HK_4389
-      - 🇺🇸+美国+10_28
-      - 🇺🇸+美国+15_29
-      - 美国感谢订阅——科技网络_132
-      - 美国感谢订阅——科技网络_3
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_4417
-      - 加拿大感谢订阅——科技网络_20
-      - 加拿大感谢订阅——科技网络_21
-      - 加拿大感谢订阅——科技网络_202
-      - n_45.88.179.12_36
-      - TG@安卓盒子_39
-      - TG@安卓盒子_13
-      - Pool_+|+2.60Mb_39
-      - 美国感谢订阅——科技网络_90
-      - 🇺🇸+美国+14_41
-      - 🇺🇲 【426节点池】US_8403
-      - 加拿大感谢订阅——科技网络_190
+      - CH_09+@WangCai_1 4
+      - CH_09+@WangCai_1 5
+      - CH_54+@WangCai_1 4
+      - CH_04+@WangCai_1 4
+      - CH_53+@WangCai_1 4
+      - CH_04+@WangCai_1 5
+      - CH_57+@WangCai_1 4
+      - CH_01+@WangCai_1 4
+      - CH_69+@WangCai_1 3
+      - CH_75+@WangCai_1
+      - CH_05+@WangCai_1
+      - CH_41+@WangCai_1
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_83+@WangCai_1 4
+      - CH_34+@WangCai_1 4
+      - CH_50+@WangCai_1 5
+      - CH_38+@WangCai_1
+      - CH_02+@WangCai_1 5
+      - CH_70+@WangCai_1 4
+      - CH_09+@WangCai_1
+      - CH_36+@WangCai_1 5
+      - CH_80+@WangCai_1 4
+      - CH_11+@WangCai_1 4
+      - CH_79+@WangCai_1
+      - CH_60+@WangCai_1 5
+      - CH_81+@WangCai_1
+      - CH_25+@WangCai_1 2
+      - CH_19+@WangCai_1
+      - CH_15+@WangCai_1 5
+      - CH_02+@WangCai_1 4
+      - CH_68+@WangCai_1
+      - CH_49+@WangCai_1 4
+      - CH_18+@WangCai_1 4
+      - CH_15+@WangCai_1
+      - CH_25+@WangCai_1 3
+      - CH_47+@WangCai_1 4
+      - CH_59+@WangCai_1 4
+      - CH_35+@WangCai_1 4
+      - CH_65+@WangCai_1 3
+      - CH_43+@WangCai_1 5
+      - CH_64+@WangCai_1
+      - CH_62+@WangCai_1 4
+      - CH_51+@WangCai_1 4
+      - CH_17+@WangCai_1
+      - CH_16+@WangCai_1 5
+      - CH_62+@WangCai_1
+      - CH_06+@WangCai_1 5
+      - CH_14+@WangCai_1 5
+      - CH_23+@WangCai_1 4
+      - CH_33+@WangCai_1
+      - CH_48+@WangCai_1 4
+      - CH_08+@WangCai_1 4
+      - CH_39+@WangCai_1
+      - CH_83+@WangCai_1 5
+      - CH_18+@WangCai_1
+      - CH_10+@WangCai_1 5
+      - CH_47+@WangCai_1 5
+      - CH_13+@WangCai_1 5
+      - CH_18+@WangCai_1 5
+      - CH_05+@WangCai_1 5
+      - CH_10+@WangCai_1 4
+      - CH_56+@WangCai_1 5
+      - CH_27+@WangCai_1 5
+      - CH_58+@WangCai_1 4
+      - CH_79+@WangCai_1 5
+      - CH_76+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_17+@WangCai_1 3
+      - CH_21+@WangCai_1 4
+      - CH_20+@WangCai_1
+      - CH_03+@WangCai_1 5
+      - CH_36+@WangCai_1
+      - CH_10+@WangCai_1
+      - CH_39+@WangCai_1 4
+      - CH_46+@WangCai_1
+      - CH_56+@WangCai_1
+      - CH_37+@WangCai_1 4
+      - CH_22+@WangCai_1 4
+      - CH_37+@WangCai_1
+      - 🇺🇲 美国自建v2ray
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies:
-      - Relay_🇨🇳CN-🇭🇰HK_1859
-      - Pool_🇭🇰HK_4277
-      - TG@安卓盒子_12
-      - TG@安卓盒子_37
-      - TG@安卓盒子_25
-      - TG@安卓盒子_31
-      - TG@安卓盒子_15
-      - TG@安卓盒子_43
-      - TG@安卓盒子_26
-      - TG@安卓盒子_23
-      - TG@安卓盒子_11
-      - TG@安卓盒子_35
-      - TG@安卓盒子_36
-      - TG@安卓盒子_28
-      - TG@安卓盒子_27
-      - TG@安卓盒子_18
-      - TG@安卓盒子_17
-      - TG@安卓盒子_38
-      - TG@安卓盒子_40
-      - TG@安卓盒子_22
-      - TG@安卓盒子_14
-      - TG@安卓盒子_29
-      - TG@安卓盒子_34
-      - TG@安卓盒子_24
-      - TG@安卓盒子_20
-      - TG@安卓盒子_30
-      - Pool_🇭🇰HK_4389
-      - 🇺🇸+美国+10_28
-      - 🇺🇸+美国+15_29
-      - 美国感谢订阅——科技网络_132
-      - 美国感谢订阅——科技网络_3
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_4417
-      - 加拿大感谢订阅——科技网络_20
-      - 加拿大感谢订阅——科技网络_21
-      - 加拿大感谢订阅——科技网络_202
-      - n_45.88.179.12_36
-      - TG@安卓盒子_39
-      - TG@安卓盒子_13
-      - Pool_+|+2.60Mb_39
-      - 美国感谢订阅——科技网络_90
-      - 🇺🇸+美国+14_41
-      - 🇺🇲 【426节点池】US_8403
-      - 加拿大感谢订阅——科技网络_190
+    proxies: 
+      - CH_09+@WangCai_1 4
+      - CH_09+@WangCai_1 5
+      - CH_54+@WangCai_1 4
+      - CH_04+@WangCai_1 4
+      - CH_53+@WangCai_1 4
+      - CH_04+@WangCai_1 5
+      - CH_57+@WangCai_1 4
+      - CH_01+@WangCai_1 4
+      - CH_69+@WangCai_1 3
+      - CH_75+@WangCai_1
+      - CH_05+@WangCai_1
+      - CH_41+@WangCai_1
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_83+@WangCai_1 4
+      - CH_34+@WangCai_1 4
+      - CH_50+@WangCai_1 5
+      - CH_38+@WangCai_1
+      - CH_02+@WangCai_1 5
+      - CH_70+@WangCai_1 4
+      - CH_09+@WangCai_1
+      - CH_36+@WangCai_1 5
+      - CH_80+@WangCai_1 4
+      - CH_11+@WangCai_1 4
+      - CH_79+@WangCai_1
+      - CH_60+@WangCai_1 5
+      - CH_81+@WangCai_1
+      - CH_25+@WangCai_1 2
+      - CH_19+@WangCai_1
+      - CH_15+@WangCai_1 5
+      - CH_02+@WangCai_1 4
+      - CH_68+@WangCai_1
+      - CH_49+@WangCai_1 4
+      - CH_18+@WangCai_1 4
+      - CH_15+@WangCai_1
+      - CH_25+@WangCai_1 3
+      - CH_47+@WangCai_1 4
+      - CH_59+@WangCai_1 4
+      - CH_35+@WangCai_1 4
+      - CH_65+@WangCai_1 3
+      - CH_43+@WangCai_1 5
+      - CH_64+@WangCai_1
+      - CH_62+@WangCai_1 4
+      - CH_51+@WangCai_1 4
+      - CH_17+@WangCai_1
+      - CH_16+@WangCai_1 5
+      - CH_62+@WangCai_1
+      - CH_06+@WangCai_1 5
+      - CH_14+@WangCai_1 5
+      - CH_23+@WangCai_1 4
+      - CH_33+@WangCai_1
+      - CH_48+@WangCai_1 4
+      - CH_08+@WangCai_1 4
+      - CH_39+@WangCai_1
+      - CH_83+@WangCai_1 5
+      - CH_18+@WangCai_1
+      - CH_10+@WangCai_1 5
+      - CH_47+@WangCai_1 5
+      - CH_13+@WangCai_1 5
+      - CH_18+@WangCai_1 5
+      - CH_05+@WangCai_1 5
+      - CH_10+@WangCai_1 4
+      - CH_56+@WangCai_1 5
+      - CH_27+@WangCai_1 5
+      - CH_58+@WangCai_1 4
+      - CH_79+@WangCai_1 5
+      - CH_76+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_17+@WangCai_1 3
+      - CH_21+@WangCai_1 4
+      - CH_20+@WangCai_1
+      - CH_03+@WangCai_1 5
+      - CH_36+@WangCai_1
+      - CH_10+@WangCai_1
+      - CH_39+@WangCai_1 4
+      - CH_46+@WangCai_1
+      - CH_56+@WangCai_1
+      - CH_37+@WangCai_1 4
+      - CH_22+@WangCai_1 4
+      - CH_37+@WangCai_1
+      - 🇺🇲 美国自建v2ray
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_1859
-      - Pool_🇭🇰HK_4277
-      - TG@安卓盒子_12
-      - TG@安卓盒子_37
-      - TG@安卓盒子_25
-      - TG@安卓盒子_31
-      - TG@安卓盒子_15
-      - TG@安卓盒子_43
-      - TG@安卓盒子_26
-      - TG@安卓盒子_23
-      - TG@安卓盒子_11
-      - TG@安卓盒子_35
-      - TG@安卓盒子_36
-      - TG@安卓盒子_28
-      - TG@安卓盒子_27
-      - TG@安卓盒子_18
-      - TG@安卓盒子_17
-      - TG@安卓盒子_38
-      - TG@安卓盒子_40
-      - TG@安卓盒子_22
-      - TG@安卓盒子_14
-      - TG@安卓盒子_29
-      - TG@安卓盒子_34
-      - TG@安卓盒子_24
-      - TG@安卓盒子_20
-      - TG@安卓盒子_30
-      - Pool_🇭🇰HK_4389
-      - 🇺🇸+美国+10_28
-      - 🇺🇸+美国+15_29
-      - 美国感谢订阅——科技网络_132
-      - 美国感谢订阅——科技网络_3
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_4417
-      - 加拿大感谢订阅——科技网络_20
-      - 加拿大感谢订阅——科技网络_21
-      - 加拿大感谢订阅——科技网络_202
-      - n_45.88.179.12_36
-      - TG@安卓盒子_39
-      - TG@安卓盒子_13
-      - Pool_+|+2.60Mb_39
-      - 美国感谢订阅——科技网络_90
-      - 🇺🇸+美国+14_41
-      - 🇺🇲 【426节点池】US_8403
-      - 加拿大感谢订阅——科技网络_190
+      - CH_09+@WangCai_1 4
+      - CH_09+@WangCai_1 5
+      - CH_54+@WangCai_1 4
+      - CH_04+@WangCai_1 4
+      - CH_53+@WangCai_1 4
+      - CH_04+@WangCai_1 5
+      - CH_57+@WangCai_1 4
+      - CH_01+@WangCai_1 4
+      - CH_69+@WangCai_1 3
+      - CH_75+@WangCai_1
+      - CH_05+@WangCai_1
+      - CH_41+@WangCai_1
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_83+@WangCai_1 4
+      - CH_34+@WangCai_1 4
+      - CH_50+@WangCai_1 5
+      - CH_38+@WangCai_1
+      - CH_02+@WangCai_1 5
+      - CH_70+@WangCai_1 4
+      - CH_09+@WangCai_1
+      - CH_36+@WangCai_1 5
+      - CH_80+@WangCai_1 4
+      - CH_11+@WangCai_1 4
+      - CH_79+@WangCai_1
+      - CH_60+@WangCai_1 5
+      - CH_81+@WangCai_1
+      - CH_25+@WangCai_1 2
+      - CH_19+@WangCai_1
+      - CH_15+@WangCai_1 5
+      - CH_02+@WangCai_1 4
+      - CH_68+@WangCai_1
+      - CH_49+@WangCai_1 4
+      - CH_18+@WangCai_1 4
+      - CH_15+@WangCai_1
+      - CH_25+@WangCai_1 3
+      - CH_47+@WangCai_1 4
+      - CH_59+@WangCai_1 4
+      - CH_35+@WangCai_1 4
+      - CH_65+@WangCai_1 3
+      - CH_43+@WangCai_1 5
+      - CH_64+@WangCai_1
+      - CH_62+@WangCai_1 4
+      - CH_51+@WangCai_1 4
+      - CH_17+@WangCai_1
+      - CH_16+@WangCai_1 5
+      - CH_62+@WangCai_1
+      - CH_06+@WangCai_1 5
+      - CH_14+@WangCai_1 5
+      - CH_23+@WangCai_1 4
+      - CH_33+@WangCai_1
+      - CH_48+@WangCai_1 4
+      - CH_08+@WangCai_1 4
+      - CH_39+@WangCai_1
+      - CH_83+@WangCai_1 5
+      - CH_18+@WangCai_1
+      - CH_10+@WangCai_1 5
+      - CH_47+@WangCai_1 5
+      - CH_13+@WangCai_1 5
+      - CH_18+@WangCai_1 5
+      - CH_05+@WangCai_1 5
+      - CH_10+@WangCai_1 4
+      - CH_56+@WangCai_1 5
+      - CH_27+@WangCai_1 5
+      - CH_58+@WangCai_1 4
+      - CH_79+@WangCai_1 5
+      - CH_76+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_17+@WangCai_1 3
+      - CH_21+@WangCai_1 4
+      - CH_20+@WangCai_1
+      - CH_03+@WangCai_1 5
+      - CH_36+@WangCai_1
+      - CH_10+@WangCai_1
+      - CH_39+@WangCai_1 4
+      - CH_46+@WangCai_1
+      - CH_56+@WangCai_1
+      - CH_37+@WangCai_1 4
+      - CH_22+@WangCai_1 4
+      - CH_37+@WangCai_1
+      - 🇺🇲 美国自建v2ray
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇭🇰HK_1859
-      - Pool_🇭🇰HK_4277
-      - TG@安卓盒子_12
-      - TG@安卓盒子_37
-      - TG@安卓盒子_25
-      - TG@安卓盒子_31
-      - TG@安卓盒子_15
-      - TG@安卓盒子_43
-      - TG@安卓盒子_26
-      - TG@安卓盒子_23
-      - TG@安卓盒子_11
-      - TG@安卓盒子_35
-      - TG@安卓盒子_36
-      - TG@安卓盒子_28
-      - TG@安卓盒子_27
-      - TG@安卓盒子_18
-      - TG@安卓盒子_17
-      - TG@安卓盒子_38
-      - TG@安卓盒子_40
-      - TG@安卓盒子_22
-      - TG@安卓盒子_14
-      - TG@安卓盒子_29
-      - TG@安卓盒子_34
-      - TG@安卓盒子_24
-      - TG@安卓盒子_20
-      - TG@安卓盒子_30
-      - Pool_🇭🇰HK_4389
-      - 🇺🇸+美国+10_28
-      - 🇺🇸+美国+15_29
-      - 美国感谢订阅——科技网络_132
-      - 美国感谢订阅——科技网络_3
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_4417
-      - 加拿大感谢订阅——科技网络_20
-      - 加拿大感谢订阅——科技网络_21
-      - 加拿大感谢订阅——科技网络_202
-      - n_45.88.179.12_36
-      - TG@安卓盒子_39
-      - TG@安卓盒子_13
-      - Pool_+|+2.60Mb_39
-      - 美国感谢订阅——科技网络_90
-      - 🇺🇸+美国+14_41
-      - 🇺🇲 【426节点池】US_8403
-      - 加拿大感谢订阅——科技网络_190
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇭🇰HK_1859
-      - Pool_🇭🇰HK_4277
-      - TG@安卓盒子_12
-      - TG@安卓盒子_37
-      - TG@安卓盒子_25
-      - TG@安卓盒子_31
-      - TG@安卓盒子_15
-      - TG@安卓盒子_43
-      - TG@安卓盒子_26
-      - TG@安卓盒子_23
-      - TG@安卓盒子_11
-      - TG@安卓盒子_35
-      - TG@安卓盒子_36
-      - TG@安卓盒子_28
-      - TG@安卓盒子_27
-      - TG@安卓盒子_18
-      - TG@安卓盒子_17
-      - TG@安卓盒子_38
-      - TG@安卓盒子_40
-      - TG@安卓盒子_22
-      - TG@安卓盒子_14
-      - TG@安卓盒子_29
-      - TG@安卓盒子_34
-      - TG@安卓盒子_24
-      - TG@安卓盒子_20
-      - TG@安卓盒子_30
-      - Pool_🇭🇰HK_4389
-      - 🇺🇸+美国+10_28
-      - 🇺🇸+美国+15_29
-      - 美国感谢订阅——科技网络_132
-      - 美国感谢订阅——科技网络_3
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_4417
-      - 加拿大感谢订阅——科技网络_20
-      - 加拿大感谢订阅——科技网络_21
-      - 加拿大感谢订阅——科技网络_202
-      - n_45.88.179.12_36
-      - TG@安卓盒子_39
-      - TG@安卓盒子_13
-      - Pool_+|+2.60Mb_39
-      - 美国感谢订阅——科技网络_90
-      - 🇺🇸+美国+14_41
-      - 🇺🇲 【426节点池】US_8403
-      - 加拿大感谢订阅——科技网络_190
+      - CH_09+@WangCai_1 4
+      - CH_09+@WangCai_1 5
+      - CH_54+@WangCai_1 4
+      - CH_04+@WangCai_1 4
+      - CH_53+@WangCai_1 4
+      - CH_04+@WangCai_1 5
+      - CH_57+@WangCai_1 4
+      - CH_01+@WangCai_1 4
+      - CH_69+@WangCai_1 3
+      - CH_75+@WangCai_1
+      - CH_05+@WangCai_1
+      - CH_41+@WangCai_1
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_83+@WangCai_1 4
+      - CH_34+@WangCai_1 4
+      - CH_50+@WangCai_1 5
+      - CH_38+@WangCai_1
+      - CH_02+@WangCai_1 5
+      - CH_70+@WangCai_1 4
+      - CH_09+@WangCai_1
+      - CH_36+@WangCai_1 5
+      - CH_80+@WangCai_1 4
+      - CH_11+@WangCai_1 4
+      - CH_79+@WangCai_1
+      - CH_60+@WangCai_1 5
+      - CH_81+@WangCai_1
+      - CH_25+@WangCai_1 2
+      - CH_19+@WangCai_1
+      - CH_15+@WangCai_1 5
+      - CH_02+@WangCai_1 4
+      - CH_68+@WangCai_1
+      - CH_49+@WangCai_1 4
+      - CH_18+@WangCai_1 4
+      - CH_15+@WangCai_1
+      - CH_25+@WangCai_1 3
+      - CH_47+@WangCai_1 4
+      - CH_59+@WangCai_1 4
+      - CH_35+@WangCai_1 4
+      - CH_65+@WangCai_1 3
+      - CH_43+@WangCai_1 5
+      - CH_64+@WangCai_1
+      - CH_62+@WangCai_1 4
+      - CH_51+@WangCai_1 4
+      - CH_17+@WangCai_1
+      - CH_16+@WangCai_1 5
+      - CH_62+@WangCai_1
+      - CH_06+@WangCai_1 5
+      - CH_14+@WangCai_1 5
+      - CH_23+@WangCai_1 4
+      - CH_33+@WangCai_1
+      - CH_48+@WangCai_1 4
+      - CH_08+@WangCai_1 4
+      - CH_39+@WangCai_1
+      - CH_83+@WangCai_1 5
+      - CH_18+@WangCai_1
+      - CH_10+@WangCai_1 5
+      - CH_47+@WangCai_1 5
+      - CH_13+@WangCai_1 5
+      - CH_18+@WangCai_1 5
+      - CH_05+@WangCai_1 5
+      - CH_10+@WangCai_1 4
+      - CH_56+@WangCai_1 5
+      - CH_27+@WangCai_1 5
+      - CH_58+@WangCai_1 4
+      - CH_79+@WangCai_1 5
+      - CH_76+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_17+@WangCai_1 3
+      - CH_21+@WangCai_1 4
+      - CH_20+@WangCai_1
+      - CH_03+@WangCai_1 5
+      - CH_36+@WangCai_1
+      - CH_10+@WangCai_1
+      - CH_39+@WangCai_1 4
+      - CH_46+@WangCai_1
+      - CH_56+@WangCai_1
+      - CH_37+@WangCai_1 4
+      - CH_22+@WangCai_1 4
+      - CH_37+@WangCai_1
+      - 🇺🇲 美国自建v2ray
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_1859
-      - Pool_🇭🇰HK_4277
-      - TG@安卓盒子_12
-      - TG@安卓盒子_37
-      - TG@安卓盒子_25
-      - TG@安卓盒子_31
-      - TG@安卓盒子_15
-      - TG@安卓盒子_43
-      - TG@安卓盒子_26
-      - TG@安卓盒子_23
-      - TG@安卓盒子_11
-      - TG@安卓盒子_35
-      - TG@安卓盒子_36
-      - TG@安卓盒子_28
-      - TG@安卓盒子_27
-      - TG@安卓盒子_18
-      - TG@安卓盒子_17
-      - TG@安卓盒子_38
-      - TG@安卓盒子_40
-      - TG@安卓盒子_22
-      - TG@安卓盒子_14
-      - TG@安卓盒子_29
-      - TG@安卓盒子_34
-      - TG@安卓盒子_24
-      - TG@安卓盒子_20
-      - TG@安卓盒子_30
-      - Pool_🇭🇰HK_4389
-      - 🇺🇸+美国+10_28
-      - 🇺🇸+美国+15_29
-      - 美国感谢订阅——科技网络_132
-      - 美国感谢订阅——科技网络_3
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_4417
-      - 加拿大感谢订阅——科技网络_20
-      - 加拿大感谢订阅——科技网络_21
-      - 加拿大感谢订阅——科技网络_202
-      - n_45.88.179.12_36
-      - TG@安卓盒子_39
-      - TG@安卓盒子_13
-      - Pool_+|+2.60Mb_39
-      - 美国感谢订阅——科技网络_90
-      - 🇺🇸+美国+14_41
-      - 🇺🇲 【426节点池】US_8403
-      - 加拿大感谢订阅——科技网络_190
+      - CH_09+@WangCai_1 4
+      - CH_09+@WangCai_1 5
+      - CH_54+@WangCai_1 4
+      - CH_04+@WangCai_1 4
+      - CH_53+@WangCai_1 4
+      - CH_04+@WangCai_1 5
+      - CH_57+@WangCai_1 4
+      - CH_01+@WangCai_1 4
+      - CH_69+@WangCai_1 3
+      - CH_75+@WangCai_1
+      - CH_05+@WangCai_1
+      - CH_41+@WangCai_1
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_83+@WangCai_1 4
+      - CH_34+@WangCai_1 4
+      - CH_50+@WangCai_1 5
+      - CH_38+@WangCai_1
+      - CH_02+@WangCai_1 5
+      - CH_70+@WangCai_1 4
+      - CH_09+@WangCai_1
+      - CH_36+@WangCai_1 5
+      - CH_80+@WangCai_1 4
+      - CH_11+@WangCai_1 4
+      - CH_79+@WangCai_1
+      - CH_60+@WangCai_1 5
+      - CH_81+@WangCai_1
+      - CH_25+@WangCai_1 2
+      - CH_19+@WangCai_1
+      - CH_15+@WangCai_1 5
+      - CH_02+@WangCai_1 4
+      - CH_68+@WangCai_1
+      - CH_49+@WangCai_1 4
+      - CH_18+@WangCai_1 4
+      - CH_15+@WangCai_1
+      - CH_25+@WangCai_1 3
+      - CH_47+@WangCai_1 4
+      - CH_59+@WangCai_1 4
+      - CH_35+@WangCai_1 4
+      - CH_65+@WangCai_1 3
+      - CH_43+@WangCai_1 5
+      - CH_64+@WangCai_1
+      - CH_62+@WangCai_1 4
+      - CH_51+@WangCai_1 4
+      - CH_17+@WangCai_1
+      - CH_16+@WangCai_1 5
+      - CH_62+@WangCai_1
+      - CH_06+@WangCai_1 5
+      - CH_14+@WangCai_1 5
+      - CH_23+@WangCai_1 4
+      - CH_33+@WangCai_1
+      - CH_48+@WangCai_1 4
+      - CH_08+@WangCai_1 4
+      - CH_39+@WangCai_1
+      - CH_83+@WangCai_1 5
+      - CH_18+@WangCai_1
+      - CH_10+@WangCai_1 5
+      - CH_47+@WangCai_1 5
+      - CH_13+@WangCai_1 5
+      - CH_18+@WangCai_1 5
+      - CH_05+@WangCai_1 5
+      - CH_10+@WangCai_1 4
+      - CH_56+@WangCai_1 5
+      - CH_27+@WangCai_1 5
+      - CH_58+@WangCai_1 4
+      - CH_79+@WangCai_1 5
+      - CH_76+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_17+@WangCai_1 3
+      - CH_21+@WangCai_1 4
+      - CH_20+@WangCai_1
+      - CH_03+@WangCai_1 5
+      - CH_36+@WangCai_1
+      - CH_10+@WangCai_1
+      - CH_39+@WangCai_1 4
+      - CH_46+@WangCai_1
+      - CH_56+@WangCai_1
+      - CH_37+@WangCai_1 4
+      - CH_22+@WangCai_1 4
+      - CH_37+@WangCai_1
+      - 🇺🇲 美国自建v2ray
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_1859
-      - Pool_🇭🇰HK_4277
-      - TG@安卓盒子_12
-      - TG@安卓盒子_37
-      - TG@安卓盒子_25
-      - TG@安卓盒子_31
-      - TG@安卓盒子_15
-      - TG@安卓盒子_43
-      - TG@安卓盒子_26
-      - TG@安卓盒子_23
-      - TG@安卓盒子_11
-      - TG@安卓盒子_35
-      - TG@安卓盒子_36
-      - TG@安卓盒子_28
-      - TG@安卓盒子_27
-      - TG@安卓盒子_18
-      - TG@安卓盒子_17
-      - TG@安卓盒子_38
-      - TG@安卓盒子_40
-      - TG@安卓盒子_22
-      - TG@安卓盒子_14
-      - TG@安卓盒子_29
-      - TG@安卓盒子_34
-      - TG@安卓盒子_24
-      - TG@安卓盒子_20
-      - TG@安卓盒子_30
-      - Pool_🇭🇰HK_4389
-      - 🇺🇸+美国+10_28
-      - 🇺🇸+美国+15_29
-      - 美国感谢订阅——科技网络_132
-      - 美国感谢订阅——科技网络_3
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_4417
-      - 加拿大感谢订阅——科技网络_20
-      - 加拿大感谢订阅——科技网络_21
-      - 加拿大感谢订阅——科技网络_202
-      - n_45.88.179.12_36
-      - TG@安卓盒子_39
-      - TG@安卓盒子_13
-      - Pool_+|+2.60Mb_39
-      - 美国感谢订阅——科技网络_90
-      - 🇺🇸+美国+14_41
-      - 🇺🇲 【426节点池】US_8403
-      - 加拿大感谢订阅——科技网络_190
+      - CH_09+@WangCai_1 4
+      - CH_09+@WangCai_1 5
+      - CH_54+@WangCai_1 4
+      - CH_04+@WangCai_1 4
+      - CH_53+@WangCai_1 4
+      - CH_04+@WangCai_1 5
+      - CH_57+@WangCai_1 4
+      - CH_01+@WangCai_1 4
+      - CH_69+@WangCai_1 3
+      - CH_75+@WangCai_1
+      - CH_05+@WangCai_1
+      - CH_41+@WangCai_1
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_83+@WangCai_1 4
+      - CH_34+@WangCai_1 4
+      - CH_50+@WangCai_1 5
+      - CH_38+@WangCai_1
+      - CH_02+@WangCai_1 5
+      - CH_70+@WangCai_1 4
+      - CH_09+@WangCai_1
+      - CH_36+@WangCai_1 5
+      - CH_80+@WangCai_1 4
+      - CH_11+@WangCai_1 4
+      - CH_79+@WangCai_1
+      - CH_60+@WangCai_1 5
+      - CH_81+@WangCai_1
+      - CH_25+@WangCai_1 2
+      - CH_19+@WangCai_1
+      - CH_15+@WangCai_1 5
+      - CH_02+@WangCai_1 4
+      - CH_68+@WangCai_1
+      - CH_49+@WangCai_1 4
+      - CH_18+@WangCai_1 4
+      - CH_15+@WangCai_1
+      - CH_25+@WangCai_1 3
+      - CH_47+@WangCai_1 4
+      - CH_59+@WangCai_1 4
+      - CH_35+@WangCai_1 4
+      - CH_65+@WangCai_1 3
+      - CH_43+@WangCai_1 5
+      - CH_64+@WangCai_1
+      - CH_62+@WangCai_1 4
+      - CH_51+@WangCai_1 4
+      - CH_17+@WangCai_1
+      - CH_16+@WangCai_1 5
+      - CH_62+@WangCai_1
+      - CH_06+@WangCai_1 5
+      - CH_14+@WangCai_1 5
+      - CH_23+@WangCai_1 4
+      - CH_33+@WangCai_1
+      - CH_48+@WangCai_1 4
+      - CH_08+@WangCai_1 4
+      - CH_39+@WangCai_1
+      - CH_83+@WangCai_1 5
+      - CH_18+@WangCai_1
+      - CH_10+@WangCai_1 5
+      - CH_47+@WangCai_1 5
+      - CH_13+@WangCai_1 5
+      - CH_18+@WangCai_1 5
+      - CH_05+@WangCai_1 5
+      - CH_10+@WangCai_1 4
+      - CH_56+@WangCai_1 5
+      - CH_27+@WangCai_1 5
+      - CH_58+@WangCai_1 4
+      - CH_79+@WangCai_1 5
+      - CH_76+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_17+@WangCai_1 3
+      - CH_21+@WangCai_1 4
+      - CH_20+@WangCai_1
+      - CH_03+@WangCai_1 5
+      - CH_36+@WangCai_1
+      - CH_10+@WangCai_1
+      - CH_39+@WangCai_1 4
+      - CH_46+@WangCai_1
+      - CH_56+@WangCai_1
+      - CH_37+@WangCai_1 4
+      - CH_22+@WangCai_1 4
+      - CH_37+@WangCai_1
+      - 🇺🇲 美国自建v2ray
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -401,50 +1037,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_1859
-      - Pool_🇭🇰HK_4277
-      - TG@安卓盒子_12
-      - TG@安卓盒子_37
-      - TG@安卓盒子_25
-      - TG@安卓盒子_31
-      - TG@安卓盒子_15
-      - TG@安卓盒子_43
-      - TG@安卓盒子_26
-      - TG@安卓盒子_23
-      - TG@安卓盒子_11
-      - TG@安卓盒子_35
-      - TG@安卓盒子_36
-      - TG@安卓盒子_28
-      - TG@安卓盒子_27
-      - TG@安卓盒子_18
-      - TG@安卓盒子_17
-      - TG@安卓盒子_38
-      - TG@安卓盒子_40
-      - TG@安卓盒子_22
-      - TG@安卓盒子_14
-      - TG@安卓盒子_29
-      - TG@安卓盒子_34
-      - TG@安卓盒子_24
-      - TG@安卓盒子_20
-      - TG@安卓盒子_30
-      - Pool_🇭🇰HK_4389
-      - 🇺🇸+美国+10_28
-      - 🇺🇸+美国+15_29
-      - 美国感谢订阅——科技网络_132
-      - 美国感谢订阅——科技网络_3
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_4417
-      - 加拿大感谢订阅——科技网络_20
-      - 加拿大感谢订阅——科技网络_21
-      - 加拿大感谢订阅——科技网络_202
-      - n_45.88.179.12_36
-      - TG@安卓盒子_39
-      - TG@安卓盒子_13
-      - Pool_+|+2.60Mb_39
-      - 美国感谢订阅——科技网络_90
-      - 🇺🇸+美国+14_41
-      - 🇺🇲 【426节点池】US_8403
-      - 加拿大感谢订阅——科技网络_190
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
