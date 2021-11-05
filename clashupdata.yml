@@ -128,6 +128,7 @@ proxies:
   - {name: AT_25+@WangCai_1 4, server: 89.187.168.47, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
   - {name: AT_36+@WangCai_1 3, server: 89.187.168.45, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3, udp: true}
   - {name: CH_83+@WangCai_1 4, server: 156.146.62.45, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
+  - {name: 45.88.179.12, server: 45.88.179.12, port: 30678, type: vmess, uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4, alterId: 233, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.88.179.12}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -257,6 +258,7 @@ proxy-groups:
       - AT_25+@WangCai_1 4
       - AT_36+@WangCai_1 3
       - CH_83+@WangCai_1 4
+      - 45.88.179.12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -386,6 +388,7 @@ proxy-groups:
       - AT_25+@WangCai_1 4
       - AT_36+@WangCai_1 3
       - CH_83+@WangCai_1 4
+      - 45.88.179.12
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -515,6 +518,7 @@ proxy-groups:
       - AT_25+@WangCai_1 4
       - AT_36+@WangCai_1 3
       - CH_83+@WangCai_1 4
+      - 45.88.179.12
   - name: 📲 电报信息
     type: select
     proxies:
@@ -643,6 +647,7 @@ proxy-groups:
       - AT_25+@WangCai_1 4
       - AT_36+@WangCai_1 3
       - CH_83+@WangCai_1 4
+      - 45.88.179.12
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -771,6 +776,7 @@ proxy-groups:
       - AT_25+@WangCai_1 4
       - AT_36+@WangCai_1 3
       - CH_83+@WangCai_1 4
+      - 45.88.179.12
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -899,6 +905,7 @@ proxy-groups:
       - AT_25+@WangCai_1 4
       - AT_36+@WangCai_1 3
       - CH_83+@WangCai_1 4
+      - 45.88.179.12
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -1028,6 +1035,7 @@ proxy-groups:
       - AT_25+@WangCai_1 4
       - AT_36+@WangCai_1 3
       - CH_83+@WangCai_1 4
+      - 45.88.179.12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1173,6 +1181,7 @@ proxy-groups:
       - AT_25+@WangCai_1 4
       - AT_36+@WangCai_1 3
       - CH_83+@WangCai_1 4
+      - 45.88.179.12
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
