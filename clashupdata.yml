@@ -5,917 +5,493 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "香港 HKT [07] 2", server: hkt7.qiangdong.xyz, port: 153, type: vmess, uuid: cf1b4611-47bc-380c-be24-419b52d87945, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: 0ef7a109901.laowanxiang.com}}, udp: true}
-  - {name: 香港 00|HKT-WTT|沙田区|1.0 3, server: ddns.cscncu.acfun.run, port: 19989, type: vmess, uuid: 3a47b0be-ad47-3ca3-8b70-2beebba05fc6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /soda, headers: {Host: ddns.cscncu.acfun.run}}, udp: true}
-  - {name: AZ转移动05-27, server: sl201.jdxx.xyz, port: 25989, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1237:Wa2lOa, obfs-param: b00e31237.microsoft.com, udp: true}
-  - {name: 日本 02|Microsoft|大阪|1.0 3, server: suda.shcn2.acfun.run, port: 20001, type: vmess, uuid: 3a47b0be-ad47-3ca3-8b70-2beebba05fc6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /soda, headers: {Host: suda.shcn2.acfun.run}}, udp: true}
-  - {name: 新加坡 03|Neko|湘徐|1.0 3, server: ddns.cscncu.acfun.run, port: 18079, type: vmess, uuid: 3a47b0be-ad47-3ca3-8b70-2beebba05fc6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /soda, headers: {Host: ddns.cscncu.acfun.run}}, udp: true}
-  - {name: 韩国 03|Microsoft|釜山|1.0 3, server: suda.shcn2.acfun.run, port: 19106, type: vmess, uuid: 3a47b0be-ad47-3ca3-8b70-2beebba05fc6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /soda, headers: {Host: suda.shcn2.acfun.run}}, udp: true}
-  - {name: "中转|日本GMO10|BGP隧道[流媒体解锁]", server: bgp.okvpn.xyz, port: 33507, type: vmess, uuid: 0e51e193-9029-4ba6-857a-d7f98b0105dc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bgp.okvpn.xyz}}, udp: true}
-  - {name: 越南 VIP节点(胡志明)●, server: gz1.52168.xyz, port: 1108, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
+  - {name: 香港Azure-香港IPServerOne-nf, server: 52.175.125.36, port: 29546, type: vmess, uuid: 9da81753-1852-3f85-ac25-92e22eff0174, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: 香港Azure-香港IPServerOne, server: 52.175.125.36, port: 28666, type: vmess, uuid: 9da81753-1852-3f85-ac25-92e22eff0174, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: Tokyo-GMO-dip, server: 153.122.173.30, port: 18080, type: vmess, uuid: 9da81753-1852-3f85-ac25-92e22eff0174, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: t.me/vpnhat}}, udp: true}
   - {name: 菲律宾 免费节点(马尼拉)● 3, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: TG@subssr 韩国39 长沙联通 v2ray G口带宽 公益节点, server: cs.lt.nkeo.top, port: 25005, type: vmess, uuid: 4a70cbbc-435f-38a5-9788-c7dc049bd0a3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cs.lt.nkeo.top}}, udp: true}
-  - {name: 日本 KDDI 2, server: 211.9.220.55, port: 153, type: vmess, uuid: 165a168f-fb20-3057-8dd6-23e25246c3a9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: 0ef7a109901.laowanxiang.com}}, udp: true}
-  - {name: 菲律宾 VIP节点(马尼拉)● 3, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: "台湾 CHT [04]", server: cht4.qiangdong.xyz, port: 153, type: vmess, uuid: 2c84d7bc-a1fc-37dd-b9db-fcd0b4709dc8, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: 0ef7a109901.laowanxiang.com}}, udp: true}
-  - {name: "中转|日本GMO06|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 0e51e193-9029-4ba6-857a-d7f98b0105dc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
-  - {name: CH_38+@WangCai_1 4, server: 156.146.62.45, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ, udp: true}
   - {name: CH_51+@WangCai_1 4, server: 156.146.62.45, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
-  - {name: CH_13+@WangCai_1 4, server: 156.146.62.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: 香港 03|HKT-WTT|沙田区|1.0 3, server: ddns.cscncu.acfun.run, port: 19931, type: vmess, uuid: 3a47b0be-ad47-3ca3-8b70-2beebba05fc6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /soda, headers: {Host: ddns.cscncu.acfun.run}}, udp: true}
-  - {name: CH_27+@WangCai_1 4, server: 156.146.62.45, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9, udp: true}
-  - {name: CH_26+@WangCai_1 4, server: 156.146.62.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
-  - {name: CH_46+@WangCai_1 5, server: 156.146.62.50, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2, udp: true}
-  - {name: 香港 04|Microsoft|九龙|1.0 3, server: ddns.azhk.paolu.icu, port: 10070, type: vmess, uuid: 3a47b0be-ad47-3ca3-8b70-2beebba05fc6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /soda, headers: {Host: ddns.azhk.paolu.icu}}, udp: true}
-  - {name: AT_69+@WangCai_1 3, server: 89.187.168.45, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4, udp: true}
-  - {name: CH_34+@WangCai_1 3, server: 156.146.62.45, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh, udp: true}
-  - {name: CH_34+@WangCai_1 4, server: 156.146.62.50, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh, udp: true}
-  - {name: AT_09+@WangCai_1 3, server: 89.187.168.45, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: CH_66+@WangCai_1 4, server: 156.146.62.45, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
-  - {name: "台湾 CHT [05] 2", server: cht5.qiangdong.xyz, port: 153, type: vmess, uuid: 80ef6c0f-fa4c-3618-b23a-e45775bfbde8, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: 0ef7a109901.laowanxiang.com}}, udp: true}
-  - {name: CH_59+@WangCai_1 4, server: 156.146.62.45, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6, udp: true}
-  - {name: CH_09+@WangCai_1 4, server: 156.146.62.45, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: AT_04+@WangCai_1 4, server: 89.187.168.47, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: CH_39+@WangCai_1 4, server: 156.146.62.45, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
-  - {name: CH_08+@WangCai_1 4, server: 156.146.62.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
-  - {name: CH_20+@WangCai_1 5, server: 156.146.62.50, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
-  - {name: CH_30+@WangCai_1 4, server: 156.146.62.45, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
-  - {name: AT_61+@WangCai_1 3, server: 89.187.168.45, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP, udp: true}
-  - {name: CH_09+@WangCai_1 5, server: 156.146.62.50, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: AT_73+@WangCai_1 2, server: 89.187.168.45, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: AT_16+@WangCai_1 4, server: 89.187.168.47, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
-  - {name: CH_22+@WangCai_1 5, server: 156.146.62.50, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj, udp: true}
-  - {name: CH_45+@WangCai_1 3, server: 156.146.62.45, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ, udp: true}
-  - {name: CH_16+@WangCai_1 4, server: 156.146.62.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
-  - {name: CH_27+@WangCai_1 5, server: 156.146.62.50, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9, udp: true}
-  - {name: CH_15+@WangCai_1 5, server: 156.146.62.50, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z, udp: true}
-  - {name: "中转|日本GMO09|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: 0e51e193-9029-4ba6-857a-d7f98b0105dc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu-cs.okvpn.xyz}}, udp: true}
-  - {name: AT_56+@WangCai_1 4, server: 89.187.168.47, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY, udp: true}
-  - {name: CH_72+@WangCai_1 5, server: 156.146.62.50, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd, udp: true}
-  - {name: CH_04+@WangCai_1 5, server: 156.146.62.50, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: CH_60+@WangCai_1 5, server: 156.146.62.50, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ, udp: true}
-  - {name: CH_41+@WangCai_1 4, server: 156.146.62.45, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT, udp: true}
-  - {name: CH_58+@WangCai_1 4, server: 156.146.62.45, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK, udp: true}
-  - {name: CH_81+@WangCai_1 4, server: 156.146.62.45, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d, udp: true}
-  - {name: CH_47+@WangCai_1 4, server: 156.146.62.45, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: CH_51+@WangCai_1 5, server: 156.146.62.50, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
   - {name: CH_11+@WangCai_1 4, server: 156.146.62.45, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
-  - {name: CH_11+@WangCai_1 5, server: 156.146.62.50, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
-  - {name: CH_53+@WangCai_1 5, server: 156.146.62.50, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf, udp: true}
-  - {name: CH_62+@WangCai_1 5, server: 156.146.62.50, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
-  - {name: AT_81+@WangCai_1 2, server: 89.187.168.42, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d, udp: true}
-  - {name: CH_67+@WangCai_1 4, server: 156.146.62.45, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
-  - {name: CH_40+@WangCai_1 4, server: 156.146.62.45, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg, udp: true}
-  - {name: CH_38+@WangCai_1 5, server: 156.146.62.50, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ, udp: true}
-  - {name: AT_25+@WangCai_1 4, server: 89.187.168.47, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: AT_75+@WangCai_1 2, server: 89.187.168.42, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM, udp: true}
-  - {name: 韩国 VIP节点(首尔)★, server: gz2.52168.xyz, port: 2108, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: CH_12+@WangCai_1 4, server: 156.146.62.45, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
-  - {name: CH_63+@WangCai_1 5, server: 156.146.62.50, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
-  - {name: CH_17+@WangCai_1 3, server: 156.146.62.45, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3, udp: true}
-  - {name: CH_07+@WangCai_1 4, server: 156.146.62.45, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
-  - {name: AT_14+@WangCai_1 3, server: 89.187.168.45, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9, udp: true}
-  - {name: CH_81+@WangCai_1 5, server: 156.146.62.50, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d, udp: true}
-  - {name: AT_25+@WangCai_1 3, server: 89.187.168.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: CH_22+@WangCai_1 4, server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj, udp: true}
-  - {name: AT_42+@WangCai_1 4, server: 89.187.168.47, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd, udp: true}
-  - {name: CH_49+@WangCai_1 4, server: 156.146.62.45, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
-  - {name: AT_20+@WangCai_1 4, server: 89.187.168.47, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
-  - {name: AT_47+@WangCai_1 2, server: 89.187.168.42, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: 中转|荷兰RackNerd04|华中隧道, server: cu-cs.okvpn.xyz, port: 30020, type: vmess, uuid: 0e51e193-9029-4ba6-857a-d7f98b0105dc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu-cs.okvpn.xyz}}, udp: true}
-  - {name: "台湾 CHT [03] 2", server: cht3.qiangdong.xyz, port: 153, type: vmess, uuid: 09e2b227-e05c-3bc9-9ad6-89f17405ad57, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: 0ef7a109901.laowanxiang.com}}, udp: true}
+  - {name: CH_37+@WangCai_1 4, server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
+  - {name: CH_59+@WangCai_1 4, server: 156.146.62.45, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6, udp: true}
   - {name: CH_25+@WangCai_1 2, server: 156.146.62.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: AT_59+@WangCai_1, server: 89.187.168.40, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6, udp: true}
-  - {name: AT_44+@WangCai_1, server: 89.187.168.40, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: CH_20+@WangCai_1 4, server: 156.146.62.45, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
-  - {name: AT_37+@WangCai_1 3, server: 89.187.168.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
-  - {name: AT_02+@WangCai_1, server: 89.187.168.40, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
+  - {name: CH_57+@WangCai_1 4, server: 156.146.62.45, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu, udp: true}
+  - {name: AT_56+@WangCai_1 4, server: 89.187.168.47, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY, udp: true}
+  - {name: CH_54+@WangCai_1 4, server: 156.146.62.45, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
+  - {name: CH_58+@WangCai_1 5, server: 156.146.62.50, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK, udp: true}
+  - {name: CH_19+@WangCai_1 4, server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US, udp: true}
+  - {name: CH_10+@WangCai_1 4, server: 156.146.62.45, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN, udp: true}
+  - {name: CH_66+@WangCai_1 5, server: 156.146.62.50, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
+  - {name: CH_03+@WangCai_1 4, server: 156.146.62.45, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: AT_22+@WangCai_1 3, server: 89.187.168.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj, udp: true}
   - {name: CH_54+@WangCai_1 5, server: 156.146.62.50, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
-  - {name: CH_69+@WangCai_1 3, server: 156.146.62.45, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4, udp: true}
-  - {name: AT_47+@WangCai_1, server: 89.187.168.40, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: AT_30+@WangCai_1 7, server: 89.187.168.57, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
-  - {name: AT_03+@WangCai_1 8, server: 89.187.168.57, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
-  - {name: CH_01+@WangCai_1 3, server: 156.146.62.45, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
-  - {name: "香港 HKT [04] 2", server: hkt4.qiangdong.xyz, port: 153, type: vmess, uuid: a7674bbc-4725-3333-bd53-297326397bfb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: 0ef7a109901.laowanxiang.com}}, udp: true}
-  - {name: CH_52+@WangCai_1 4, server: 156.146.62.45, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
+  - {name: AT_25+@WangCai_1 3, server: 89.187.168.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: CH_49+@WangCai_1 5, server: 156.146.62.50, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
+  - {name: CH_65+@WangCai_1 4, server: 156.146.62.50, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
+  - {name: CH_81+@WangCai_1 5, server: 156.146.62.50, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d, udp: true}
+  - {name: CH_50+@WangCai_1 5, server: 156.146.62.50, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS, udp: true}
   - {name: CH_47+@WangCai_1 5, server: 156.146.62.50, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: CH_35+@WangCai_1 5, server: 156.146.62.50, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
-  - {name: CH_62+@WangCai_1 4, server: 156.146.62.45, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
+  - {name: 合肥移动-香港Azure, server: 120.210.205.19, port: 11072, type: vmess, uuid: 9da81753-1852-3f85-ac25-92e22eff0174, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: 合肥移动-香港Azure 2, server: 120.210.205.19, port: 11071, type: vmess, uuid: 9da81753-1852-3f85-ac25-92e22eff0174, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: CH_41+@WangCai_1 4, server: 156.146.62.45, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT, udp: true}
+  - {name: CH_27+@WangCai_1 4, server: 156.146.62.45, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9, udp: true}
+  - {name: CH_16+@WangCai_1 4, server: 156.146.62.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
+  - {name: CH_07+@WangCai_1 5, server: 156.146.62.50, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
+  - {name: AT_81+@WangCai_1 2, server: 89.187.168.42, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d, udp: true}
+  - {name: CH_52+@WangCai_1 4, server: 156.146.62.45, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
+  - {name: CH_70+@WangCai_1 5, server: 156.146.62.50, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
+  - {name: CH_57+@WangCai_1 5, server: 156.146.62.50, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu, udp: true}
+  - {name: CH_01+@WangCai_1 4, server: 156.146.62.50, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: CH_29+@WangCai_1 4, server: 156.146.62.45, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2, udp: true}
+  - {name: CH_12+@WangCai_1 4, server: 156.146.62.45, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
+  - {name: CH_72+@WangCai_1 5, server: 156.146.62.50, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd, udp: true}
+  - {name: CH_61+@WangCai_1 5, server: 156.146.62.50, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP, udp: true}
+  - {name: CH_31+@WangCai_1 4, server: 156.146.62.45, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: CH_20+@WangCai_1 5, server: 156.146.62.50, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
+  - {name: CH_18+@WangCai_1 4, server: 156.146.62.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: CH_72+@WangCai_1 4, server: 156.146.62.45, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd, udp: true}
+  - {name: CH_46+@WangCai_1 4, server: 156.146.62.45, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2, udp: true}
+  - {name: AT_03+@WangCai_1 8, server: 89.187.168.57, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: CH_43+@WangCai_1 5, server: 156.146.62.50, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
+  - {name: CH_43+@WangCai_1 4, server: 156.146.62.45, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
+  - {name: CH_78+@WangCai_1 5, server: 156.146.62.50, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x, udp: true}
+  - {name: CH_44+@WangCai_1 5, server: 156.146.62.50, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: CH_23+@WangCai_1 5, server: 156.146.62.50, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se, udp: true}
+  - {name: CH_65+@WangCai_1 3, server: 156.146.62.45, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
+  - {name: CH_26+@WangCai_1 4, server: 156.146.62.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: CH_07+@WangCai_1 4, server: 156.146.62.45, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
   - {name: AT_22+@WangCai_1 4, server: 89.187.168.47, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj, udp: true}
-  - {name: AT_63+@WangCai_1 4, server: 89.187.168.47, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
-  - {name: CH_79+@WangCai_1 5, server: 156.146.62.50, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ, udp: true}
-  - {name: CH_76+@WangCai_1 5, server: 156.146.62.50, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
-  - {name: AT_06+@WangCai_1 2, server: 89.187.168.42, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr, udp: true}
-  - {name: AT_11+@WangCai_1 2, server: 89.187.168.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
-  - {name: "香港 HKT [06] 2", server: hkt6.qiangdong.xyz, port: 153, type: vmess, uuid: c82c74d6-e754-3625-ac36-f1ce5002cfca, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: 0ef7a109901.laowanxiang.com}}, udp: true}
-  - {name: 香港 12, server: 42.157.196.104, port: 20070, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228203:CdkxpG7O4m, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: CH_41+@WangCai_1 5, server: 156.146.62.50, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT, udp: true}
-  - {name: AT_27+@WangCai_1 2, server: 89.187.168.42, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9, udp: true}
-  - {name: CH_61+@WangCai_1 4, server: 156.146.62.45, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP, udp: true}
-  - {name: 45.88.179.12, server: 45.88.179.12, port: 30678, type: vmess, uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4, alterId: 233, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.88.179.12}}, udp: true}
+  - {name: CH_30+@WangCai_1 4, server: 156.146.62.45, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港 HKT [07] 2
-      - 香港 00|HKT-WTT|沙田区|1.0 3
-      - AZ转移动05-27
-      - 日本 02|Microsoft|大阪|1.0 3
-      - 新加坡 03|Neko|湘徐|1.0 3
-      - 韩国 03|Microsoft|釜山|1.0 3
-      - 中转|日本GMO10|BGP隧道[流媒体解锁]
-      - 越南 VIP节点(胡志明)●
+      - 香港Azure-香港IPServerOne-nf
+      - 香港Azure-香港IPServerOne
+      - Tokyo-GMO-dip
       - 菲律宾 免费节点(马尼拉)● 3
-      - TG@subssr 韩国39 长沙联通 v2ray G口带宽 公益节点
-      - 日本 KDDI 2
-      - 菲律宾 VIP节点(马尼拉)● 3
-      - 台湾 CHT [04]
-      - 中转|日本GMO06|华南隧道[流媒体解锁]
-      - CH_38+@WangCai_1 4
       - CH_51+@WangCai_1 4
-      - CH_13+@WangCai_1 4
-      - 香港 03|HKT-WTT|沙田区|1.0 3
-      - CH_27+@WangCai_1 4
-      - CH_26+@WangCai_1 4
-      - CH_46+@WangCai_1 5
-      - 香港 04|Microsoft|九龙|1.0 3
-      - AT_69+@WangCai_1 3
-      - CH_34+@WangCai_1 3
-      - CH_34+@WangCai_1 4
-      - AT_09+@WangCai_1 3
-      - CH_66+@WangCai_1 4
-      - 台湾 CHT [05] 2
-      - CH_59+@WangCai_1 4
-      - CH_09+@WangCai_1 4
-      - AT_04+@WangCai_1 4
-      - CH_39+@WangCai_1 4
-      - CH_08+@WangCai_1 4
-      - CH_20+@WangCai_1 5
-      - CH_30+@WangCai_1 4
-      - AT_61+@WangCai_1 3
-      - CH_09+@WangCai_1 5
-      - AT_73+@WangCai_1 2
-      - AT_16+@WangCai_1 4
-      - CH_22+@WangCai_1 5
-      - CH_45+@WangCai_1 3
-      - CH_16+@WangCai_1 4
-      - CH_27+@WangCai_1 5
-      - CH_15+@WangCai_1 5
-      - 中转|日本GMO09|华中隧道[流媒体解锁]
-      - AT_56+@WangCai_1 4
-      - CH_72+@WangCai_1 5
-      - CH_04+@WangCai_1 5
-      - CH_60+@WangCai_1 5
-      - CH_41+@WangCai_1 4
-      - CH_58+@WangCai_1 4
-      - CH_81+@WangCai_1 4
-      - CH_47+@WangCai_1 4
-      - CH_51+@WangCai_1 5
       - CH_11+@WangCai_1 4
-      - CH_11+@WangCai_1 5
-      - CH_53+@WangCai_1 5
-      - CH_62+@WangCai_1 5
-      - AT_81+@WangCai_1 2
-      - CH_67+@WangCai_1 4
-      - CH_40+@WangCai_1 4
-      - CH_38+@WangCai_1 5
-      - AT_25+@WangCai_1 4
-      - AT_75+@WangCai_1 2
-      - 韩国 VIP节点(首尔)★
-      - CH_12+@WangCai_1 4
-      - CH_63+@WangCai_1 5
-      - CH_17+@WangCai_1 3
-      - CH_07+@WangCai_1 4
-      - AT_14+@WangCai_1 3
-      - CH_81+@WangCai_1 5
-      - AT_25+@WangCai_1 3
-      - CH_22+@WangCai_1 4
-      - AT_42+@WangCai_1 4
-      - CH_49+@WangCai_1 4
-      - AT_20+@WangCai_1 4
-      - AT_47+@WangCai_1 2
-      - 中转|荷兰RackNerd04|华中隧道
-      - 台湾 CHT [03] 2
+      - CH_37+@WangCai_1 4
+      - CH_59+@WangCai_1 4
       - CH_25+@WangCai_1 2
-      - AT_59+@WangCai_1
-      - AT_44+@WangCai_1
-      - CH_20+@WangCai_1 4
-      - AT_37+@WangCai_1 3
-      - AT_02+@WangCai_1
+      - CH_57+@WangCai_1 4
+      - AT_56+@WangCai_1 4
+      - CH_54+@WangCai_1 4
+      - CH_58+@WangCai_1 5
+      - CH_19+@WangCai_1 4
+      - CH_10+@WangCai_1 4
+      - CH_66+@WangCai_1 5
+      - CH_03+@WangCai_1 4
       - AT_22+@WangCai_1 3
       - CH_54+@WangCai_1 5
-      - CH_69+@WangCai_1 3
-      - AT_47+@WangCai_1
-      - AT_30+@WangCai_1 7
-      - AT_03+@WangCai_1 8
-      - CH_01+@WangCai_1 3
-      - 香港 HKT [04] 2
-      - CH_52+@WangCai_1 4
+      - AT_25+@WangCai_1 3
+      - CH_49+@WangCai_1 5
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_50+@WangCai_1 5
       - CH_47+@WangCai_1 5
-      - CH_35+@WangCai_1 5
-      - CH_62+@WangCai_1 4
+      - 合肥移动-香港Azure
+      - 合肥移动-香港Azure 2
+      - CH_41+@WangCai_1 4
+      - CH_27+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_07+@WangCai_1 5
+      - AT_81+@WangCai_1 2
+      - CH_52+@WangCai_1 4
+      - CH_70+@WangCai_1 5
+      - CH_57+@WangCai_1 5
+      - CH_01+@WangCai_1 4
+      - CH_29+@WangCai_1 4
+      - CH_12+@WangCai_1 4
+      - CH_72+@WangCai_1 5
+      - CH_61+@WangCai_1 5
+      - CH_31+@WangCai_1 4
+      - CH_20+@WangCai_1 5
+      - CH_18+@WangCai_1 4
+      - CH_72+@WangCai_1 4
+      - CH_46+@WangCai_1 4
+      - AT_03+@WangCai_1 8
+      - CH_43+@WangCai_1 5
+      - CH_43+@WangCai_1 4
+      - CH_78+@WangCai_1 5
+      - CH_44+@WangCai_1 5
+      - CH_23+@WangCai_1 5
+      - CH_65+@WangCai_1 3
+      - CH_26+@WangCai_1 4
+      - CH_07+@WangCai_1 4
       - AT_22+@WangCai_1 4
-      - AT_63+@WangCai_1 4
-      - CH_79+@WangCai_1 5
-      - CH_76+@WangCai_1 5
-      - AT_06+@WangCai_1 2
-      - AT_11+@WangCai_1 2
-      - 香港 HKT [06] 2
-      - 香港 12
-      - CH_41+@WangCai_1 5
-      - AT_27+@WangCai_1 2
-      - CH_61+@WangCai_1 4
-      - 45.88.179.12
+      - CH_30+@WangCai_1 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港 HKT [07] 2
-      - 香港 00|HKT-WTT|沙田区|1.0 3
-      - AZ转移动05-27
-      - 日本 02|Microsoft|大阪|1.0 3
-      - 新加坡 03|Neko|湘徐|1.0 3
-      - 韩国 03|Microsoft|釜山|1.0 3
-      - 中转|日本GMO10|BGP隧道[流媒体解锁]
-      - 越南 VIP节点(胡志明)●
+      - 香港Azure-香港IPServerOne-nf
+      - 香港Azure-香港IPServerOne
+      - Tokyo-GMO-dip
       - 菲律宾 免费节点(马尼拉)● 3
-      - TG@subssr 韩国39 长沙联通 v2ray G口带宽 公益节点
-      - 日本 KDDI 2
-      - 菲律宾 VIP节点(马尼拉)● 3
-      - 台湾 CHT [04]
-      - 中转|日本GMO06|华南隧道[流媒体解锁]
-      - CH_38+@WangCai_1 4
       - CH_51+@WangCai_1 4
-      - CH_13+@WangCai_1 4
-      - 香港 03|HKT-WTT|沙田区|1.0 3
-      - CH_27+@WangCai_1 4
-      - CH_26+@WangCai_1 4
-      - CH_46+@WangCai_1 5
-      - 香港 04|Microsoft|九龙|1.0 3
-      - AT_69+@WangCai_1 3
-      - CH_34+@WangCai_1 3
-      - CH_34+@WangCai_1 4
-      - AT_09+@WangCai_1 3
-      - CH_66+@WangCai_1 4
-      - 台湾 CHT [05] 2
-      - CH_59+@WangCai_1 4
-      - CH_09+@WangCai_1 4
-      - AT_04+@WangCai_1 4
-      - CH_39+@WangCai_1 4
-      - CH_08+@WangCai_1 4
-      - CH_20+@WangCai_1 5
-      - CH_30+@WangCai_1 4
-      - AT_61+@WangCai_1 3
-      - CH_09+@WangCai_1 5
-      - AT_73+@WangCai_1 2
-      - AT_16+@WangCai_1 4
-      - CH_22+@WangCai_1 5
-      - CH_45+@WangCai_1 3
-      - CH_16+@WangCai_1 4
-      - CH_27+@WangCai_1 5
-      - CH_15+@WangCai_1 5
-      - 中转|日本GMO09|华中隧道[流媒体解锁]
-      - AT_56+@WangCai_1 4
-      - CH_72+@WangCai_1 5
-      - CH_04+@WangCai_1 5
-      - CH_60+@WangCai_1 5
-      - CH_41+@WangCai_1 4
-      - CH_58+@WangCai_1 4
-      - CH_81+@WangCai_1 4
-      - CH_47+@WangCai_1 4
-      - CH_51+@WangCai_1 5
       - CH_11+@WangCai_1 4
-      - CH_11+@WangCai_1 5
-      - CH_53+@WangCai_1 5
-      - CH_62+@WangCai_1 5
-      - AT_81+@WangCai_1 2
-      - CH_67+@WangCai_1 4
-      - CH_40+@WangCai_1 4
-      - CH_38+@WangCai_1 5
-      - AT_25+@WangCai_1 4
-      - AT_75+@WangCai_1 2
-      - 韩国 VIP节点(首尔)★
-      - CH_12+@WangCai_1 4
-      - CH_63+@WangCai_1 5
-      - CH_17+@WangCai_1 3
-      - CH_07+@WangCai_1 4
-      - AT_14+@WangCai_1 3
-      - CH_81+@WangCai_1 5
-      - AT_25+@WangCai_1 3
-      - CH_22+@WangCai_1 4
-      - AT_42+@WangCai_1 4
-      - CH_49+@WangCai_1 4
-      - AT_20+@WangCai_1 4
-      - AT_47+@WangCai_1 2
-      - 中转|荷兰RackNerd04|华中隧道
-      - 台湾 CHT [03] 2
+      - CH_37+@WangCai_1 4
+      - CH_59+@WangCai_1 4
       - CH_25+@WangCai_1 2
-      - AT_59+@WangCai_1
-      - AT_44+@WangCai_1
-      - CH_20+@WangCai_1 4
-      - AT_37+@WangCai_1 3
-      - AT_02+@WangCai_1
+      - CH_57+@WangCai_1 4
+      - AT_56+@WangCai_1 4
+      - CH_54+@WangCai_1 4
+      - CH_58+@WangCai_1 5
+      - CH_19+@WangCai_1 4
+      - CH_10+@WangCai_1 4
+      - CH_66+@WangCai_1 5
+      - CH_03+@WangCai_1 4
       - AT_22+@WangCai_1 3
       - CH_54+@WangCai_1 5
-      - CH_69+@WangCai_1 3
-      - AT_47+@WangCai_1
-      - AT_30+@WangCai_1 7
-      - AT_03+@WangCai_1 8
-      - CH_01+@WangCai_1 3
-      - 香港 HKT [04] 2
-      - CH_52+@WangCai_1 4
+      - AT_25+@WangCai_1 3
+      - CH_49+@WangCai_1 5
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_50+@WangCai_1 5
       - CH_47+@WangCai_1 5
-      - CH_35+@WangCai_1 5
-      - CH_62+@WangCai_1 4
+      - 合肥移动-香港Azure
+      - 合肥移动-香港Azure 2
+      - CH_41+@WangCai_1 4
+      - CH_27+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_07+@WangCai_1 5
+      - AT_81+@WangCai_1 2
+      - CH_52+@WangCai_1 4
+      - CH_70+@WangCai_1 5
+      - CH_57+@WangCai_1 5
+      - CH_01+@WangCai_1 4
+      - CH_29+@WangCai_1 4
+      - CH_12+@WangCai_1 4
+      - CH_72+@WangCai_1 5
+      - CH_61+@WangCai_1 5
+      - CH_31+@WangCai_1 4
+      - CH_20+@WangCai_1 5
+      - CH_18+@WangCai_1 4
+      - CH_72+@WangCai_1 4
+      - CH_46+@WangCai_1 4
+      - AT_03+@WangCai_1 8
+      - CH_43+@WangCai_1 5
+      - CH_43+@WangCai_1 4
+      - CH_78+@WangCai_1 5
+      - CH_44+@WangCai_1 5
+      - CH_23+@WangCai_1 5
+      - CH_65+@WangCai_1 3
+      - CH_26+@WangCai_1 4
+      - CH_07+@WangCai_1 4
       - AT_22+@WangCai_1 4
-      - AT_63+@WangCai_1 4
-      - CH_79+@WangCai_1 5
-      - CH_76+@WangCai_1 5
-      - AT_06+@WangCai_1 2
-      - AT_11+@WangCai_1 2
-      - 香港 HKT [06] 2
-      - 香港 12
-      - CH_41+@WangCai_1 5
-      - AT_27+@WangCai_1 2
-      - CH_61+@WangCai_1 4
-      - 45.88.179.12
+      - CH_30+@WangCai_1 4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 HKT [07] 2
-      - 香港 00|HKT-WTT|沙田区|1.0 3
-      - AZ转移动05-27
-      - 日本 02|Microsoft|大阪|1.0 3
-      - 新加坡 03|Neko|湘徐|1.0 3
-      - 韩国 03|Microsoft|釜山|1.0 3
-      - 中转|日本GMO10|BGP隧道[流媒体解锁]
-      - 越南 VIP节点(胡志明)●
+      - 香港Azure-香港IPServerOne-nf
+      - 香港Azure-香港IPServerOne
+      - Tokyo-GMO-dip
       - 菲律宾 免费节点(马尼拉)● 3
-      - TG@subssr 韩国39 长沙联通 v2ray G口带宽 公益节点
-      - 日本 KDDI 2
-      - 菲律宾 VIP节点(马尼拉)● 3
-      - 台湾 CHT [04]
-      - 中转|日本GMO06|华南隧道[流媒体解锁]
-      - CH_38+@WangCai_1 4
       - CH_51+@WangCai_1 4
-      - CH_13+@WangCai_1 4
-      - 香港 03|HKT-WTT|沙田区|1.0 3
-      - CH_27+@WangCai_1 4
-      - CH_26+@WangCai_1 4
-      - CH_46+@WangCai_1 5
-      - 香港 04|Microsoft|九龙|1.0 3
-      - AT_69+@WangCai_1 3
-      - CH_34+@WangCai_1 3
-      - CH_34+@WangCai_1 4
-      - AT_09+@WangCai_1 3
-      - CH_66+@WangCai_1 4
-      - 台湾 CHT [05] 2
-      - CH_59+@WangCai_1 4
-      - CH_09+@WangCai_1 4
-      - AT_04+@WangCai_1 4
-      - CH_39+@WangCai_1 4
-      - CH_08+@WangCai_1 4
-      - CH_20+@WangCai_1 5
-      - CH_30+@WangCai_1 4
-      - AT_61+@WangCai_1 3
-      - CH_09+@WangCai_1 5
-      - AT_73+@WangCai_1 2
-      - AT_16+@WangCai_1 4
-      - CH_22+@WangCai_1 5
-      - CH_45+@WangCai_1 3
-      - CH_16+@WangCai_1 4
-      - CH_27+@WangCai_1 5
-      - CH_15+@WangCai_1 5
-      - 中转|日本GMO09|华中隧道[流媒体解锁]
-      - AT_56+@WangCai_1 4
-      - CH_72+@WangCai_1 5
-      - CH_04+@WangCai_1 5
-      - CH_60+@WangCai_1 5
-      - CH_41+@WangCai_1 4
-      - CH_58+@WangCai_1 4
-      - CH_81+@WangCai_1 4
-      - CH_47+@WangCai_1 4
-      - CH_51+@WangCai_1 5
       - CH_11+@WangCai_1 4
-      - CH_11+@WangCai_1 5
-      - CH_53+@WangCai_1 5
-      - CH_62+@WangCai_1 5
-      - AT_81+@WangCai_1 2
-      - CH_67+@WangCai_1 4
-      - CH_40+@WangCai_1 4
-      - CH_38+@WangCai_1 5
-      - AT_25+@WangCai_1 4
-      - AT_75+@WangCai_1 2
-      - 韩国 VIP节点(首尔)★
-      - CH_12+@WangCai_1 4
-      - CH_63+@WangCai_1 5
-      - CH_17+@WangCai_1 3
-      - CH_07+@WangCai_1 4
-      - AT_14+@WangCai_1 3
-      - CH_81+@WangCai_1 5
-      - AT_25+@WangCai_1 3
-      - CH_22+@WangCai_1 4
-      - AT_42+@WangCai_1 4
-      - CH_49+@WangCai_1 4
-      - AT_20+@WangCai_1 4
-      - AT_47+@WangCai_1 2
-      - 中转|荷兰RackNerd04|华中隧道
-      - 台湾 CHT [03] 2
+      - CH_37+@WangCai_1 4
+      - CH_59+@WangCai_1 4
       - CH_25+@WangCai_1 2
-      - AT_59+@WangCai_1
-      - AT_44+@WangCai_1
-      - CH_20+@WangCai_1 4
-      - AT_37+@WangCai_1 3
-      - AT_02+@WangCai_1
+      - CH_57+@WangCai_1 4
+      - AT_56+@WangCai_1 4
+      - CH_54+@WangCai_1 4
+      - CH_58+@WangCai_1 5
+      - CH_19+@WangCai_1 4
+      - CH_10+@WangCai_1 4
+      - CH_66+@WangCai_1 5
+      - CH_03+@WangCai_1 4
       - AT_22+@WangCai_1 3
       - CH_54+@WangCai_1 5
-      - CH_69+@WangCai_1 3
-      - AT_47+@WangCai_1
-      - AT_30+@WangCai_1 7
-      - AT_03+@WangCai_1 8
-      - CH_01+@WangCai_1 3
-      - 香港 HKT [04] 2
-      - CH_52+@WangCai_1 4
+      - AT_25+@WangCai_1 3
+      - CH_49+@WangCai_1 5
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_50+@WangCai_1 5
       - CH_47+@WangCai_1 5
-      - CH_35+@WangCai_1 5
-      - CH_62+@WangCai_1 4
+      - 合肥移动-香港Azure
+      - 合肥移动-香港Azure 2
+      - CH_41+@WangCai_1 4
+      - CH_27+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_07+@WangCai_1 5
+      - AT_81+@WangCai_1 2
+      - CH_52+@WangCai_1 4
+      - CH_70+@WangCai_1 5
+      - CH_57+@WangCai_1 5
+      - CH_01+@WangCai_1 4
+      - CH_29+@WangCai_1 4
+      - CH_12+@WangCai_1 4
+      - CH_72+@WangCai_1 5
+      - CH_61+@WangCai_1 5
+      - CH_31+@WangCai_1 4
+      - CH_20+@WangCai_1 5
+      - CH_18+@WangCai_1 4
+      - CH_72+@WangCai_1 4
+      - CH_46+@WangCai_1 4
+      - AT_03+@WangCai_1 8
+      - CH_43+@WangCai_1 5
+      - CH_43+@WangCai_1 4
+      - CH_78+@WangCai_1 5
+      - CH_44+@WangCai_1 5
+      - CH_23+@WangCai_1 5
+      - CH_65+@WangCai_1 3
+      - CH_26+@WangCai_1 4
+      - CH_07+@WangCai_1 4
       - AT_22+@WangCai_1 4
-      - AT_63+@WangCai_1 4
-      - CH_79+@WangCai_1 5
-      - CH_76+@WangCai_1 5
-      - AT_06+@WangCai_1 2
-      - AT_11+@WangCai_1 2
-      - 香港 HKT [06] 2
-      - 香港 12
-      - CH_41+@WangCai_1 5
-      - AT_27+@WangCai_1 2
-      - CH_61+@WangCai_1 4
-      - 45.88.179.12
+      - CH_30+@WangCai_1 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港 HKT [07] 2
-      - 香港 00|HKT-WTT|沙田区|1.0 3
-      - AZ转移动05-27
-      - 日本 02|Microsoft|大阪|1.0 3
-      - 新加坡 03|Neko|湘徐|1.0 3
-      - 韩国 03|Microsoft|釜山|1.0 3
-      - 中转|日本GMO10|BGP隧道[流媒体解锁]
-      - 越南 VIP节点(胡志明)●
+      - 香港Azure-香港IPServerOne-nf
+      - 香港Azure-香港IPServerOne
+      - Tokyo-GMO-dip
       - 菲律宾 免费节点(马尼拉)● 3
-      - TG@subssr 韩国39 长沙联通 v2ray G口带宽 公益节点
-      - 日本 KDDI 2
-      - 菲律宾 VIP节点(马尼拉)● 3
-      - 台湾 CHT [04]
-      - 中转|日本GMO06|华南隧道[流媒体解锁]
-      - CH_38+@WangCai_1 4
       - CH_51+@WangCai_1 4
-      - CH_13+@WangCai_1 4
-      - 香港 03|HKT-WTT|沙田区|1.0 3
-      - CH_27+@WangCai_1 4
-      - CH_26+@WangCai_1 4
-      - CH_46+@WangCai_1 5
-      - 香港 04|Microsoft|九龙|1.0 3
-      - AT_69+@WangCai_1 3
-      - CH_34+@WangCai_1 3
-      - CH_34+@WangCai_1 4
-      - AT_09+@WangCai_1 3
-      - CH_66+@WangCai_1 4
-      - 台湾 CHT [05] 2
-      - CH_59+@WangCai_1 4
-      - CH_09+@WangCai_1 4
-      - AT_04+@WangCai_1 4
-      - CH_39+@WangCai_1 4
-      - CH_08+@WangCai_1 4
-      - CH_20+@WangCai_1 5
-      - CH_30+@WangCai_1 4
-      - AT_61+@WangCai_1 3
-      - CH_09+@WangCai_1 5
-      - AT_73+@WangCai_1 2
-      - AT_16+@WangCai_1 4
-      - CH_22+@WangCai_1 5
-      - CH_45+@WangCai_1 3
-      - CH_16+@WangCai_1 4
-      - CH_27+@WangCai_1 5
-      - CH_15+@WangCai_1 5
-      - 中转|日本GMO09|华中隧道[流媒体解锁]
-      - AT_56+@WangCai_1 4
-      - CH_72+@WangCai_1 5
-      - CH_04+@WangCai_1 5
-      - CH_60+@WangCai_1 5
-      - CH_41+@WangCai_1 4
-      - CH_58+@WangCai_1 4
-      - CH_81+@WangCai_1 4
-      - CH_47+@WangCai_1 4
-      - CH_51+@WangCai_1 5
       - CH_11+@WangCai_1 4
-      - CH_11+@WangCai_1 5
-      - CH_53+@WangCai_1 5
-      - CH_62+@WangCai_1 5
-      - AT_81+@WangCai_1 2
-      - CH_67+@WangCai_1 4
-      - CH_40+@WangCai_1 4
-      - CH_38+@WangCai_1 5
-      - AT_25+@WangCai_1 4
-      - AT_75+@WangCai_1 2
-      - 韩国 VIP节点(首尔)★
-      - CH_12+@WangCai_1 4
-      - CH_63+@WangCai_1 5
-      - CH_17+@WangCai_1 3
-      - CH_07+@WangCai_1 4
-      - AT_14+@WangCai_1 3
-      - CH_81+@WangCai_1 5
-      - AT_25+@WangCai_1 3
-      - CH_22+@WangCai_1 4
-      - AT_42+@WangCai_1 4
-      - CH_49+@WangCai_1 4
-      - AT_20+@WangCai_1 4
-      - AT_47+@WangCai_1 2
-      - 中转|荷兰RackNerd04|华中隧道
-      - 台湾 CHT [03] 2
+      - CH_37+@WangCai_1 4
+      - CH_59+@WangCai_1 4
       - CH_25+@WangCai_1 2
-      - AT_59+@WangCai_1
-      - AT_44+@WangCai_1
-      - CH_20+@WangCai_1 4
-      - AT_37+@WangCai_1 3
-      - AT_02+@WangCai_1
+      - CH_57+@WangCai_1 4
+      - AT_56+@WangCai_1 4
+      - CH_54+@WangCai_1 4
+      - CH_58+@WangCai_1 5
+      - CH_19+@WangCai_1 4
+      - CH_10+@WangCai_1 4
+      - CH_66+@WangCai_1 5
+      - CH_03+@WangCai_1 4
       - AT_22+@WangCai_1 3
       - CH_54+@WangCai_1 5
-      - CH_69+@WangCai_1 3
-      - AT_47+@WangCai_1
-      - AT_30+@WangCai_1 7
-      - AT_03+@WangCai_1 8
-      - CH_01+@WangCai_1 3
-      - 香港 HKT [04] 2
-      - CH_52+@WangCai_1 4
+      - AT_25+@WangCai_1 3
+      - CH_49+@WangCai_1 5
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_50+@WangCai_1 5
       - CH_47+@WangCai_1 5
-      - CH_35+@WangCai_1 5
-      - CH_62+@WangCai_1 4
+      - 合肥移动-香港Azure
+      - 合肥移动-香港Azure 2
+      - CH_41+@WangCai_1 4
+      - CH_27+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_07+@WangCai_1 5
+      - AT_81+@WangCai_1 2
+      - CH_52+@WangCai_1 4
+      - CH_70+@WangCai_1 5
+      - CH_57+@WangCai_1 5
+      - CH_01+@WangCai_1 4
+      - CH_29+@WangCai_1 4
+      - CH_12+@WangCai_1 4
+      - CH_72+@WangCai_1 5
+      - CH_61+@WangCai_1 5
+      - CH_31+@WangCai_1 4
+      - CH_20+@WangCai_1 5
+      - CH_18+@WangCai_1 4
+      - CH_72+@WangCai_1 4
+      - CH_46+@WangCai_1 4
+      - AT_03+@WangCai_1 8
+      - CH_43+@WangCai_1 5
+      - CH_43+@WangCai_1 4
+      - CH_78+@WangCai_1 5
+      - CH_44+@WangCai_1 5
+      - CH_23+@WangCai_1 5
+      - CH_65+@WangCai_1 3
+      - CH_26+@WangCai_1 4
+      - CH_07+@WangCai_1 4
       - AT_22+@WangCai_1 4
-      - AT_63+@WangCai_1 4
-      - CH_79+@WangCai_1 5
-      - CH_76+@WangCai_1 5
-      - AT_06+@WangCai_1 2
-      - AT_11+@WangCai_1 2
-      - 香港 HKT [06] 2
-      - 香港 12
-      - CH_41+@WangCai_1 5
-      - AT_27+@WangCai_1 2
-      - CH_61+@WangCai_1 4
-      - 45.88.179.12
+      - CH_30+@WangCai_1 4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港 HKT [07] 2
-      - 香港 00|HKT-WTT|沙田区|1.0 3
-      - AZ转移动05-27
-      - 日本 02|Microsoft|大阪|1.0 3
-      - 新加坡 03|Neko|湘徐|1.0 3
-      - 韩国 03|Microsoft|釜山|1.0 3
-      - 中转|日本GMO10|BGP隧道[流媒体解锁]
-      - 越南 VIP节点(胡志明)●
+      - 香港Azure-香港IPServerOne-nf
+      - 香港Azure-香港IPServerOne
+      - Tokyo-GMO-dip
       - 菲律宾 免费节点(马尼拉)● 3
-      - TG@subssr 韩国39 长沙联通 v2ray G口带宽 公益节点
-      - 日本 KDDI 2
-      - 菲律宾 VIP节点(马尼拉)● 3
-      - 台湾 CHT [04]
-      - 中转|日本GMO06|华南隧道[流媒体解锁]
-      - CH_38+@WangCai_1 4
       - CH_51+@WangCai_1 4
-      - CH_13+@WangCai_1 4
-      - 香港 03|HKT-WTT|沙田区|1.0 3
-      - CH_27+@WangCai_1 4
-      - CH_26+@WangCai_1 4
-      - CH_46+@WangCai_1 5
-      - 香港 04|Microsoft|九龙|1.0 3
-      - AT_69+@WangCai_1 3
-      - CH_34+@WangCai_1 3
-      - CH_34+@WangCai_1 4
-      - AT_09+@WangCai_1 3
-      - CH_66+@WangCai_1 4
-      - 台湾 CHT [05] 2
-      - CH_59+@WangCai_1 4
-      - CH_09+@WangCai_1 4
-      - AT_04+@WangCai_1 4
-      - CH_39+@WangCai_1 4
-      - CH_08+@WangCai_1 4
-      - CH_20+@WangCai_1 5
-      - CH_30+@WangCai_1 4
-      - AT_61+@WangCai_1 3
-      - CH_09+@WangCai_1 5
-      - AT_73+@WangCai_1 2
-      - AT_16+@WangCai_1 4
-      - CH_22+@WangCai_1 5
-      - CH_45+@WangCai_1 3
-      - CH_16+@WangCai_1 4
-      - CH_27+@WangCai_1 5
-      - CH_15+@WangCai_1 5
-      - 中转|日本GMO09|华中隧道[流媒体解锁]
-      - AT_56+@WangCai_1 4
-      - CH_72+@WangCai_1 5
-      - CH_04+@WangCai_1 5
-      - CH_60+@WangCai_1 5
-      - CH_41+@WangCai_1 4
-      - CH_58+@WangCai_1 4
-      - CH_81+@WangCai_1 4
-      - CH_47+@WangCai_1 4
-      - CH_51+@WangCai_1 5
       - CH_11+@WangCai_1 4
-      - CH_11+@WangCai_1 5
-      - CH_53+@WangCai_1 5
-      - CH_62+@WangCai_1 5
-      - AT_81+@WangCai_1 2
-      - CH_67+@WangCai_1 4
-      - CH_40+@WangCai_1 4
-      - CH_38+@WangCai_1 5
-      - AT_25+@WangCai_1 4
-      - AT_75+@WangCai_1 2
-      - 韩国 VIP节点(首尔)★
-      - CH_12+@WangCai_1 4
-      - CH_63+@WangCai_1 5
-      - CH_17+@WangCai_1 3
-      - CH_07+@WangCai_1 4
-      - AT_14+@WangCai_1 3
-      - CH_81+@WangCai_1 5
-      - AT_25+@WangCai_1 3
-      - CH_22+@WangCai_1 4
-      - AT_42+@WangCai_1 4
-      - CH_49+@WangCai_1 4
-      - AT_20+@WangCai_1 4
-      - AT_47+@WangCai_1 2
-      - 中转|荷兰RackNerd04|华中隧道
-      - 台湾 CHT [03] 2
+      - CH_37+@WangCai_1 4
+      - CH_59+@WangCai_1 4
       - CH_25+@WangCai_1 2
-      - AT_59+@WangCai_1
-      - AT_44+@WangCai_1
-      - CH_20+@WangCai_1 4
-      - AT_37+@WangCai_1 3
-      - AT_02+@WangCai_1
+      - CH_57+@WangCai_1 4
+      - AT_56+@WangCai_1 4
+      - CH_54+@WangCai_1 4
+      - CH_58+@WangCai_1 5
+      - CH_19+@WangCai_1 4
+      - CH_10+@WangCai_1 4
+      - CH_66+@WangCai_1 5
+      - CH_03+@WangCai_1 4
       - AT_22+@WangCai_1 3
       - CH_54+@WangCai_1 5
-      - CH_69+@WangCai_1 3
-      - AT_47+@WangCai_1
-      - AT_30+@WangCai_1 7
-      - AT_03+@WangCai_1 8
-      - CH_01+@WangCai_1 3
-      - 香港 HKT [04] 2
-      - CH_52+@WangCai_1 4
+      - AT_25+@WangCai_1 3
+      - CH_49+@WangCai_1 5
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_50+@WangCai_1 5
       - CH_47+@WangCai_1 5
-      - CH_35+@WangCai_1 5
-      - CH_62+@WangCai_1 4
+      - 合肥移动-香港Azure
+      - 合肥移动-香港Azure 2
+      - CH_41+@WangCai_1 4
+      - CH_27+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_07+@WangCai_1 5
+      - AT_81+@WangCai_1 2
+      - CH_52+@WangCai_1 4
+      - CH_70+@WangCai_1 5
+      - CH_57+@WangCai_1 5
+      - CH_01+@WangCai_1 4
+      - CH_29+@WangCai_1 4
+      - CH_12+@WangCai_1 4
+      - CH_72+@WangCai_1 5
+      - CH_61+@WangCai_1 5
+      - CH_31+@WangCai_1 4
+      - CH_20+@WangCai_1 5
+      - CH_18+@WangCai_1 4
+      - CH_72+@WangCai_1 4
+      - CH_46+@WangCai_1 4
+      - AT_03+@WangCai_1 8
+      - CH_43+@WangCai_1 5
+      - CH_43+@WangCai_1 4
+      - CH_78+@WangCai_1 5
+      - CH_44+@WangCai_1 5
+      - CH_23+@WangCai_1 5
+      - CH_65+@WangCai_1 3
+      - CH_26+@WangCai_1 4
+      - CH_07+@WangCai_1 4
       - AT_22+@WangCai_1 4
-      - AT_63+@WangCai_1 4
-      - CH_79+@WangCai_1 5
-      - CH_76+@WangCai_1 5
-      - AT_06+@WangCai_1 2
-      - AT_11+@WangCai_1 2
-      - 香港 HKT [06] 2
-      - 香港 12
-      - CH_41+@WangCai_1 5
-      - AT_27+@WangCai_1 2
-      - CH_61+@WangCai_1 4
-      - 45.88.179.12
+      - CH_30+@WangCai_1 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港 HKT [07] 2
-      - 香港 00|HKT-WTT|沙田区|1.0 3
-      - AZ转移动05-27
-      - 日本 02|Microsoft|大阪|1.0 3
-      - 新加坡 03|Neko|湘徐|1.0 3
-      - 韩国 03|Microsoft|釜山|1.0 3
-      - 中转|日本GMO10|BGP隧道[流媒体解锁]
-      - 越南 VIP节点(胡志明)●
+      - 香港Azure-香港IPServerOne-nf
+      - 香港Azure-香港IPServerOne
+      - Tokyo-GMO-dip
       - 菲律宾 免费节点(马尼拉)● 3
-      - TG@subssr 韩国39 长沙联通 v2ray G口带宽 公益节点
-      - 日本 KDDI 2
-      - 菲律宾 VIP节点(马尼拉)● 3
-      - 台湾 CHT [04]
-      - 中转|日本GMO06|华南隧道[流媒体解锁]
-      - CH_38+@WangCai_1 4
       - CH_51+@WangCai_1 4
-      - CH_13+@WangCai_1 4
-      - 香港 03|HKT-WTT|沙田区|1.0 3
-      - CH_27+@WangCai_1 4
-      - CH_26+@WangCai_1 4
-      - CH_46+@WangCai_1 5
-      - 香港 04|Microsoft|九龙|1.0 3
-      - AT_69+@WangCai_1 3
-      - CH_34+@WangCai_1 3
-      - CH_34+@WangCai_1 4
-      - AT_09+@WangCai_1 3
-      - CH_66+@WangCai_1 4
-      - 台湾 CHT [05] 2
-      - CH_59+@WangCai_1 4
-      - CH_09+@WangCai_1 4
-      - AT_04+@WangCai_1 4
-      - CH_39+@WangCai_1 4
-      - CH_08+@WangCai_1 4
-      - CH_20+@WangCai_1 5
-      - CH_30+@WangCai_1 4
-      - AT_61+@WangCai_1 3
-      - CH_09+@WangCai_1 5
-      - AT_73+@WangCai_1 2
-      - AT_16+@WangCai_1 4
-      - CH_22+@WangCai_1 5
-      - CH_45+@WangCai_1 3
-      - CH_16+@WangCai_1 4
-      - CH_27+@WangCai_1 5
-      - CH_15+@WangCai_1 5
-      - 中转|日本GMO09|华中隧道[流媒体解锁]
-      - AT_56+@WangCai_1 4
-      - CH_72+@WangCai_1 5
-      - CH_04+@WangCai_1 5
-      - CH_60+@WangCai_1 5
-      - CH_41+@WangCai_1 4
-      - CH_58+@WangCai_1 4
-      - CH_81+@WangCai_1 4
-      - CH_47+@WangCai_1 4
-      - CH_51+@WangCai_1 5
       - CH_11+@WangCai_1 4
-      - CH_11+@WangCai_1 5
-      - CH_53+@WangCai_1 5
-      - CH_62+@WangCai_1 5
-      - AT_81+@WangCai_1 2
-      - CH_67+@WangCai_1 4
-      - CH_40+@WangCai_1 4
-      - CH_38+@WangCai_1 5
-      - AT_25+@WangCai_1 4
-      - AT_75+@WangCai_1 2
-      - 韩国 VIP节点(首尔)★
-      - CH_12+@WangCai_1 4
-      - CH_63+@WangCai_1 5
-      - CH_17+@WangCai_1 3
-      - CH_07+@WangCai_1 4
-      - AT_14+@WangCai_1 3
-      - CH_81+@WangCai_1 5
-      - AT_25+@WangCai_1 3
-      - CH_22+@WangCai_1 4
-      - AT_42+@WangCai_1 4
-      - CH_49+@WangCai_1 4
-      - AT_20+@WangCai_1 4
-      - AT_47+@WangCai_1 2
-      - 中转|荷兰RackNerd04|华中隧道
-      - 台湾 CHT [03] 2
+      - CH_37+@WangCai_1 4
+      - CH_59+@WangCai_1 4
       - CH_25+@WangCai_1 2
-      - AT_59+@WangCai_1
-      - AT_44+@WangCai_1
-      - CH_20+@WangCai_1 4
-      - AT_37+@WangCai_1 3
-      - AT_02+@WangCai_1
+      - CH_57+@WangCai_1 4
+      - AT_56+@WangCai_1 4
+      - CH_54+@WangCai_1 4
+      - CH_58+@WangCai_1 5
+      - CH_19+@WangCai_1 4
+      - CH_10+@WangCai_1 4
+      - CH_66+@WangCai_1 5
+      - CH_03+@WangCai_1 4
       - AT_22+@WangCai_1 3
       - CH_54+@WangCai_1 5
-      - CH_69+@WangCai_1 3
-      - AT_47+@WangCai_1
-      - AT_30+@WangCai_1 7
-      - AT_03+@WangCai_1 8
-      - CH_01+@WangCai_1 3
-      - 香港 HKT [04] 2
-      - CH_52+@WangCai_1 4
+      - AT_25+@WangCai_1 3
+      - CH_49+@WangCai_1 5
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_50+@WangCai_1 5
       - CH_47+@WangCai_1 5
-      - CH_35+@WangCai_1 5
-      - CH_62+@WangCai_1 4
+      - 合肥移动-香港Azure
+      - 合肥移动-香港Azure 2
+      - CH_41+@WangCai_1 4
+      - CH_27+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_07+@WangCai_1 5
+      - AT_81+@WangCai_1 2
+      - CH_52+@WangCai_1 4
+      - CH_70+@WangCai_1 5
+      - CH_57+@WangCai_1 5
+      - CH_01+@WangCai_1 4
+      - CH_29+@WangCai_1 4
+      - CH_12+@WangCai_1 4
+      - CH_72+@WangCai_1 5
+      - CH_61+@WangCai_1 5
+      - CH_31+@WangCai_1 4
+      - CH_20+@WangCai_1 5
+      - CH_18+@WangCai_1 4
+      - CH_72+@WangCai_1 4
+      - CH_46+@WangCai_1 4
+      - AT_03+@WangCai_1 8
+      - CH_43+@WangCai_1 5
+      - CH_43+@WangCai_1 4
+      - CH_78+@WangCai_1 5
+      - CH_44+@WangCai_1 5
+      - CH_23+@WangCai_1 5
+      - CH_65+@WangCai_1 3
+      - CH_26+@WangCai_1 4
+      - CH_07+@WangCai_1 4
       - AT_22+@WangCai_1 4
-      - AT_63+@WangCai_1 4
-      - CH_79+@WangCai_1 5
-      - CH_76+@WangCai_1 5
-      - AT_06+@WangCai_1 2
-      - AT_11+@WangCai_1 2
-      - 香港 HKT [06] 2
-      - 香港 12
-      - CH_41+@WangCai_1 5
-      - AT_27+@WangCai_1 2
-      - CH_61+@WangCai_1 4
-      - 45.88.179.12
+      - CH_30+@WangCai_1 4
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 HKT [07] 2
-      - 香港 00|HKT-WTT|沙田区|1.0 3
-      - AZ转移动05-27
-      - 日本 02|Microsoft|大阪|1.0 3
-      - 新加坡 03|Neko|湘徐|1.0 3
-      - 韩国 03|Microsoft|釜山|1.0 3
-      - 中转|日本GMO10|BGP隧道[流媒体解锁]
-      - 越南 VIP节点(胡志明)●
+      - 香港Azure-香港IPServerOne-nf
+      - 香港Azure-香港IPServerOne
+      - Tokyo-GMO-dip
       - 菲律宾 免费节点(马尼拉)● 3
-      - TG@subssr 韩国39 长沙联通 v2ray G口带宽 公益节点
-      - 日本 KDDI 2
-      - 菲律宾 VIP节点(马尼拉)● 3
-      - 台湾 CHT [04]
-      - 中转|日本GMO06|华南隧道[流媒体解锁]
-      - CH_38+@WangCai_1 4
       - CH_51+@WangCai_1 4
-      - CH_13+@WangCai_1 4
-      - 香港 03|HKT-WTT|沙田区|1.0 3
-      - CH_27+@WangCai_1 4
-      - CH_26+@WangCai_1 4
-      - CH_46+@WangCai_1 5
-      - 香港 04|Microsoft|九龙|1.0 3
-      - AT_69+@WangCai_1 3
-      - CH_34+@WangCai_1 3
-      - CH_34+@WangCai_1 4
-      - AT_09+@WangCai_1 3
-      - CH_66+@WangCai_1 4
-      - 台湾 CHT [05] 2
-      - CH_59+@WangCai_1 4
-      - CH_09+@WangCai_1 4
-      - AT_04+@WangCai_1 4
-      - CH_39+@WangCai_1 4
-      - CH_08+@WangCai_1 4
-      - CH_20+@WangCai_1 5
-      - CH_30+@WangCai_1 4
-      - AT_61+@WangCai_1 3
-      - CH_09+@WangCai_1 5
-      - AT_73+@WangCai_1 2
-      - AT_16+@WangCai_1 4
-      - CH_22+@WangCai_1 5
-      - CH_45+@WangCai_1 3
-      - CH_16+@WangCai_1 4
-      - CH_27+@WangCai_1 5
-      - CH_15+@WangCai_1 5
-      - 中转|日本GMO09|华中隧道[流媒体解锁]
-      - AT_56+@WangCai_1 4
-      - CH_72+@WangCai_1 5
-      - CH_04+@WangCai_1 5
-      - CH_60+@WangCai_1 5
-      - CH_41+@WangCai_1 4
-      - CH_58+@WangCai_1 4
-      - CH_81+@WangCai_1 4
-      - CH_47+@WangCai_1 4
-      - CH_51+@WangCai_1 5
       - CH_11+@WangCai_1 4
-      - CH_11+@WangCai_1 5
-      - CH_53+@WangCai_1 5
-      - CH_62+@WangCai_1 5
-      - AT_81+@WangCai_1 2
-      - CH_67+@WangCai_1 4
-      - CH_40+@WangCai_1 4
-      - CH_38+@WangCai_1 5
-      - AT_25+@WangCai_1 4
-      - AT_75+@WangCai_1 2
-      - 韩国 VIP节点(首尔)★
-      - CH_12+@WangCai_1 4
-      - CH_63+@WangCai_1 5
-      - CH_17+@WangCai_1 3
-      - CH_07+@WangCai_1 4
-      - AT_14+@WangCai_1 3
-      - CH_81+@WangCai_1 5
-      - AT_25+@WangCai_1 3
-      - CH_22+@WangCai_1 4
-      - AT_42+@WangCai_1 4
-      - CH_49+@WangCai_1 4
-      - AT_20+@WangCai_1 4
-      - AT_47+@WangCai_1 2
-      - 中转|荷兰RackNerd04|华中隧道
-      - 台湾 CHT [03] 2
+      - CH_37+@WangCai_1 4
+      - CH_59+@WangCai_1 4
       - CH_25+@WangCai_1 2
-      - AT_59+@WangCai_1
-      - AT_44+@WangCai_1
-      - CH_20+@WangCai_1 4
-      - AT_37+@WangCai_1 3
-      - AT_02+@WangCai_1
+      - CH_57+@WangCai_1 4
+      - AT_56+@WangCai_1 4
+      - CH_54+@WangCai_1 4
+      - CH_58+@WangCai_1 5
+      - CH_19+@WangCai_1 4
+      - CH_10+@WangCai_1 4
+      - CH_66+@WangCai_1 5
+      - CH_03+@WangCai_1 4
       - AT_22+@WangCai_1 3
       - CH_54+@WangCai_1 5
-      - CH_69+@WangCai_1 3
-      - AT_47+@WangCai_1
-      - AT_30+@WangCai_1 7
-      - AT_03+@WangCai_1 8
-      - CH_01+@WangCai_1 3
-      - 香港 HKT [04] 2
-      - CH_52+@WangCai_1 4
+      - AT_25+@WangCai_1 3
+      - CH_49+@WangCai_1 5
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_50+@WangCai_1 5
       - CH_47+@WangCai_1 5
-      - CH_35+@WangCai_1 5
-      - CH_62+@WangCai_1 4
+      - 合肥移动-香港Azure
+      - 合肥移动-香港Azure 2
+      - CH_41+@WangCai_1 4
+      - CH_27+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_07+@WangCai_1 5
+      - AT_81+@WangCai_1 2
+      - CH_52+@WangCai_1 4
+      - CH_70+@WangCai_1 5
+      - CH_57+@WangCai_1 5
+      - CH_01+@WangCai_1 4
+      - CH_29+@WangCai_1 4
+      - CH_12+@WangCai_1 4
+      - CH_72+@WangCai_1 5
+      - CH_61+@WangCai_1 5
+      - CH_31+@WangCai_1 4
+      - CH_20+@WangCai_1 5
+      - CH_18+@WangCai_1 4
+      - CH_72+@WangCai_1 4
+      - CH_46+@WangCai_1 4
+      - AT_03+@WangCai_1 8
+      - CH_43+@WangCai_1 5
+      - CH_43+@WangCai_1 4
+      - CH_78+@WangCai_1 5
+      - CH_44+@WangCai_1 5
+      - CH_23+@WangCai_1 5
+      - CH_65+@WangCai_1 3
+      - CH_26+@WangCai_1 4
+      - CH_07+@WangCai_1 4
       - AT_22+@WangCai_1 4
-      - AT_63+@WangCai_1 4
-      - CH_79+@WangCai_1 5
-      - CH_76+@WangCai_1 5
-      - AT_06+@WangCai_1 2
-      - AT_11+@WangCai_1 2
-      - 香港 HKT [06] 2
-      - 香港 12
-      - CH_41+@WangCai_1 5
-      - AT_27+@WangCai_1 2
-      - CH_61+@WangCai_1 4
-      - 45.88.179.12
+      - CH_30+@WangCai_1 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -938,115 +514,62 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 HKT [07] 2
-      - 香港 00|HKT-WTT|沙田区|1.0 3
-      - AZ转移动05-27
-      - 日本 02|Microsoft|大阪|1.0 3
-      - 新加坡 03|Neko|湘徐|1.0 3
-      - 韩国 03|Microsoft|釜山|1.0 3
-      - 中转|日本GMO10|BGP隧道[流媒体解锁]
-      - 越南 VIP节点(胡志明)●
+      - 香港Azure-香港IPServerOne-nf
+      - 香港Azure-香港IPServerOne
+      - Tokyo-GMO-dip
       - 菲律宾 免费节点(马尼拉)● 3
-      - TG@subssr 韩国39 长沙联通 v2ray G口带宽 公益节点
-      - 日本 KDDI 2
-      - 菲律宾 VIP节点(马尼拉)● 3
-      - 台湾 CHT [04]
-      - 中转|日本GMO06|华南隧道[流媒体解锁]
-      - CH_38+@WangCai_1 4
       - CH_51+@WangCai_1 4
-      - CH_13+@WangCai_1 4
-      - 香港 03|HKT-WTT|沙田区|1.0 3
-      - CH_27+@WangCai_1 4
-      - CH_26+@WangCai_1 4
-      - CH_46+@WangCai_1 5
-      - 香港 04|Microsoft|九龙|1.0 3
-      - AT_69+@WangCai_1 3
-      - CH_34+@WangCai_1 3
-      - CH_34+@WangCai_1 4
-      - AT_09+@WangCai_1 3
-      - CH_66+@WangCai_1 4
-      - 台湾 CHT [05] 2
-      - CH_59+@WangCai_1 4
-      - CH_09+@WangCai_1 4
-      - AT_04+@WangCai_1 4
-      - CH_39+@WangCai_1 4
-      - CH_08+@WangCai_1 4
-      - CH_20+@WangCai_1 5
-      - CH_30+@WangCai_1 4
-      - AT_61+@WangCai_1 3
-      - CH_09+@WangCai_1 5
-      - AT_73+@WangCai_1 2
-      - AT_16+@WangCai_1 4
-      - CH_22+@WangCai_1 5
-      - CH_45+@WangCai_1 3
-      - CH_16+@WangCai_1 4
-      - CH_27+@WangCai_1 5
-      - CH_15+@WangCai_1 5
-      - 中转|日本GMO09|华中隧道[流媒体解锁]
-      - AT_56+@WangCai_1 4
-      - CH_72+@WangCai_1 5
-      - CH_04+@WangCai_1 5
-      - CH_60+@WangCai_1 5
-      - CH_41+@WangCai_1 4
-      - CH_58+@WangCai_1 4
-      - CH_81+@WangCai_1 4
-      - CH_47+@WangCai_1 4
-      - CH_51+@WangCai_1 5
       - CH_11+@WangCai_1 4
-      - CH_11+@WangCai_1 5
-      - CH_53+@WangCai_1 5
-      - CH_62+@WangCai_1 5
-      - AT_81+@WangCai_1 2
-      - CH_67+@WangCai_1 4
-      - CH_40+@WangCai_1 4
-      - CH_38+@WangCai_1 5
-      - AT_25+@WangCai_1 4
-      - AT_75+@WangCai_1 2
-      - 韩国 VIP节点(首尔)★
-      - CH_12+@WangCai_1 4
-      - CH_63+@WangCai_1 5
-      - CH_17+@WangCai_1 3
-      - CH_07+@WangCai_1 4
-      - AT_14+@WangCai_1 3
-      - CH_81+@WangCai_1 5
-      - AT_25+@WangCai_1 3
-      - CH_22+@WangCai_1 4
-      - AT_42+@WangCai_1 4
-      - CH_49+@WangCai_1 4
-      - AT_20+@WangCai_1 4
-      - AT_47+@WangCai_1 2
-      - 中转|荷兰RackNerd04|华中隧道
-      - 台湾 CHT [03] 2
+      - CH_37+@WangCai_1 4
+      - CH_59+@WangCai_1 4
       - CH_25+@WangCai_1 2
-      - AT_59+@WangCai_1
-      - AT_44+@WangCai_1
-      - CH_20+@WangCai_1 4
-      - AT_37+@WangCai_1 3
-      - AT_02+@WangCai_1
+      - CH_57+@WangCai_1 4
+      - AT_56+@WangCai_1 4
+      - CH_54+@WangCai_1 4
+      - CH_58+@WangCai_1 5
+      - CH_19+@WangCai_1 4
+      - CH_10+@WangCai_1 4
+      - CH_66+@WangCai_1 5
+      - CH_03+@WangCai_1 4
       - AT_22+@WangCai_1 3
       - CH_54+@WangCai_1 5
-      - CH_69+@WangCai_1 3
-      - AT_47+@WangCai_1
-      - AT_30+@WangCai_1 7
-      - AT_03+@WangCai_1 8
-      - CH_01+@WangCai_1 3
-      - 香港 HKT [04] 2
-      - CH_52+@WangCai_1 4
+      - AT_25+@WangCai_1 3
+      - CH_49+@WangCai_1 5
+      - CH_65+@WangCai_1 4
+      - CH_81+@WangCai_1 5
+      - CH_50+@WangCai_1 5
       - CH_47+@WangCai_1 5
-      - CH_35+@WangCai_1 5
-      - CH_62+@WangCai_1 4
+      - 合肥移动-香港Azure
+      - 合肥移动-香港Azure 2
+      - CH_41+@WangCai_1 4
+      - CH_27+@WangCai_1 4
+      - CH_16+@WangCai_1 4
+      - CH_07+@WangCai_1 5
+      - AT_81+@WangCai_1 2
+      - CH_52+@WangCai_1 4
+      - CH_70+@WangCai_1 5
+      - CH_57+@WangCai_1 5
+      - CH_01+@WangCai_1 4
+      - CH_29+@WangCai_1 4
+      - CH_12+@WangCai_1 4
+      - CH_72+@WangCai_1 5
+      - CH_61+@WangCai_1 5
+      - CH_31+@WangCai_1 4
+      - CH_20+@WangCai_1 5
+      - CH_18+@WangCai_1 4
+      - CH_72+@WangCai_1 4
+      - CH_46+@WangCai_1 4
+      - AT_03+@WangCai_1 8
+      - CH_43+@WangCai_1 5
+      - CH_43+@WangCai_1 4
+      - CH_78+@WangCai_1 5
+      - CH_44+@WangCai_1 5
+      - CH_23+@WangCai_1 5
+      - CH_65+@WangCai_1 3
+      - CH_26+@WangCai_1 4
+      - CH_07+@WangCai_1 4
       - AT_22+@WangCai_1 4
-      - AT_63+@WangCai_1 4
-      - CH_79+@WangCai_1 5
-      - CH_76+@WangCai_1 5
-      - AT_06+@WangCai_1 2
-      - AT_11+@WangCai_1 2
-      - 香港 HKT [06] 2
-      - 香港 12
-      - CH_41+@WangCai_1 5
-      - AT_27+@WangCai_1 2
-      - CH_61+@WangCai_1 4
-      - 45.88.179.12
+      - CH_30+@WangCai_1 4
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
