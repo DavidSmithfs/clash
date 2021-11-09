@@ -5,492 +5,916 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇭🇰 香港Azure-香港IPServerOne-nf_1', server: 52.175.125.36, port: 29546, type: vmess, uuid: 9da81753-1852-3f85-ac25-92e22eff0174, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '🇭🇰 香港Azure-香港IPServerOne_2', server: 52.175.125.36, port: 28666, type: vmess, uuid: 9da81753-1852-3f85-ac25-92e22eff0174, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '🇲🇴 Tokyo-GMO-dip_3', server: 153.122.173.30, port: 18080, type: vmess, uuid: 9da81753-1852-3f85-ac25-92e22eff0174, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'CH_51+@WangCai_1+4', server: 156.146.62.45, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: 'CH_11+@WangCai_1+4', server: 156.146.62.45, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 'CH_37+@WangCai_1+4', server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 'CH_59+@WangCai_1+4', server: 156.146.62.45, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 'CH_25+@WangCai_1+2', server: 156.146.62.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 'CH_57+@WangCai_1+4', server: 156.146.62.45, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 'AT_56+@WangCai_1+4', server: 89.187.168.47, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 'CH_54+@WangCai_1+4', server: 156.146.62.45, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 'CH_58+@WangCai_1+5', server: 156.146.62.50, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: 'CH_19+@WangCai_1+4', server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 'CH_10+@WangCai_1+4', server: 156.146.62.45, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 'CH_66+@WangCai_1+5', server: 156.146.62.50, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: 'CH_03+@WangCai_1+4', server: 156.146.62.45, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 'AT_22+@WangCai_1+3', server: 89.187.168.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '🇹🇼 V3 | 台湾 原生01 | x2.0_1', server: gd.cm-1-cf.fevers.cyou, port: 30080, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray-tw, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
   - {name: 'CH_54+@WangCai_1+5', server: 156.146.62.50, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 'AT_25+@WangCai_1+3', server: 89.187.168.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 'CH_49+@WangCai_1+5', server: 156.146.62.50, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 'CH_65+@WangCai_1+4', server: 156.146.62.50, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 'CH_81+@WangCai_1+5', server: 156.146.62.50, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: 'CH_50+@WangCai_1+5', server: 156.146.62.50, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
-  - {name: 'CH_47+@WangCai_1+5', server: 156.146.62.50, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: '🇭🇰 合肥移动-香港Azure_25', server: 120.210.205.19, port: 11072, type: vmess, uuid: 9da81753-1852-3f85-ac25-92e22eff0174, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '🇭🇰 合肥移动-香港Azure 2_26', server: 120.210.205.19, port: 11071, type: vmess, uuid: 9da81753-1852-3f85-ac25-92e22eff0174, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'CH_41+@WangCai_1+4', server: 156.146.62.45, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
-  - {name: 'CH_27+@WangCai_1+4', server: 156.146.62.45, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 'CH_16+@WangCai_1+4', server: 156.146.62.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 'Pool_🇸🇬SG_8139', server: 89.187.162.186, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'Pool_🇸🇬SG_8152', server: 89.187.163.210, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
   - {name: 'CH_07+@WangCai_1+5', server: 156.146.62.50, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 'AT_81+@WangCai_1+2', server: 89.187.168.42, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: 'CH_52+@WangCai_1+4', server: 156.146.62.45, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 'CH_70+@WangCai_1+5', server: 156.146.62.50, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 'CH_57+@WangCai_1+5', server: 156.146.62.50, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 'CH_01+@WangCai_1+4', server: 156.146.62.50, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 'CH_29+@WangCai_1+4', server: 156.146.62.45, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
-  - {name: 'CH_12+@WangCai_1+4', server: 156.146.62.45, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 'CH_72+@WangCai_1+5', server: 156.146.62.50, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
-  - {name: 'CH_61+@WangCai_1+5', server: 156.146.62.50, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 'CH_31+@WangCai_1+4', server: 156.146.62.45, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: 'CH_20+@WangCai_1+5', server: 156.146.62.50, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 'CH_18+@WangCai_1+4', server: 156.146.62.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 'CH_72+@WangCai_1+4', server: 156.146.62.45, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
-  - {name: 'CH_46+@WangCai_1+4', server: 156.146.62.45, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
-  - {name: 'AT_03+@WangCai_1+8', server: 89.187.168.57, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 'CH_43+@WangCai_1+5', server: 156.146.62.50, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 'CH_43+@WangCai_1+4', server: 156.146.62.45, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 'CH_78+@WangCai_1+5', server: 156.146.62.50, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
-  - {name: 'CH_44+@WangCai_1+5', server: 156.146.62.50, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 'CH_23+@WangCai_1+5', server: 156.146.62.50, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: 'CH_65+@WangCai_1+3', server: 156.146.62.45, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'CH_11+@WangCai_1+4', server: 156.146.62.45, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'AT_42+@WangCai_1+4', server: 89.187.168.47, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'CH_22+@WangCai_1+5', server: 156.146.62.50, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'Pool_🇺🇸US_9337', server: 154.16.168.186, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 'CH_55+@WangCai_1+4', server: 156.146.62.50, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 'CH_47+@WangCai_1+5', server: 156.146.62.50, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'CH_53+@WangCai_1+4', server: 156.146.62.45, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 'CH_68+@WangCai_1+5', server: 156.146.62.50, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'CH_62+@WangCai_1+4', server: 156.146.62.45, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 'AT_09+@WangCai_1+3', server: 89.187.168.45, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'CH_69+@WangCai_1+4', server: 156.146.62.50, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 'AT_56+@WangCai_1+4', server: 89.187.168.47, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'Pool_🇸🇬SG_8168', server: 89.187.163.200, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'Pool_🇺🇸US_9333', server: 198.8.92.67, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'Pool_🇹🇼TW_8498', server: 2.58.242.43, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 'Pool_🇸🇬SG_8160', server: 89.187.162.186, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 'CH_10+@WangCai_1+4', server: 156.146.62.45, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
   - {name: 'CH_26+@WangCai_1+4', server: 156.146.62.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 'CH_07+@WangCai_1+4', server: 156.146.62.45, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 'CH_58+@WangCai_1+4', server: 156.146.62.45, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 'CH_37+@WangCai_1+4', server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 'AT_04+@WangCai_1+4', server: 89.187.168.47, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'CH_25+@WangCai_1+2', server: 156.146.62.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 'CH_23+@WangCai_1+5', server: 156.146.62.50, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 'Pool_🇺🇸US_9338', server: 212.102.44.88, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 'Pool_🇺🇸US_9330', server: 212.102.44.81, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'Pool_🇺🇸US_9332', server: 212.102.40.71, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 'CH_69+@WangCai_1+3', server: 156.146.62.45, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 'CH_70+@WangCai_1+5', server: 156.146.62.50, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 'CH_56+@WangCai_1+5', server: 156.146.62.50, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'CH_53+@WangCai_1+5', server: 156.146.62.50, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 'CH_76+@WangCai_1+4', server: 156.146.62.45, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 'AT_27+@WangCai_1+2', server: 89.187.168.42, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 'CH_51+@WangCai_1+4', server: 156.146.62.45, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: 'AT_16+@WangCai_1+4', server: 89.187.168.47, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 'CH_06+@WangCai_1+5', server: 156.146.62.50, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 'CH_35+@WangCai_1+4', server: 156.146.62.45, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 'AT_37+@WangCai_1+3', server: 89.187.168.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 'CH_57+@WangCai_1+5', server: 156.146.62.50, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 'Pool_🇸🇬SG_8095', server: 89.187.162.186, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 'CH_54+@WangCai_1+4', server: 156.146.62.45, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 'CH_59+@WangCai_1+4', server: 156.146.62.45, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 'CH_47+@WangCai_1+4', server: 156.146.62.45, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 'CH_37+@WangCai_1+5', server: 156.146.62.50, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 'CH_42+@WangCai_1+4', server: 156.146.62.45, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'AT_22+@WangCai_1+3', server: 89.187.168.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'CH_12+@WangCai_1+4', server: 156.146.62.45, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 'CH_45+@WangCai_1+4', server: 156.146.62.50, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 'CH_63+@WangCai_1+4', server: 156.146.62.45, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'Pool_🇸🇬SG_8179', server: 89.187.162.186, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 'Pool_🇸🇬SG_8140', server: 89.187.162.186, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'Pool_🇸🇬SG_8084', server: 89.187.162.186, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 'CH_72+@WangCai_1+4', server: 156.146.62.45, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: 'AT_25+@WangCai_1+4', server: 89.187.168.47, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 'CH_43+@WangCai_1+4', server: 156.146.62.45, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 'CH_34+@WangCai_1+4', server: 156.146.62.50, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 'CH_27+@WangCai_1+4', server: 156.146.62.45, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 'CH_48+@WangCai_1+5', server: 156.146.62.50, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 'CH_05+@WangCai_1+5', server: 156.146.62.50, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 'CH_58+@WangCai_1+5', server: 156.146.62.50, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 'CH_22+@WangCai_1+4', server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'Pool_🇸🇬SG_8127', server: 89.187.162.186, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 'CH_14+@WangCai_1+4', server: 156.146.62.45, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: 'CH_19+@WangCai_1+4', server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 'CH_40+@WangCai_1+4', server: 156.146.62.45, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 'CH_16+@WangCai_1+4', server: 156.146.62.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 'CH_65+@WangCai_1+3', server: 156.146.62.45, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'CH_29+@WangCai_1+4', server: 156.146.62.45, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: 'CH_45+@WangCai_1+3', server: 156.146.62.45, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 'CH_35+@WangCai_1+5', server: 156.146.62.50, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: '韩国WL—SZCM流媒体_75', server: szcm.blfast.net, port: 30017, type: vmess, uuid: 932aad6d-0474-3180-865c-2576c616cf03, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /lala, ws-headers: {Host: 37.blfast.net}}
+  - {name: 'CH_68+@WangCai_1+4', server: 156.146.62.45, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 'CH_49+@WangCai_1+5', server: 156.146.62.50, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 'CH_39+@WangCai_1+4', server: 156.146.62.45, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 'Pool_🇸🇬SG_8080', server: 89.187.162.184, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: '🇺🇸US_9327', server: 167.88.63.19, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'CH_60+@WangCai_1+5', server: 156.146.62.50, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 'CH_36+@WangCai_1+4', server: 156.146.62.45, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 'CH_32+@WangCai_1+4', server: 156.146.62.45, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 'CH_43+@WangCai_1+5', server: 156.146.62.50, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 'CH_41+@WangCai_1+4', server: 156.146.62.45, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 'CH_30+@WangCai_1+5', server: 156.146.62.50, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 'CH_61+@WangCai_1+5', server: 156.146.62.50, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 'AT_81+@WangCai_1+2', server: 89.187.168.42, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: 'Pool_🇺🇸US_9334', server: 199.58.187.8, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 'AT_22+@WangCai_1+4', server: 89.187.168.47, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 'CH_52+@WangCai_1+4', server: 156.146.62.45, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 'CH_18+@WangCai_1+4', server: 156.146.62.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 'CH_10+@WangCai_1+5', server: 156.146.62.50, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 'CH_07+@WangCai_1+4', server: 156.146.62.45, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 'CH_46+@WangCai_1+4', server: 156.146.62.45, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
   - {name: 'CH_30+@WangCai_1+4', server: 156.146.62.45, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 'n_45.88.179.12_56', server: 45.88.179.12, port: 30678, type: vmess, uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.88.179.12}}
+  - {name: 'CH_20+@WangCai_1+5', server: 156.146.62.50, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 'AT_25+@WangCai_1+3', server: 89.187.168.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 'CH_08+@WangCai_1+4', server: 156.146.62.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'Pool_🇸🇬SG_8085', server: 89.187.163.202, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 'CH_63+@WangCai_1+5', server: 156.146.62.50, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'CH_03+@WangCai_1+4', server: 156.146.62.45, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 'AT_63+@WangCai_1+4', server: 89.187.168.47, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 'CH_50+@WangCai_1+5', server: 156.146.62.50, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 'AT_03+@WangCai_1+8', server: 89.187.168.57, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 'CH_19+@WangCai_1+5', server: 156.146.62.50, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 'CH_01+@WangCai_1+4', server: 156.146.62.50, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'CH_72+@WangCai_1+5', server: 156.146.62.50, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: 'n_45.88.179.12_109', server: 45.88.179.12, port: 30678, type: vmess, uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.88.179.12}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港Azure-香港IPServerOne-nf_1
-      - 🇭🇰 香港Azure-香港IPServerOne_2
-      - 🇲🇴 Tokyo-GMO-dip_3
-      - CH_51+@WangCai_1+4
-      - CH_11+@WangCai_1+4
-      - CH_37+@WangCai_1+4
-      - CH_59+@WangCai_1+4
-      - CH_25+@WangCai_1+2
-      - CH_57+@WangCai_1+4
-      - AT_56+@WangCai_1+4
-      - CH_54+@WangCai_1+4
-      - CH_58+@WangCai_1+5
-      - CH_19+@WangCai_1+4
-      - CH_10+@WangCai_1+4
-      - CH_66+@WangCai_1+5
-      - CH_03+@WangCai_1+4
-      - AT_22+@WangCai_1+3
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
       - CH_54+@WangCai_1+5
-      - AT_25+@WangCai_1+3
-      - CH_49+@WangCai_1+5
-      - CH_65+@WangCai_1+4
-      - CH_81+@WangCai_1+5
-      - CH_50+@WangCai_1+5
-      - CH_47+@WangCai_1+5
-      - 🇭🇰 合肥移动-香港Azure_25
-      - 🇭🇰 合肥移动-香港Azure 2_26
-      - CH_41+@WangCai_1+4
-      - CH_27+@WangCai_1+4
-      - CH_16+@WangCai_1+4
+      - Pool_🇸🇬SG_8139
+      - Pool_🇸🇬SG_8152
       - CH_07+@WangCai_1+5
-      - AT_81+@WangCai_1+2
-      - CH_52+@WangCai_1+4
-      - CH_70+@WangCai_1+5
-      - CH_57+@WangCai_1+5
-      - CH_01+@WangCai_1+4
-      - CH_29+@WangCai_1+4
-      - CH_12+@WangCai_1+4
-      - CH_72+@WangCai_1+5
-      - CH_61+@WangCai_1+5
-      - CH_31+@WangCai_1+4
-      - CH_20+@WangCai_1+5
-      - CH_18+@WangCai_1+4
-      - CH_72+@WangCai_1+4
-      - CH_46+@WangCai_1+4
-      - AT_03+@WangCai_1+8
-      - CH_43+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - CH_78+@WangCai_1+5
-      - CH_44+@WangCai_1+5
-      - CH_23+@WangCai_1+5
-      - CH_65+@WangCai_1+3
+      - CH_11+@WangCai_1+4
+      - AT_42+@WangCai_1+4
+      - CH_22+@WangCai_1+5
+      - Pool_🇺🇸US_9337
+      - CH_55+@WangCai_1+4
+      - CH_47+@WangCai_1+5
+      - CH_53+@WangCai_1+4
+      - CH_68+@WangCai_1+5
+      - CH_62+@WangCai_1+4
+      - AT_09+@WangCai_1+3
+      - CH_69+@WangCai_1+4
+      - AT_56+@WangCai_1+4
+      - Pool_🇸🇬SG_8168
+      - Pool_🇺🇸US_9333
+      - Pool_🇹🇼TW_8498
+      - Pool_🇸🇬SG_8160
+      - CH_10+@WangCai_1+4
       - CH_26+@WangCai_1+4
-      - CH_07+@WangCai_1+4
+      - CH_58+@WangCai_1+4
+      - CH_37+@WangCai_1+4
+      - AT_04+@WangCai_1+4
+      - CH_25+@WangCai_1+2
+      - CH_23+@WangCai_1+5
+      - Pool_🇺🇸US_9338
+      - Pool_🇺🇸US_9330
+      - Pool_🇺🇸US_9332
+      - CH_69+@WangCai_1+3
+      - CH_70+@WangCai_1+5
+      - CH_56+@WangCai_1+5
+      - CH_53+@WangCai_1+5
+      - CH_76+@WangCai_1+4
+      - AT_27+@WangCai_1+2
+      - CH_51+@WangCai_1+4
+      - AT_16+@WangCai_1+4
+      - CH_06+@WangCai_1+5
+      - CH_35+@WangCai_1+4
+      - AT_37+@WangCai_1+3
+      - CH_57+@WangCai_1+5
+      - Pool_🇸🇬SG_8095
+      - CH_54+@WangCai_1+4
+      - CH_59+@WangCai_1+4
+      - CH_47+@WangCai_1+4
+      - CH_37+@WangCai_1+5
+      - CH_42+@WangCai_1+4
+      - AT_22+@WangCai_1+3
+      - CH_12+@WangCai_1+4
+      - CH_45+@WangCai_1+4
+      - CH_63+@WangCai_1+4
+      - Pool_🇸🇬SG_8179
+      - Pool_🇸🇬SG_8140
+      - Pool_🇸🇬SG_8084
+      - CH_72+@WangCai_1+4
+      - AT_25+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - CH_34+@WangCai_1+4
+      - CH_27+@WangCai_1+4
+      - CH_48+@WangCai_1+5
+      - CH_05+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - CH_22+@WangCai_1+4
+      - Pool_🇸🇬SG_8127
+      - CH_14+@WangCai_1+4
+      - CH_19+@WangCai_1+4
+      - CH_40+@WangCai_1+4
+      - CH_16+@WangCai_1+4
+      - CH_65+@WangCai_1+3
+      - CH_29+@WangCai_1+4
+      - CH_45+@WangCai_1+3
+      - CH_35+@WangCai_1+5
+      - 韩国WL—SZCM流媒体_75
+      - CH_68+@WangCai_1+4
+      - CH_49+@WangCai_1+5
+      - CH_39+@WangCai_1+4
+      - Pool_🇸🇬SG_8080
+      - 🇺🇸US_9327
+      - CH_60+@WangCai_1+5
+      - CH_36+@WangCai_1+4
+      - CH_32+@WangCai_1+4
+      - CH_43+@WangCai_1+5
+      - CH_41+@WangCai_1+4
+      - CH_30+@WangCai_1+5
+      - CH_61+@WangCai_1+5
+      - AT_81+@WangCai_1+2
+      - Pool_🇺🇸US_9334
       - AT_22+@WangCai_1+4
+      - CH_52+@WangCai_1+4
+      - CH_18+@WangCai_1+4
+      - CH_10+@WangCai_1+5
+      - CH_07+@WangCai_1+4
+      - CH_46+@WangCai_1+4
       - CH_30+@WangCai_1+4
-      - n_45.88.179.12_56
+      - CH_20+@WangCai_1+5
+      - AT_25+@WangCai_1+3
+      - CH_08+@WangCai_1+4
+      - Pool_🇸🇬SG_8085
+      - CH_63+@WangCai_1+5
+      - CH_03+@WangCai_1+4
+      - AT_63+@WangCai_1+4
+      - CH_50+@WangCai_1+5
+      - AT_03+@WangCai_1+8
+      - CH_19+@WangCai_1+5
+      - CH_01+@WangCai_1+4
+      - CH_72+@WangCai_1+5
+      - n_45.88.179.12_109
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港Azure-香港IPServerOne-nf_1
-      - 🇭🇰 香港Azure-香港IPServerOne_2
-      - 🇲🇴 Tokyo-GMO-dip_3
-      - CH_51+@WangCai_1+4
-      - CH_11+@WangCai_1+4
-      - CH_37+@WangCai_1+4
-      - CH_59+@WangCai_1+4
-      - CH_25+@WangCai_1+2
-      - CH_57+@WangCai_1+4
-      - AT_56+@WangCai_1+4
-      - CH_54+@WangCai_1+4
-      - CH_58+@WangCai_1+5
-      - CH_19+@WangCai_1+4
-      - CH_10+@WangCai_1+4
-      - CH_66+@WangCai_1+5
-      - CH_03+@WangCai_1+4
-      - AT_22+@WangCai_1+3
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
       - CH_54+@WangCai_1+5
-      - AT_25+@WangCai_1+3
-      - CH_49+@WangCai_1+5
-      - CH_65+@WangCai_1+4
-      - CH_81+@WangCai_1+5
-      - CH_50+@WangCai_1+5
-      - CH_47+@WangCai_1+5
-      - 🇭🇰 合肥移动-香港Azure_25
-      - 🇭🇰 合肥移动-香港Azure 2_26
-      - CH_41+@WangCai_1+4
-      - CH_27+@WangCai_1+4
-      - CH_16+@WangCai_1+4
+      - Pool_🇸🇬SG_8139
+      - Pool_🇸🇬SG_8152
       - CH_07+@WangCai_1+5
-      - AT_81+@WangCai_1+2
-      - CH_52+@WangCai_1+4
-      - CH_70+@WangCai_1+5
-      - CH_57+@WangCai_1+5
-      - CH_01+@WangCai_1+4
-      - CH_29+@WangCai_1+4
-      - CH_12+@WangCai_1+4
-      - CH_72+@WangCai_1+5
-      - CH_61+@WangCai_1+5
-      - CH_31+@WangCai_1+4
-      - CH_20+@WangCai_1+5
-      - CH_18+@WangCai_1+4
-      - CH_72+@WangCai_1+4
-      - CH_46+@WangCai_1+4
-      - AT_03+@WangCai_1+8
-      - CH_43+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - CH_78+@WangCai_1+5
-      - CH_44+@WangCai_1+5
-      - CH_23+@WangCai_1+5
-      - CH_65+@WangCai_1+3
+      - CH_11+@WangCai_1+4
+      - AT_42+@WangCai_1+4
+      - CH_22+@WangCai_1+5
+      - Pool_🇺🇸US_9337
+      - CH_55+@WangCai_1+4
+      - CH_47+@WangCai_1+5
+      - CH_53+@WangCai_1+4
+      - CH_68+@WangCai_1+5
+      - CH_62+@WangCai_1+4
+      - AT_09+@WangCai_1+3
+      - CH_69+@WangCai_1+4
+      - AT_56+@WangCai_1+4
+      - Pool_🇸🇬SG_8168
+      - Pool_🇺🇸US_9333
+      - Pool_🇹🇼TW_8498
+      - Pool_🇸🇬SG_8160
+      - CH_10+@WangCai_1+4
       - CH_26+@WangCai_1+4
-      - CH_07+@WangCai_1+4
+      - CH_58+@WangCai_1+4
+      - CH_37+@WangCai_1+4
+      - AT_04+@WangCai_1+4
+      - CH_25+@WangCai_1+2
+      - CH_23+@WangCai_1+5
+      - Pool_🇺🇸US_9338
+      - Pool_🇺🇸US_9330
+      - Pool_🇺🇸US_9332
+      - CH_69+@WangCai_1+3
+      - CH_70+@WangCai_1+5
+      - CH_56+@WangCai_1+5
+      - CH_53+@WangCai_1+5
+      - CH_76+@WangCai_1+4
+      - AT_27+@WangCai_1+2
+      - CH_51+@WangCai_1+4
+      - AT_16+@WangCai_1+4
+      - CH_06+@WangCai_1+5
+      - CH_35+@WangCai_1+4
+      - AT_37+@WangCai_1+3
+      - CH_57+@WangCai_1+5
+      - Pool_🇸🇬SG_8095
+      - CH_54+@WangCai_1+4
+      - CH_59+@WangCai_1+4
+      - CH_47+@WangCai_1+4
+      - CH_37+@WangCai_1+5
+      - CH_42+@WangCai_1+4
+      - AT_22+@WangCai_1+3
+      - CH_12+@WangCai_1+4
+      - CH_45+@WangCai_1+4
+      - CH_63+@WangCai_1+4
+      - Pool_🇸🇬SG_8179
+      - Pool_🇸🇬SG_8140
+      - Pool_🇸🇬SG_8084
+      - CH_72+@WangCai_1+4
+      - AT_25+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - CH_34+@WangCai_1+4
+      - CH_27+@WangCai_1+4
+      - CH_48+@WangCai_1+5
+      - CH_05+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - CH_22+@WangCai_1+4
+      - Pool_🇸🇬SG_8127
+      - CH_14+@WangCai_1+4
+      - CH_19+@WangCai_1+4
+      - CH_40+@WangCai_1+4
+      - CH_16+@WangCai_1+4
+      - CH_65+@WangCai_1+3
+      - CH_29+@WangCai_1+4
+      - CH_45+@WangCai_1+3
+      - CH_35+@WangCai_1+5
+      - 韩国WL—SZCM流媒体_75
+      - CH_68+@WangCai_1+4
+      - CH_49+@WangCai_1+5
+      - CH_39+@WangCai_1+4
+      - Pool_🇸🇬SG_8080
+      - 🇺🇸US_9327
+      - CH_60+@WangCai_1+5
+      - CH_36+@WangCai_1+4
+      - CH_32+@WangCai_1+4
+      - CH_43+@WangCai_1+5
+      - CH_41+@WangCai_1+4
+      - CH_30+@WangCai_1+5
+      - CH_61+@WangCai_1+5
+      - AT_81+@WangCai_1+2
+      - Pool_🇺🇸US_9334
       - AT_22+@WangCai_1+4
+      - CH_52+@WangCai_1+4
+      - CH_18+@WangCai_1+4
+      - CH_10+@WangCai_1+5
+      - CH_07+@WangCai_1+4
+      - CH_46+@WangCai_1+4
       - CH_30+@WangCai_1+4
-      - n_45.88.179.12_56
+      - CH_20+@WangCai_1+5
+      - AT_25+@WangCai_1+3
+      - CH_08+@WangCai_1+4
+      - Pool_🇸🇬SG_8085
+      - CH_63+@WangCai_1+5
+      - CH_03+@WangCai_1+4
+      - AT_63+@WangCai_1+4
+      - CH_50+@WangCai_1+5
+      - AT_03+@WangCai_1+8
+      - CH_19+@WangCai_1+5
+      - CH_01+@WangCai_1+4
+      - CH_72+@WangCai_1+5
+      - n_45.88.179.12_109
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港Azure-香港IPServerOne-nf_1
-      - 🇭🇰 香港Azure-香港IPServerOne_2
-      - 🇲🇴 Tokyo-GMO-dip_3
-      - CH_51+@WangCai_1+4
-      - CH_11+@WangCai_1+4
-      - CH_37+@WangCai_1+4
-      - CH_59+@WangCai_1+4
-      - CH_25+@WangCai_1+2
-      - CH_57+@WangCai_1+4
-      - AT_56+@WangCai_1+4
-      - CH_54+@WangCai_1+4
-      - CH_58+@WangCai_1+5
-      - CH_19+@WangCai_1+4
-      - CH_10+@WangCai_1+4
-      - CH_66+@WangCai_1+5
-      - CH_03+@WangCai_1+4
-      - AT_22+@WangCai_1+3
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
       - CH_54+@WangCai_1+5
-      - AT_25+@WangCai_1+3
-      - CH_49+@WangCai_1+5
-      - CH_65+@WangCai_1+4
-      - CH_81+@WangCai_1+5
-      - CH_50+@WangCai_1+5
-      - CH_47+@WangCai_1+5
-      - 🇭🇰 合肥移动-香港Azure_25
-      - 🇭🇰 合肥移动-香港Azure 2_26
-      - CH_41+@WangCai_1+4
-      - CH_27+@WangCai_1+4
-      - CH_16+@WangCai_1+4
+      - Pool_🇸🇬SG_8139
+      - Pool_🇸🇬SG_8152
       - CH_07+@WangCai_1+5
-      - AT_81+@WangCai_1+2
-      - CH_52+@WangCai_1+4
-      - CH_70+@WangCai_1+5
-      - CH_57+@WangCai_1+5
-      - CH_01+@WangCai_1+4
-      - CH_29+@WangCai_1+4
-      - CH_12+@WangCai_1+4
-      - CH_72+@WangCai_1+5
-      - CH_61+@WangCai_1+5
-      - CH_31+@WangCai_1+4
-      - CH_20+@WangCai_1+5
-      - CH_18+@WangCai_1+4
-      - CH_72+@WangCai_1+4
-      - CH_46+@WangCai_1+4
-      - AT_03+@WangCai_1+8
-      - CH_43+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - CH_78+@WangCai_1+5
-      - CH_44+@WangCai_1+5
-      - CH_23+@WangCai_1+5
-      - CH_65+@WangCai_1+3
+      - CH_11+@WangCai_1+4
+      - AT_42+@WangCai_1+4
+      - CH_22+@WangCai_1+5
+      - Pool_🇺🇸US_9337
+      - CH_55+@WangCai_1+4
+      - CH_47+@WangCai_1+5
+      - CH_53+@WangCai_1+4
+      - CH_68+@WangCai_1+5
+      - CH_62+@WangCai_1+4
+      - AT_09+@WangCai_1+3
+      - CH_69+@WangCai_1+4
+      - AT_56+@WangCai_1+4
+      - Pool_🇸🇬SG_8168
+      - Pool_🇺🇸US_9333
+      - Pool_🇹🇼TW_8498
+      - Pool_🇸🇬SG_8160
+      - CH_10+@WangCai_1+4
       - CH_26+@WangCai_1+4
-      - CH_07+@WangCai_1+4
+      - CH_58+@WangCai_1+4
+      - CH_37+@WangCai_1+4
+      - AT_04+@WangCai_1+4
+      - CH_25+@WangCai_1+2
+      - CH_23+@WangCai_1+5
+      - Pool_🇺🇸US_9338
+      - Pool_🇺🇸US_9330
+      - Pool_🇺🇸US_9332
+      - CH_69+@WangCai_1+3
+      - CH_70+@WangCai_1+5
+      - CH_56+@WangCai_1+5
+      - CH_53+@WangCai_1+5
+      - CH_76+@WangCai_1+4
+      - AT_27+@WangCai_1+2
+      - CH_51+@WangCai_1+4
+      - AT_16+@WangCai_1+4
+      - CH_06+@WangCai_1+5
+      - CH_35+@WangCai_1+4
+      - AT_37+@WangCai_1+3
+      - CH_57+@WangCai_1+5
+      - Pool_🇸🇬SG_8095
+      - CH_54+@WangCai_1+4
+      - CH_59+@WangCai_1+4
+      - CH_47+@WangCai_1+4
+      - CH_37+@WangCai_1+5
+      - CH_42+@WangCai_1+4
+      - AT_22+@WangCai_1+3
+      - CH_12+@WangCai_1+4
+      - CH_45+@WangCai_1+4
+      - CH_63+@WangCai_1+4
+      - Pool_🇸🇬SG_8179
+      - Pool_🇸🇬SG_8140
+      - Pool_🇸🇬SG_8084
+      - CH_72+@WangCai_1+4
+      - AT_25+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - CH_34+@WangCai_1+4
+      - CH_27+@WangCai_1+4
+      - CH_48+@WangCai_1+5
+      - CH_05+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - CH_22+@WangCai_1+4
+      - Pool_🇸🇬SG_8127
+      - CH_14+@WangCai_1+4
+      - CH_19+@WangCai_1+4
+      - CH_40+@WangCai_1+4
+      - CH_16+@WangCai_1+4
+      - CH_65+@WangCai_1+3
+      - CH_29+@WangCai_1+4
+      - CH_45+@WangCai_1+3
+      - CH_35+@WangCai_1+5
+      - 韩国WL—SZCM流媒体_75
+      - CH_68+@WangCai_1+4
+      - CH_49+@WangCai_1+5
+      - CH_39+@WangCai_1+4
+      - Pool_🇸🇬SG_8080
+      - 🇺🇸US_9327
+      - CH_60+@WangCai_1+5
+      - CH_36+@WangCai_1+4
+      - CH_32+@WangCai_1+4
+      - CH_43+@WangCai_1+5
+      - CH_41+@WangCai_1+4
+      - CH_30+@WangCai_1+5
+      - CH_61+@WangCai_1+5
+      - AT_81+@WangCai_1+2
+      - Pool_🇺🇸US_9334
       - AT_22+@WangCai_1+4
+      - CH_52+@WangCai_1+4
+      - CH_18+@WangCai_1+4
+      - CH_10+@WangCai_1+5
+      - CH_07+@WangCai_1+4
+      - CH_46+@WangCai_1+4
       - CH_30+@WangCai_1+4
-      - n_45.88.179.12_56
+      - CH_20+@WangCai_1+5
+      - AT_25+@WangCai_1+3
+      - CH_08+@WangCai_1+4
+      - Pool_🇸🇬SG_8085
+      - CH_63+@WangCai_1+5
+      - CH_03+@WangCai_1+4
+      - AT_63+@WangCai_1+4
+      - CH_50+@WangCai_1+5
+      - AT_03+@WangCai_1+8
+      - CH_19+@WangCai_1+5
+      - CH_01+@WangCai_1+4
+      - CH_72+@WangCai_1+5
+      - n_45.88.179.12_109
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港Azure-香港IPServerOne-nf_1
-      - 🇭🇰 香港Azure-香港IPServerOne_2
-      - 🇲🇴 Tokyo-GMO-dip_3
-      - CH_51+@WangCai_1+4
-      - CH_11+@WangCai_1+4
-      - CH_37+@WangCai_1+4
-      - CH_59+@WangCai_1+4
-      - CH_25+@WangCai_1+2
-      - CH_57+@WangCai_1+4
-      - AT_56+@WangCai_1+4
-      - CH_54+@WangCai_1+4
-      - CH_58+@WangCai_1+5
-      - CH_19+@WangCai_1+4
-      - CH_10+@WangCai_1+4
-      - CH_66+@WangCai_1+5
-      - CH_03+@WangCai_1+4
-      - AT_22+@WangCai_1+3
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
       - CH_54+@WangCai_1+5
-      - AT_25+@WangCai_1+3
-      - CH_49+@WangCai_1+5
-      - CH_65+@WangCai_1+4
-      - CH_81+@WangCai_1+5
-      - CH_50+@WangCai_1+5
-      - CH_47+@WangCai_1+5
-      - 🇭🇰 合肥移动-香港Azure_25
-      - 🇭🇰 合肥移动-香港Azure 2_26
-      - CH_41+@WangCai_1+4
-      - CH_27+@WangCai_1+4
-      - CH_16+@WangCai_1+4
+      - Pool_🇸🇬SG_8139
+      - Pool_🇸🇬SG_8152
       - CH_07+@WangCai_1+5
-      - AT_81+@WangCai_1+2
-      - CH_52+@WangCai_1+4
-      - CH_70+@WangCai_1+5
-      - CH_57+@WangCai_1+5
-      - CH_01+@WangCai_1+4
-      - CH_29+@WangCai_1+4
-      - CH_12+@WangCai_1+4
-      - CH_72+@WangCai_1+5
-      - CH_61+@WangCai_1+5
-      - CH_31+@WangCai_1+4
-      - CH_20+@WangCai_1+5
-      - CH_18+@WangCai_1+4
-      - CH_72+@WangCai_1+4
-      - CH_46+@WangCai_1+4
-      - AT_03+@WangCai_1+8
-      - CH_43+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - CH_78+@WangCai_1+5
-      - CH_44+@WangCai_1+5
-      - CH_23+@WangCai_1+5
-      - CH_65+@WangCai_1+3
+      - CH_11+@WangCai_1+4
+      - AT_42+@WangCai_1+4
+      - CH_22+@WangCai_1+5
+      - Pool_🇺🇸US_9337
+      - CH_55+@WangCai_1+4
+      - CH_47+@WangCai_1+5
+      - CH_53+@WangCai_1+4
+      - CH_68+@WangCai_1+5
+      - CH_62+@WangCai_1+4
+      - AT_09+@WangCai_1+3
+      - CH_69+@WangCai_1+4
+      - AT_56+@WangCai_1+4
+      - Pool_🇸🇬SG_8168
+      - Pool_🇺🇸US_9333
+      - Pool_🇹🇼TW_8498
+      - Pool_🇸🇬SG_8160
+      - CH_10+@WangCai_1+4
       - CH_26+@WangCai_1+4
-      - CH_07+@WangCai_1+4
+      - CH_58+@WangCai_1+4
+      - CH_37+@WangCai_1+4
+      - AT_04+@WangCai_1+4
+      - CH_25+@WangCai_1+2
+      - CH_23+@WangCai_1+5
+      - Pool_🇺🇸US_9338
+      - Pool_🇺🇸US_9330
+      - Pool_🇺🇸US_9332
+      - CH_69+@WangCai_1+3
+      - CH_70+@WangCai_1+5
+      - CH_56+@WangCai_1+5
+      - CH_53+@WangCai_1+5
+      - CH_76+@WangCai_1+4
+      - AT_27+@WangCai_1+2
+      - CH_51+@WangCai_1+4
+      - AT_16+@WangCai_1+4
+      - CH_06+@WangCai_1+5
+      - CH_35+@WangCai_1+4
+      - AT_37+@WangCai_1+3
+      - CH_57+@WangCai_1+5
+      - Pool_🇸🇬SG_8095
+      - CH_54+@WangCai_1+4
+      - CH_59+@WangCai_1+4
+      - CH_47+@WangCai_1+4
+      - CH_37+@WangCai_1+5
+      - CH_42+@WangCai_1+4
+      - AT_22+@WangCai_1+3
+      - CH_12+@WangCai_1+4
+      - CH_45+@WangCai_1+4
+      - CH_63+@WangCai_1+4
+      - Pool_🇸🇬SG_8179
+      - Pool_🇸🇬SG_8140
+      - Pool_🇸🇬SG_8084
+      - CH_72+@WangCai_1+4
+      - AT_25+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - CH_34+@WangCai_1+4
+      - CH_27+@WangCai_1+4
+      - CH_48+@WangCai_1+5
+      - CH_05+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - CH_22+@WangCai_1+4
+      - Pool_🇸🇬SG_8127
+      - CH_14+@WangCai_1+4
+      - CH_19+@WangCai_1+4
+      - CH_40+@WangCai_1+4
+      - CH_16+@WangCai_1+4
+      - CH_65+@WangCai_1+3
+      - CH_29+@WangCai_1+4
+      - CH_45+@WangCai_1+3
+      - CH_35+@WangCai_1+5
+      - 韩国WL—SZCM流媒体_75
+      - CH_68+@WangCai_1+4
+      - CH_49+@WangCai_1+5
+      - CH_39+@WangCai_1+4
+      - Pool_🇸🇬SG_8080
+      - 🇺🇸US_9327
+      - CH_60+@WangCai_1+5
+      - CH_36+@WangCai_1+4
+      - CH_32+@WangCai_1+4
+      - CH_43+@WangCai_1+5
+      - CH_41+@WangCai_1+4
+      - CH_30+@WangCai_1+5
+      - CH_61+@WangCai_1+5
+      - AT_81+@WangCai_1+2
+      - Pool_🇺🇸US_9334
       - AT_22+@WangCai_1+4
+      - CH_52+@WangCai_1+4
+      - CH_18+@WangCai_1+4
+      - CH_10+@WangCai_1+5
+      - CH_07+@WangCai_1+4
+      - CH_46+@WangCai_1+4
       - CH_30+@WangCai_1+4
-      - n_45.88.179.12_56
+      - CH_20+@WangCai_1+5
+      - AT_25+@WangCai_1+3
+      - CH_08+@WangCai_1+4
+      - Pool_🇸🇬SG_8085
+      - CH_63+@WangCai_1+5
+      - CH_03+@WangCai_1+4
+      - AT_63+@WangCai_1+4
+      - CH_50+@WangCai_1+5
+      - AT_03+@WangCai_1+8
+      - CH_19+@WangCai_1+5
+      - CH_01+@WangCai_1+4
+      - CH_72+@WangCai_1+5
+      - n_45.88.179.12_109
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港Azure-香港IPServerOne-nf_1
-      - 🇭🇰 香港Azure-香港IPServerOne_2
-      - 🇲🇴 Tokyo-GMO-dip_3
-      - CH_51+@WangCai_1+4
-      - CH_11+@WangCai_1+4
-      - CH_37+@WangCai_1+4
-      - CH_59+@WangCai_1+4
-      - CH_25+@WangCai_1+2
-      - CH_57+@WangCai_1+4
-      - AT_56+@WangCai_1+4
-      - CH_54+@WangCai_1+4
-      - CH_58+@WangCai_1+5
-      - CH_19+@WangCai_1+4
-      - CH_10+@WangCai_1+4
-      - CH_66+@WangCai_1+5
-      - CH_03+@WangCai_1+4
-      - AT_22+@WangCai_1+3
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
       - CH_54+@WangCai_1+5
-      - AT_25+@WangCai_1+3
-      - CH_49+@WangCai_1+5
-      - CH_65+@WangCai_1+4
-      - CH_81+@WangCai_1+5
-      - CH_50+@WangCai_1+5
-      - CH_47+@WangCai_1+5
-      - 🇭🇰 合肥移动-香港Azure_25
-      - 🇭🇰 合肥移动-香港Azure 2_26
-      - CH_41+@WangCai_1+4
-      - CH_27+@WangCai_1+4
-      - CH_16+@WangCai_1+4
+      - Pool_🇸🇬SG_8139
+      - Pool_🇸🇬SG_8152
       - CH_07+@WangCai_1+5
-      - AT_81+@WangCai_1+2
-      - CH_52+@WangCai_1+4
-      - CH_70+@WangCai_1+5
-      - CH_57+@WangCai_1+5
-      - CH_01+@WangCai_1+4
-      - CH_29+@WangCai_1+4
-      - CH_12+@WangCai_1+4
-      - CH_72+@WangCai_1+5
-      - CH_61+@WangCai_1+5
-      - CH_31+@WangCai_1+4
-      - CH_20+@WangCai_1+5
-      - CH_18+@WangCai_1+4
-      - CH_72+@WangCai_1+4
-      - CH_46+@WangCai_1+4
-      - AT_03+@WangCai_1+8
-      - CH_43+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - CH_78+@WangCai_1+5
-      - CH_44+@WangCai_1+5
-      - CH_23+@WangCai_1+5
-      - CH_65+@WangCai_1+3
+      - CH_11+@WangCai_1+4
+      - AT_42+@WangCai_1+4
+      - CH_22+@WangCai_1+5
+      - Pool_🇺🇸US_9337
+      - CH_55+@WangCai_1+4
+      - CH_47+@WangCai_1+5
+      - CH_53+@WangCai_1+4
+      - CH_68+@WangCai_1+5
+      - CH_62+@WangCai_1+4
+      - AT_09+@WangCai_1+3
+      - CH_69+@WangCai_1+4
+      - AT_56+@WangCai_1+4
+      - Pool_🇸🇬SG_8168
+      - Pool_🇺🇸US_9333
+      - Pool_🇹🇼TW_8498
+      - Pool_🇸🇬SG_8160
+      - CH_10+@WangCai_1+4
       - CH_26+@WangCai_1+4
-      - CH_07+@WangCai_1+4
+      - CH_58+@WangCai_1+4
+      - CH_37+@WangCai_1+4
+      - AT_04+@WangCai_1+4
+      - CH_25+@WangCai_1+2
+      - CH_23+@WangCai_1+5
+      - Pool_🇺🇸US_9338
+      - Pool_🇺🇸US_9330
+      - Pool_🇺🇸US_9332
+      - CH_69+@WangCai_1+3
+      - CH_70+@WangCai_1+5
+      - CH_56+@WangCai_1+5
+      - CH_53+@WangCai_1+5
+      - CH_76+@WangCai_1+4
+      - AT_27+@WangCai_1+2
+      - CH_51+@WangCai_1+4
+      - AT_16+@WangCai_1+4
+      - CH_06+@WangCai_1+5
+      - CH_35+@WangCai_1+4
+      - AT_37+@WangCai_1+3
+      - CH_57+@WangCai_1+5
+      - Pool_🇸🇬SG_8095
+      - CH_54+@WangCai_1+4
+      - CH_59+@WangCai_1+4
+      - CH_47+@WangCai_1+4
+      - CH_37+@WangCai_1+5
+      - CH_42+@WangCai_1+4
+      - AT_22+@WangCai_1+3
+      - CH_12+@WangCai_1+4
+      - CH_45+@WangCai_1+4
+      - CH_63+@WangCai_1+4
+      - Pool_🇸🇬SG_8179
+      - Pool_🇸🇬SG_8140
+      - Pool_🇸🇬SG_8084
+      - CH_72+@WangCai_1+4
+      - AT_25+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - CH_34+@WangCai_1+4
+      - CH_27+@WangCai_1+4
+      - CH_48+@WangCai_1+5
+      - CH_05+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - CH_22+@WangCai_1+4
+      - Pool_🇸🇬SG_8127
+      - CH_14+@WangCai_1+4
+      - CH_19+@WangCai_1+4
+      - CH_40+@WangCai_1+4
+      - CH_16+@WangCai_1+4
+      - CH_65+@WangCai_1+3
+      - CH_29+@WangCai_1+4
+      - CH_45+@WangCai_1+3
+      - CH_35+@WangCai_1+5
+      - 韩国WL—SZCM流媒体_75
+      - CH_68+@WangCai_1+4
+      - CH_49+@WangCai_1+5
+      - CH_39+@WangCai_1+4
+      - Pool_🇸🇬SG_8080
+      - 🇺🇸US_9327
+      - CH_60+@WangCai_1+5
+      - CH_36+@WangCai_1+4
+      - CH_32+@WangCai_1+4
+      - CH_43+@WangCai_1+5
+      - CH_41+@WangCai_1+4
+      - CH_30+@WangCai_1+5
+      - CH_61+@WangCai_1+5
+      - AT_81+@WangCai_1+2
+      - Pool_🇺🇸US_9334
       - AT_22+@WangCai_1+4
+      - CH_52+@WangCai_1+4
+      - CH_18+@WangCai_1+4
+      - CH_10+@WangCai_1+5
+      - CH_07+@WangCai_1+4
+      - CH_46+@WangCai_1+4
       - CH_30+@WangCai_1+4
-      - n_45.88.179.12_56
+      - CH_20+@WangCai_1+5
+      - AT_25+@WangCai_1+3
+      - CH_08+@WangCai_1+4
+      - Pool_🇸🇬SG_8085
+      - CH_63+@WangCai_1+5
+      - CH_03+@WangCai_1+4
+      - AT_63+@WangCai_1+4
+      - CH_50+@WangCai_1+5
+      - AT_03+@WangCai_1+8
+      - CH_19+@WangCai_1+5
+      - CH_01+@WangCai_1+4
+      - CH_72+@WangCai_1+5
+      - n_45.88.179.12_109
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港Azure-香港IPServerOne-nf_1
-      - 🇭🇰 香港Azure-香港IPServerOne_2
-      - 🇲🇴 Tokyo-GMO-dip_3
-      - CH_51+@WangCai_1+4
-      - CH_11+@WangCai_1+4
-      - CH_37+@WangCai_1+4
-      - CH_59+@WangCai_1+4
-      - CH_25+@WangCai_1+2
-      - CH_57+@WangCai_1+4
-      - AT_56+@WangCai_1+4
-      - CH_54+@WangCai_1+4
-      - CH_58+@WangCai_1+5
-      - CH_19+@WangCai_1+4
-      - CH_10+@WangCai_1+4
-      - CH_66+@WangCai_1+5
-      - CH_03+@WangCai_1+4
-      - AT_22+@WangCai_1+3
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
       - CH_54+@WangCai_1+5
-      - AT_25+@WangCai_1+3
-      - CH_49+@WangCai_1+5
-      - CH_65+@WangCai_1+4
-      - CH_81+@WangCai_1+5
-      - CH_50+@WangCai_1+5
-      - CH_47+@WangCai_1+5
-      - 🇭🇰 合肥移动-香港Azure_25
-      - 🇭🇰 合肥移动-香港Azure 2_26
-      - CH_41+@WangCai_1+4
-      - CH_27+@WangCai_1+4
-      - CH_16+@WangCai_1+4
+      - Pool_🇸🇬SG_8139
+      - Pool_🇸🇬SG_8152
       - CH_07+@WangCai_1+5
-      - AT_81+@WangCai_1+2
-      - CH_52+@WangCai_1+4
-      - CH_70+@WangCai_1+5
-      - CH_57+@WangCai_1+5
-      - CH_01+@WangCai_1+4
-      - CH_29+@WangCai_1+4
-      - CH_12+@WangCai_1+4
-      - CH_72+@WangCai_1+5
-      - CH_61+@WangCai_1+5
-      - CH_31+@WangCai_1+4
-      - CH_20+@WangCai_1+5
-      - CH_18+@WangCai_1+4
-      - CH_72+@WangCai_1+4
-      - CH_46+@WangCai_1+4
-      - AT_03+@WangCai_1+8
-      - CH_43+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - CH_78+@WangCai_1+5
-      - CH_44+@WangCai_1+5
-      - CH_23+@WangCai_1+5
-      - CH_65+@WangCai_1+3
+      - CH_11+@WangCai_1+4
+      - AT_42+@WangCai_1+4
+      - CH_22+@WangCai_1+5
+      - Pool_🇺🇸US_9337
+      - CH_55+@WangCai_1+4
+      - CH_47+@WangCai_1+5
+      - CH_53+@WangCai_1+4
+      - CH_68+@WangCai_1+5
+      - CH_62+@WangCai_1+4
+      - AT_09+@WangCai_1+3
+      - CH_69+@WangCai_1+4
+      - AT_56+@WangCai_1+4
+      - Pool_🇸🇬SG_8168
+      - Pool_🇺🇸US_9333
+      - Pool_🇹🇼TW_8498
+      - Pool_🇸🇬SG_8160
+      - CH_10+@WangCai_1+4
       - CH_26+@WangCai_1+4
-      - CH_07+@WangCai_1+4
+      - CH_58+@WangCai_1+4
+      - CH_37+@WangCai_1+4
+      - AT_04+@WangCai_1+4
+      - CH_25+@WangCai_1+2
+      - CH_23+@WangCai_1+5
+      - Pool_🇺🇸US_9338
+      - Pool_🇺🇸US_9330
+      - Pool_🇺🇸US_9332
+      - CH_69+@WangCai_1+3
+      - CH_70+@WangCai_1+5
+      - CH_56+@WangCai_1+5
+      - CH_53+@WangCai_1+5
+      - CH_76+@WangCai_1+4
+      - AT_27+@WangCai_1+2
+      - CH_51+@WangCai_1+4
+      - AT_16+@WangCai_1+4
+      - CH_06+@WangCai_1+5
+      - CH_35+@WangCai_1+4
+      - AT_37+@WangCai_1+3
+      - CH_57+@WangCai_1+5
+      - Pool_🇸🇬SG_8095
+      - CH_54+@WangCai_1+4
+      - CH_59+@WangCai_1+4
+      - CH_47+@WangCai_1+4
+      - CH_37+@WangCai_1+5
+      - CH_42+@WangCai_1+4
+      - AT_22+@WangCai_1+3
+      - CH_12+@WangCai_1+4
+      - CH_45+@WangCai_1+4
+      - CH_63+@WangCai_1+4
+      - Pool_🇸🇬SG_8179
+      - Pool_🇸🇬SG_8140
+      - Pool_🇸🇬SG_8084
+      - CH_72+@WangCai_1+4
+      - AT_25+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - CH_34+@WangCai_1+4
+      - CH_27+@WangCai_1+4
+      - CH_48+@WangCai_1+5
+      - CH_05+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - CH_22+@WangCai_1+4
+      - Pool_🇸🇬SG_8127
+      - CH_14+@WangCai_1+4
+      - CH_19+@WangCai_1+4
+      - CH_40+@WangCai_1+4
+      - CH_16+@WangCai_1+4
+      - CH_65+@WangCai_1+3
+      - CH_29+@WangCai_1+4
+      - CH_45+@WangCai_1+3
+      - CH_35+@WangCai_1+5
+      - 韩国WL—SZCM流媒体_75
+      - CH_68+@WangCai_1+4
+      - CH_49+@WangCai_1+5
+      - CH_39+@WangCai_1+4
+      - Pool_🇸🇬SG_8080
+      - 🇺🇸US_9327
+      - CH_60+@WangCai_1+5
+      - CH_36+@WangCai_1+4
+      - CH_32+@WangCai_1+4
+      - CH_43+@WangCai_1+5
+      - CH_41+@WangCai_1+4
+      - CH_30+@WangCai_1+5
+      - CH_61+@WangCai_1+5
+      - AT_81+@WangCai_1+2
+      - Pool_🇺🇸US_9334
       - AT_22+@WangCai_1+4
+      - CH_52+@WangCai_1+4
+      - CH_18+@WangCai_1+4
+      - CH_10+@WangCai_1+5
+      - CH_07+@WangCai_1+4
+      - CH_46+@WangCai_1+4
       - CH_30+@WangCai_1+4
-      - n_45.88.179.12_56
+      - CH_20+@WangCai_1+5
+      - AT_25+@WangCai_1+3
+      - CH_08+@WangCai_1+4
+      - Pool_🇸🇬SG_8085
+      - CH_63+@WangCai_1+5
+      - CH_03+@WangCai_1+4
+      - AT_63+@WangCai_1+4
+      - CH_50+@WangCai_1+5
+      - AT_03+@WangCai_1+8
+      - CH_19+@WangCai_1+5
+      - CH_01+@WangCai_1+4
+      - CH_72+@WangCai_1+5
+      - n_45.88.179.12_109
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港Azure-香港IPServerOne-nf_1
-      - 🇭🇰 香港Azure-香港IPServerOne_2
-      - 🇲🇴 Tokyo-GMO-dip_3
-      - CH_51+@WangCai_1+4
-      - CH_11+@WangCai_1+4
-      - CH_37+@WangCai_1+4
-      - CH_59+@WangCai_1+4
-      - CH_25+@WangCai_1+2
-      - CH_57+@WangCai_1+4
-      - AT_56+@WangCai_1+4
-      - CH_54+@WangCai_1+4
-      - CH_58+@WangCai_1+5
-      - CH_19+@WangCai_1+4
-      - CH_10+@WangCai_1+4
-      - CH_66+@WangCai_1+5
-      - CH_03+@WangCai_1+4
-      - AT_22+@WangCai_1+3
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
       - CH_54+@WangCai_1+5
-      - AT_25+@WangCai_1+3
-      - CH_49+@WangCai_1+5
-      - CH_65+@WangCai_1+4
-      - CH_81+@WangCai_1+5
-      - CH_50+@WangCai_1+5
-      - CH_47+@WangCai_1+5
-      - 🇭🇰 合肥移动-香港Azure_25
-      - 🇭🇰 合肥移动-香港Azure 2_26
-      - CH_41+@WangCai_1+4
-      - CH_27+@WangCai_1+4
-      - CH_16+@WangCai_1+4
+      - Pool_🇸🇬SG_8139
+      - Pool_🇸🇬SG_8152
       - CH_07+@WangCai_1+5
-      - AT_81+@WangCai_1+2
-      - CH_52+@WangCai_1+4
-      - CH_70+@WangCai_1+5
-      - CH_57+@WangCai_1+5
-      - CH_01+@WangCai_1+4
-      - CH_29+@WangCai_1+4
-      - CH_12+@WangCai_1+4
-      - CH_72+@WangCai_1+5
-      - CH_61+@WangCai_1+5
-      - CH_31+@WangCai_1+4
-      - CH_20+@WangCai_1+5
-      - CH_18+@WangCai_1+4
-      - CH_72+@WangCai_1+4
-      - CH_46+@WangCai_1+4
-      - AT_03+@WangCai_1+8
-      - CH_43+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - CH_78+@WangCai_1+5
-      - CH_44+@WangCai_1+5
-      - CH_23+@WangCai_1+5
-      - CH_65+@WangCai_1+3
+      - CH_11+@WangCai_1+4
+      - AT_42+@WangCai_1+4
+      - CH_22+@WangCai_1+5
+      - Pool_🇺🇸US_9337
+      - CH_55+@WangCai_1+4
+      - CH_47+@WangCai_1+5
+      - CH_53+@WangCai_1+4
+      - CH_68+@WangCai_1+5
+      - CH_62+@WangCai_1+4
+      - AT_09+@WangCai_1+3
+      - CH_69+@WangCai_1+4
+      - AT_56+@WangCai_1+4
+      - Pool_🇸🇬SG_8168
+      - Pool_🇺🇸US_9333
+      - Pool_🇹🇼TW_8498
+      - Pool_🇸🇬SG_8160
+      - CH_10+@WangCai_1+4
       - CH_26+@WangCai_1+4
-      - CH_07+@WangCai_1+4
+      - CH_58+@WangCai_1+4
+      - CH_37+@WangCai_1+4
+      - AT_04+@WangCai_1+4
+      - CH_25+@WangCai_1+2
+      - CH_23+@WangCai_1+5
+      - Pool_🇺🇸US_9338
+      - Pool_🇺🇸US_9330
+      - Pool_🇺🇸US_9332
+      - CH_69+@WangCai_1+3
+      - CH_70+@WangCai_1+5
+      - CH_56+@WangCai_1+5
+      - CH_53+@WangCai_1+5
+      - CH_76+@WangCai_1+4
+      - AT_27+@WangCai_1+2
+      - CH_51+@WangCai_1+4
+      - AT_16+@WangCai_1+4
+      - CH_06+@WangCai_1+5
+      - CH_35+@WangCai_1+4
+      - AT_37+@WangCai_1+3
+      - CH_57+@WangCai_1+5
+      - Pool_🇸🇬SG_8095
+      - CH_54+@WangCai_1+4
+      - CH_59+@WangCai_1+4
+      - CH_47+@WangCai_1+4
+      - CH_37+@WangCai_1+5
+      - CH_42+@WangCai_1+4
+      - AT_22+@WangCai_1+3
+      - CH_12+@WangCai_1+4
+      - CH_45+@WangCai_1+4
+      - CH_63+@WangCai_1+4
+      - Pool_🇸🇬SG_8179
+      - Pool_🇸🇬SG_8140
+      - Pool_🇸🇬SG_8084
+      - CH_72+@WangCai_1+4
+      - AT_25+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - CH_34+@WangCai_1+4
+      - CH_27+@WangCai_1+4
+      - CH_48+@WangCai_1+5
+      - CH_05+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - CH_22+@WangCai_1+4
+      - Pool_🇸🇬SG_8127
+      - CH_14+@WangCai_1+4
+      - CH_19+@WangCai_1+4
+      - CH_40+@WangCai_1+4
+      - CH_16+@WangCai_1+4
+      - CH_65+@WangCai_1+3
+      - CH_29+@WangCai_1+4
+      - CH_45+@WangCai_1+3
+      - CH_35+@WangCai_1+5
+      - 韩国WL—SZCM流媒体_75
+      - CH_68+@WangCai_1+4
+      - CH_49+@WangCai_1+5
+      - CH_39+@WangCai_1+4
+      - Pool_🇸🇬SG_8080
+      - 🇺🇸US_9327
+      - CH_60+@WangCai_1+5
+      - CH_36+@WangCai_1+4
+      - CH_32+@WangCai_1+4
+      - CH_43+@WangCai_1+5
+      - CH_41+@WangCai_1+4
+      - CH_30+@WangCai_1+5
+      - CH_61+@WangCai_1+5
+      - AT_81+@WangCai_1+2
+      - Pool_🇺🇸US_9334
       - AT_22+@WangCai_1+4
+      - CH_52+@WangCai_1+4
+      - CH_18+@WangCai_1+4
+      - CH_10+@WangCai_1+5
+      - CH_07+@WangCai_1+4
+      - CH_46+@WangCai_1+4
       - CH_30+@WangCai_1+4
-      - n_45.88.179.12_56
+      - CH_20+@WangCai_1+5
+      - AT_25+@WangCai_1+3
+      - CH_08+@WangCai_1+4
+      - Pool_🇸🇬SG_8085
+      - CH_63+@WangCai_1+5
+      - CH_03+@WangCai_1+4
+      - AT_63+@WangCai_1+4
+      - CH_50+@WangCai_1+5
+      - AT_03+@WangCai_1+8
+      - CH_19+@WangCai_1+5
+      - CH_01+@WangCai_1+4
+      - CH_72+@WangCai_1+5
+      - n_45.88.179.12_109
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -506,62 +930,115 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港Azure-香港IPServerOne-nf_1
-      - 🇭🇰 香港Azure-香港IPServerOne_2
-      - 🇲🇴 Tokyo-GMO-dip_3
-      - CH_51+@WangCai_1+4
-      - CH_11+@WangCai_1+4
-      - CH_37+@WangCai_1+4
-      - CH_59+@WangCai_1+4
-      - CH_25+@WangCai_1+2
-      - CH_57+@WangCai_1+4
-      - AT_56+@WangCai_1+4
-      - CH_54+@WangCai_1+4
-      - CH_58+@WangCai_1+5
-      - CH_19+@WangCai_1+4
-      - CH_10+@WangCai_1+4
-      - CH_66+@WangCai_1+5
-      - CH_03+@WangCai_1+4
-      - AT_22+@WangCai_1+3
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
       - CH_54+@WangCai_1+5
-      - AT_25+@WangCai_1+3
-      - CH_49+@WangCai_1+5
-      - CH_65+@WangCai_1+4
-      - CH_81+@WangCai_1+5
-      - CH_50+@WangCai_1+5
-      - CH_47+@WangCai_1+5
-      - 🇭🇰 合肥移动-香港Azure_25
-      - 🇭🇰 合肥移动-香港Azure 2_26
-      - CH_41+@WangCai_1+4
-      - CH_27+@WangCai_1+4
-      - CH_16+@WangCai_1+4
+      - Pool_🇸🇬SG_8139
+      - Pool_🇸🇬SG_8152
       - CH_07+@WangCai_1+5
-      - AT_81+@WangCai_1+2
-      - CH_52+@WangCai_1+4
-      - CH_70+@WangCai_1+5
-      - CH_57+@WangCai_1+5
-      - CH_01+@WangCai_1+4
-      - CH_29+@WangCai_1+4
-      - CH_12+@WangCai_1+4
-      - CH_72+@WangCai_1+5
-      - CH_61+@WangCai_1+5
-      - CH_31+@WangCai_1+4
-      - CH_20+@WangCai_1+5
-      - CH_18+@WangCai_1+4
-      - CH_72+@WangCai_1+4
-      - CH_46+@WangCai_1+4
-      - AT_03+@WangCai_1+8
-      - CH_43+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - CH_78+@WangCai_1+5
-      - CH_44+@WangCai_1+5
-      - CH_23+@WangCai_1+5
-      - CH_65+@WangCai_1+3
+      - CH_11+@WangCai_1+4
+      - AT_42+@WangCai_1+4
+      - CH_22+@WangCai_1+5
+      - Pool_🇺🇸US_9337
+      - CH_55+@WangCai_1+4
+      - CH_47+@WangCai_1+5
+      - CH_53+@WangCai_1+4
+      - CH_68+@WangCai_1+5
+      - CH_62+@WangCai_1+4
+      - AT_09+@WangCai_1+3
+      - CH_69+@WangCai_1+4
+      - AT_56+@WangCai_1+4
+      - Pool_🇸🇬SG_8168
+      - Pool_🇺🇸US_9333
+      - Pool_🇹🇼TW_8498
+      - Pool_🇸🇬SG_8160
+      - CH_10+@WangCai_1+4
       - CH_26+@WangCai_1+4
-      - CH_07+@WangCai_1+4
+      - CH_58+@WangCai_1+4
+      - CH_37+@WangCai_1+4
+      - AT_04+@WangCai_1+4
+      - CH_25+@WangCai_1+2
+      - CH_23+@WangCai_1+5
+      - Pool_🇺🇸US_9338
+      - Pool_🇺🇸US_9330
+      - Pool_🇺🇸US_9332
+      - CH_69+@WangCai_1+3
+      - CH_70+@WangCai_1+5
+      - CH_56+@WangCai_1+5
+      - CH_53+@WangCai_1+5
+      - CH_76+@WangCai_1+4
+      - AT_27+@WangCai_1+2
+      - CH_51+@WangCai_1+4
+      - AT_16+@WangCai_1+4
+      - CH_06+@WangCai_1+5
+      - CH_35+@WangCai_1+4
+      - AT_37+@WangCai_1+3
+      - CH_57+@WangCai_1+5
+      - Pool_🇸🇬SG_8095
+      - CH_54+@WangCai_1+4
+      - CH_59+@WangCai_1+4
+      - CH_47+@WangCai_1+4
+      - CH_37+@WangCai_1+5
+      - CH_42+@WangCai_1+4
+      - AT_22+@WangCai_1+3
+      - CH_12+@WangCai_1+4
+      - CH_45+@WangCai_1+4
+      - CH_63+@WangCai_1+4
+      - Pool_🇸🇬SG_8179
+      - Pool_🇸🇬SG_8140
+      - Pool_🇸🇬SG_8084
+      - CH_72+@WangCai_1+4
+      - AT_25+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - CH_34+@WangCai_1+4
+      - CH_27+@WangCai_1+4
+      - CH_48+@WangCai_1+5
+      - CH_05+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - CH_22+@WangCai_1+4
+      - Pool_🇸🇬SG_8127
+      - CH_14+@WangCai_1+4
+      - CH_19+@WangCai_1+4
+      - CH_40+@WangCai_1+4
+      - CH_16+@WangCai_1+4
+      - CH_65+@WangCai_1+3
+      - CH_29+@WangCai_1+4
+      - CH_45+@WangCai_1+3
+      - CH_35+@WangCai_1+5
+      - 韩国WL—SZCM流媒体_75
+      - CH_68+@WangCai_1+4
+      - CH_49+@WangCai_1+5
+      - CH_39+@WangCai_1+4
+      - Pool_🇸🇬SG_8080
+      - 🇺🇸US_9327
+      - CH_60+@WangCai_1+5
+      - CH_36+@WangCai_1+4
+      - CH_32+@WangCai_1+4
+      - CH_43+@WangCai_1+5
+      - CH_41+@WangCai_1+4
+      - CH_30+@WangCai_1+5
+      - CH_61+@WangCai_1+5
+      - AT_81+@WangCai_1+2
+      - Pool_🇺🇸US_9334
       - AT_22+@WangCai_1+4
+      - CH_52+@WangCai_1+4
+      - CH_18+@WangCai_1+4
+      - CH_10+@WangCai_1+5
+      - CH_07+@WangCai_1+4
+      - CH_46+@WangCai_1+4
       - CH_30+@WangCai_1+4
-      - n_45.88.179.12_56
+      - CH_20+@WangCai_1+5
+      - AT_25+@WangCai_1+3
+      - CH_08+@WangCai_1+4
+      - Pool_🇸🇬SG_8085
+      - CH_63+@WangCai_1+5
+      - CH_03+@WangCai_1+4
+      - AT_63+@WangCai_1+4
+      - CH_50+@WangCai_1+5
+      - AT_03+@WangCai_1+8
+      - CH_19+@WangCai_1+5
+      - CH_01+@WangCai_1+4
+      - CH_72+@WangCai_1+5
+      - n_45.88.179.12_109
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
