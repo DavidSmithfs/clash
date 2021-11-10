@@ -5,7 +5,21 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇹🇼 V3 | 台湾 原生01 | x2.0_1', server: gd.cm-1-cf.fevers.cyou, port: 30080, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray-tw, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
+  - {name: '🇮🇳+印度_012+关注Tg交流群_@Mshare_T_1', server: dd004.zhuan666.top, port: 11604, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: '🇯🇵 日本_009 关注Tg交流群_@Mshare_T_2', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: '🇯🇵+日本_013+关注Tg交流群_@Mshare_T_3', server: rr010.zhuan666.top, port: 11210, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: '🇯🇵 日本_006 关注Tg交流群_@Mshare_T_4', server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: 1a26ac9c-2e11-469b-ba86-9970c6cc7b3e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: '🇮🇳+印度_005+关注Tg交流群_@Mshare_T_5', server: rr008.zhuan666.top, port: 11208, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: '🇮🇩 印尼_001 Tg交流群 @Mshare_T_6', server: jmyd2.nkeo.top, port: 61780, type: vmess, uuid: 765040cb-15f4-43da-9e07-4b92c767d222, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /id-dnf7328g, ws-headers: {Host: mdid.jsdelivr.net}}
+  - {name: '🇬🇧+英国_005+关注Tg交流群_@Mshare_T_7', server: yy001.zhuan666.top, port: 11801, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: '🇺🇸+美国_023+关注Tg交流群_@Mshare_T_8', server: mm005.zhuan666.top, port: 11510, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: '🇺🇸+美国_025+关注Tg交流群_@Mshare_T_9', server: rr018.zhuan666.top, port: 11218, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: '🇺🇸+美国_027+关注Tg交流群_@Mshare_T_10', server: rr016.zhuan666.top, port: 11216, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: '🇺🇸+美国_033+关注Tg交流群_@Mshare_T_11', server: mm003.zhuan666.top, port: 11508, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: '🇺🇸+美国_032+关注Tg交流群_@Mshare_T_12', server: mm004.zhuan666.top, port: 11509, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: '🇺🇸+美国_026+关注Tg交流群_@Mshare_T_13', server: rr017.zhuan666.top, port: 11217, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: '🇺🇸+美国_035+关注Tg交流群_@Mshare_T_14', server: mm001.zhuan666.top, port: 11506, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: '🇹🇼 V3 | 台湾 原生01 | x2.0_15', server: gd.cm-1-cf.fevers.cyou, port: 30080, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray-tw, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
   - {name: 'CH_54+@WangCai_1+5', server: 156.146.62.50, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
   - {name: 'Pool_🇸🇬SG_8139', server: 89.187.162.186, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
   - {name: 'Pool_🇸🇬SG_8152', server: 89.187.163.210, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
@@ -79,7 +93,7 @@ proxies:
   - {name: 'CH_29+@WangCai_1+4', server: 156.146.62.45, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
   - {name: 'CH_45+@WangCai_1+3', server: 156.146.62.45, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
   - {name: 'CH_35+@WangCai_1+5', server: 156.146.62.50, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: '韩国WL—SZCM流媒体_75', server: szcm.blfast.net, port: 30017, type: vmess, uuid: 932aad6d-0474-3180-865c-2576c616cf03, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /lala, ws-headers: {Host: 37.blfast.net}}
+  - {name: '韩国WL—SZCM流媒体_89', server: szcm.blfast.net, port: 30017, type: vmess, uuid: 932aad6d-0474-3180-865c-2576c616cf03, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /lala, ws-headers: {Host: 37.blfast.net}}
   - {name: 'CH_68+@WangCai_1+4', server: 156.146.62.45, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
   - {name: 'CH_49+@WangCai_1+5', server: 156.146.62.50, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
   - {name: 'CH_39+@WangCai_1+4', server: 156.146.62.45, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
@@ -113,14 +127,28 @@ proxies:
   - {name: 'CH_19+@WangCai_1+5', server: 156.146.62.50, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
   - {name: 'CH_01+@WangCai_1+4', server: 156.146.62.50, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 'CH_72+@WangCai_1+5', server: 156.146.62.50, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
-  - {name: 'n_45.88.179.12_109', server: 45.88.179.12, port: 30678, type: vmess, uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.88.179.12}}
+  - {name: 'n_45.88.179.12_123', server: 45.88.179.12, port: 30678, type: vmess, uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.88.179.12}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_1
+      - 🇯🇵 日本_009 关注Tg交流群_@Mshare_T_2
+      - 🇯🇵+日本_013+关注Tg交流群_@Mshare_T_3
+      - 🇯🇵 日本_006 关注Tg交流群_@Mshare_T_4
+      - 🇮🇳+印度_005+关注Tg交流群_@Mshare_T_5
+      - 🇮🇩 印尼_001 Tg交流群 @Mshare_T_6
+      - 🇬🇧+英国_005+关注Tg交流群_@Mshare_T_7
+      - 🇺🇸+美国_023+关注Tg交流群_@Mshare_T_8
+      - 🇺🇸+美国_025+关注Tg交流群_@Mshare_T_9
+      - 🇺🇸+美国_027+关注Tg交流群_@Mshare_T_10
+      - 🇺🇸+美国_033+关注Tg交流群_@Mshare_T_11
+      - 🇺🇸+美国_032+关注Tg交流群_@Mshare_T_12
+      - 🇺🇸+美国_026+关注Tg交流群_@Mshare_T_13
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_14
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_15
       - CH_54+@WangCai_1+5
       - Pool_🇸🇬SG_8139
       - Pool_🇸🇬SG_8152
@@ -194,7 +222,7 @@ proxy-groups:
       - CH_29+@WangCai_1+4
       - CH_45+@WangCai_1+3
       - CH_35+@WangCai_1+5
-      - 韩国WL—SZCM流媒体_75
+      - 韩国WL—SZCM流媒体_89
       - CH_68+@WangCai_1+4
       - CH_49+@WangCai_1+5
       - CH_39+@WangCai_1+4
@@ -228,13 +256,27 @@ proxy-groups:
       - CH_19+@WangCai_1+5
       - CH_01+@WangCai_1+4
       - CH_72+@WangCai_1+5
-      - n_45.88.179.12_109
+      - n_45.88.179.12_123
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_1
+      - 🇯🇵 日本_009 关注Tg交流群_@Mshare_T_2
+      - 🇯🇵+日本_013+关注Tg交流群_@Mshare_T_3
+      - 🇯🇵 日本_006 关注Tg交流群_@Mshare_T_4
+      - 🇮🇳+印度_005+关注Tg交流群_@Mshare_T_5
+      - 🇮🇩 印尼_001 Tg交流群 @Mshare_T_6
+      - 🇬🇧+英国_005+关注Tg交流群_@Mshare_T_7
+      - 🇺🇸+美国_023+关注Tg交流群_@Mshare_T_8
+      - 🇺🇸+美国_025+关注Tg交流群_@Mshare_T_9
+      - 🇺🇸+美国_027+关注Tg交流群_@Mshare_T_10
+      - 🇺🇸+美国_033+关注Tg交流群_@Mshare_T_11
+      - 🇺🇸+美国_032+关注Tg交流群_@Mshare_T_12
+      - 🇺🇸+美国_026+关注Tg交流群_@Mshare_T_13
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_14
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_15
       - CH_54+@WangCai_1+5
       - Pool_🇸🇬SG_8139
       - Pool_🇸🇬SG_8152
@@ -308,7 +350,7 @@ proxy-groups:
       - CH_29+@WangCai_1+4
       - CH_45+@WangCai_1+3
       - CH_35+@WangCai_1+5
-      - 韩国WL—SZCM流媒体_75
+      - 韩国WL—SZCM流媒体_89
       - CH_68+@WangCai_1+4
       - CH_49+@WangCai_1+5
       - CH_39+@WangCai_1+4
@@ -342,14 +384,28 @@ proxy-groups:
       - CH_19+@WangCai_1+5
       - CH_01+@WangCai_1+4
       - CH_72+@WangCai_1+5
-      - n_45.88.179.12_109
+      - n_45.88.179.12_123
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_1
+      - 🇯🇵 日本_009 关注Tg交流群_@Mshare_T_2
+      - 🇯🇵+日本_013+关注Tg交流群_@Mshare_T_3
+      - 🇯🇵 日本_006 关注Tg交流群_@Mshare_T_4
+      - 🇮🇳+印度_005+关注Tg交流群_@Mshare_T_5
+      - 🇮🇩 印尼_001 Tg交流群 @Mshare_T_6
+      - 🇬🇧+英国_005+关注Tg交流群_@Mshare_T_7
+      - 🇺🇸+美国_023+关注Tg交流群_@Mshare_T_8
+      - 🇺🇸+美国_025+关注Tg交流群_@Mshare_T_9
+      - 🇺🇸+美国_027+关注Tg交流群_@Mshare_T_10
+      - 🇺🇸+美国_033+关注Tg交流群_@Mshare_T_11
+      - 🇺🇸+美国_032+关注Tg交流群_@Mshare_T_12
+      - 🇺🇸+美国_026+关注Tg交流群_@Mshare_T_13
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_14
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_15
       - CH_54+@WangCai_1+5
       - Pool_🇸🇬SG_8139
       - Pool_🇸🇬SG_8152
@@ -423,7 +479,7 @@ proxy-groups:
       - CH_29+@WangCai_1+4
       - CH_45+@WangCai_1+3
       - CH_35+@WangCai_1+5
-      - 韩国WL—SZCM流媒体_75
+      - 韩国WL—SZCM流媒体_89
       - CH_68+@WangCai_1+4
       - CH_49+@WangCai_1+5
       - CH_39+@WangCai_1+4
@@ -457,13 +513,27 @@ proxy-groups:
       - CH_19+@WangCai_1+5
       - CH_01+@WangCai_1+4
       - CH_72+@WangCai_1+5
-      - n_45.88.179.12_109
+      - n_45.88.179.12_123
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_1
+      - 🇯🇵 日本_009 关注Tg交流群_@Mshare_T_2
+      - 🇯🇵+日本_013+关注Tg交流群_@Mshare_T_3
+      - 🇯🇵 日本_006 关注Tg交流群_@Mshare_T_4
+      - 🇮🇳+印度_005+关注Tg交流群_@Mshare_T_5
+      - 🇮🇩 印尼_001 Tg交流群 @Mshare_T_6
+      - 🇬🇧+英国_005+关注Tg交流群_@Mshare_T_7
+      - 🇺🇸+美国_023+关注Tg交流群_@Mshare_T_8
+      - 🇺🇸+美国_025+关注Tg交流群_@Mshare_T_9
+      - 🇺🇸+美国_027+关注Tg交流群_@Mshare_T_10
+      - 🇺🇸+美国_033+关注Tg交流群_@Mshare_T_11
+      - 🇺🇸+美国_032+关注Tg交流群_@Mshare_T_12
+      - 🇺🇸+美国_026+关注Tg交流群_@Mshare_T_13
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_14
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_15
       - CH_54+@WangCai_1+5
       - Pool_🇸🇬SG_8139
       - Pool_🇸🇬SG_8152
@@ -537,7 +607,7 @@ proxy-groups:
       - CH_29+@WangCai_1+4
       - CH_45+@WangCai_1+3
       - CH_35+@WangCai_1+5
-      - 韩国WL—SZCM流媒体_75
+      - 韩国WL—SZCM流媒体_89
       - CH_68+@WangCai_1+4
       - CH_49+@WangCai_1+5
       - CH_39+@WangCai_1+4
@@ -571,13 +641,27 @@ proxy-groups:
       - CH_19+@WangCai_1+5
       - CH_01+@WangCai_1+4
       - CH_72+@WangCai_1+5
-      - n_45.88.179.12_109
+      - n_45.88.179.12_123
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_1
+      - 🇯🇵 日本_009 关注Tg交流群_@Mshare_T_2
+      - 🇯🇵+日本_013+关注Tg交流群_@Mshare_T_3
+      - 🇯🇵 日本_006 关注Tg交流群_@Mshare_T_4
+      - 🇮🇳+印度_005+关注Tg交流群_@Mshare_T_5
+      - 🇮🇩 印尼_001 Tg交流群 @Mshare_T_6
+      - 🇬🇧+英国_005+关注Tg交流群_@Mshare_T_7
+      - 🇺🇸+美国_023+关注Tg交流群_@Mshare_T_8
+      - 🇺🇸+美国_025+关注Tg交流群_@Mshare_T_9
+      - 🇺🇸+美国_027+关注Tg交流群_@Mshare_T_10
+      - 🇺🇸+美国_033+关注Tg交流群_@Mshare_T_11
+      - 🇺🇸+美国_032+关注Tg交流群_@Mshare_T_12
+      - 🇺🇸+美国_026+关注Tg交流群_@Mshare_T_13
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_14
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_15
       - CH_54+@WangCai_1+5
       - Pool_🇸🇬SG_8139
       - Pool_🇸🇬SG_8152
@@ -651,7 +735,7 @@ proxy-groups:
       - CH_29+@WangCai_1+4
       - CH_45+@WangCai_1+3
       - CH_35+@WangCai_1+5
-      - 韩国WL—SZCM流媒体_75
+      - 韩国WL—SZCM流媒体_89
       - CH_68+@WangCai_1+4
       - CH_49+@WangCai_1+5
       - CH_39+@WangCai_1+4
@@ -685,13 +769,27 @@ proxy-groups:
       - CH_19+@WangCai_1+5
       - CH_01+@WangCai_1+4
       - CH_72+@WangCai_1+5
-      - n_45.88.179.12_109
+      - n_45.88.179.12_123
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_1
+      - 🇯🇵 日本_009 关注Tg交流群_@Mshare_T_2
+      - 🇯🇵+日本_013+关注Tg交流群_@Mshare_T_3
+      - 🇯🇵 日本_006 关注Tg交流群_@Mshare_T_4
+      - 🇮🇳+印度_005+关注Tg交流群_@Mshare_T_5
+      - 🇮🇩 印尼_001 Tg交流群 @Mshare_T_6
+      - 🇬🇧+英国_005+关注Tg交流群_@Mshare_T_7
+      - 🇺🇸+美国_023+关注Tg交流群_@Mshare_T_8
+      - 🇺🇸+美国_025+关注Tg交流群_@Mshare_T_9
+      - 🇺🇸+美国_027+关注Tg交流群_@Mshare_T_10
+      - 🇺🇸+美国_033+关注Tg交流群_@Mshare_T_11
+      - 🇺🇸+美国_032+关注Tg交流群_@Mshare_T_12
+      - 🇺🇸+美国_026+关注Tg交流群_@Mshare_T_13
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_14
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_15
       - CH_54+@WangCai_1+5
       - Pool_🇸🇬SG_8139
       - Pool_🇸🇬SG_8152
@@ -765,7 +863,7 @@ proxy-groups:
       - CH_29+@WangCai_1+4
       - CH_45+@WangCai_1+3
       - CH_35+@WangCai_1+5
-      - 韩国WL—SZCM流媒体_75
+      - 韩国WL—SZCM流媒体_89
       - CH_68+@WangCai_1+4
       - CH_49+@WangCai_1+5
       - CH_39+@WangCai_1+4
@@ -799,14 +897,28 @@ proxy-groups:
       - CH_19+@WangCai_1+5
       - CH_01+@WangCai_1+4
       - CH_72+@WangCai_1+5
-      - n_45.88.179.12_109
+      - n_45.88.179.12_123
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_1
+      - 🇯🇵 日本_009 关注Tg交流群_@Mshare_T_2
+      - 🇯🇵+日本_013+关注Tg交流群_@Mshare_T_3
+      - 🇯🇵 日本_006 关注Tg交流群_@Mshare_T_4
+      - 🇮🇳+印度_005+关注Tg交流群_@Mshare_T_5
+      - 🇮🇩 印尼_001 Tg交流群 @Mshare_T_6
+      - 🇬🇧+英国_005+关注Tg交流群_@Mshare_T_7
+      - 🇺🇸+美国_023+关注Tg交流群_@Mshare_T_8
+      - 🇺🇸+美国_025+关注Tg交流群_@Mshare_T_9
+      - 🇺🇸+美国_027+关注Tg交流群_@Mshare_T_10
+      - 🇺🇸+美国_033+关注Tg交流群_@Mshare_T_11
+      - 🇺🇸+美国_032+关注Tg交流群_@Mshare_T_12
+      - 🇺🇸+美国_026+关注Tg交流群_@Mshare_T_13
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_14
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_15
       - CH_54+@WangCai_1+5
       - Pool_🇸🇬SG_8139
       - Pool_🇸🇬SG_8152
@@ -880,7 +992,7 @@ proxy-groups:
       - CH_29+@WangCai_1+4
       - CH_45+@WangCai_1+3
       - CH_35+@WangCai_1+5
-      - 韩国WL—SZCM流媒体_75
+      - 韩国WL—SZCM流媒体_89
       - CH_68+@WangCai_1+4
       - CH_49+@WangCai_1+5
       - CH_39+@WangCai_1+4
@@ -914,7 +1026,7 @@ proxy-groups:
       - CH_19+@WangCai_1+5
       - CH_01+@WangCai_1+4
       - CH_72+@WangCai_1+5
-      - n_45.88.179.12_109
+      - n_45.88.179.12_123
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -930,7 +1042,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇼 V3 | 台湾 原生01 | x2.0_1
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_1
+      - 🇯🇵 日本_009 关注Tg交流群_@Mshare_T_2
+      - 🇯🇵+日本_013+关注Tg交流群_@Mshare_T_3
+      - 🇯🇵 日本_006 关注Tg交流群_@Mshare_T_4
+      - 🇮🇳+印度_005+关注Tg交流群_@Mshare_T_5
+      - 🇮🇩 印尼_001 Tg交流群 @Mshare_T_6
+      - 🇬🇧+英国_005+关注Tg交流群_@Mshare_T_7
+      - 🇺🇸+美国_023+关注Tg交流群_@Mshare_T_8
+      - 🇺🇸+美国_025+关注Tg交流群_@Mshare_T_9
+      - 🇺🇸+美国_027+关注Tg交流群_@Mshare_T_10
+      - 🇺🇸+美国_033+关注Tg交流群_@Mshare_T_11
+      - 🇺🇸+美国_032+关注Tg交流群_@Mshare_T_12
+      - 🇺🇸+美国_026+关注Tg交流群_@Mshare_T_13
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_14
+      - 🇹🇼 V3 | 台湾 原生01 | x2.0_15
       - CH_54+@WangCai_1+5
       - Pool_🇸🇬SG_8139
       - Pool_🇸🇬SG_8152
@@ -1004,7 +1130,7 @@ proxy-groups:
       - CH_29+@WangCai_1+4
       - CH_45+@WangCai_1+3
       - CH_35+@WangCai_1+5
-      - 韩国WL—SZCM流媒体_75
+      - 韩国WL—SZCM流媒体_89
       - CH_68+@WangCai_1+4
       - CH_49+@WangCai_1+5
       - CH_39+@WangCai_1+4
@@ -1038,7 +1164,7 @@ proxy-groups:
       - CH_19+@WangCai_1+5
       - CH_01+@WangCai_1+4
       - CH_72+@WangCai_1+5
-      - n_45.88.179.12_109
+      - n_45.88.179.12_123
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
