@@ -6,8 +6,27 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
   - {name: 'n_45.88.179.12_123', server: 45.88.179.12, port: 30678, type: vmess, uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.88.179.12}}
-  - {name: '移动专线A_2', server: 120.232.215.153, port: 48931, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: '★美国加州A★年付专线_3', server: 107.148.209.108, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.19379708.xyz}}
+  - {name: 'https://t.me/freeyule_2', server: fsy02.tedsc.online, port: 25520, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_3', server: fsy02.tedsc.online, port: 25516, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 8, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_4', server: fsy01.tedsc.online, port: 25540, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: genshin.mihoyo.com}}
+  - {name: 'https://t.me/freeyule_5', server: fsy02.tedsc.online, port: 25517, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_6', server: fsy02.tedsc.online, port: 25541, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: genshin.mihoyo.com}}
+  - {name: 'https://t.me/freeyule_7', server: fsy02.tedsc.online, port: 25521, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_8', server: fsy02.tedsc.online, port: 25543, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_9', server: fsy02.tedsc.online, port: 25550, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_10', server: fsy01.tedsc.online, port: 25522, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_11', server: ahl02.tedsc.online, port: 25537, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_12', server: fsy01.tedsc.online, port: 25539, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_13', server: fsy02.tedsc.online, port: 25524, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_14', server: fsy01.tedsc.online, port: 25519, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_15', server: ahl02.tedsc.online, port: 25558, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_16', server: why01.tedsc.online, port: 25534, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_17', server: fsy02.tedsc.online, port: 25560, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_18', server: ahl03.tedsc.online, port: 25532, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_19', server: ahl02.tedsc.online, port: 25536, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: 'https://t.me/freeyule_20', server: ahl02.tedsc.online, port: 25556, type: vmess, uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8}
+  - {name: '移动专线A_21', server: 120.232.215.153, port: 48931, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '★美国加州A★年付专线_22', server: 107.148.209.108, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.19379708.xyz}}
   - {name: 'CH_43+@WangCai_1+4', server: 156.146.62.45, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
   - {name: 'AT_37+@WangCai_1+3', server: 89.187.168.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 'CH_06+@WangCai_1+5', server: 156.146.62.50, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
@@ -35,7 +54,7 @@ proxies:
   - {name: '🇸🇬SG_8400+|14.71Mb', server: 89.187.163.195, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
   - {name: 'CH_42+@WangCai_1+4', server: 156.146.62.45, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
   - {name: 'CH_45+@WangCai_1+3', server: 156.146.62.45, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: '电信一区广东_31', server: 47.113.190.48, port: 47912, type: vmess, uuid: d1f1e8e0-bf5c-4219-8ba4-48de32c50557, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '电信一区广东_50', server: 47.113.190.48, port: 47912, type: vmess, uuid: d1f1e8e0-bf5c-4219-8ba4-48de32c50557, alterId: 64, cipher: auto, tls: false, network: tcp}
   - {name: '🇮🇳IN_4995+|15.66Mb', server: 137.59.53.212, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: '🇸🇬SG_8388+|12.26Mb', server: 89.187.162.186, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
   - {name: '🇮🇳IN_4974+|11.64Mb', server: 103.39.134.60, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
@@ -104,7 +123,7 @@ proxies:
   - {name: '🇮🇳IN_4716+|12.04Mb', server: 103.39.134.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 'AT_25+@WangCai_1+3', server: 89.187.168.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 'CH_01+@WangCai_1+4', server: 156.146.62.50, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: '移动专线B_100', server: 120.232.215.149, port: 36474, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '移动专线B_119', server: 120.232.215.149, port: 36474, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, network: tcp}
   - {name: 'CH_10+@WangCai_1+5', server: 156.146.62.50, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
   - {name: 'CH_34+@WangCai_1+4', server: 156.146.62.50, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
   - {name: '🇸🇬SG_8496+|21.75Mb', server: 89.187.162.186, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
@@ -112,7 +131,7 @@ proxies:
   - {name: '🇹🇼TW_9096+|25.05Mb', server: 2.58.241.5, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
   - {name: 'CH_19+@WangCai_1+5', server: 156.146.62.50, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
   - {name: 'CH_10+@WangCai_1+4', server: 156.146.62.45, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: '网通四区上海_108', server: 101.132.173.78, port: 41906, type: vmess, uuid: e24ac30e-e296-4761-af23-7bda2781ba85, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '网通四区上海_127', server: 101.132.173.78, port: 41906, type: vmess, uuid: e24ac30e-e296-4761-af23-7bda2781ba85, alterId: 64, cipher: auto, tls: false, network: tcp}
   - {name: '🇸🇬SG_8437+|13.17Mb', server: 89.187.163.195, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: '🇮🇳IN_4701+|11.75Mb', server: 103.39.134.60, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: '🇹🇼TW_9248+|25.20Mb', server: 2.58.241.44, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
@@ -133,8 +152,27 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - n_45.88.179.12_123
-      - 移动专线A_2
-      - ★美国加州A★年付专线_3
+      - https://t.me/freeyule_2
+      - https://t.me/freeyule_3
+      - https://t.me/freeyule_4
+      - https://t.me/freeyule_5
+      - https://t.me/freeyule_6
+      - https://t.me/freeyule_7
+      - https://t.me/freeyule_8
+      - https://t.me/freeyule_9
+      - https://t.me/freeyule_10
+      - https://t.me/freeyule_11
+      - https://t.me/freeyule_12
+      - https://t.me/freeyule_13
+      - https://t.me/freeyule_14
+      - https://t.me/freeyule_15
+      - https://t.me/freeyule_16
+      - https://t.me/freeyule_17
+      - https://t.me/freeyule_18
+      - https://t.me/freeyule_19
+      - https://t.me/freeyule_20
+      - 移动专线A_21
+      - ★美国加州A★年付专线_22
       - CH_43+@WangCai_1+4
       - AT_37+@WangCai_1+3
       - CH_06+@WangCai_1+5
@@ -162,7 +200,7 @@ proxy-groups:
       - 🇸🇬SG_8400+|14.71Mb
       - CH_42+@WangCai_1+4
       - CH_45+@WangCai_1+3
-      - 电信一区广东_31
+      - 电信一区广东_50
       - 🇮🇳IN_4995+|15.66Mb
       - 🇸🇬SG_8388+|12.26Mb
       - 🇮🇳IN_4974+|11.64Mb
@@ -231,7 +269,7 @@ proxy-groups:
       - 🇮🇳IN_4716+|12.04Mb
       - AT_25+@WangCai_1+3
       - CH_01+@WangCai_1+4
-      - 移动专线B_100
+      - 移动专线B_119
       - CH_10+@WangCai_1+5
       - CH_34+@WangCai_1+4
       - 🇸🇬SG_8496+|21.75Mb
@@ -239,7 +277,7 @@ proxy-groups:
       - 🇹🇼TW_9096+|25.05Mb
       - CH_19+@WangCai_1+5
       - CH_10+@WangCai_1+4
-      - 网通四区上海_108
+      - 网通四区上海_127
       - 🇸🇬SG_8437+|13.17Mb
       - 🇮🇳IN_4701+|11.75Mb
       - 🇹🇼TW_9248+|25.20Mb
@@ -259,8 +297,27 @@ proxy-groups:
     interval: 300
     proxies:
       - n_45.88.179.12_123
-      - 移动专线A_2
-      - ★美国加州A★年付专线_3
+      - https://t.me/freeyule_2
+      - https://t.me/freeyule_3
+      - https://t.me/freeyule_4
+      - https://t.me/freeyule_5
+      - https://t.me/freeyule_6
+      - https://t.me/freeyule_7
+      - https://t.me/freeyule_8
+      - https://t.me/freeyule_9
+      - https://t.me/freeyule_10
+      - https://t.me/freeyule_11
+      - https://t.me/freeyule_12
+      - https://t.me/freeyule_13
+      - https://t.me/freeyule_14
+      - https://t.me/freeyule_15
+      - https://t.me/freeyule_16
+      - https://t.me/freeyule_17
+      - https://t.me/freeyule_18
+      - https://t.me/freeyule_19
+      - https://t.me/freeyule_20
+      - 移动专线A_21
+      - ★美国加州A★年付专线_22
       - CH_43+@WangCai_1+4
       - AT_37+@WangCai_1+3
       - CH_06+@WangCai_1+5
@@ -288,7 +345,7 @@ proxy-groups:
       - 🇸🇬SG_8400+|14.71Mb
       - CH_42+@WangCai_1+4
       - CH_45+@WangCai_1+3
-      - 电信一区广东_31
+      - 电信一区广东_50
       - 🇮🇳IN_4995+|15.66Mb
       - 🇸🇬SG_8388+|12.26Mb
       - 🇮🇳IN_4974+|11.64Mb
@@ -357,7 +414,7 @@ proxy-groups:
       - 🇮🇳IN_4716+|12.04Mb
       - AT_25+@WangCai_1+3
       - CH_01+@WangCai_1+4
-      - 移动专线B_100
+      - 移动专线B_119
       - CH_10+@WangCai_1+5
       - CH_34+@WangCai_1+4
       - 🇸🇬SG_8496+|21.75Mb
@@ -365,7 +422,7 @@ proxy-groups:
       - 🇹🇼TW_9096+|25.05Mb
       - CH_19+@WangCai_1+5
       - CH_10+@WangCai_1+4
-      - 网通四区上海_108
+      - 网通四区上海_127
       - 🇸🇬SG_8437+|13.17Mb
       - 🇮🇳IN_4701+|11.75Mb
       - 🇹🇼TW_9248+|25.20Mb
@@ -386,8 +443,27 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - n_45.88.179.12_123
-      - 移动专线A_2
-      - ★美国加州A★年付专线_3
+      - https://t.me/freeyule_2
+      - https://t.me/freeyule_3
+      - https://t.me/freeyule_4
+      - https://t.me/freeyule_5
+      - https://t.me/freeyule_6
+      - https://t.me/freeyule_7
+      - https://t.me/freeyule_8
+      - https://t.me/freeyule_9
+      - https://t.me/freeyule_10
+      - https://t.me/freeyule_11
+      - https://t.me/freeyule_12
+      - https://t.me/freeyule_13
+      - https://t.me/freeyule_14
+      - https://t.me/freeyule_15
+      - https://t.me/freeyule_16
+      - https://t.me/freeyule_17
+      - https://t.me/freeyule_18
+      - https://t.me/freeyule_19
+      - https://t.me/freeyule_20
+      - 移动专线A_21
+      - ★美国加州A★年付专线_22
       - CH_43+@WangCai_1+4
       - AT_37+@WangCai_1+3
       - CH_06+@WangCai_1+5
@@ -415,7 +491,7 @@ proxy-groups:
       - 🇸🇬SG_8400+|14.71Mb
       - CH_42+@WangCai_1+4
       - CH_45+@WangCai_1+3
-      - 电信一区广东_31
+      - 电信一区广东_50
       - 🇮🇳IN_4995+|15.66Mb
       - 🇸🇬SG_8388+|12.26Mb
       - 🇮🇳IN_4974+|11.64Mb
@@ -484,7 +560,7 @@ proxy-groups:
       - 🇮🇳IN_4716+|12.04Mb
       - AT_25+@WangCai_1+3
       - CH_01+@WangCai_1+4
-      - 移动专线B_100
+      - 移动专线B_119
       - CH_10+@WangCai_1+5
       - CH_34+@WangCai_1+4
       - 🇸🇬SG_8496+|21.75Mb
@@ -492,7 +568,7 @@ proxy-groups:
       - 🇹🇼TW_9096+|25.05Mb
       - CH_19+@WangCai_1+5
       - CH_10+@WangCai_1+4
-      - 网通四区上海_108
+      - 网通四区上海_127
       - 🇸🇬SG_8437+|13.17Mb
       - 🇮🇳IN_4701+|11.75Mb
       - 🇹🇼TW_9248+|25.20Mb
@@ -512,8 +588,27 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - n_45.88.179.12_123
-      - 移动专线A_2
-      - ★美国加州A★年付专线_3
+      - https://t.me/freeyule_2
+      - https://t.me/freeyule_3
+      - https://t.me/freeyule_4
+      - https://t.me/freeyule_5
+      - https://t.me/freeyule_6
+      - https://t.me/freeyule_7
+      - https://t.me/freeyule_8
+      - https://t.me/freeyule_9
+      - https://t.me/freeyule_10
+      - https://t.me/freeyule_11
+      - https://t.me/freeyule_12
+      - https://t.me/freeyule_13
+      - https://t.me/freeyule_14
+      - https://t.me/freeyule_15
+      - https://t.me/freeyule_16
+      - https://t.me/freeyule_17
+      - https://t.me/freeyule_18
+      - https://t.me/freeyule_19
+      - https://t.me/freeyule_20
+      - 移动专线A_21
+      - ★美国加州A★年付专线_22
       - CH_43+@WangCai_1+4
       - AT_37+@WangCai_1+3
       - CH_06+@WangCai_1+5
@@ -541,7 +636,7 @@ proxy-groups:
       - 🇸🇬SG_8400+|14.71Mb
       - CH_42+@WangCai_1+4
       - CH_45+@WangCai_1+3
-      - 电信一区广东_31
+      - 电信一区广东_50
       - 🇮🇳IN_4995+|15.66Mb
       - 🇸🇬SG_8388+|12.26Mb
       - 🇮🇳IN_4974+|11.64Mb
@@ -610,7 +705,7 @@ proxy-groups:
       - 🇮🇳IN_4716+|12.04Mb
       - AT_25+@WangCai_1+3
       - CH_01+@WangCai_1+4
-      - 移动专线B_100
+      - 移动专线B_119
       - CH_10+@WangCai_1+5
       - CH_34+@WangCai_1+4
       - 🇸🇬SG_8496+|21.75Mb
@@ -618,7 +713,7 @@ proxy-groups:
       - 🇹🇼TW_9096+|25.05Mb
       - CH_19+@WangCai_1+5
       - CH_10+@WangCai_1+4
-      - 网通四区上海_108
+      - 网通四区上海_127
       - 🇸🇬SG_8437+|13.17Mb
       - 🇮🇳IN_4701+|11.75Mb
       - 🇹🇼TW_9248+|25.20Mb
@@ -638,8 +733,27 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - n_45.88.179.12_123
-      - 移动专线A_2
-      - ★美国加州A★年付专线_3
+      - https://t.me/freeyule_2
+      - https://t.me/freeyule_3
+      - https://t.me/freeyule_4
+      - https://t.me/freeyule_5
+      - https://t.me/freeyule_6
+      - https://t.me/freeyule_7
+      - https://t.me/freeyule_8
+      - https://t.me/freeyule_9
+      - https://t.me/freeyule_10
+      - https://t.me/freeyule_11
+      - https://t.me/freeyule_12
+      - https://t.me/freeyule_13
+      - https://t.me/freeyule_14
+      - https://t.me/freeyule_15
+      - https://t.me/freeyule_16
+      - https://t.me/freeyule_17
+      - https://t.me/freeyule_18
+      - https://t.me/freeyule_19
+      - https://t.me/freeyule_20
+      - 移动专线A_21
+      - ★美国加州A★年付专线_22
       - CH_43+@WangCai_1+4
       - AT_37+@WangCai_1+3
       - CH_06+@WangCai_1+5
@@ -667,7 +781,7 @@ proxy-groups:
       - 🇸🇬SG_8400+|14.71Mb
       - CH_42+@WangCai_1+4
       - CH_45+@WangCai_1+3
-      - 电信一区广东_31
+      - 电信一区广东_50
       - 🇮🇳IN_4995+|15.66Mb
       - 🇸🇬SG_8388+|12.26Mb
       - 🇮🇳IN_4974+|11.64Mb
@@ -736,7 +850,7 @@ proxy-groups:
       - 🇮🇳IN_4716+|12.04Mb
       - AT_25+@WangCai_1+3
       - CH_01+@WangCai_1+4
-      - 移动专线B_100
+      - 移动专线B_119
       - CH_10+@WangCai_1+5
       - CH_34+@WangCai_1+4
       - 🇸🇬SG_8496+|21.75Mb
@@ -744,7 +858,7 @@ proxy-groups:
       - 🇹🇼TW_9096+|25.05Mb
       - CH_19+@WangCai_1+5
       - CH_10+@WangCai_1+4
-      - 网通四区上海_108
+      - 网通四区上海_127
       - 🇸🇬SG_8437+|13.17Mb
       - 🇮🇳IN_4701+|11.75Mb
       - 🇹🇼TW_9248+|25.20Mb
@@ -764,8 +878,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - n_45.88.179.12_123
-      - 移动专线A_2
-      - ★美国加州A★年付专线_3
+      - https://t.me/freeyule_2
+      - https://t.me/freeyule_3
+      - https://t.me/freeyule_4
+      - https://t.me/freeyule_5
+      - https://t.me/freeyule_6
+      - https://t.me/freeyule_7
+      - https://t.me/freeyule_8
+      - https://t.me/freeyule_9
+      - https://t.me/freeyule_10
+      - https://t.me/freeyule_11
+      - https://t.me/freeyule_12
+      - https://t.me/freeyule_13
+      - https://t.me/freeyule_14
+      - https://t.me/freeyule_15
+      - https://t.me/freeyule_16
+      - https://t.me/freeyule_17
+      - https://t.me/freeyule_18
+      - https://t.me/freeyule_19
+      - https://t.me/freeyule_20
+      - 移动专线A_21
+      - ★美国加州A★年付专线_22
       - CH_43+@WangCai_1+4
       - AT_37+@WangCai_1+3
       - CH_06+@WangCai_1+5
@@ -793,7 +926,7 @@ proxy-groups:
       - 🇸🇬SG_8400+|14.71Mb
       - CH_42+@WangCai_1+4
       - CH_45+@WangCai_1+3
-      - 电信一区广东_31
+      - 电信一区广东_50
       - 🇮🇳IN_4995+|15.66Mb
       - 🇸🇬SG_8388+|12.26Mb
       - 🇮🇳IN_4974+|11.64Mb
@@ -862,7 +995,7 @@ proxy-groups:
       - 🇮🇳IN_4716+|12.04Mb
       - AT_25+@WangCai_1+3
       - CH_01+@WangCai_1+4
-      - 移动专线B_100
+      - 移动专线B_119
       - CH_10+@WangCai_1+5
       - CH_34+@WangCai_1+4
       - 🇸🇬SG_8496+|21.75Mb
@@ -870,7 +1003,7 @@ proxy-groups:
       - 🇹🇼TW_9096+|25.05Mb
       - CH_19+@WangCai_1+5
       - CH_10+@WangCai_1+4
-      - 网通四区上海_108
+      - 网通四区上海_127
       - 🇸🇬SG_8437+|13.17Mb
       - 🇮🇳IN_4701+|11.75Mb
       - 🇹🇼TW_9248+|25.20Mb
@@ -891,8 +1024,27 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - n_45.88.179.12_123
-      - 移动专线A_2
-      - ★美国加州A★年付专线_3
+      - https://t.me/freeyule_2
+      - https://t.me/freeyule_3
+      - https://t.me/freeyule_4
+      - https://t.me/freeyule_5
+      - https://t.me/freeyule_6
+      - https://t.me/freeyule_7
+      - https://t.me/freeyule_8
+      - https://t.me/freeyule_9
+      - https://t.me/freeyule_10
+      - https://t.me/freeyule_11
+      - https://t.me/freeyule_12
+      - https://t.me/freeyule_13
+      - https://t.me/freeyule_14
+      - https://t.me/freeyule_15
+      - https://t.me/freeyule_16
+      - https://t.me/freeyule_17
+      - https://t.me/freeyule_18
+      - https://t.me/freeyule_19
+      - https://t.me/freeyule_20
+      - 移动专线A_21
+      - ★美国加州A★年付专线_22
       - CH_43+@WangCai_1+4
       - AT_37+@WangCai_1+3
       - CH_06+@WangCai_1+5
@@ -920,7 +1072,7 @@ proxy-groups:
       - 🇸🇬SG_8400+|14.71Mb
       - CH_42+@WangCai_1+4
       - CH_45+@WangCai_1+3
-      - 电信一区广东_31
+      - 电信一区广东_50
       - 🇮🇳IN_4995+|15.66Mb
       - 🇸🇬SG_8388+|12.26Mb
       - 🇮🇳IN_4974+|11.64Mb
@@ -989,7 +1141,7 @@ proxy-groups:
       - 🇮🇳IN_4716+|12.04Mb
       - AT_25+@WangCai_1+3
       - CH_01+@WangCai_1+4
-      - 移动专线B_100
+      - 移动专线B_119
       - CH_10+@WangCai_1+5
       - CH_34+@WangCai_1+4
       - 🇸🇬SG_8496+|21.75Mb
@@ -997,7 +1149,7 @@ proxy-groups:
       - 🇹🇼TW_9096+|25.05Mb
       - CH_19+@WangCai_1+5
       - CH_10+@WangCai_1+4
-      - 网通四区上海_108
+      - 网通四区上海_127
       - 🇸🇬SG_8437+|13.17Mb
       - 🇮🇳IN_4701+|11.75Mb
       - 🇹🇼TW_9248+|25.20Mb
@@ -1027,8 +1179,27 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - n_45.88.179.12_123
-      - 移动专线A_2
-      - ★美国加州A★年付专线_3
+      - https://t.me/freeyule_2
+      - https://t.me/freeyule_3
+      - https://t.me/freeyule_4
+      - https://t.me/freeyule_5
+      - https://t.me/freeyule_6
+      - https://t.me/freeyule_7
+      - https://t.me/freeyule_8
+      - https://t.me/freeyule_9
+      - https://t.me/freeyule_10
+      - https://t.me/freeyule_11
+      - https://t.me/freeyule_12
+      - https://t.me/freeyule_13
+      - https://t.me/freeyule_14
+      - https://t.me/freeyule_15
+      - https://t.me/freeyule_16
+      - https://t.me/freeyule_17
+      - https://t.me/freeyule_18
+      - https://t.me/freeyule_19
+      - https://t.me/freeyule_20
+      - 移动专线A_21
+      - ★美国加州A★年付专线_22
       - CH_43+@WangCai_1+4
       - AT_37+@WangCai_1+3
       - CH_06+@WangCai_1+5
@@ -1056,7 +1227,7 @@ proxy-groups:
       - 🇸🇬SG_8400+|14.71Mb
       - CH_42+@WangCai_1+4
       - CH_45+@WangCai_1+3
-      - 电信一区广东_31
+      - 电信一区广东_50
       - 🇮🇳IN_4995+|15.66Mb
       - 🇸🇬SG_8388+|12.26Mb
       - 🇮🇳IN_4974+|11.64Mb
@@ -1125,7 +1296,7 @@ proxy-groups:
       - 🇮🇳IN_4716+|12.04Mb
       - AT_25+@WangCai_1+3
       - CH_01+@WangCai_1+4
-      - 移动专线B_100
+      - 移动专线B_119
       - CH_10+@WangCai_1+5
       - CH_34+@WangCai_1+4
       - 🇸🇬SG_8496+|21.75Mb
@@ -1133,7 +1304,7 @@ proxy-groups:
       - 🇹🇼TW_9096+|25.05Mb
       - CH_19+@WangCai_1+5
       - CH_10+@WangCai_1+4
-      - 网通四区上海_108
+      - 网通四区上海_127
       - 🇸🇬SG_8437+|13.17Mb
       - 🇮🇳IN_4701+|11.75Mb
       - 🇹🇼TW_9248+|25.20Mb
