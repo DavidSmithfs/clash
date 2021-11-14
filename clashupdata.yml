@@ -5,1500 +5,1204 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '网通四区上海_1', server: 101.132.173.78, port: 41906, type: vmess, uuid: e24ac30e-e296-4761-af23-7bda2781ba85, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: '电信一区广东_2', server: 47.113.190.48, port: 47912, type: vmess, uuid: d1f1e8e0-bf5c-4219-8ba4-48de32c50557, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: '移动专线B_3', server: 120.232.215.149, port: 36474, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: '🇸🇬SG_8480+|22.99Mb', server: 89.187.162.186, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 'AT_22+@WangCai_1+3', server: 89.187.168.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 'CH_23+@WangCai_1+5', server: 156.146.62.50, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: '电信一区广东_1', server: 47.113.190.48, port: 47912, type: vmess, uuid: d1f1e8e0-bf5c-4219-8ba4-48de32c50557, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '网通四区上海_2', server: 101.132.173.78, port: 41906, type: vmess, uuid: e24ac30e-e296-4761-af23-7bda2781ba85, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: 'Relay_🇨🇦CA-🇨🇦CA_04', server: ss1.ssrsub.com, port: 20443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
   - {name: 'CH_14+@WangCai_1+4', server: 156.146.62.45, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: '🇸🇬SG_8435+|12.77Mb', server: 89.187.163.195, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'CH_42+@WangCai_1+4', server: 156.146.62.45, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 'CH_61+@WangCai_1+5', server: 156.146.62.50, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '🇸🇬SG_8480+|22.99Mb', server: 89.187.162.186, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 'CH_23+@WangCai_1+5', server: 156.146.62.50, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
   - {name: 'CH_45+@WangCai_1+3', server: 156.146.62.45, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
   - {name: 'CH_10+@WangCai_1+4', server: 156.146.62.45, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 'CH_34+@WangCai_1+4', server: 156.146.62.50, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
-  - {name: 'Pool_🇺🇸US_9337', server: 154.16.168.186, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: '🇭🇰HK_4347+|11.93Mb', server: 84.17.57.148, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '🇭🇰HK_4236+|25.06Mb', server: 84.17.57.148, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 'CH_51+@WangCai_1+4', server: 156.146.62.45, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: 'CH_56+@WangCai_1+5', server: 156.146.62.50, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 'CH_11+@WangCai_1+4', server: 156.146.62.45, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 'CH_47+@WangCai_1+5', server: 156.146.62.50, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: '🇮🇳IN_4995+|15.66Mb', server: 137.59.53.212, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: '🇸🇬SG_8388+|12.26Mb', server: 89.187.162.186, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: '🇸🇬SG_8414+|11.17Mb', server: 89.187.163.217, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: '🇸🇬SG_8418+|12.62Mb', server: 89.187.163.195, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: '🇸🇬SG_8402+|11.34Mb', server: 89.187.163.217, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 'CH_68+@WangCai_1+5', server: 156.146.62.50, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 'AT_03+@WangCai_1+8', server: 89.187.168.57, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: '🇸🇬SG_8440+|11.72Mb', server: 89.187.163.195, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 'CH_69+@WangCai_1+4', server: 156.146.62.50, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: 'AT_25+@WangCai_1+3', server: 89.187.168.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 'CH_01+@WangCai_1+4', server: 156.146.62.50, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 'CH_19+@WangCai_1+5', server: 156.146.62.50, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: '🇮🇳IN_4993+|24.95Mb', server: 137.59.53.212, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: '🇸🇬SG_8435+|12.77Mb', server: 89.187.163.195, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 'CH_26+@WangCai_1+4', server: 156.146.62.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 'CH_08+@WangCai_1+4', server: 156.146.62.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 'CH_36+@WangCai_1+4', server: 156.146.62.45, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 'CH_58+@WangCai_1+4', server: 156.146.62.45, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: '🇸🇬SG_8400+|14.71Mb', server: 89.187.163.195, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 'CH_42+@WangCai_1+4', server: 156.146.62.45, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: 'Pool_🇺🇸US_9334', server: 199.58.187.8, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 'CH_61+@WangCai_1+5', server: 156.146.62.50, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
   - {name: 'CH_10+@WangCai_1+5', server: 156.146.62.50, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
   - {name: '🇮🇳IN_4969+|23.09Mb', server: 137.59.53.212, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: '🇮🇳IN_4757+|12.26Mb', server: 103.39.132.187, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: '🇸🇬SG_8481+|12.05Mb', server: 89.187.163.210, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: '🇮🇳IN_4966+|24.04Mb', server: 137.59.53.212, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: '🇸🇬SG_8454+|12.29Mb', server: 89.187.163.217, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 'CH_70+@WangCai_1+5', server: 156.146.62.50, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 'CH_43+@WangCai_1+4', server: 156.146.62.45, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: '🇮🇳IN_4850+|11.66Mb', server: 103.39.132.189, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: '🇮🇳IN_4847+|24.74Mb', server: 137.59.53.212, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: 'CH_54+@WangCai_1+5', server: 156.146.62.50, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: '🇮🇳IN_4964+|11.47Mb', server: 103.39.134.60, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 'AT_56+@WangCai_1+4', server: 89.187.168.47, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: '🇮🇳IN_4711+|11.69Mb', server: 103.39.134.60, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: 'CH_58+@WangCai_1+5', server: 156.146.62.50, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: '🇭🇰HK_4383+|+7.37Mb', server: 212.102.42.196, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 'CH_55+@WangCai_1+4', server: 156.146.62.50, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
   - {name: '🇮🇳IN_4716+|12.04Mb', server: 103.39.134.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: '🇸🇬SG_8496+|21.75Mb', server: 89.187.162.186, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 'CH_25+@WangCai_1+2', server: 156.146.62.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: '🇸🇬SG_8377+|21.53Mb', server: 89.187.163.217, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: '🇭🇰HK_4332+|21.39Mb', server: 212.102.42.206, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: '🇮🇳IN_4905+|11.71Mb', server: 103.39.132.189, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: '🇮🇳IN_4918+|11.11Mb', server: 103.39.134.60, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: '🇸🇬SG_8437+|13.17Mb', server: 89.187.163.195, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 'CH_22+@WangCai_1+5', server: 156.146.62.50, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '🇯🇵JP_5542+|57.56Mb', server: 172.105.251.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇳IN_4944+|+8.15Mb', server: 103.39.134.60, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '🇮🇳IN_4840+|23.80Mb', server: 137.59.53.212, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: 'CH_54+@WangCai_1+4', server: 156.146.62.45, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: '🇦🇺AU_03', server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '移动专线B_26', server: 120.232.215.149, port: 36474, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: 'AT_22+@WangCai_1+3', server: 89.187.168.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '🇭🇰HK_4236+|25.06Mb', server: 84.17.57.148, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '🇸🇬SG_8388+|12.26Mb', server: 89.187.162.186, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: '🇸🇬SG_8454+|12.29Mb', server: 89.187.163.217, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
   - {name: 'Pool_🇺🇸US_9332', server: 212.102.40.71, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: '🇮🇳IN_4974+|11.64Mb', server: 103.39.134.60, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
   - {name: 'Pool_🇸🇬SG_8095', server: 89.187.162.186, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 'Pool_🇺🇸US_9333', server: 198.8.92.67, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: '🇹🇼TW_9179+|25.48Mb', server: 2.58.242.46, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: '🇭🇰HK_4391+|25.05Mb', server: 212.102.42.89, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: '🇮🇳IN_4918+|11.11Mb', server: 103.39.134.60, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: '🇹🇼TW_8996+|25.10Mb', server: 2.58.242.133, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: '🇹🇼TW_9104+|25.21Mb', server: 2.58.241.46, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: '🇭🇰HK_4387+|25.70Mb', server: 84.17.57.148, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 'AT_42+@WangCai_1+4', server: 89.187.168.47, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: '🇹🇼TW_8813+|24.58Mb', server: 2.58.241.44, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: '🇸🇬SG_8437+|13.17Mb', server: 89.187.163.195, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: '🇮🇳IN_4701+|11.75Mb', server: 103.39.134.60, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: '🇮🇳IN_4793+|25.28Mb', server: 137.59.52.109, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 'CH_22+@WangCai_1+5', server: 156.146.62.50, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
   - {name: 'CH_37+@WangCai_1+5', server: 156.146.62.50, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: '🇸🇬SG_8385+|10.30Mb', server: 89.187.162.186, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: '🇯🇵JP_5767+|33.45Mb', server: 89.187.160.132, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: '🇭🇰HK_4331+|11.83Mb', server: 212.102.42.204, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: '🇭🇰HK_4238+|25.34Mb', server: 212.102.42.89, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: '🇭🇰HK_4263+|25.70Mb', server: 212.102.42.206, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: '🇭🇰HK_4240+|25.96Mb', server: 212.102.42.201, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: '🇭🇰HK_4254+|25.58Mb', server: 212.102.42.89, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '🇰🇷KR_5595+|+3.22Mb', server: 103.249.31.29, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '🇮🇳IN_4843+|24.44Mb', server: 137.59.53.212, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: '🇰🇷KR_5663+|+7.02Mb', server: 103.249.31.26, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: '🇯🇵JP_5544+|33.51Mb', server: 89.187.160.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '🇮🇳IN_4702+|11.66Mb', server: 103.39.134.60, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '🇰🇷KR_5590+|+4.62Mb', server: 103.249.31.29, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 'Relay_🇨🇦CA-🇨🇦CA_05', server: ss2.ssrsub.com, port: 6443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: '🇭🇰HK_17', server: 18.162.214.245, port: 8888, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '🇦🇺AU_02', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'CH_34+@WangCai_1+4', server: 156.146.62.50, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 'Pool_🇺🇸US_9337', server: 154.16.168.186, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 'AT_03+@WangCai_1+8', server: 89.187.168.57, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 'CH_26+@WangCai_1+4', server: 156.146.62.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'Pool_🇺🇸US_9334', server: 199.58.187.8, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: '🇸🇬SG_8481+|12.05Mb', server: 89.187.163.210, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'CH_70+@WangCai_1+5', server: 156.146.62.50, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 'CH_54+@WangCai_1+5', server: 156.146.62.50, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 'CH_58+@WangCai_1+5', server: 156.146.62.50, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '🇸🇬SG_8496+|21.75Mb', server: 89.187.162.186, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'CH_25+@WangCai_1+2', server: 156.146.62.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: '🇹🇼TW_8996+|25.10Mb', server: 2.58.242.133, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '🇭🇰HK_4240+|25.96Mb', server: 212.102.42.201, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: '🇮🇳IN_4848+|24.36Mb', server: 137.59.53.212, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
   - {name: '🇰🇷KR_5619+|+6.35Mb', server: 103.249.31.29, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: '🇰🇷KR_5680+|+6.11Mb', server: 103.249.31.28, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: '🇹🇼TW_8861+|24.48Mb', server: 2.58.241.46, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
   - {name: '🇭🇰HK_4255+|25.55Mb', server: 212.102.42.194, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: '🇰🇷KR_5595+|+3.22Mb', server: 103.249.31.29, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: '🇰🇷KR_5614+|12.01Mb', server: 103.249.31.29, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '🇰🇷KR_5616+|+9.78Mb', server: 103.249.31.29, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: '🇰🇷KR_5658+|+5.56Mb', server: 103.249.31.26, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: '🇰🇷KR_5662+|+6.88Mb', server: 103.249.31.26, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: '🇮🇳IN_4843+|24.44Mb', server: 137.59.53.212, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: '🇯🇵JP_5542+|57.56Mb', server: 172.105.251.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: '🇰🇷KR_5669+|+4.81Mb', server: 103.249.31.26, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
   - {name: '🇭🇰HK_4256+|24.94Mb', server: 212.102.42.89, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: '🇮🇳IN_4838+|24.67Mb', server: 137.59.53.212, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: '🇯🇵JP_5550+|31.19Mb', server: 89.187.160.132, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: '🇰🇷KR_5623+|+5.71Mb', server: 103.249.31.29, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: '🇮🇳IN_4952+|+8.59Mb', server: 103.39.134.60, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: '🇰🇷KR_5824+|22.73Mb', server: 27.255.77.195, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
   - {name: '🇮🇳IN_4925+|11.33Mb', server: 103.39.134.60, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: '🇮🇳IN_4944+|+8.15Mb', server: 103.39.134.60, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
   - {name: '🇸🇬SG_8376+|12.36Mb', server: 89.187.162.186, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 'CH_22+@WangCai_1+4', server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
   - {name: 'CH_12+@WangCai_1+4', server: 156.146.62.45, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: '🇹🇼TW_9133+|24.64Mb', server: 2.58.241.46, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: '🇹🇼TW_8893+|24.52Mb', server: 2.58.242.46, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: '🇹🇼TW_8796+|26.14Mb', server: 2.58.241.6, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: '🇹🇼TW_9144+|24.87Mb', server: 2.58.241.6, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: '🇰🇷KR_5652+|+4.92Mb', server: 103.249.31.26, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: '🇰🇷KR_5663+|+7.02Mb', server: 103.249.31.26, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: '🇯🇵JP_5547+|30.93Mb', server: 89.187.160.132, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: '🇰🇷KR_5566+|+2.97Mb', server: 103.249.31.29, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: '🇰🇷KR_5597+|+2.34Mb', server: 103.249.31.29, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
   - {name: '🇰🇷KR_5600+|+4.20Mb', server: 103.249.31.29, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: '🇰🇷KR_5608+|+3.17Mb', server: 103.249.31.29, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: '🇰🇷KR_5615+|+6.01Mb', server: 103.249.31.29, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: '🇰🇷KR_5655+|+7.91Mb', server: 103.249.31.26, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: '🇭🇰HK_4247+|25.21Mb', server: 212.102.42.89, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: '🇮🇳IN_4842+|25.04Mb', server: 137.59.53.212, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
   - {name: '🇯🇵JP_5543+|30.76Mb', server: 89.187.160.132, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: '🇯🇵JP_5544+|33.51Mb', server: 89.187.160.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '🇹🇼TW_8809+|+6.07Mb', server: 2.58.241.6, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: '🇸🇬SG_8447+|11.63Mb', server: 89.187.162.186, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: '🇹🇼TW_8981+|24.39Mb', server: 2.58.241.6, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: '🇰🇷KR_5603+|+2.42Mb', server: 103.249.31.29, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '🇰🇷KR_5664+|+4.01Mb', server: 103.249.31.26, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '🇰🇷KR_5665+|+3.30Mb', server: 103.249.31.26, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: '🇰🇷KR_5656+|+4.61Mb', server: 103.249.31.26, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: '🇸🇬SG_28', server: 139.162.24.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Relay_🇫🇷FR-🇫🇷FR_14', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇭🇰HK_4347+|11.93Mb', server: 84.17.57.148, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'CH_51+@WangCai_1+4', server: 156.146.62.45, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: 'CH_69+@WangCai_1+4', server: 156.146.62.50, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: '🇮🇳IN_4966+|24.04Mb', server: 137.59.53.212, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: '🇭🇰HK_4383+|+7.37Mb', server: 212.102.42.196, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '🇸🇬SG_8377+|21.53Mb', server: 89.187.163.217, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '🇭🇰HK_4332+|21.39Mb', server: 212.102.42.206, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: '🇮🇳IN_4905+|11.71Mb', server: 103.39.132.189, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 'Pool_🇺🇸US_9333', server: 198.8.92.67, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: '🇹🇼TW_9179+|25.48Mb', server: 2.58.242.46, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: '🇹🇼TW_8813+|24.58Mb', server: 2.58.241.44, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: '🇮🇳IN_4701+|11.75Mb', server: 103.39.134.60, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '🇭🇰HK_4263+|25.70Mb', server: 212.102.42.206, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '🇰🇷KR_5614+|12.01Mb', server: 103.249.31.29, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '🇰🇷KR_5662+|+6.88Mb', server: 103.249.31.26, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '🇰🇷KR_5652+|+4.92Mb', server: 103.249.31.26, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '🇰🇷KR_5655+|+7.91Mb', server: 103.249.31.26, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
   - {name: '🇰🇷KR_5592+|+2.48Mb', server: 103.249.31.24, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: '🇰🇷KR_5678+|+5.70Mb', server: 103.249.31.29, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: '🇹🇼TW_8809+|+6.07Mb', server: 2.58.241.6, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: '🇹🇼TW_8869+|25.02Mb', server: 2.58.242.53, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: '🇹🇼TW_8982+|16.84Mb', server: 2.58.241.43, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: '🇮🇳IN_4840+|23.80Mb', server: 137.59.53.212, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
-  - {name: '🇰🇷KR_5609+|+2.59Mb', server: 103.249.31.29, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: '🇰🇷KR_5667+|+4.82Mb', server: 103.249.31.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '🇰🇷KR_5671+|+3.84Mb', server: 103.249.31.26, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
   - {name: '🇭🇰HK_4251+|25.19Mb', server: 212.102.42.196, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 'CH_54+@WangCai_1+4', server: 156.146.62.45, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: '🇸🇬SG_8447+|11.63Mb', server: 89.187.162.186, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: '🇸🇬SG_8378+|12.42Mb', server: 89.187.163.217, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 'CH_05+@WangCai_1+5', server: 156.146.62.50, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: '🇰🇷KR_5677+|+2.39Mb', server: 103.249.31.26, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '🇮🇳IN_4709+|11.60Mb', server: 103.39.132.189, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 'CH_76+@WangCai_1+4', server: 156.146.62.45, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: '🇰🇷KR_5594+|+3.72Mb', server: 103.249.31.29, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: 'Pool_🇦🇹AT_01', server: 5.253.207.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: '🇺🇸US_31', server: 38.107.226.149, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'CH_47+@WangCai_1+5', server: 156.146.62.50, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '🇮🇳IN_4995+|15.66Mb', server: 137.59.53.212, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 'AT_25+@WangCai_1+3', server: 89.187.168.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: '🇹🇼TW_9104+|25.21Mb', server: 2.58.241.46, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: '🇰🇷KR_5658+|+5.56Mb', server: 103.249.31.26, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '🇮🇳IN_4838+|24.67Mb', server: 137.59.53.212, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: '🇮🇳IN_4952+|+8.59Mb', server: 103.39.134.60, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: '🇰🇷KR_5824+|22.73Mb', server: 27.255.77.195, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: '🇯🇵JP_5547+|30.93Mb', server: 89.187.160.132, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '🇰🇷KR_5597+|+2.34Mb', server: 103.249.31.29, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: '🇰🇷KR_5615+|+6.01Mb', server: 103.249.31.29, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: '🇹🇼TW_8869+|25.02Mb', server: 2.58.242.53, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
   - {name: '🇮🇳IN_4929+|11.58Mb', server: 103.39.134.60, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: '🇹🇼TW_8927+|25.39Mb', server: 2.58.241.29, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: '🇰🇷KR_5911+|25.04Mb', server: 103.249.31.29, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 'n_45.88.179.12_123', server: 45.88.179.12, port: 30678, type: vmess, uuid: 23ef1337-5e82-4c36-8ef1-849663fbefd4, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.88.179.12}}
-  - {name: '🇮🇳IN_4928+|11.52Mb', server: 103.39.134.62, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '🇮🇳IN_4818+|11.55Mb', server: 103.39.132.189, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: '🇮🇳IN_4841+|24.81Mb', server: 137.59.53.212, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
   - {name: '🇰🇷KR_5584+|+8.49Mb', server: 103.249.31.29, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
   - {name: '🇰🇷KR_5607+|+3.48Mb', server: 103.249.31.29, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: '🇰🇷KR_5618+|+3.47Mb', server: 103.249.31.29, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: '🇰🇷KR_5677+|+2.39Mb', server: 103.249.31.26, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: '🇹🇼TW_8981+|24.39Mb', server: 2.58.241.6, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: '🇰🇷KR_5598+|+5.38Mb', server: 103.249.31.29, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: '🇰🇷KR_5603+|+2.42Mb', server: 103.249.31.29, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: '🇰🇷KR_5613+|+7.90Mb', server: 103.249.31.29, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
   - {name: '🇰🇷KR_5643+|+3.39Mb', server: 27.255.77.195, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
   - {name: '🇰🇷KR_5649+|+5.99Mb', server: 103.249.31.26, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: '🇰🇷KR_5664+|+4.01Mb', server: 103.249.31.26, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: '🇰🇷KR_5674+|+5.80Mb', server: 103.249.31.29, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
   - {name: '🇰🇷KR_5596+|+7.12Mb', server: 103.249.31.29, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: '🇰🇷KR_5665+|+3.30Mb', server: 103.249.31.26, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: '🇮🇳IN_4709+|11.60Mb', server: 103.39.132.189, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 'CH_76+@WangCai_1+4', server: 156.146.62.45, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: '🇮🇳IN_4702+|11.66Mb', server: 103.39.134.60, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: '🇮🇳IN_4921+|11.92Mb', server: 103.39.134.60, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: '🇰🇷KR_5656+|+4.61Mb', server: 103.249.31.26, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: '🇰🇷KR_5590+|+4.62Mb', server: 103.249.31.29, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: '🇹🇼TW_9096+|25.05Mb', server: 2.58.241.5, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: '🇰🇷KR_5594+|+3.72Mb', server: 103.249.31.29, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: 'Pool_🇦🇹AT_01', server: 5.253.207.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 'Relay_🇨🇦CA-🇨🇦CA_04', server: ss1.ssrsub.com, port: 20443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: 'Relay_🇨🇦CA-🇨🇦CA_05', server: ss2.ssrsub.com, port: 6443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
-  - {name: '🇭🇰HK_17', server: 18.162.214.245, port: 8888, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '🇮🇹IT_18', server: 212.102.54.163, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: '🇯🇵JP_19', server: 54.238.161.11, port: 80, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
   - {name: '🇸🇬SG_27', server: 172.104.168.83, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇦🇺AU_02', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇦🇺AU_03', server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸US_31', server: 38.107.226.149, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇸🇬SG_28', server: 139.162.24.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Relay_🇫🇷FR-🇫🇷FR_14', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'CH_56+@WangCai_1+5', server: 156.146.62.50, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 'CH_11+@WangCai_1+4', server: 156.146.62.45, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '🇸🇬SG_8414+|11.17Mb', server: 89.187.163.217, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '🇸🇬SG_8402+|11.34Mb', server: 89.187.163.217, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 'CH_36+@WangCai_1+4', server: 156.146.62.45, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 'CH_43+@WangCai_1+4', server: 156.146.62.45, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: '🇮🇳IN_4850+|11.66Mb', server: 103.39.132.189, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '🇮🇳IN_4964+|11.47Mb', server: 103.39.134.60, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: '🇰🇷KR_5623+|+5.71Mb', server: 103.249.31.29, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: '🇹🇼TW_8893+|24.52Mb', server: 2.58.242.46, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: '🇹🇼TW_8982+|16.84Mb', server: 2.58.241.43, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: '🇰🇷KR_5667+|+4.82Mb', server: 103.249.31.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 'CH_05+@WangCai_1+5', server: 156.146.62.50, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: '🇰🇷KR_5911+|25.04Mb', server: 103.249.31.29, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: '🇮🇳IN_4928+|11.52Mb', server: 103.39.134.62, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '🇰🇷KR_5618+|+3.47Mb', server: 103.249.31.29, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: '🇰🇷KR_5674+|+5.80Mb', server: 103.249.31.29, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 网通四区上海_1
-      - 电信一区广东_2
-      - 移动专线B_3
-      - 🇸🇬SG_8480+|22.99Mb
-      - AT_22+@WangCai_1+3
-      - CH_23+@WangCai_1+5
+      - 电信一区广东_1
+      - 网通四区上海_2
+      - Relay_🇨🇦CA-🇨🇦CA_04
       - CH_14+@WangCai_1+4
+      - 🇸🇬SG_8435+|12.77Mb
+      - CH_42+@WangCai_1+4
+      - CH_61+@WangCai_1+5
+      - 🇸🇬SG_8480+|22.99Mb
+      - CH_23+@WangCai_1+5
       - CH_45+@WangCai_1+3
       - CH_10+@WangCai_1+4
-      - CH_34+@WangCai_1+4
-      - Pool_🇺🇸US_9337
-      - 🇭🇰HK_4347+|11.93Mb
-      - 🇭🇰HK_4236+|25.06Mb
-      - CH_51+@WangCai_1+4
-      - CH_56+@WangCai_1+5
-      - CH_11+@WangCai_1+4
-      - CH_47+@WangCai_1+5
-      - 🇮🇳IN_4995+|15.66Mb
-      - 🇸🇬SG_8388+|12.26Mb
-      - 🇸🇬SG_8414+|11.17Mb
-      - 🇸🇬SG_8418+|12.62Mb
-      - 🇸🇬SG_8402+|11.34Mb
       - CH_68+@WangCai_1+5
-      - AT_03+@WangCai_1+8
-      - 🇸🇬SG_8440+|11.72Mb
-      - CH_69+@WangCai_1+4
-      - AT_25+@WangCai_1+3
-      - CH_01+@WangCai_1+4
-      - CH_19+@WangCai_1+5
-      - 🇮🇳IN_4993+|24.95Mb
-      - 🇸🇬SG_8435+|12.77Mb
-      - CH_26+@WangCai_1+4
-      - CH_08+@WangCai_1+4
-      - CH_36+@WangCai_1+4
-      - CH_58+@WangCai_1+4
-      - 🇸🇬SG_8400+|14.71Mb
-      - CH_42+@WangCai_1+4
-      - Pool_🇺🇸US_9334
-      - CH_61+@WangCai_1+5
       - CH_10+@WangCai_1+5
       - 🇮🇳IN_4969+|23.09Mb
-      - 🇮🇳IN_4757+|12.26Mb
-      - 🇸🇬SG_8481+|12.05Mb
-      - 🇮🇳IN_4966+|24.04Mb
-      - 🇸🇬SG_8454+|12.29Mb
-      - CH_70+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - 🇮🇳IN_4850+|11.66Mb
       - 🇮🇳IN_4847+|24.74Mb
-      - CH_54+@WangCai_1+5
-      - 🇮🇳IN_4964+|11.47Mb
-      - AT_56+@WangCai_1+4
-      - 🇮🇳IN_4711+|11.69Mb
-      - CH_58+@WangCai_1+5
-      - 🇭🇰HK_4383+|+7.37Mb
       - CH_55+@WangCai_1+4
       - 🇮🇳IN_4716+|12.04Mb
-      - 🇸🇬SG_8496+|21.75Mb
-      - CH_25+@WangCai_1+2
-      - 🇸🇬SG_8377+|21.53Mb
-      - 🇭🇰HK_4332+|21.39Mb
-      - 🇮🇳IN_4905+|11.71Mb
+      - 🇮🇳IN_4918+|11.11Mb
+      - 🇸🇬SG_8437+|13.17Mb
+      - CH_22+@WangCai_1+5
+      - 🇯🇵JP_5542+|57.56Mb
+      - 🇮🇳IN_4944+|+8.15Mb
+      - 🇮🇳IN_4840+|23.80Mb
+      - CH_54+@WangCai_1+4
+      - 🇦🇺AU_03
+      - 移动专线B_26
+      - AT_22+@WangCai_1+3
+      - 🇭🇰HK_4236+|25.06Mb
+      - 🇸🇬SG_8388+|12.26Mb
+      - 🇸🇬SG_8454+|12.29Mb
       - Pool_🇺🇸US_9332
       - 🇮🇳IN_4974+|11.64Mb
       - Pool_🇸🇬SG_8095
-      - Pool_🇺🇸US_9333
-      - 🇹🇼TW_9179+|25.48Mb
-      - 🇭🇰HK_4391+|25.05Mb
-      - 🇮🇳IN_4918+|11.11Mb
-      - 🇹🇼TW_8996+|25.10Mb
-      - 🇹🇼TW_9104+|25.21Mb
       - 🇭🇰HK_4387+|25.70Mb
       - AT_42+@WangCai_1+4
-      - 🇹🇼TW_8813+|24.58Mb
-      - 🇸🇬SG_8437+|13.17Mb
-      - 🇮🇳IN_4701+|11.75Mb
-      - 🇮🇳IN_4793+|25.28Mb
-      - CH_22+@WangCai_1+5
       - CH_37+@WangCai_1+5
-      - 🇸🇬SG_8385+|10.30Mb
-      - 🇯🇵JP_5767+|33.45Mb
       - 🇭🇰HK_4331+|11.83Mb
       - 🇭🇰HK_4238+|25.34Mb
-      - 🇭🇰HK_4263+|25.70Mb
-      - 🇭🇰HK_4240+|25.96Mb
       - 🇭🇰HK_4254+|25.58Mb
+      - 🇰🇷KR_5595+|+3.22Mb
+      - 🇮🇳IN_4843+|24.44Mb
+      - 🇰🇷KR_5663+|+7.02Mb
+      - 🇯🇵JP_5544+|33.51Mb
+      - 🇮🇳IN_4702+|11.66Mb
+      - 🇰🇷KR_5590+|+4.62Mb
+      - Relay_🇨🇦CA-🇨🇦CA_05
+      - 🇭🇰HK_17
+      - 🇦🇺AU_02
+      - CH_34+@WangCai_1+4
+      - Pool_🇺🇸US_9337
+      - AT_03+@WangCai_1+8
+      - CH_26+@WangCai_1+4
+      - Pool_🇺🇸US_9334
+      - 🇸🇬SG_8481+|12.05Mb
+      - CH_70+@WangCai_1+5
+      - CH_54+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - 🇸🇬SG_8496+|21.75Mb
+      - CH_25+@WangCai_1+2
+      - 🇹🇼TW_8996+|25.10Mb
+      - 🇭🇰HK_4240+|25.96Mb
       - 🇮🇳IN_4848+|24.36Mb
       - 🇰🇷KR_5619+|+6.35Mb
-      - 🇰🇷KR_5680+|+6.11Mb
       - 🇹🇼TW_8861+|24.48Mb
       - 🇭🇰HK_4255+|25.55Mb
-      - 🇰🇷KR_5595+|+3.22Mb
-      - 🇰🇷KR_5614+|12.01Mb
-      - 🇰🇷KR_5616+|+9.78Mb
-      - 🇰🇷KR_5658+|+5.56Mb
-      - 🇰🇷KR_5662+|+6.88Mb
-      - 🇮🇳IN_4843+|24.44Mb
-      - 🇯🇵JP_5542+|57.56Mb
       - 🇰🇷KR_5669+|+4.81Mb
       - 🇭🇰HK_4256+|24.94Mb
-      - 🇮🇳IN_4838+|24.67Mb
-      - 🇯🇵JP_5550+|31.19Mb
-      - 🇰🇷KR_5623+|+5.71Mb
-      - 🇮🇳IN_4952+|+8.59Mb
-      - 🇰🇷KR_5824+|22.73Mb
       - 🇮🇳IN_4925+|11.33Mb
-      - 🇮🇳IN_4944+|+8.15Mb
       - 🇸🇬SG_8376+|12.36Mb
-      - CH_22+@WangCai_1+4
       - CH_12+@WangCai_1+4
-      - 🇹🇼TW_9133+|24.64Mb
-      - 🇹🇼TW_8893+|24.52Mb
-      - 🇹🇼TW_8796+|26.14Mb
-      - 🇹🇼TW_9144+|24.87Mb
-      - 🇰🇷KR_5652+|+4.92Mb
-      - 🇰🇷KR_5663+|+7.02Mb
-      - 🇯🇵JP_5547+|30.93Mb
-      - 🇰🇷KR_5566+|+2.97Mb
-      - 🇰🇷KR_5597+|+2.34Mb
       - 🇰🇷KR_5600+|+4.20Mb
-      - 🇰🇷KR_5608+|+3.17Mb
-      - 🇰🇷KR_5615+|+6.01Mb
-      - 🇰🇷KR_5655+|+7.91Mb
-      - 🇭🇰HK_4247+|25.21Mb
-      - 🇮🇳IN_4842+|25.04Mb
       - 🇯🇵JP_5543+|30.76Mb
-      - 🇯🇵JP_5544+|33.51Mb
+      - 🇹🇼TW_8809+|+6.07Mb
+      - 🇸🇬SG_8447+|11.63Mb
+      - 🇹🇼TW_8981+|24.39Mb
+      - 🇰🇷KR_5603+|+2.42Mb
+      - 🇰🇷KR_5664+|+4.01Mb
+      - 🇰🇷KR_5665+|+3.30Mb
+      - 🇰🇷KR_5656+|+4.61Mb
+      - 🇸🇬SG_28
+      - Relay_🇫🇷FR-🇫🇷FR_14
+      - 🇭🇰HK_4347+|11.93Mb
+      - CH_51+@WangCai_1+4
+      - CH_69+@WangCai_1+4
+      - 🇮🇳IN_4966+|24.04Mb
+      - 🇭🇰HK_4383+|+7.37Mb
+      - 🇸🇬SG_8377+|21.53Mb
+      - 🇭🇰HK_4332+|21.39Mb
+      - 🇮🇳IN_4905+|11.71Mb
+      - Pool_🇺🇸US_9333
+      - 🇹🇼TW_9179+|25.48Mb
+      - 🇹🇼TW_8813+|24.58Mb
+      - 🇮🇳IN_4701+|11.75Mb
+      - 🇭🇰HK_4263+|25.70Mb
+      - 🇰🇷KR_5614+|12.01Mb
+      - 🇰🇷KR_5662+|+6.88Mb
+      - 🇰🇷KR_5652+|+4.92Mb
+      - 🇰🇷KR_5655+|+7.91Mb
       - 🇰🇷KR_5592+|+2.48Mb
       - 🇰🇷KR_5678+|+5.70Mb
-      - 🇹🇼TW_8809+|+6.07Mb
-      - 🇹🇼TW_8869+|25.02Mb
-      - 🇹🇼TW_8982+|16.84Mb
-      - 🇮🇳IN_4840+|23.80Mb
-      - 🇰🇷KR_5609+|+2.59Mb
-      - 🇰🇷KR_5667+|+4.82Mb
-      - 🇰🇷KR_5671+|+3.84Mb
       - 🇭🇰HK_4251+|25.19Mb
-      - CH_54+@WangCai_1+4
-      - 🇸🇬SG_8447+|11.63Mb
-      - 🇸🇬SG_8378+|12.42Mb
-      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5677+|+2.39Mb
+      - 🇮🇳IN_4709+|11.60Mb
+      - CH_76+@WangCai_1+4
+      - 🇰🇷KR_5594+|+3.72Mb
+      - Pool_🇦🇹AT_01
+      - 🇺🇸US_31
+      - CH_47+@WangCai_1+5
+      - 🇮🇳IN_4995+|15.66Mb
+      - AT_25+@WangCai_1+3
+      - 🇹🇼TW_9104+|25.21Mb
+      - 🇰🇷KR_5658+|+5.56Mb
+      - 🇮🇳IN_4838+|24.67Mb
+      - 🇮🇳IN_4952+|+8.59Mb
+      - 🇰🇷KR_5824+|22.73Mb
+      - 🇯🇵JP_5547+|30.93Mb
+      - 🇰🇷KR_5597+|+2.34Mb
+      - 🇰🇷KR_5615+|+6.01Mb
+      - 🇹🇼TW_8869+|25.02Mb
       - 🇮🇳IN_4929+|11.58Mb
       - 🇹🇼TW_8927+|25.39Mb
-      - 🇰🇷KR_5911+|25.04Mb
-      - n_45.88.179.12_123
-      - 🇮🇳IN_4928+|11.52Mb
-      - 🇮🇳IN_4818+|11.55Mb
       - 🇮🇳IN_4841+|24.81Mb
       - 🇰🇷KR_5584+|+8.49Mb
       - 🇰🇷KR_5607+|+3.48Mb
-      - 🇰🇷KR_5618+|+3.47Mb
-      - 🇰🇷KR_5677+|+2.39Mb
-      - 🇹🇼TW_8981+|24.39Mb
-      - 🇰🇷KR_5598+|+5.38Mb
-      - 🇰🇷KR_5603+|+2.42Mb
-      - 🇰🇷KR_5613+|+7.90Mb
       - 🇰🇷KR_5643+|+3.39Mb
       - 🇰🇷KR_5649+|+5.99Mb
-      - 🇰🇷KR_5664+|+4.01Mb
-      - 🇰🇷KR_5674+|+5.80Mb
       - 🇰🇷KR_5596+|+7.12Mb
-      - 🇰🇷KR_5665+|+3.30Mb
-      - 🇮🇳IN_4709+|11.60Mb
-      - CH_76+@WangCai_1+4
-      - 🇮🇳IN_4702+|11.66Mb
-      - 🇮🇳IN_4921+|11.92Mb
-      - 🇰🇷KR_5656+|+4.61Mb
-      - 🇰🇷KR_5590+|+4.62Mb
-      - 🇹🇼TW_9096+|25.05Mb
-      - 🇰🇷KR_5594+|+3.72Mb
-      - Pool_🇦🇹AT_01
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇭🇰HK_17
-      - 🇮🇹IT_18
-      - 🇯🇵JP_19
       - 🇸🇬SG_27
-      - 🇦🇺AU_02
-      - 🇦🇺AU_03
-      - 🇺🇸US_31
-      - 🇸🇬SG_28
-      - Relay_🇫🇷FR-🇫🇷FR_14
+      - CH_56+@WangCai_1+5
+      - CH_11+@WangCai_1+4
+      - 🇸🇬SG_8414+|11.17Mb
+      - 🇸🇬SG_8402+|11.34Mb
+      - CH_36+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - 🇮🇳IN_4850+|11.66Mb
+      - 🇮🇳IN_4964+|11.47Mb
+      - 🇰🇷KR_5623+|+5.71Mb
+      - 🇹🇼TW_8893+|24.52Mb
+      - 🇹🇼TW_8982+|16.84Mb
+      - 🇰🇷KR_5667+|+4.82Mb
+      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5911+|25.04Mb
+      - 🇮🇳IN_4928+|11.52Mb
+      - 🇰🇷KR_5618+|+3.47Mb
+      - 🇰🇷KR_5674+|+5.80Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 网通四区上海_1
-      - 电信一区广东_2
-      - 移动专线B_3
-      - 🇸🇬SG_8480+|22.99Mb
-      - AT_22+@WangCai_1+3
-      - CH_23+@WangCai_1+5
+      - 电信一区广东_1
+      - 网通四区上海_2
+      - Relay_🇨🇦CA-🇨🇦CA_04
       - CH_14+@WangCai_1+4
+      - 🇸🇬SG_8435+|12.77Mb
+      - CH_42+@WangCai_1+4
+      - CH_61+@WangCai_1+5
+      - 🇸🇬SG_8480+|22.99Mb
+      - CH_23+@WangCai_1+5
       - CH_45+@WangCai_1+3
       - CH_10+@WangCai_1+4
-      - CH_34+@WangCai_1+4
-      - Pool_🇺🇸US_9337
-      - 🇭🇰HK_4347+|11.93Mb
-      - 🇭🇰HK_4236+|25.06Mb
-      - CH_51+@WangCai_1+4
-      - CH_56+@WangCai_1+5
-      - CH_11+@WangCai_1+4
-      - CH_47+@WangCai_1+5
-      - 🇮🇳IN_4995+|15.66Mb
-      - 🇸🇬SG_8388+|12.26Mb
-      - 🇸🇬SG_8414+|11.17Mb
-      - 🇸🇬SG_8418+|12.62Mb
-      - 🇸🇬SG_8402+|11.34Mb
       - CH_68+@WangCai_1+5
-      - AT_03+@WangCai_1+8
-      - 🇸🇬SG_8440+|11.72Mb
-      - CH_69+@WangCai_1+4
-      - AT_25+@WangCai_1+3
-      - CH_01+@WangCai_1+4
-      - CH_19+@WangCai_1+5
-      - 🇮🇳IN_4993+|24.95Mb
-      - 🇸🇬SG_8435+|12.77Mb
-      - CH_26+@WangCai_1+4
-      - CH_08+@WangCai_1+4
-      - CH_36+@WangCai_1+4
-      - CH_58+@WangCai_1+4
-      - 🇸🇬SG_8400+|14.71Mb
-      - CH_42+@WangCai_1+4
-      - Pool_🇺🇸US_9334
-      - CH_61+@WangCai_1+5
       - CH_10+@WangCai_1+5
       - 🇮🇳IN_4969+|23.09Mb
-      - 🇮🇳IN_4757+|12.26Mb
-      - 🇸🇬SG_8481+|12.05Mb
-      - 🇮🇳IN_4966+|24.04Mb
-      - 🇸🇬SG_8454+|12.29Mb
-      - CH_70+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - 🇮🇳IN_4850+|11.66Mb
       - 🇮🇳IN_4847+|24.74Mb
-      - CH_54+@WangCai_1+5
-      - 🇮🇳IN_4964+|11.47Mb
-      - AT_56+@WangCai_1+4
-      - 🇮🇳IN_4711+|11.69Mb
-      - CH_58+@WangCai_1+5
-      - 🇭🇰HK_4383+|+7.37Mb
       - CH_55+@WangCai_1+4
       - 🇮🇳IN_4716+|12.04Mb
-      - 🇸🇬SG_8496+|21.75Mb
-      - CH_25+@WangCai_1+2
-      - 🇸🇬SG_8377+|21.53Mb
-      - 🇭🇰HK_4332+|21.39Mb
-      - 🇮🇳IN_4905+|11.71Mb
+      - 🇮🇳IN_4918+|11.11Mb
+      - 🇸🇬SG_8437+|13.17Mb
+      - CH_22+@WangCai_1+5
+      - 🇯🇵JP_5542+|57.56Mb
+      - 🇮🇳IN_4944+|+8.15Mb
+      - 🇮🇳IN_4840+|23.80Mb
+      - CH_54+@WangCai_1+4
+      - 🇦🇺AU_03
+      - 移动专线B_26
+      - AT_22+@WangCai_1+3
+      - 🇭🇰HK_4236+|25.06Mb
+      - 🇸🇬SG_8388+|12.26Mb
+      - 🇸🇬SG_8454+|12.29Mb
       - Pool_🇺🇸US_9332
       - 🇮🇳IN_4974+|11.64Mb
       - Pool_🇸🇬SG_8095
-      - Pool_🇺🇸US_9333
-      - 🇹🇼TW_9179+|25.48Mb
-      - 🇭🇰HK_4391+|25.05Mb
-      - 🇮🇳IN_4918+|11.11Mb
-      - 🇹🇼TW_8996+|25.10Mb
-      - 🇹🇼TW_9104+|25.21Mb
       - 🇭🇰HK_4387+|25.70Mb
       - AT_42+@WangCai_1+4
-      - 🇹🇼TW_8813+|24.58Mb
-      - 🇸🇬SG_8437+|13.17Mb
-      - 🇮🇳IN_4701+|11.75Mb
-      - 🇮🇳IN_4793+|25.28Mb
-      - CH_22+@WangCai_1+5
       - CH_37+@WangCai_1+5
-      - 🇸🇬SG_8385+|10.30Mb
-      - 🇯🇵JP_5767+|33.45Mb
       - 🇭🇰HK_4331+|11.83Mb
       - 🇭🇰HK_4238+|25.34Mb
-      - 🇭🇰HK_4263+|25.70Mb
-      - 🇭🇰HK_4240+|25.96Mb
       - 🇭🇰HK_4254+|25.58Mb
+      - 🇰🇷KR_5595+|+3.22Mb
+      - 🇮🇳IN_4843+|24.44Mb
+      - 🇰🇷KR_5663+|+7.02Mb
+      - 🇯🇵JP_5544+|33.51Mb
+      - 🇮🇳IN_4702+|11.66Mb
+      - 🇰🇷KR_5590+|+4.62Mb
+      - Relay_🇨🇦CA-🇨🇦CA_05
+      - 🇭🇰HK_17
+      - 🇦🇺AU_02
+      - CH_34+@WangCai_1+4
+      - Pool_🇺🇸US_9337
+      - AT_03+@WangCai_1+8
+      - CH_26+@WangCai_1+4
+      - Pool_🇺🇸US_9334
+      - 🇸🇬SG_8481+|12.05Mb
+      - CH_70+@WangCai_1+5
+      - CH_54+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - 🇸🇬SG_8496+|21.75Mb
+      - CH_25+@WangCai_1+2
+      - 🇹🇼TW_8996+|25.10Mb
+      - 🇭🇰HK_4240+|25.96Mb
       - 🇮🇳IN_4848+|24.36Mb
       - 🇰🇷KR_5619+|+6.35Mb
-      - 🇰🇷KR_5680+|+6.11Mb
       - 🇹🇼TW_8861+|24.48Mb
       - 🇭🇰HK_4255+|25.55Mb
-      - 🇰🇷KR_5595+|+3.22Mb
-      - 🇰🇷KR_5614+|12.01Mb
-      - 🇰🇷KR_5616+|+9.78Mb
-      - 🇰🇷KR_5658+|+5.56Mb
-      - 🇰🇷KR_5662+|+6.88Mb
-      - 🇮🇳IN_4843+|24.44Mb
-      - 🇯🇵JP_5542+|57.56Mb
       - 🇰🇷KR_5669+|+4.81Mb
       - 🇭🇰HK_4256+|24.94Mb
-      - 🇮🇳IN_4838+|24.67Mb
-      - 🇯🇵JP_5550+|31.19Mb
-      - 🇰🇷KR_5623+|+5.71Mb
-      - 🇮🇳IN_4952+|+8.59Mb
-      - 🇰🇷KR_5824+|22.73Mb
       - 🇮🇳IN_4925+|11.33Mb
-      - 🇮🇳IN_4944+|+8.15Mb
       - 🇸🇬SG_8376+|12.36Mb
-      - CH_22+@WangCai_1+4
       - CH_12+@WangCai_1+4
-      - 🇹🇼TW_9133+|24.64Mb
-      - 🇹🇼TW_8893+|24.52Mb
-      - 🇹🇼TW_8796+|26.14Mb
-      - 🇹🇼TW_9144+|24.87Mb
-      - 🇰🇷KR_5652+|+4.92Mb
-      - 🇰🇷KR_5663+|+7.02Mb
-      - 🇯🇵JP_5547+|30.93Mb
-      - 🇰🇷KR_5566+|+2.97Mb
-      - 🇰🇷KR_5597+|+2.34Mb
       - 🇰🇷KR_5600+|+4.20Mb
-      - 🇰🇷KR_5608+|+3.17Mb
-      - 🇰🇷KR_5615+|+6.01Mb
-      - 🇰🇷KR_5655+|+7.91Mb
-      - 🇭🇰HK_4247+|25.21Mb
-      - 🇮🇳IN_4842+|25.04Mb
       - 🇯🇵JP_5543+|30.76Mb
-      - 🇯🇵JP_5544+|33.51Mb
+      - 🇹🇼TW_8809+|+6.07Mb
+      - 🇸🇬SG_8447+|11.63Mb
+      - 🇹🇼TW_8981+|24.39Mb
+      - 🇰🇷KR_5603+|+2.42Mb
+      - 🇰🇷KR_5664+|+4.01Mb
+      - 🇰🇷KR_5665+|+3.30Mb
+      - 🇰🇷KR_5656+|+4.61Mb
+      - 🇸🇬SG_28
+      - Relay_🇫🇷FR-🇫🇷FR_14
+      - 🇭🇰HK_4347+|11.93Mb
+      - CH_51+@WangCai_1+4
+      - CH_69+@WangCai_1+4
+      - 🇮🇳IN_4966+|24.04Mb
+      - 🇭🇰HK_4383+|+7.37Mb
+      - 🇸🇬SG_8377+|21.53Mb
+      - 🇭🇰HK_4332+|21.39Mb
+      - 🇮🇳IN_4905+|11.71Mb
+      - Pool_🇺🇸US_9333
+      - 🇹🇼TW_9179+|25.48Mb
+      - 🇹🇼TW_8813+|24.58Mb
+      - 🇮🇳IN_4701+|11.75Mb
+      - 🇭🇰HK_4263+|25.70Mb
+      - 🇰🇷KR_5614+|12.01Mb
+      - 🇰🇷KR_5662+|+6.88Mb
+      - 🇰🇷KR_5652+|+4.92Mb
+      - 🇰🇷KR_5655+|+7.91Mb
       - 🇰🇷KR_5592+|+2.48Mb
       - 🇰🇷KR_5678+|+5.70Mb
-      - 🇹🇼TW_8809+|+6.07Mb
-      - 🇹🇼TW_8869+|25.02Mb
-      - 🇹🇼TW_8982+|16.84Mb
-      - 🇮🇳IN_4840+|23.80Mb
-      - 🇰🇷KR_5609+|+2.59Mb
-      - 🇰🇷KR_5667+|+4.82Mb
-      - 🇰🇷KR_5671+|+3.84Mb
       - 🇭🇰HK_4251+|25.19Mb
-      - CH_54+@WangCai_1+4
-      - 🇸🇬SG_8447+|11.63Mb
-      - 🇸🇬SG_8378+|12.42Mb
-      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5677+|+2.39Mb
+      - 🇮🇳IN_4709+|11.60Mb
+      - CH_76+@WangCai_1+4
+      - 🇰🇷KR_5594+|+3.72Mb
+      - Pool_🇦🇹AT_01
+      - 🇺🇸US_31
+      - CH_47+@WangCai_1+5
+      - 🇮🇳IN_4995+|15.66Mb
+      - AT_25+@WangCai_1+3
+      - 🇹🇼TW_9104+|25.21Mb
+      - 🇰🇷KR_5658+|+5.56Mb
+      - 🇮🇳IN_4838+|24.67Mb
+      - 🇮🇳IN_4952+|+8.59Mb
+      - 🇰🇷KR_5824+|22.73Mb
+      - 🇯🇵JP_5547+|30.93Mb
+      - 🇰🇷KR_5597+|+2.34Mb
+      - 🇰🇷KR_5615+|+6.01Mb
+      - 🇹🇼TW_8869+|25.02Mb
       - 🇮🇳IN_4929+|11.58Mb
       - 🇹🇼TW_8927+|25.39Mb
-      - 🇰🇷KR_5911+|25.04Mb
-      - n_45.88.179.12_123
-      - 🇮🇳IN_4928+|11.52Mb
-      - 🇮🇳IN_4818+|11.55Mb
       - 🇮🇳IN_4841+|24.81Mb
       - 🇰🇷KR_5584+|+8.49Mb
       - 🇰🇷KR_5607+|+3.48Mb
-      - 🇰🇷KR_5618+|+3.47Mb
-      - 🇰🇷KR_5677+|+2.39Mb
-      - 🇹🇼TW_8981+|24.39Mb
-      - 🇰🇷KR_5598+|+5.38Mb
-      - 🇰🇷KR_5603+|+2.42Mb
-      - 🇰🇷KR_5613+|+7.90Mb
       - 🇰🇷KR_5643+|+3.39Mb
       - 🇰🇷KR_5649+|+5.99Mb
-      - 🇰🇷KR_5664+|+4.01Mb
-      - 🇰🇷KR_5674+|+5.80Mb
       - 🇰🇷KR_5596+|+7.12Mb
-      - 🇰🇷KR_5665+|+3.30Mb
-      - 🇮🇳IN_4709+|11.60Mb
-      - CH_76+@WangCai_1+4
-      - 🇮🇳IN_4702+|11.66Mb
-      - 🇮🇳IN_4921+|11.92Mb
-      - 🇰🇷KR_5656+|+4.61Mb
-      - 🇰🇷KR_5590+|+4.62Mb
-      - 🇹🇼TW_9096+|25.05Mb
-      - 🇰🇷KR_5594+|+3.72Mb
-      - Pool_🇦🇹AT_01
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇭🇰HK_17
-      - 🇮🇹IT_18
-      - 🇯🇵JP_19
       - 🇸🇬SG_27
-      - 🇦🇺AU_02
-      - 🇦🇺AU_03
-      - 🇺🇸US_31
-      - 🇸🇬SG_28
-      - Relay_🇫🇷FR-🇫🇷FR_14
+      - CH_56+@WangCai_1+5
+      - CH_11+@WangCai_1+4
+      - 🇸🇬SG_8414+|11.17Mb
+      - 🇸🇬SG_8402+|11.34Mb
+      - CH_36+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - 🇮🇳IN_4850+|11.66Mb
+      - 🇮🇳IN_4964+|11.47Mb
+      - 🇰🇷KR_5623+|+5.71Mb
+      - 🇹🇼TW_8893+|24.52Mb
+      - 🇹🇼TW_8982+|16.84Mb
+      - 🇰🇷KR_5667+|+4.82Mb
+      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5911+|25.04Mb
+      - 🇮🇳IN_4928+|11.52Mb
+      - 🇰🇷KR_5618+|+3.47Mb
+      - 🇰🇷KR_5674+|+5.80Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 网通四区上海_1
-      - 电信一区广东_2
-      - 移动专线B_3
-      - 🇸🇬SG_8480+|22.99Mb
-      - AT_22+@WangCai_1+3
-      - CH_23+@WangCai_1+5
+      - 电信一区广东_1
+      - 网通四区上海_2
+      - Relay_🇨🇦CA-🇨🇦CA_04
       - CH_14+@WangCai_1+4
+      - 🇸🇬SG_8435+|12.77Mb
+      - CH_42+@WangCai_1+4
+      - CH_61+@WangCai_1+5
+      - 🇸🇬SG_8480+|22.99Mb
+      - CH_23+@WangCai_1+5
       - CH_45+@WangCai_1+3
       - CH_10+@WangCai_1+4
-      - CH_34+@WangCai_1+4
-      - Pool_🇺🇸US_9337
-      - 🇭🇰HK_4347+|11.93Mb
-      - 🇭🇰HK_4236+|25.06Mb
-      - CH_51+@WangCai_1+4
-      - CH_56+@WangCai_1+5
-      - CH_11+@WangCai_1+4
-      - CH_47+@WangCai_1+5
-      - 🇮🇳IN_4995+|15.66Mb
-      - 🇸🇬SG_8388+|12.26Mb
-      - 🇸🇬SG_8414+|11.17Mb
-      - 🇸🇬SG_8418+|12.62Mb
-      - 🇸🇬SG_8402+|11.34Mb
       - CH_68+@WangCai_1+5
-      - AT_03+@WangCai_1+8
-      - 🇸🇬SG_8440+|11.72Mb
-      - CH_69+@WangCai_1+4
-      - AT_25+@WangCai_1+3
-      - CH_01+@WangCai_1+4
-      - CH_19+@WangCai_1+5
-      - 🇮🇳IN_4993+|24.95Mb
-      - 🇸🇬SG_8435+|12.77Mb
-      - CH_26+@WangCai_1+4
-      - CH_08+@WangCai_1+4
-      - CH_36+@WangCai_1+4
-      - CH_58+@WangCai_1+4
-      - 🇸🇬SG_8400+|14.71Mb
-      - CH_42+@WangCai_1+4
-      - Pool_🇺🇸US_9334
-      - CH_61+@WangCai_1+5
       - CH_10+@WangCai_1+5
       - 🇮🇳IN_4969+|23.09Mb
-      - 🇮🇳IN_4757+|12.26Mb
-      - 🇸🇬SG_8481+|12.05Mb
-      - 🇮🇳IN_4966+|24.04Mb
-      - 🇸🇬SG_8454+|12.29Mb
-      - CH_70+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - 🇮🇳IN_4850+|11.66Mb
       - 🇮🇳IN_4847+|24.74Mb
-      - CH_54+@WangCai_1+5
-      - 🇮🇳IN_4964+|11.47Mb
-      - AT_56+@WangCai_1+4
-      - 🇮🇳IN_4711+|11.69Mb
-      - CH_58+@WangCai_1+5
-      - 🇭🇰HK_4383+|+7.37Mb
       - CH_55+@WangCai_1+4
       - 🇮🇳IN_4716+|12.04Mb
-      - 🇸🇬SG_8496+|21.75Mb
-      - CH_25+@WangCai_1+2
-      - 🇸🇬SG_8377+|21.53Mb
-      - 🇭🇰HK_4332+|21.39Mb
-      - 🇮🇳IN_4905+|11.71Mb
+      - 🇮🇳IN_4918+|11.11Mb
+      - 🇸🇬SG_8437+|13.17Mb
+      - CH_22+@WangCai_1+5
+      - 🇯🇵JP_5542+|57.56Mb
+      - 🇮🇳IN_4944+|+8.15Mb
+      - 🇮🇳IN_4840+|23.80Mb
+      - CH_54+@WangCai_1+4
+      - 🇦🇺AU_03
+      - 移动专线B_26
+      - AT_22+@WangCai_1+3
+      - 🇭🇰HK_4236+|25.06Mb
+      - 🇸🇬SG_8388+|12.26Mb
+      - 🇸🇬SG_8454+|12.29Mb
       - Pool_🇺🇸US_9332
       - 🇮🇳IN_4974+|11.64Mb
       - Pool_🇸🇬SG_8095
-      - Pool_🇺🇸US_9333
-      - 🇹🇼TW_9179+|25.48Mb
-      - 🇭🇰HK_4391+|25.05Mb
-      - 🇮🇳IN_4918+|11.11Mb
-      - 🇹🇼TW_8996+|25.10Mb
-      - 🇹🇼TW_9104+|25.21Mb
       - 🇭🇰HK_4387+|25.70Mb
       - AT_42+@WangCai_1+4
-      - 🇹🇼TW_8813+|24.58Mb
-      - 🇸🇬SG_8437+|13.17Mb
-      - 🇮🇳IN_4701+|11.75Mb
-      - 🇮🇳IN_4793+|25.28Mb
-      - CH_22+@WangCai_1+5
       - CH_37+@WangCai_1+5
-      - 🇸🇬SG_8385+|10.30Mb
-      - 🇯🇵JP_5767+|33.45Mb
       - 🇭🇰HK_4331+|11.83Mb
       - 🇭🇰HK_4238+|25.34Mb
-      - 🇭🇰HK_4263+|25.70Mb
-      - 🇭🇰HK_4240+|25.96Mb
       - 🇭🇰HK_4254+|25.58Mb
+      - 🇰🇷KR_5595+|+3.22Mb
+      - 🇮🇳IN_4843+|24.44Mb
+      - 🇰🇷KR_5663+|+7.02Mb
+      - 🇯🇵JP_5544+|33.51Mb
+      - 🇮🇳IN_4702+|11.66Mb
+      - 🇰🇷KR_5590+|+4.62Mb
+      - Relay_🇨🇦CA-🇨🇦CA_05
+      - 🇭🇰HK_17
+      - 🇦🇺AU_02
+      - CH_34+@WangCai_1+4
+      - Pool_🇺🇸US_9337
+      - AT_03+@WangCai_1+8
+      - CH_26+@WangCai_1+4
+      - Pool_🇺🇸US_9334
+      - 🇸🇬SG_8481+|12.05Mb
+      - CH_70+@WangCai_1+5
+      - CH_54+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - 🇸🇬SG_8496+|21.75Mb
+      - CH_25+@WangCai_1+2
+      - 🇹🇼TW_8996+|25.10Mb
+      - 🇭🇰HK_4240+|25.96Mb
       - 🇮🇳IN_4848+|24.36Mb
       - 🇰🇷KR_5619+|+6.35Mb
-      - 🇰🇷KR_5680+|+6.11Mb
       - 🇹🇼TW_8861+|24.48Mb
       - 🇭🇰HK_4255+|25.55Mb
-      - 🇰🇷KR_5595+|+3.22Mb
-      - 🇰🇷KR_5614+|12.01Mb
-      - 🇰🇷KR_5616+|+9.78Mb
-      - 🇰🇷KR_5658+|+5.56Mb
-      - 🇰🇷KR_5662+|+6.88Mb
-      - 🇮🇳IN_4843+|24.44Mb
-      - 🇯🇵JP_5542+|57.56Mb
       - 🇰🇷KR_5669+|+4.81Mb
       - 🇭🇰HK_4256+|24.94Mb
-      - 🇮🇳IN_4838+|24.67Mb
-      - 🇯🇵JP_5550+|31.19Mb
-      - 🇰🇷KR_5623+|+5.71Mb
-      - 🇮🇳IN_4952+|+8.59Mb
-      - 🇰🇷KR_5824+|22.73Mb
       - 🇮🇳IN_4925+|11.33Mb
-      - 🇮🇳IN_4944+|+8.15Mb
       - 🇸🇬SG_8376+|12.36Mb
-      - CH_22+@WangCai_1+4
       - CH_12+@WangCai_1+4
-      - 🇹🇼TW_9133+|24.64Mb
-      - 🇹🇼TW_8893+|24.52Mb
-      - 🇹🇼TW_8796+|26.14Mb
-      - 🇹🇼TW_9144+|24.87Mb
-      - 🇰🇷KR_5652+|+4.92Mb
-      - 🇰🇷KR_5663+|+7.02Mb
-      - 🇯🇵JP_5547+|30.93Mb
-      - 🇰🇷KR_5566+|+2.97Mb
-      - 🇰🇷KR_5597+|+2.34Mb
       - 🇰🇷KR_5600+|+4.20Mb
-      - 🇰🇷KR_5608+|+3.17Mb
-      - 🇰🇷KR_5615+|+6.01Mb
-      - 🇰🇷KR_5655+|+7.91Mb
-      - 🇭🇰HK_4247+|25.21Mb
-      - 🇮🇳IN_4842+|25.04Mb
       - 🇯🇵JP_5543+|30.76Mb
-      - 🇯🇵JP_5544+|33.51Mb
+      - 🇹🇼TW_8809+|+6.07Mb
+      - 🇸🇬SG_8447+|11.63Mb
+      - 🇹🇼TW_8981+|24.39Mb
+      - 🇰🇷KR_5603+|+2.42Mb
+      - 🇰🇷KR_5664+|+4.01Mb
+      - 🇰🇷KR_5665+|+3.30Mb
+      - 🇰🇷KR_5656+|+4.61Mb
+      - 🇸🇬SG_28
+      - Relay_🇫🇷FR-🇫🇷FR_14
+      - 🇭🇰HK_4347+|11.93Mb
+      - CH_51+@WangCai_1+4
+      - CH_69+@WangCai_1+4
+      - 🇮🇳IN_4966+|24.04Mb
+      - 🇭🇰HK_4383+|+7.37Mb
+      - 🇸🇬SG_8377+|21.53Mb
+      - 🇭🇰HK_4332+|21.39Mb
+      - 🇮🇳IN_4905+|11.71Mb
+      - Pool_🇺🇸US_9333
+      - 🇹🇼TW_9179+|25.48Mb
+      - 🇹🇼TW_8813+|24.58Mb
+      - 🇮🇳IN_4701+|11.75Mb
+      - 🇭🇰HK_4263+|25.70Mb
+      - 🇰🇷KR_5614+|12.01Mb
+      - 🇰🇷KR_5662+|+6.88Mb
+      - 🇰🇷KR_5652+|+4.92Mb
+      - 🇰🇷KR_5655+|+7.91Mb
       - 🇰🇷KR_5592+|+2.48Mb
       - 🇰🇷KR_5678+|+5.70Mb
-      - 🇹🇼TW_8809+|+6.07Mb
-      - 🇹🇼TW_8869+|25.02Mb
-      - 🇹🇼TW_8982+|16.84Mb
-      - 🇮🇳IN_4840+|23.80Mb
-      - 🇰🇷KR_5609+|+2.59Mb
-      - 🇰🇷KR_5667+|+4.82Mb
-      - 🇰🇷KR_5671+|+3.84Mb
       - 🇭🇰HK_4251+|25.19Mb
-      - CH_54+@WangCai_1+4
-      - 🇸🇬SG_8447+|11.63Mb
-      - 🇸🇬SG_8378+|12.42Mb
-      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5677+|+2.39Mb
+      - 🇮🇳IN_4709+|11.60Mb
+      - CH_76+@WangCai_1+4
+      - 🇰🇷KR_5594+|+3.72Mb
+      - Pool_🇦🇹AT_01
+      - 🇺🇸US_31
+      - CH_47+@WangCai_1+5
+      - 🇮🇳IN_4995+|15.66Mb
+      - AT_25+@WangCai_1+3
+      - 🇹🇼TW_9104+|25.21Mb
+      - 🇰🇷KR_5658+|+5.56Mb
+      - 🇮🇳IN_4838+|24.67Mb
+      - 🇮🇳IN_4952+|+8.59Mb
+      - 🇰🇷KR_5824+|22.73Mb
+      - 🇯🇵JP_5547+|30.93Mb
+      - 🇰🇷KR_5597+|+2.34Mb
+      - 🇰🇷KR_5615+|+6.01Mb
+      - 🇹🇼TW_8869+|25.02Mb
       - 🇮🇳IN_4929+|11.58Mb
       - 🇹🇼TW_8927+|25.39Mb
-      - 🇰🇷KR_5911+|25.04Mb
-      - n_45.88.179.12_123
-      - 🇮🇳IN_4928+|11.52Mb
-      - 🇮🇳IN_4818+|11.55Mb
       - 🇮🇳IN_4841+|24.81Mb
       - 🇰🇷KR_5584+|+8.49Mb
       - 🇰🇷KR_5607+|+3.48Mb
-      - 🇰🇷KR_5618+|+3.47Mb
-      - 🇰🇷KR_5677+|+2.39Mb
-      - 🇹🇼TW_8981+|24.39Mb
-      - 🇰🇷KR_5598+|+5.38Mb
-      - 🇰🇷KR_5603+|+2.42Mb
-      - 🇰🇷KR_5613+|+7.90Mb
       - 🇰🇷KR_5643+|+3.39Mb
       - 🇰🇷KR_5649+|+5.99Mb
-      - 🇰🇷KR_5664+|+4.01Mb
-      - 🇰🇷KR_5674+|+5.80Mb
       - 🇰🇷KR_5596+|+7.12Mb
-      - 🇰🇷KR_5665+|+3.30Mb
-      - 🇮🇳IN_4709+|11.60Mb
-      - CH_76+@WangCai_1+4
-      - 🇮🇳IN_4702+|11.66Mb
-      - 🇮🇳IN_4921+|11.92Mb
-      - 🇰🇷KR_5656+|+4.61Mb
-      - 🇰🇷KR_5590+|+4.62Mb
-      - 🇹🇼TW_9096+|25.05Mb
-      - 🇰🇷KR_5594+|+3.72Mb
-      - Pool_🇦🇹AT_01
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇭🇰HK_17
-      - 🇮🇹IT_18
-      - 🇯🇵JP_19
       - 🇸🇬SG_27
-      - 🇦🇺AU_02
-      - 🇦🇺AU_03
-      - 🇺🇸US_31
-      - 🇸🇬SG_28
-      - Relay_🇫🇷FR-🇫🇷FR_14
+      - CH_56+@WangCai_1+5
+      - CH_11+@WangCai_1+4
+      - 🇸🇬SG_8414+|11.17Mb
+      - 🇸🇬SG_8402+|11.34Mb
+      - CH_36+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - 🇮🇳IN_4850+|11.66Mb
+      - 🇮🇳IN_4964+|11.47Mb
+      - 🇰🇷KR_5623+|+5.71Mb
+      - 🇹🇼TW_8893+|24.52Mb
+      - 🇹🇼TW_8982+|16.84Mb
+      - 🇰🇷KR_5667+|+4.82Mb
+      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5911+|25.04Mb
+      - 🇮🇳IN_4928+|11.52Mb
+      - 🇰🇷KR_5618+|+3.47Mb
+      - 🇰🇷KR_5674+|+5.80Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 网通四区上海_1
-      - 电信一区广东_2
-      - 移动专线B_3
-      - 🇸🇬SG_8480+|22.99Mb
-      - AT_22+@WangCai_1+3
-      - CH_23+@WangCai_1+5
+      - 电信一区广东_1
+      - 网通四区上海_2
+      - Relay_🇨🇦CA-🇨🇦CA_04
       - CH_14+@WangCai_1+4
+      - 🇸🇬SG_8435+|12.77Mb
+      - CH_42+@WangCai_1+4
+      - CH_61+@WangCai_1+5
+      - 🇸🇬SG_8480+|22.99Mb
+      - CH_23+@WangCai_1+5
       - CH_45+@WangCai_1+3
       - CH_10+@WangCai_1+4
-      - CH_34+@WangCai_1+4
-      - Pool_🇺🇸US_9337
-      - 🇭🇰HK_4347+|11.93Mb
-      - 🇭🇰HK_4236+|25.06Mb
-      - CH_51+@WangCai_1+4
-      - CH_56+@WangCai_1+5
-      - CH_11+@WangCai_1+4
-      - CH_47+@WangCai_1+5
-      - 🇮🇳IN_4995+|15.66Mb
-      - 🇸🇬SG_8388+|12.26Mb
-      - 🇸🇬SG_8414+|11.17Mb
-      - 🇸🇬SG_8418+|12.62Mb
-      - 🇸🇬SG_8402+|11.34Mb
       - CH_68+@WangCai_1+5
-      - AT_03+@WangCai_1+8
-      - 🇸🇬SG_8440+|11.72Mb
-      - CH_69+@WangCai_1+4
-      - AT_25+@WangCai_1+3
-      - CH_01+@WangCai_1+4
-      - CH_19+@WangCai_1+5
-      - 🇮🇳IN_4993+|24.95Mb
-      - 🇸🇬SG_8435+|12.77Mb
-      - CH_26+@WangCai_1+4
-      - CH_08+@WangCai_1+4
-      - CH_36+@WangCai_1+4
-      - CH_58+@WangCai_1+4
-      - 🇸🇬SG_8400+|14.71Mb
-      - CH_42+@WangCai_1+4
-      - Pool_🇺🇸US_9334
-      - CH_61+@WangCai_1+5
       - CH_10+@WangCai_1+5
       - 🇮🇳IN_4969+|23.09Mb
-      - 🇮🇳IN_4757+|12.26Mb
-      - 🇸🇬SG_8481+|12.05Mb
-      - 🇮🇳IN_4966+|24.04Mb
-      - 🇸🇬SG_8454+|12.29Mb
-      - CH_70+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - 🇮🇳IN_4850+|11.66Mb
       - 🇮🇳IN_4847+|24.74Mb
-      - CH_54+@WangCai_1+5
-      - 🇮🇳IN_4964+|11.47Mb
-      - AT_56+@WangCai_1+4
-      - 🇮🇳IN_4711+|11.69Mb
-      - CH_58+@WangCai_1+5
-      - 🇭🇰HK_4383+|+7.37Mb
       - CH_55+@WangCai_1+4
       - 🇮🇳IN_4716+|12.04Mb
-      - 🇸🇬SG_8496+|21.75Mb
-      - CH_25+@WangCai_1+2
-      - 🇸🇬SG_8377+|21.53Mb
-      - 🇭🇰HK_4332+|21.39Mb
-      - 🇮🇳IN_4905+|11.71Mb
+      - 🇮🇳IN_4918+|11.11Mb
+      - 🇸🇬SG_8437+|13.17Mb
+      - CH_22+@WangCai_1+5
+      - 🇯🇵JP_5542+|57.56Mb
+      - 🇮🇳IN_4944+|+8.15Mb
+      - 🇮🇳IN_4840+|23.80Mb
+      - CH_54+@WangCai_1+4
+      - 🇦🇺AU_03
+      - 移动专线B_26
+      - AT_22+@WangCai_1+3
+      - 🇭🇰HK_4236+|25.06Mb
+      - 🇸🇬SG_8388+|12.26Mb
+      - 🇸🇬SG_8454+|12.29Mb
       - Pool_🇺🇸US_9332
       - 🇮🇳IN_4974+|11.64Mb
       - Pool_🇸🇬SG_8095
-      - Pool_🇺🇸US_9333
-      - 🇹🇼TW_9179+|25.48Mb
-      - 🇭🇰HK_4391+|25.05Mb
-      - 🇮🇳IN_4918+|11.11Mb
-      - 🇹🇼TW_8996+|25.10Mb
-      - 🇹🇼TW_9104+|25.21Mb
       - 🇭🇰HK_4387+|25.70Mb
       - AT_42+@WangCai_1+4
-      - 🇹🇼TW_8813+|24.58Mb
-      - 🇸🇬SG_8437+|13.17Mb
-      - 🇮🇳IN_4701+|11.75Mb
-      - 🇮🇳IN_4793+|25.28Mb
-      - CH_22+@WangCai_1+5
       - CH_37+@WangCai_1+5
-      - 🇸🇬SG_8385+|10.30Mb
-      - 🇯🇵JP_5767+|33.45Mb
       - 🇭🇰HK_4331+|11.83Mb
       - 🇭🇰HK_4238+|25.34Mb
-      - 🇭🇰HK_4263+|25.70Mb
-      - 🇭🇰HK_4240+|25.96Mb
       - 🇭🇰HK_4254+|25.58Mb
+      - 🇰🇷KR_5595+|+3.22Mb
+      - 🇮🇳IN_4843+|24.44Mb
+      - 🇰🇷KR_5663+|+7.02Mb
+      - 🇯🇵JP_5544+|33.51Mb
+      - 🇮🇳IN_4702+|11.66Mb
+      - 🇰🇷KR_5590+|+4.62Mb
+      - Relay_🇨🇦CA-🇨🇦CA_05
+      - 🇭🇰HK_17
+      - 🇦🇺AU_02
+      - CH_34+@WangCai_1+4
+      - Pool_🇺🇸US_9337
+      - AT_03+@WangCai_1+8
+      - CH_26+@WangCai_1+4
+      - Pool_🇺🇸US_9334
+      - 🇸🇬SG_8481+|12.05Mb
+      - CH_70+@WangCai_1+5
+      - CH_54+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - 🇸🇬SG_8496+|21.75Mb
+      - CH_25+@WangCai_1+2
+      - 🇹🇼TW_8996+|25.10Mb
+      - 🇭🇰HK_4240+|25.96Mb
       - 🇮🇳IN_4848+|24.36Mb
       - 🇰🇷KR_5619+|+6.35Mb
-      - 🇰🇷KR_5680+|+6.11Mb
       - 🇹🇼TW_8861+|24.48Mb
       - 🇭🇰HK_4255+|25.55Mb
-      - 🇰🇷KR_5595+|+3.22Mb
-      - 🇰🇷KR_5614+|12.01Mb
-      - 🇰🇷KR_5616+|+9.78Mb
-      - 🇰🇷KR_5658+|+5.56Mb
-      - 🇰🇷KR_5662+|+6.88Mb
-      - 🇮🇳IN_4843+|24.44Mb
-      - 🇯🇵JP_5542+|57.56Mb
       - 🇰🇷KR_5669+|+4.81Mb
       - 🇭🇰HK_4256+|24.94Mb
-      - 🇮🇳IN_4838+|24.67Mb
-      - 🇯🇵JP_5550+|31.19Mb
-      - 🇰🇷KR_5623+|+5.71Mb
-      - 🇮🇳IN_4952+|+8.59Mb
-      - 🇰🇷KR_5824+|22.73Mb
       - 🇮🇳IN_4925+|11.33Mb
-      - 🇮🇳IN_4944+|+8.15Mb
       - 🇸🇬SG_8376+|12.36Mb
-      - CH_22+@WangCai_1+4
       - CH_12+@WangCai_1+4
-      - 🇹🇼TW_9133+|24.64Mb
-      - 🇹🇼TW_8893+|24.52Mb
-      - 🇹🇼TW_8796+|26.14Mb
-      - 🇹🇼TW_9144+|24.87Mb
-      - 🇰🇷KR_5652+|+4.92Mb
-      - 🇰🇷KR_5663+|+7.02Mb
-      - 🇯🇵JP_5547+|30.93Mb
-      - 🇰🇷KR_5566+|+2.97Mb
-      - 🇰🇷KR_5597+|+2.34Mb
       - 🇰🇷KR_5600+|+4.20Mb
-      - 🇰🇷KR_5608+|+3.17Mb
-      - 🇰🇷KR_5615+|+6.01Mb
-      - 🇰🇷KR_5655+|+7.91Mb
-      - 🇭🇰HK_4247+|25.21Mb
-      - 🇮🇳IN_4842+|25.04Mb
       - 🇯🇵JP_5543+|30.76Mb
-      - 🇯🇵JP_5544+|33.51Mb
+      - 🇹🇼TW_8809+|+6.07Mb
+      - 🇸🇬SG_8447+|11.63Mb
+      - 🇹🇼TW_8981+|24.39Mb
+      - 🇰🇷KR_5603+|+2.42Mb
+      - 🇰🇷KR_5664+|+4.01Mb
+      - 🇰🇷KR_5665+|+3.30Mb
+      - 🇰🇷KR_5656+|+4.61Mb
+      - 🇸🇬SG_28
+      - Relay_🇫🇷FR-🇫🇷FR_14
+      - 🇭🇰HK_4347+|11.93Mb
+      - CH_51+@WangCai_1+4
+      - CH_69+@WangCai_1+4
+      - 🇮🇳IN_4966+|24.04Mb
+      - 🇭🇰HK_4383+|+7.37Mb
+      - 🇸🇬SG_8377+|21.53Mb
+      - 🇭🇰HK_4332+|21.39Mb
+      - 🇮🇳IN_4905+|11.71Mb
+      - Pool_🇺🇸US_9333
+      - 🇹🇼TW_9179+|25.48Mb
+      - 🇹🇼TW_8813+|24.58Mb
+      - 🇮🇳IN_4701+|11.75Mb
+      - 🇭🇰HK_4263+|25.70Mb
+      - 🇰🇷KR_5614+|12.01Mb
+      - 🇰🇷KR_5662+|+6.88Mb
+      - 🇰🇷KR_5652+|+4.92Mb
+      - 🇰🇷KR_5655+|+7.91Mb
       - 🇰🇷KR_5592+|+2.48Mb
       - 🇰🇷KR_5678+|+5.70Mb
-      - 🇹🇼TW_8809+|+6.07Mb
-      - 🇹🇼TW_8869+|25.02Mb
-      - 🇹🇼TW_8982+|16.84Mb
-      - 🇮🇳IN_4840+|23.80Mb
-      - 🇰🇷KR_5609+|+2.59Mb
-      - 🇰🇷KR_5667+|+4.82Mb
-      - 🇰🇷KR_5671+|+3.84Mb
       - 🇭🇰HK_4251+|25.19Mb
-      - CH_54+@WangCai_1+4
-      - 🇸🇬SG_8447+|11.63Mb
-      - 🇸🇬SG_8378+|12.42Mb
-      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5677+|+2.39Mb
+      - 🇮🇳IN_4709+|11.60Mb
+      - CH_76+@WangCai_1+4
+      - 🇰🇷KR_5594+|+3.72Mb
+      - Pool_🇦🇹AT_01
+      - 🇺🇸US_31
+      - CH_47+@WangCai_1+5
+      - 🇮🇳IN_4995+|15.66Mb
+      - AT_25+@WangCai_1+3
+      - 🇹🇼TW_9104+|25.21Mb
+      - 🇰🇷KR_5658+|+5.56Mb
+      - 🇮🇳IN_4838+|24.67Mb
+      - 🇮🇳IN_4952+|+8.59Mb
+      - 🇰🇷KR_5824+|22.73Mb
+      - 🇯🇵JP_5547+|30.93Mb
+      - 🇰🇷KR_5597+|+2.34Mb
+      - 🇰🇷KR_5615+|+6.01Mb
+      - 🇹🇼TW_8869+|25.02Mb
       - 🇮🇳IN_4929+|11.58Mb
       - 🇹🇼TW_8927+|25.39Mb
-      - 🇰🇷KR_5911+|25.04Mb
-      - n_45.88.179.12_123
-      - 🇮🇳IN_4928+|11.52Mb
-      - 🇮🇳IN_4818+|11.55Mb
       - 🇮🇳IN_4841+|24.81Mb
       - 🇰🇷KR_5584+|+8.49Mb
       - 🇰🇷KR_5607+|+3.48Mb
-      - 🇰🇷KR_5618+|+3.47Mb
-      - 🇰🇷KR_5677+|+2.39Mb
-      - 🇹🇼TW_8981+|24.39Mb
-      - 🇰🇷KR_5598+|+5.38Mb
-      - 🇰🇷KR_5603+|+2.42Mb
-      - 🇰🇷KR_5613+|+7.90Mb
       - 🇰🇷KR_5643+|+3.39Mb
       - 🇰🇷KR_5649+|+5.99Mb
-      - 🇰🇷KR_5664+|+4.01Mb
-      - 🇰🇷KR_5674+|+5.80Mb
       - 🇰🇷KR_5596+|+7.12Mb
-      - 🇰🇷KR_5665+|+3.30Mb
-      - 🇮🇳IN_4709+|11.60Mb
-      - CH_76+@WangCai_1+4
-      - 🇮🇳IN_4702+|11.66Mb
-      - 🇮🇳IN_4921+|11.92Mb
-      - 🇰🇷KR_5656+|+4.61Mb
-      - 🇰🇷KR_5590+|+4.62Mb
-      - 🇹🇼TW_9096+|25.05Mb
-      - 🇰🇷KR_5594+|+3.72Mb
-      - Pool_🇦🇹AT_01
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇭🇰HK_17
-      - 🇮🇹IT_18
-      - 🇯🇵JP_19
       - 🇸🇬SG_27
-      - 🇦🇺AU_02
-      - 🇦🇺AU_03
-      - 🇺🇸US_31
-      - 🇸🇬SG_28
-      - Relay_🇫🇷FR-🇫🇷FR_14
+      - CH_56+@WangCai_1+5
+      - CH_11+@WangCai_1+4
+      - 🇸🇬SG_8414+|11.17Mb
+      - 🇸🇬SG_8402+|11.34Mb
+      - CH_36+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - 🇮🇳IN_4850+|11.66Mb
+      - 🇮🇳IN_4964+|11.47Mb
+      - 🇰🇷KR_5623+|+5.71Mb
+      - 🇹🇼TW_8893+|24.52Mb
+      - 🇹🇼TW_8982+|16.84Mb
+      - 🇰🇷KR_5667+|+4.82Mb
+      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5911+|25.04Mb
+      - 🇮🇳IN_4928+|11.52Mb
+      - 🇰🇷KR_5618+|+3.47Mb
+      - 🇰🇷KR_5674+|+5.80Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 网通四区上海_1
-      - 电信一区广东_2
-      - 移动专线B_3
-      - 🇸🇬SG_8480+|22.99Mb
-      - AT_22+@WangCai_1+3
-      - CH_23+@WangCai_1+5
+      - 电信一区广东_1
+      - 网通四区上海_2
+      - Relay_🇨🇦CA-🇨🇦CA_04
       - CH_14+@WangCai_1+4
+      - 🇸🇬SG_8435+|12.77Mb
+      - CH_42+@WangCai_1+4
+      - CH_61+@WangCai_1+5
+      - 🇸🇬SG_8480+|22.99Mb
+      - CH_23+@WangCai_1+5
       - CH_45+@WangCai_1+3
       - CH_10+@WangCai_1+4
-      - CH_34+@WangCai_1+4
-      - Pool_🇺🇸US_9337
-      - 🇭🇰HK_4347+|11.93Mb
-      - 🇭🇰HK_4236+|25.06Mb
-      - CH_51+@WangCai_1+4
-      - CH_56+@WangCai_1+5
-      - CH_11+@WangCai_1+4
-      - CH_47+@WangCai_1+5
-      - 🇮🇳IN_4995+|15.66Mb
-      - 🇸🇬SG_8388+|12.26Mb
-      - 🇸🇬SG_8414+|11.17Mb
-      - 🇸🇬SG_8418+|12.62Mb
-      - 🇸🇬SG_8402+|11.34Mb
       - CH_68+@WangCai_1+5
-      - AT_03+@WangCai_1+8
-      - 🇸🇬SG_8440+|11.72Mb
-      - CH_69+@WangCai_1+4
-      - AT_25+@WangCai_1+3
-      - CH_01+@WangCai_1+4
-      - CH_19+@WangCai_1+5
-      - 🇮🇳IN_4993+|24.95Mb
-      - 🇸🇬SG_8435+|12.77Mb
-      - CH_26+@WangCai_1+4
-      - CH_08+@WangCai_1+4
-      - CH_36+@WangCai_1+4
-      - CH_58+@WangCai_1+4
-      - 🇸🇬SG_8400+|14.71Mb
-      - CH_42+@WangCai_1+4
-      - Pool_🇺🇸US_9334
-      - CH_61+@WangCai_1+5
       - CH_10+@WangCai_1+5
       - 🇮🇳IN_4969+|23.09Mb
-      - 🇮🇳IN_4757+|12.26Mb
-      - 🇸🇬SG_8481+|12.05Mb
-      - 🇮🇳IN_4966+|24.04Mb
-      - 🇸🇬SG_8454+|12.29Mb
-      - CH_70+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - 🇮🇳IN_4850+|11.66Mb
       - 🇮🇳IN_4847+|24.74Mb
-      - CH_54+@WangCai_1+5
-      - 🇮🇳IN_4964+|11.47Mb
-      - AT_56+@WangCai_1+4
-      - 🇮🇳IN_4711+|11.69Mb
-      - CH_58+@WangCai_1+5
-      - 🇭🇰HK_4383+|+7.37Mb
       - CH_55+@WangCai_1+4
       - 🇮🇳IN_4716+|12.04Mb
-      - 🇸🇬SG_8496+|21.75Mb
-      - CH_25+@WangCai_1+2
-      - 🇸🇬SG_8377+|21.53Mb
-      - 🇭🇰HK_4332+|21.39Mb
-      - 🇮🇳IN_4905+|11.71Mb
+      - 🇮🇳IN_4918+|11.11Mb
+      - 🇸🇬SG_8437+|13.17Mb
+      - CH_22+@WangCai_1+5
+      - 🇯🇵JP_5542+|57.56Mb
+      - 🇮🇳IN_4944+|+8.15Mb
+      - 🇮🇳IN_4840+|23.80Mb
+      - CH_54+@WangCai_1+4
+      - 🇦🇺AU_03
+      - 移动专线B_26
+      - AT_22+@WangCai_1+3
+      - 🇭🇰HK_4236+|25.06Mb
+      - 🇸🇬SG_8388+|12.26Mb
+      - 🇸🇬SG_8454+|12.29Mb
       - Pool_🇺🇸US_9332
       - 🇮🇳IN_4974+|11.64Mb
       - Pool_🇸🇬SG_8095
-      - Pool_🇺🇸US_9333
-      - 🇹🇼TW_9179+|25.48Mb
-      - 🇭🇰HK_4391+|25.05Mb
-      - 🇮🇳IN_4918+|11.11Mb
-      - 🇹🇼TW_8996+|25.10Mb
-      - 🇹🇼TW_9104+|25.21Mb
       - 🇭🇰HK_4387+|25.70Mb
       - AT_42+@WangCai_1+4
-      - 🇹🇼TW_8813+|24.58Mb
-      - 🇸🇬SG_8437+|13.17Mb
-      - 🇮🇳IN_4701+|11.75Mb
-      - 🇮🇳IN_4793+|25.28Mb
-      - CH_22+@WangCai_1+5
       - CH_37+@WangCai_1+5
-      - 🇸🇬SG_8385+|10.30Mb
-      - 🇯🇵JP_5767+|33.45Mb
       - 🇭🇰HK_4331+|11.83Mb
       - 🇭🇰HK_4238+|25.34Mb
-      - 🇭🇰HK_4263+|25.70Mb
-      - 🇭🇰HK_4240+|25.96Mb
       - 🇭🇰HK_4254+|25.58Mb
+      - 🇰🇷KR_5595+|+3.22Mb
+      - 🇮🇳IN_4843+|24.44Mb
+      - 🇰🇷KR_5663+|+7.02Mb
+      - 🇯🇵JP_5544+|33.51Mb
+      - 🇮🇳IN_4702+|11.66Mb
+      - 🇰🇷KR_5590+|+4.62Mb
+      - Relay_🇨🇦CA-🇨🇦CA_05
+      - 🇭🇰HK_17
+      - 🇦🇺AU_02
+      - CH_34+@WangCai_1+4
+      - Pool_🇺🇸US_9337
+      - AT_03+@WangCai_1+8
+      - CH_26+@WangCai_1+4
+      - Pool_🇺🇸US_9334
+      - 🇸🇬SG_8481+|12.05Mb
+      - CH_70+@WangCai_1+5
+      - CH_54+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - 🇸🇬SG_8496+|21.75Mb
+      - CH_25+@WangCai_1+2
+      - 🇹🇼TW_8996+|25.10Mb
+      - 🇭🇰HK_4240+|25.96Mb
       - 🇮🇳IN_4848+|24.36Mb
       - 🇰🇷KR_5619+|+6.35Mb
-      - 🇰🇷KR_5680+|+6.11Mb
       - 🇹🇼TW_8861+|24.48Mb
       - 🇭🇰HK_4255+|25.55Mb
-      - 🇰🇷KR_5595+|+3.22Mb
-      - 🇰🇷KR_5614+|12.01Mb
-      - 🇰🇷KR_5616+|+9.78Mb
-      - 🇰🇷KR_5658+|+5.56Mb
-      - 🇰🇷KR_5662+|+6.88Mb
-      - 🇮🇳IN_4843+|24.44Mb
-      - 🇯🇵JP_5542+|57.56Mb
       - 🇰🇷KR_5669+|+4.81Mb
       - 🇭🇰HK_4256+|24.94Mb
-      - 🇮🇳IN_4838+|24.67Mb
-      - 🇯🇵JP_5550+|31.19Mb
-      - 🇰🇷KR_5623+|+5.71Mb
-      - 🇮🇳IN_4952+|+8.59Mb
-      - 🇰🇷KR_5824+|22.73Mb
       - 🇮🇳IN_4925+|11.33Mb
-      - 🇮🇳IN_4944+|+8.15Mb
       - 🇸🇬SG_8376+|12.36Mb
-      - CH_22+@WangCai_1+4
       - CH_12+@WangCai_1+4
-      - 🇹🇼TW_9133+|24.64Mb
-      - 🇹🇼TW_8893+|24.52Mb
-      - 🇹🇼TW_8796+|26.14Mb
-      - 🇹🇼TW_9144+|24.87Mb
-      - 🇰🇷KR_5652+|+4.92Mb
-      - 🇰🇷KR_5663+|+7.02Mb
-      - 🇯🇵JP_5547+|30.93Mb
-      - 🇰🇷KR_5566+|+2.97Mb
-      - 🇰🇷KR_5597+|+2.34Mb
       - 🇰🇷KR_5600+|+4.20Mb
-      - 🇰🇷KR_5608+|+3.17Mb
-      - 🇰🇷KR_5615+|+6.01Mb
-      - 🇰🇷KR_5655+|+7.91Mb
-      - 🇭🇰HK_4247+|25.21Mb
-      - 🇮🇳IN_4842+|25.04Mb
       - 🇯🇵JP_5543+|30.76Mb
-      - 🇯🇵JP_5544+|33.51Mb
+      - 🇹🇼TW_8809+|+6.07Mb
+      - 🇸🇬SG_8447+|11.63Mb
+      - 🇹🇼TW_8981+|24.39Mb
+      - 🇰🇷KR_5603+|+2.42Mb
+      - 🇰🇷KR_5664+|+4.01Mb
+      - 🇰🇷KR_5665+|+3.30Mb
+      - 🇰🇷KR_5656+|+4.61Mb
+      - 🇸🇬SG_28
+      - Relay_🇫🇷FR-🇫🇷FR_14
+      - 🇭🇰HK_4347+|11.93Mb
+      - CH_51+@WangCai_1+4
+      - CH_69+@WangCai_1+4
+      - 🇮🇳IN_4966+|24.04Mb
+      - 🇭🇰HK_4383+|+7.37Mb
+      - 🇸🇬SG_8377+|21.53Mb
+      - 🇭🇰HK_4332+|21.39Mb
+      - 🇮🇳IN_4905+|11.71Mb
+      - Pool_🇺🇸US_9333
+      - 🇹🇼TW_9179+|25.48Mb
+      - 🇹🇼TW_8813+|24.58Mb
+      - 🇮🇳IN_4701+|11.75Mb
+      - 🇭🇰HK_4263+|25.70Mb
+      - 🇰🇷KR_5614+|12.01Mb
+      - 🇰🇷KR_5662+|+6.88Mb
+      - 🇰🇷KR_5652+|+4.92Mb
+      - 🇰🇷KR_5655+|+7.91Mb
       - 🇰🇷KR_5592+|+2.48Mb
       - 🇰🇷KR_5678+|+5.70Mb
-      - 🇹🇼TW_8809+|+6.07Mb
-      - 🇹🇼TW_8869+|25.02Mb
-      - 🇹🇼TW_8982+|16.84Mb
-      - 🇮🇳IN_4840+|23.80Mb
-      - 🇰🇷KR_5609+|+2.59Mb
-      - 🇰🇷KR_5667+|+4.82Mb
-      - 🇰🇷KR_5671+|+3.84Mb
       - 🇭🇰HK_4251+|25.19Mb
-      - CH_54+@WangCai_1+4
-      - 🇸🇬SG_8447+|11.63Mb
-      - 🇸🇬SG_8378+|12.42Mb
-      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5677+|+2.39Mb
+      - 🇮🇳IN_4709+|11.60Mb
+      - CH_76+@WangCai_1+4
+      - 🇰🇷KR_5594+|+3.72Mb
+      - Pool_🇦🇹AT_01
+      - 🇺🇸US_31
+      - CH_47+@WangCai_1+5
+      - 🇮🇳IN_4995+|15.66Mb
+      - AT_25+@WangCai_1+3
+      - 🇹🇼TW_9104+|25.21Mb
+      - 🇰🇷KR_5658+|+5.56Mb
+      - 🇮🇳IN_4838+|24.67Mb
+      - 🇮🇳IN_4952+|+8.59Mb
+      - 🇰🇷KR_5824+|22.73Mb
+      - 🇯🇵JP_5547+|30.93Mb
+      - 🇰🇷KR_5597+|+2.34Mb
+      - 🇰🇷KR_5615+|+6.01Mb
+      - 🇹🇼TW_8869+|25.02Mb
       - 🇮🇳IN_4929+|11.58Mb
       - 🇹🇼TW_8927+|25.39Mb
-      - 🇰🇷KR_5911+|25.04Mb
-      - n_45.88.179.12_123
-      - 🇮🇳IN_4928+|11.52Mb
-      - 🇮🇳IN_4818+|11.55Mb
       - 🇮🇳IN_4841+|24.81Mb
       - 🇰🇷KR_5584+|+8.49Mb
       - 🇰🇷KR_5607+|+3.48Mb
-      - 🇰🇷KR_5618+|+3.47Mb
-      - 🇰🇷KR_5677+|+2.39Mb
-      - 🇹🇼TW_8981+|24.39Mb
-      - 🇰🇷KR_5598+|+5.38Mb
-      - 🇰🇷KR_5603+|+2.42Mb
-      - 🇰🇷KR_5613+|+7.90Mb
       - 🇰🇷KR_5643+|+3.39Mb
       - 🇰🇷KR_5649+|+5.99Mb
-      - 🇰🇷KR_5664+|+4.01Mb
-      - 🇰🇷KR_5674+|+5.80Mb
       - 🇰🇷KR_5596+|+7.12Mb
-      - 🇰🇷KR_5665+|+3.30Mb
-      - 🇮🇳IN_4709+|11.60Mb
-      - CH_76+@WangCai_1+4
-      - 🇮🇳IN_4702+|11.66Mb
-      - 🇮🇳IN_4921+|11.92Mb
-      - 🇰🇷KR_5656+|+4.61Mb
-      - 🇰🇷KR_5590+|+4.62Mb
-      - 🇹🇼TW_9096+|25.05Mb
-      - 🇰🇷KR_5594+|+3.72Mb
-      - Pool_🇦🇹AT_01
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇭🇰HK_17
-      - 🇮🇹IT_18
-      - 🇯🇵JP_19
       - 🇸🇬SG_27
-      - 🇦🇺AU_02
-      - 🇦🇺AU_03
-      - 🇺🇸US_31
-      - 🇸🇬SG_28
-      - Relay_🇫🇷FR-🇫🇷FR_14
+      - CH_56+@WangCai_1+5
+      - CH_11+@WangCai_1+4
+      - 🇸🇬SG_8414+|11.17Mb
+      - 🇸🇬SG_8402+|11.34Mb
+      - CH_36+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - 🇮🇳IN_4850+|11.66Mb
+      - 🇮🇳IN_4964+|11.47Mb
+      - 🇰🇷KR_5623+|+5.71Mb
+      - 🇹🇼TW_8893+|24.52Mb
+      - 🇹🇼TW_8982+|16.84Mb
+      - 🇰🇷KR_5667+|+4.82Mb
+      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5911+|25.04Mb
+      - 🇮🇳IN_4928+|11.52Mb
+      - 🇰🇷KR_5618+|+3.47Mb
+      - 🇰🇷KR_5674+|+5.80Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 网通四区上海_1
-      - 电信一区广东_2
-      - 移动专线B_3
-      - 🇸🇬SG_8480+|22.99Mb
-      - AT_22+@WangCai_1+3
-      - CH_23+@WangCai_1+5
+      - 电信一区广东_1
+      - 网通四区上海_2
+      - Relay_🇨🇦CA-🇨🇦CA_04
       - CH_14+@WangCai_1+4
+      - 🇸🇬SG_8435+|12.77Mb
+      - CH_42+@WangCai_1+4
+      - CH_61+@WangCai_1+5
+      - 🇸🇬SG_8480+|22.99Mb
+      - CH_23+@WangCai_1+5
       - CH_45+@WangCai_1+3
       - CH_10+@WangCai_1+4
-      - CH_34+@WangCai_1+4
-      - Pool_🇺🇸US_9337
-      - 🇭🇰HK_4347+|11.93Mb
-      - 🇭🇰HK_4236+|25.06Mb
-      - CH_51+@WangCai_1+4
-      - CH_56+@WangCai_1+5
-      - CH_11+@WangCai_1+4
-      - CH_47+@WangCai_1+5
-      - 🇮🇳IN_4995+|15.66Mb
-      - 🇸🇬SG_8388+|12.26Mb
-      - 🇸🇬SG_8414+|11.17Mb
-      - 🇸🇬SG_8418+|12.62Mb
-      - 🇸🇬SG_8402+|11.34Mb
       - CH_68+@WangCai_1+5
-      - AT_03+@WangCai_1+8
-      - 🇸🇬SG_8440+|11.72Mb
-      - CH_69+@WangCai_1+4
-      - AT_25+@WangCai_1+3
-      - CH_01+@WangCai_1+4
-      - CH_19+@WangCai_1+5
-      - 🇮🇳IN_4993+|24.95Mb
-      - 🇸🇬SG_8435+|12.77Mb
-      - CH_26+@WangCai_1+4
-      - CH_08+@WangCai_1+4
-      - CH_36+@WangCai_1+4
-      - CH_58+@WangCai_1+4
-      - 🇸🇬SG_8400+|14.71Mb
-      - CH_42+@WangCai_1+4
-      - Pool_🇺🇸US_9334
-      - CH_61+@WangCai_1+5
       - CH_10+@WangCai_1+5
       - 🇮🇳IN_4969+|23.09Mb
-      - 🇮🇳IN_4757+|12.26Mb
-      - 🇸🇬SG_8481+|12.05Mb
-      - 🇮🇳IN_4966+|24.04Mb
-      - 🇸🇬SG_8454+|12.29Mb
-      - CH_70+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - 🇮🇳IN_4850+|11.66Mb
       - 🇮🇳IN_4847+|24.74Mb
-      - CH_54+@WangCai_1+5
-      - 🇮🇳IN_4964+|11.47Mb
-      - AT_56+@WangCai_1+4
-      - 🇮🇳IN_4711+|11.69Mb
-      - CH_58+@WangCai_1+5
-      - 🇭🇰HK_4383+|+7.37Mb
       - CH_55+@WangCai_1+4
       - 🇮🇳IN_4716+|12.04Mb
-      - 🇸🇬SG_8496+|21.75Mb
-      - CH_25+@WangCai_1+2
-      - 🇸🇬SG_8377+|21.53Mb
-      - 🇭🇰HK_4332+|21.39Mb
-      - 🇮🇳IN_4905+|11.71Mb
+      - 🇮🇳IN_4918+|11.11Mb
+      - 🇸🇬SG_8437+|13.17Mb
+      - CH_22+@WangCai_1+5
+      - 🇯🇵JP_5542+|57.56Mb
+      - 🇮🇳IN_4944+|+8.15Mb
+      - 🇮🇳IN_4840+|23.80Mb
+      - CH_54+@WangCai_1+4
+      - 🇦🇺AU_03
+      - 移动专线B_26
+      - AT_22+@WangCai_1+3
+      - 🇭🇰HK_4236+|25.06Mb
+      - 🇸🇬SG_8388+|12.26Mb
+      - 🇸🇬SG_8454+|12.29Mb
       - Pool_🇺🇸US_9332
       - 🇮🇳IN_4974+|11.64Mb
       - Pool_🇸🇬SG_8095
-      - Pool_🇺🇸US_9333
-      - 🇹🇼TW_9179+|25.48Mb
-      - 🇭🇰HK_4391+|25.05Mb
-      - 🇮🇳IN_4918+|11.11Mb
-      - 🇹🇼TW_8996+|25.10Mb
-      - 🇹🇼TW_9104+|25.21Mb
       - 🇭🇰HK_4387+|25.70Mb
       - AT_42+@WangCai_1+4
-      - 🇹🇼TW_8813+|24.58Mb
-      - 🇸🇬SG_8437+|13.17Mb
-      - 🇮🇳IN_4701+|11.75Mb
-      - 🇮🇳IN_4793+|25.28Mb
-      - CH_22+@WangCai_1+5
       - CH_37+@WangCai_1+5
-      - 🇸🇬SG_8385+|10.30Mb
-      - 🇯🇵JP_5767+|33.45Mb
       - 🇭🇰HK_4331+|11.83Mb
       - 🇭🇰HK_4238+|25.34Mb
-      - 🇭🇰HK_4263+|25.70Mb
-      - 🇭🇰HK_4240+|25.96Mb
       - 🇭🇰HK_4254+|25.58Mb
+      - 🇰🇷KR_5595+|+3.22Mb
+      - 🇮🇳IN_4843+|24.44Mb
+      - 🇰🇷KR_5663+|+7.02Mb
+      - 🇯🇵JP_5544+|33.51Mb
+      - 🇮🇳IN_4702+|11.66Mb
+      - 🇰🇷KR_5590+|+4.62Mb
+      - Relay_🇨🇦CA-🇨🇦CA_05
+      - 🇭🇰HK_17
+      - 🇦🇺AU_02
+      - CH_34+@WangCai_1+4
+      - Pool_🇺🇸US_9337
+      - AT_03+@WangCai_1+8
+      - CH_26+@WangCai_1+4
+      - Pool_🇺🇸US_9334
+      - 🇸🇬SG_8481+|12.05Mb
+      - CH_70+@WangCai_1+5
+      - CH_54+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - 🇸🇬SG_8496+|21.75Mb
+      - CH_25+@WangCai_1+2
+      - 🇹🇼TW_8996+|25.10Mb
+      - 🇭🇰HK_4240+|25.96Mb
       - 🇮🇳IN_4848+|24.36Mb
       - 🇰🇷KR_5619+|+6.35Mb
-      - 🇰🇷KR_5680+|+6.11Mb
       - 🇹🇼TW_8861+|24.48Mb
       - 🇭🇰HK_4255+|25.55Mb
-      - 🇰🇷KR_5595+|+3.22Mb
-      - 🇰🇷KR_5614+|12.01Mb
-      - 🇰🇷KR_5616+|+9.78Mb
-      - 🇰🇷KR_5658+|+5.56Mb
-      - 🇰🇷KR_5662+|+6.88Mb
-      - 🇮🇳IN_4843+|24.44Mb
-      - 🇯🇵JP_5542+|57.56Mb
       - 🇰🇷KR_5669+|+4.81Mb
       - 🇭🇰HK_4256+|24.94Mb
-      - 🇮🇳IN_4838+|24.67Mb
-      - 🇯🇵JP_5550+|31.19Mb
-      - 🇰🇷KR_5623+|+5.71Mb
-      - 🇮🇳IN_4952+|+8.59Mb
-      - 🇰🇷KR_5824+|22.73Mb
       - 🇮🇳IN_4925+|11.33Mb
-      - 🇮🇳IN_4944+|+8.15Mb
       - 🇸🇬SG_8376+|12.36Mb
-      - CH_22+@WangCai_1+4
       - CH_12+@WangCai_1+4
-      - 🇹🇼TW_9133+|24.64Mb
-      - 🇹🇼TW_8893+|24.52Mb
-      - 🇹🇼TW_8796+|26.14Mb
-      - 🇹🇼TW_9144+|24.87Mb
-      - 🇰🇷KR_5652+|+4.92Mb
-      - 🇰🇷KR_5663+|+7.02Mb
-      - 🇯🇵JP_5547+|30.93Mb
-      - 🇰🇷KR_5566+|+2.97Mb
-      - 🇰🇷KR_5597+|+2.34Mb
       - 🇰🇷KR_5600+|+4.20Mb
-      - 🇰🇷KR_5608+|+3.17Mb
-      - 🇰🇷KR_5615+|+6.01Mb
-      - 🇰🇷KR_5655+|+7.91Mb
-      - 🇭🇰HK_4247+|25.21Mb
-      - 🇮🇳IN_4842+|25.04Mb
       - 🇯🇵JP_5543+|30.76Mb
-      - 🇯🇵JP_5544+|33.51Mb
+      - 🇹🇼TW_8809+|+6.07Mb
+      - 🇸🇬SG_8447+|11.63Mb
+      - 🇹🇼TW_8981+|24.39Mb
+      - 🇰🇷KR_5603+|+2.42Mb
+      - 🇰🇷KR_5664+|+4.01Mb
+      - 🇰🇷KR_5665+|+3.30Mb
+      - 🇰🇷KR_5656+|+4.61Mb
+      - 🇸🇬SG_28
+      - Relay_🇫🇷FR-🇫🇷FR_14
+      - 🇭🇰HK_4347+|11.93Mb
+      - CH_51+@WangCai_1+4
+      - CH_69+@WangCai_1+4
+      - 🇮🇳IN_4966+|24.04Mb
+      - 🇭🇰HK_4383+|+7.37Mb
+      - 🇸🇬SG_8377+|21.53Mb
+      - 🇭🇰HK_4332+|21.39Mb
+      - 🇮🇳IN_4905+|11.71Mb
+      - Pool_🇺🇸US_9333
+      - 🇹🇼TW_9179+|25.48Mb
+      - 🇹🇼TW_8813+|24.58Mb
+      - 🇮🇳IN_4701+|11.75Mb
+      - 🇭🇰HK_4263+|25.70Mb
+      - 🇰🇷KR_5614+|12.01Mb
+      - 🇰🇷KR_5662+|+6.88Mb
+      - 🇰🇷KR_5652+|+4.92Mb
+      - 🇰🇷KR_5655+|+7.91Mb
       - 🇰🇷KR_5592+|+2.48Mb
       - 🇰🇷KR_5678+|+5.70Mb
-      - 🇹🇼TW_8809+|+6.07Mb
-      - 🇹🇼TW_8869+|25.02Mb
-      - 🇹🇼TW_8982+|16.84Mb
-      - 🇮🇳IN_4840+|23.80Mb
-      - 🇰🇷KR_5609+|+2.59Mb
-      - 🇰🇷KR_5667+|+4.82Mb
-      - 🇰🇷KR_5671+|+3.84Mb
       - 🇭🇰HK_4251+|25.19Mb
-      - CH_54+@WangCai_1+4
-      - 🇸🇬SG_8447+|11.63Mb
-      - 🇸🇬SG_8378+|12.42Mb
-      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5677+|+2.39Mb
+      - 🇮🇳IN_4709+|11.60Mb
+      - CH_76+@WangCai_1+4
+      - 🇰🇷KR_5594+|+3.72Mb
+      - Pool_🇦🇹AT_01
+      - 🇺🇸US_31
+      - CH_47+@WangCai_1+5
+      - 🇮🇳IN_4995+|15.66Mb
+      - AT_25+@WangCai_1+3
+      - 🇹🇼TW_9104+|25.21Mb
+      - 🇰🇷KR_5658+|+5.56Mb
+      - 🇮🇳IN_4838+|24.67Mb
+      - 🇮🇳IN_4952+|+8.59Mb
+      - 🇰🇷KR_5824+|22.73Mb
+      - 🇯🇵JP_5547+|30.93Mb
+      - 🇰🇷KR_5597+|+2.34Mb
+      - 🇰🇷KR_5615+|+6.01Mb
+      - 🇹🇼TW_8869+|25.02Mb
       - 🇮🇳IN_4929+|11.58Mb
       - 🇹🇼TW_8927+|25.39Mb
-      - 🇰🇷KR_5911+|25.04Mb
-      - n_45.88.179.12_123
-      - 🇮🇳IN_4928+|11.52Mb
-      - 🇮🇳IN_4818+|11.55Mb
       - 🇮🇳IN_4841+|24.81Mb
       - 🇰🇷KR_5584+|+8.49Mb
       - 🇰🇷KR_5607+|+3.48Mb
-      - 🇰🇷KR_5618+|+3.47Mb
-      - 🇰🇷KR_5677+|+2.39Mb
-      - 🇹🇼TW_8981+|24.39Mb
-      - 🇰🇷KR_5598+|+5.38Mb
-      - 🇰🇷KR_5603+|+2.42Mb
-      - 🇰🇷KR_5613+|+7.90Mb
       - 🇰🇷KR_5643+|+3.39Mb
       - 🇰🇷KR_5649+|+5.99Mb
-      - 🇰🇷KR_5664+|+4.01Mb
-      - 🇰🇷KR_5674+|+5.80Mb
       - 🇰🇷KR_5596+|+7.12Mb
-      - 🇰🇷KR_5665+|+3.30Mb
-      - 🇮🇳IN_4709+|11.60Mb
-      - CH_76+@WangCai_1+4
-      - 🇮🇳IN_4702+|11.66Mb
-      - 🇮🇳IN_4921+|11.92Mb
-      - 🇰🇷KR_5656+|+4.61Mb
-      - 🇰🇷KR_5590+|+4.62Mb
-      - 🇹🇼TW_9096+|25.05Mb
-      - 🇰🇷KR_5594+|+3.72Mb
-      - Pool_🇦🇹AT_01
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇭🇰HK_17
-      - 🇮🇹IT_18
-      - 🇯🇵JP_19
       - 🇸🇬SG_27
-      - 🇦🇺AU_02
-      - 🇦🇺AU_03
-      - 🇺🇸US_31
-      - 🇸🇬SG_28
-      - Relay_🇫🇷FR-🇫🇷FR_14
+      - CH_56+@WangCai_1+5
+      - CH_11+@WangCai_1+4
+      - 🇸🇬SG_8414+|11.17Mb
+      - 🇸🇬SG_8402+|11.34Mb
+      - CH_36+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - 🇮🇳IN_4850+|11.66Mb
+      - 🇮🇳IN_4964+|11.47Mb
+      - 🇰🇷KR_5623+|+5.71Mb
+      - 🇹🇼TW_8893+|24.52Mb
+      - 🇹🇼TW_8982+|16.84Mb
+      - 🇰🇷KR_5667+|+4.82Mb
+      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5911+|25.04Mb
+      - 🇮🇳IN_4928+|11.52Mb
+      - 🇰🇷KR_5618+|+3.47Mb
+      - 🇰🇷KR_5674+|+5.80Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 网通四区上海_1
-      - 电信一区广东_2
-      - 移动专线B_3
-      - 🇸🇬SG_8480+|22.99Mb
-      - AT_22+@WangCai_1+3
-      - CH_23+@WangCai_1+5
+      - 电信一区广东_1
+      - 网通四区上海_2
+      - Relay_🇨🇦CA-🇨🇦CA_04
       - CH_14+@WangCai_1+4
+      - 🇸🇬SG_8435+|12.77Mb
+      - CH_42+@WangCai_1+4
+      - CH_61+@WangCai_1+5
+      - 🇸🇬SG_8480+|22.99Mb
+      - CH_23+@WangCai_1+5
       - CH_45+@WangCai_1+3
       - CH_10+@WangCai_1+4
-      - CH_34+@WangCai_1+4
-      - Pool_🇺🇸US_9337
-      - 🇭🇰HK_4347+|11.93Mb
-      - 🇭🇰HK_4236+|25.06Mb
-      - CH_51+@WangCai_1+4
-      - CH_56+@WangCai_1+5
-      - CH_11+@WangCai_1+4
-      - CH_47+@WangCai_1+5
-      - 🇮🇳IN_4995+|15.66Mb
-      - 🇸🇬SG_8388+|12.26Mb
-      - 🇸🇬SG_8414+|11.17Mb
-      - 🇸🇬SG_8418+|12.62Mb
-      - 🇸🇬SG_8402+|11.34Mb
       - CH_68+@WangCai_1+5
-      - AT_03+@WangCai_1+8
-      - 🇸🇬SG_8440+|11.72Mb
-      - CH_69+@WangCai_1+4
-      - AT_25+@WangCai_1+3
-      - CH_01+@WangCai_1+4
-      - CH_19+@WangCai_1+5
-      - 🇮🇳IN_4993+|24.95Mb
-      - 🇸🇬SG_8435+|12.77Mb
-      - CH_26+@WangCai_1+4
-      - CH_08+@WangCai_1+4
-      - CH_36+@WangCai_1+4
-      - CH_58+@WangCai_1+4
-      - 🇸🇬SG_8400+|14.71Mb
-      - CH_42+@WangCai_1+4
-      - Pool_🇺🇸US_9334
-      - CH_61+@WangCai_1+5
       - CH_10+@WangCai_1+5
       - 🇮🇳IN_4969+|23.09Mb
-      - 🇮🇳IN_4757+|12.26Mb
-      - 🇸🇬SG_8481+|12.05Mb
-      - 🇮🇳IN_4966+|24.04Mb
-      - 🇸🇬SG_8454+|12.29Mb
-      - CH_70+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - 🇮🇳IN_4850+|11.66Mb
       - 🇮🇳IN_4847+|24.74Mb
-      - CH_54+@WangCai_1+5
-      - 🇮🇳IN_4964+|11.47Mb
-      - AT_56+@WangCai_1+4
-      - 🇮🇳IN_4711+|11.69Mb
-      - CH_58+@WangCai_1+5
-      - 🇭🇰HK_4383+|+7.37Mb
       - CH_55+@WangCai_1+4
       - 🇮🇳IN_4716+|12.04Mb
-      - 🇸🇬SG_8496+|21.75Mb
-      - CH_25+@WangCai_1+2
-      - 🇸🇬SG_8377+|21.53Mb
-      - 🇭🇰HK_4332+|21.39Mb
-      - 🇮🇳IN_4905+|11.71Mb
+      - 🇮🇳IN_4918+|11.11Mb
+      - 🇸🇬SG_8437+|13.17Mb
+      - CH_22+@WangCai_1+5
+      - 🇯🇵JP_5542+|57.56Mb
+      - 🇮🇳IN_4944+|+8.15Mb
+      - 🇮🇳IN_4840+|23.80Mb
+      - CH_54+@WangCai_1+4
+      - 🇦🇺AU_03
+      - 移动专线B_26
+      - AT_22+@WangCai_1+3
+      - 🇭🇰HK_4236+|25.06Mb
+      - 🇸🇬SG_8388+|12.26Mb
+      - 🇸🇬SG_8454+|12.29Mb
       - Pool_🇺🇸US_9332
       - 🇮🇳IN_4974+|11.64Mb
       - Pool_🇸🇬SG_8095
-      - Pool_🇺🇸US_9333
-      - 🇹🇼TW_9179+|25.48Mb
-      - 🇭🇰HK_4391+|25.05Mb
-      - 🇮🇳IN_4918+|11.11Mb
-      - 🇹🇼TW_8996+|25.10Mb
-      - 🇹🇼TW_9104+|25.21Mb
       - 🇭🇰HK_4387+|25.70Mb
       - AT_42+@WangCai_1+4
-      - 🇹🇼TW_8813+|24.58Mb
-      - 🇸🇬SG_8437+|13.17Mb
-      - 🇮🇳IN_4701+|11.75Mb
-      - 🇮🇳IN_4793+|25.28Mb
-      - CH_22+@WangCai_1+5
       - CH_37+@WangCai_1+5
-      - 🇸🇬SG_8385+|10.30Mb
-      - 🇯🇵JP_5767+|33.45Mb
       - 🇭🇰HK_4331+|11.83Mb
       - 🇭🇰HK_4238+|25.34Mb
-      - 🇭🇰HK_4263+|25.70Mb
-      - 🇭🇰HK_4240+|25.96Mb
       - 🇭🇰HK_4254+|25.58Mb
+      - 🇰🇷KR_5595+|+3.22Mb
+      - 🇮🇳IN_4843+|24.44Mb
+      - 🇰🇷KR_5663+|+7.02Mb
+      - 🇯🇵JP_5544+|33.51Mb
+      - 🇮🇳IN_4702+|11.66Mb
+      - 🇰🇷KR_5590+|+4.62Mb
+      - Relay_🇨🇦CA-🇨🇦CA_05
+      - 🇭🇰HK_17
+      - 🇦🇺AU_02
+      - CH_34+@WangCai_1+4
+      - Pool_🇺🇸US_9337
+      - AT_03+@WangCai_1+8
+      - CH_26+@WangCai_1+4
+      - Pool_🇺🇸US_9334
+      - 🇸🇬SG_8481+|12.05Mb
+      - CH_70+@WangCai_1+5
+      - CH_54+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - 🇸🇬SG_8496+|21.75Mb
+      - CH_25+@WangCai_1+2
+      - 🇹🇼TW_8996+|25.10Mb
+      - 🇭🇰HK_4240+|25.96Mb
       - 🇮🇳IN_4848+|24.36Mb
       - 🇰🇷KR_5619+|+6.35Mb
-      - 🇰🇷KR_5680+|+6.11Mb
       - 🇹🇼TW_8861+|24.48Mb
       - 🇭🇰HK_4255+|25.55Mb
-      - 🇰🇷KR_5595+|+3.22Mb
-      - 🇰🇷KR_5614+|12.01Mb
-      - 🇰🇷KR_5616+|+9.78Mb
-      - 🇰🇷KR_5658+|+5.56Mb
-      - 🇰🇷KR_5662+|+6.88Mb
-      - 🇮🇳IN_4843+|24.44Mb
-      - 🇯🇵JP_5542+|57.56Mb
       - 🇰🇷KR_5669+|+4.81Mb
       - 🇭🇰HK_4256+|24.94Mb
-      - 🇮🇳IN_4838+|24.67Mb
-      - 🇯🇵JP_5550+|31.19Mb
-      - 🇰🇷KR_5623+|+5.71Mb
-      - 🇮🇳IN_4952+|+8.59Mb
-      - 🇰🇷KR_5824+|22.73Mb
       - 🇮🇳IN_4925+|11.33Mb
-      - 🇮🇳IN_4944+|+8.15Mb
       - 🇸🇬SG_8376+|12.36Mb
-      - CH_22+@WangCai_1+4
       - CH_12+@WangCai_1+4
-      - 🇹🇼TW_9133+|24.64Mb
-      - 🇹🇼TW_8893+|24.52Mb
-      - 🇹🇼TW_8796+|26.14Mb
-      - 🇹🇼TW_9144+|24.87Mb
-      - 🇰🇷KR_5652+|+4.92Mb
-      - 🇰🇷KR_5663+|+7.02Mb
-      - 🇯🇵JP_5547+|30.93Mb
-      - 🇰🇷KR_5566+|+2.97Mb
-      - 🇰🇷KR_5597+|+2.34Mb
       - 🇰🇷KR_5600+|+4.20Mb
-      - 🇰🇷KR_5608+|+3.17Mb
-      - 🇰🇷KR_5615+|+6.01Mb
-      - 🇰🇷KR_5655+|+7.91Mb
-      - 🇭🇰HK_4247+|25.21Mb
-      - 🇮🇳IN_4842+|25.04Mb
       - 🇯🇵JP_5543+|30.76Mb
-      - 🇯🇵JP_5544+|33.51Mb
+      - 🇹🇼TW_8809+|+6.07Mb
+      - 🇸🇬SG_8447+|11.63Mb
+      - 🇹🇼TW_8981+|24.39Mb
+      - 🇰🇷KR_5603+|+2.42Mb
+      - 🇰🇷KR_5664+|+4.01Mb
+      - 🇰🇷KR_5665+|+3.30Mb
+      - 🇰🇷KR_5656+|+4.61Mb
+      - 🇸🇬SG_28
+      - Relay_🇫🇷FR-🇫🇷FR_14
+      - 🇭🇰HK_4347+|11.93Mb
+      - CH_51+@WangCai_1+4
+      - CH_69+@WangCai_1+4
+      - 🇮🇳IN_4966+|24.04Mb
+      - 🇭🇰HK_4383+|+7.37Mb
+      - 🇸🇬SG_8377+|21.53Mb
+      - 🇭🇰HK_4332+|21.39Mb
+      - 🇮🇳IN_4905+|11.71Mb
+      - Pool_🇺🇸US_9333
+      - 🇹🇼TW_9179+|25.48Mb
+      - 🇹🇼TW_8813+|24.58Mb
+      - 🇮🇳IN_4701+|11.75Mb
+      - 🇭🇰HK_4263+|25.70Mb
+      - 🇰🇷KR_5614+|12.01Mb
+      - 🇰🇷KR_5662+|+6.88Mb
+      - 🇰🇷KR_5652+|+4.92Mb
+      - 🇰🇷KR_5655+|+7.91Mb
       - 🇰🇷KR_5592+|+2.48Mb
       - 🇰🇷KR_5678+|+5.70Mb
-      - 🇹🇼TW_8809+|+6.07Mb
-      - 🇹🇼TW_8869+|25.02Mb
-      - 🇹🇼TW_8982+|16.84Mb
-      - 🇮🇳IN_4840+|23.80Mb
-      - 🇰🇷KR_5609+|+2.59Mb
-      - 🇰🇷KR_5667+|+4.82Mb
-      - 🇰🇷KR_5671+|+3.84Mb
       - 🇭🇰HK_4251+|25.19Mb
-      - CH_54+@WangCai_1+4
-      - 🇸🇬SG_8447+|11.63Mb
-      - 🇸🇬SG_8378+|12.42Mb
-      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5677+|+2.39Mb
+      - 🇮🇳IN_4709+|11.60Mb
+      - CH_76+@WangCai_1+4
+      - 🇰🇷KR_5594+|+3.72Mb
+      - Pool_🇦🇹AT_01
+      - 🇺🇸US_31
+      - CH_47+@WangCai_1+5
+      - 🇮🇳IN_4995+|15.66Mb
+      - AT_25+@WangCai_1+3
+      - 🇹🇼TW_9104+|25.21Mb
+      - 🇰🇷KR_5658+|+5.56Mb
+      - 🇮🇳IN_4838+|24.67Mb
+      - 🇮🇳IN_4952+|+8.59Mb
+      - 🇰🇷KR_5824+|22.73Mb
+      - 🇯🇵JP_5547+|30.93Mb
+      - 🇰🇷KR_5597+|+2.34Mb
+      - 🇰🇷KR_5615+|+6.01Mb
+      - 🇹🇼TW_8869+|25.02Mb
       - 🇮🇳IN_4929+|11.58Mb
       - 🇹🇼TW_8927+|25.39Mb
-      - 🇰🇷KR_5911+|25.04Mb
-      - n_45.88.179.12_123
-      - 🇮🇳IN_4928+|11.52Mb
-      - 🇮🇳IN_4818+|11.55Mb
       - 🇮🇳IN_4841+|24.81Mb
       - 🇰🇷KR_5584+|+8.49Mb
       - 🇰🇷KR_5607+|+3.48Mb
-      - 🇰🇷KR_5618+|+3.47Mb
-      - 🇰🇷KR_5677+|+2.39Mb
-      - 🇹🇼TW_8981+|24.39Mb
-      - 🇰🇷KR_5598+|+5.38Mb
-      - 🇰🇷KR_5603+|+2.42Mb
-      - 🇰🇷KR_5613+|+7.90Mb
       - 🇰🇷KR_5643+|+3.39Mb
       - 🇰🇷KR_5649+|+5.99Mb
-      - 🇰🇷KR_5664+|+4.01Mb
-      - 🇰🇷KR_5674+|+5.80Mb
       - 🇰🇷KR_5596+|+7.12Mb
-      - 🇰🇷KR_5665+|+3.30Mb
-      - 🇮🇳IN_4709+|11.60Mb
-      - CH_76+@WangCai_1+4
-      - 🇮🇳IN_4702+|11.66Mb
-      - 🇮🇳IN_4921+|11.92Mb
-      - 🇰🇷KR_5656+|+4.61Mb
-      - 🇰🇷KR_5590+|+4.62Mb
-      - 🇹🇼TW_9096+|25.05Mb
-      - 🇰🇷KR_5594+|+3.72Mb
-      - Pool_🇦🇹AT_01
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇭🇰HK_17
-      - 🇮🇹IT_18
-      - 🇯🇵JP_19
       - 🇸🇬SG_27
-      - 🇦🇺AU_02
-      - 🇦🇺AU_03
-      - 🇺🇸US_31
-      - 🇸🇬SG_28
-      - Relay_🇫🇷FR-🇫🇷FR_14
+      - CH_56+@WangCai_1+5
+      - CH_11+@WangCai_1+4
+      - 🇸🇬SG_8414+|11.17Mb
+      - 🇸🇬SG_8402+|11.34Mb
+      - CH_36+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - 🇮🇳IN_4850+|11.66Mb
+      - 🇮🇳IN_4964+|11.47Mb
+      - 🇰🇷KR_5623+|+5.71Mb
+      - 🇹🇼TW_8893+|24.52Mb
+      - 🇹🇼TW_8982+|16.84Mb
+      - 🇰🇷KR_5667+|+4.82Mb
+      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5911+|25.04Mb
+      - 🇮🇳IN_4928+|11.52Mb
+      - 🇰🇷KR_5618+|+3.47Mb
+      - 🇰🇷KR_5674+|+5.80Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1514,188 +1218,151 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 网通四区上海_1
-      - 电信一区广东_2
-      - 移动专线B_3
-      - 🇸🇬SG_8480+|22.99Mb
-      - AT_22+@WangCai_1+3
-      - CH_23+@WangCai_1+5
+      - 电信一区广东_1
+      - 网通四区上海_2
+      - Relay_🇨🇦CA-🇨🇦CA_04
       - CH_14+@WangCai_1+4
+      - 🇸🇬SG_8435+|12.77Mb
+      - CH_42+@WangCai_1+4
+      - CH_61+@WangCai_1+5
+      - 🇸🇬SG_8480+|22.99Mb
+      - CH_23+@WangCai_1+5
       - CH_45+@WangCai_1+3
       - CH_10+@WangCai_1+4
-      - CH_34+@WangCai_1+4
-      - Pool_🇺🇸US_9337
-      - 🇭🇰HK_4347+|11.93Mb
-      - 🇭🇰HK_4236+|25.06Mb
-      - CH_51+@WangCai_1+4
-      - CH_56+@WangCai_1+5
-      - CH_11+@WangCai_1+4
-      - CH_47+@WangCai_1+5
-      - 🇮🇳IN_4995+|15.66Mb
-      - 🇸🇬SG_8388+|12.26Mb
-      - 🇸🇬SG_8414+|11.17Mb
-      - 🇸🇬SG_8418+|12.62Mb
-      - 🇸🇬SG_8402+|11.34Mb
       - CH_68+@WangCai_1+5
-      - AT_03+@WangCai_1+8
-      - 🇸🇬SG_8440+|11.72Mb
-      - CH_69+@WangCai_1+4
-      - AT_25+@WangCai_1+3
-      - CH_01+@WangCai_1+4
-      - CH_19+@WangCai_1+5
-      - 🇮🇳IN_4993+|24.95Mb
-      - 🇸🇬SG_8435+|12.77Mb
-      - CH_26+@WangCai_1+4
-      - CH_08+@WangCai_1+4
-      - CH_36+@WangCai_1+4
-      - CH_58+@WangCai_1+4
-      - 🇸🇬SG_8400+|14.71Mb
-      - CH_42+@WangCai_1+4
-      - Pool_🇺🇸US_9334
-      - CH_61+@WangCai_1+5
       - CH_10+@WangCai_1+5
       - 🇮🇳IN_4969+|23.09Mb
-      - 🇮🇳IN_4757+|12.26Mb
-      - 🇸🇬SG_8481+|12.05Mb
-      - 🇮🇳IN_4966+|24.04Mb
-      - 🇸🇬SG_8454+|12.29Mb
-      - CH_70+@WangCai_1+5
-      - CH_43+@WangCai_1+4
-      - 🇮🇳IN_4850+|11.66Mb
       - 🇮🇳IN_4847+|24.74Mb
-      - CH_54+@WangCai_1+5
-      - 🇮🇳IN_4964+|11.47Mb
-      - AT_56+@WangCai_1+4
-      - 🇮🇳IN_4711+|11.69Mb
-      - CH_58+@WangCai_1+5
-      - 🇭🇰HK_4383+|+7.37Mb
       - CH_55+@WangCai_1+4
       - 🇮🇳IN_4716+|12.04Mb
-      - 🇸🇬SG_8496+|21.75Mb
-      - CH_25+@WangCai_1+2
-      - 🇸🇬SG_8377+|21.53Mb
-      - 🇭🇰HK_4332+|21.39Mb
-      - 🇮🇳IN_4905+|11.71Mb
+      - 🇮🇳IN_4918+|11.11Mb
+      - 🇸🇬SG_8437+|13.17Mb
+      - CH_22+@WangCai_1+5
+      - 🇯🇵JP_5542+|57.56Mb
+      - 🇮🇳IN_4944+|+8.15Mb
+      - 🇮🇳IN_4840+|23.80Mb
+      - CH_54+@WangCai_1+4
+      - 🇦🇺AU_03
+      - 移动专线B_26
+      - AT_22+@WangCai_1+3
+      - 🇭🇰HK_4236+|25.06Mb
+      - 🇸🇬SG_8388+|12.26Mb
+      - 🇸🇬SG_8454+|12.29Mb
       - Pool_🇺🇸US_9332
       - 🇮🇳IN_4974+|11.64Mb
       - Pool_🇸🇬SG_8095
-      - Pool_🇺🇸US_9333
-      - 🇹🇼TW_9179+|25.48Mb
-      - 🇭🇰HK_4391+|25.05Mb
-      - 🇮🇳IN_4918+|11.11Mb
-      - 🇹🇼TW_8996+|25.10Mb
-      - 🇹🇼TW_9104+|25.21Mb
       - 🇭🇰HK_4387+|25.70Mb
       - AT_42+@WangCai_1+4
-      - 🇹🇼TW_8813+|24.58Mb
-      - 🇸🇬SG_8437+|13.17Mb
-      - 🇮🇳IN_4701+|11.75Mb
-      - 🇮🇳IN_4793+|25.28Mb
-      - CH_22+@WangCai_1+5
       - CH_37+@WangCai_1+5
-      - 🇸🇬SG_8385+|10.30Mb
-      - 🇯🇵JP_5767+|33.45Mb
       - 🇭🇰HK_4331+|11.83Mb
       - 🇭🇰HK_4238+|25.34Mb
-      - 🇭🇰HK_4263+|25.70Mb
-      - 🇭🇰HK_4240+|25.96Mb
       - 🇭🇰HK_4254+|25.58Mb
+      - 🇰🇷KR_5595+|+3.22Mb
+      - 🇮🇳IN_4843+|24.44Mb
+      - 🇰🇷KR_5663+|+7.02Mb
+      - 🇯🇵JP_5544+|33.51Mb
+      - 🇮🇳IN_4702+|11.66Mb
+      - 🇰🇷KR_5590+|+4.62Mb
+      - Relay_🇨🇦CA-🇨🇦CA_05
+      - 🇭🇰HK_17
+      - 🇦🇺AU_02
+      - CH_34+@WangCai_1+4
+      - Pool_🇺🇸US_9337
+      - AT_03+@WangCai_1+8
+      - CH_26+@WangCai_1+4
+      - Pool_🇺🇸US_9334
+      - 🇸🇬SG_8481+|12.05Mb
+      - CH_70+@WangCai_1+5
+      - CH_54+@WangCai_1+5
+      - CH_58+@WangCai_1+5
+      - 🇸🇬SG_8496+|21.75Mb
+      - CH_25+@WangCai_1+2
+      - 🇹🇼TW_8996+|25.10Mb
+      - 🇭🇰HK_4240+|25.96Mb
       - 🇮🇳IN_4848+|24.36Mb
       - 🇰🇷KR_5619+|+6.35Mb
-      - 🇰🇷KR_5680+|+6.11Mb
       - 🇹🇼TW_8861+|24.48Mb
       - 🇭🇰HK_4255+|25.55Mb
-      - 🇰🇷KR_5595+|+3.22Mb
-      - 🇰🇷KR_5614+|12.01Mb
-      - 🇰🇷KR_5616+|+9.78Mb
-      - 🇰🇷KR_5658+|+5.56Mb
-      - 🇰🇷KR_5662+|+6.88Mb
-      - 🇮🇳IN_4843+|24.44Mb
-      - 🇯🇵JP_5542+|57.56Mb
       - 🇰🇷KR_5669+|+4.81Mb
       - 🇭🇰HK_4256+|24.94Mb
-      - 🇮🇳IN_4838+|24.67Mb
-      - 🇯🇵JP_5550+|31.19Mb
-      - 🇰🇷KR_5623+|+5.71Mb
-      - 🇮🇳IN_4952+|+8.59Mb
-      - 🇰🇷KR_5824+|22.73Mb
       - 🇮🇳IN_4925+|11.33Mb
-      - 🇮🇳IN_4944+|+8.15Mb
       - 🇸🇬SG_8376+|12.36Mb
-      - CH_22+@WangCai_1+4
       - CH_12+@WangCai_1+4
-      - 🇹🇼TW_9133+|24.64Mb
-      - 🇹🇼TW_8893+|24.52Mb
-      - 🇹🇼TW_8796+|26.14Mb
-      - 🇹🇼TW_9144+|24.87Mb
-      - 🇰🇷KR_5652+|+4.92Mb
-      - 🇰🇷KR_5663+|+7.02Mb
-      - 🇯🇵JP_5547+|30.93Mb
-      - 🇰🇷KR_5566+|+2.97Mb
-      - 🇰🇷KR_5597+|+2.34Mb
       - 🇰🇷KR_5600+|+4.20Mb
-      - 🇰🇷KR_5608+|+3.17Mb
-      - 🇰🇷KR_5615+|+6.01Mb
-      - 🇰🇷KR_5655+|+7.91Mb
-      - 🇭🇰HK_4247+|25.21Mb
-      - 🇮🇳IN_4842+|25.04Mb
       - 🇯🇵JP_5543+|30.76Mb
-      - 🇯🇵JP_5544+|33.51Mb
+      - 🇹🇼TW_8809+|+6.07Mb
+      - 🇸🇬SG_8447+|11.63Mb
+      - 🇹🇼TW_8981+|24.39Mb
+      - 🇰🇷KR_5603+|+2.42Mb
+      - 🇰🇷KR_5664+|+4.01Mb
+      - 🇰🇷KR_5665+|+3.30Mb
+      - 🇰🇷KR_5656+|+4.61Mb
+      - 🇸🇬SG_28
+      - Relay_🇫🇷FR-🇫🇷FR_14
+      - 🇭🇰HK_4347+|11.93Mb
+      - CH_51+@WangCai_1+4
+      - CH_69+@WangCai_1+4
+      - 🇮🇳IN_4966+|24.04Mb
+      - 🇭🇰HK_4383+|+7.37Mb
+      - 🇸🇬SG_8377+|21.53Mb
+      - 🇭🇰HK_4332+|21.39Mb
+      - 🇮🇳IN_4905+|11.71Mb
+      - Pool_🇺🇸US_9333
+      - 🇹🇼TW_9179+|25.48Mb
+      - 🇹🇼TW_8813+|24.58Mb
+      - 🇮🇳IN_4701+|11.75Mb
+      - 🇭🇰HK_4263+|25.70Mb
+      - 🇰🇷KR_5614+|12.01Mb
+      - 🇰🇷KR_5662+|+6.88Mb
+      - 🇰🇷KR_5652+|+4.92Mb
+      - 🇰🇷KR_5655+|+7.91Mb
       - 🇰🇷KR_5592+|+2.48Mb
       - 🇰🇷KR_5678+|+5.70Mb
-      - 🇹🇼TW_8809+|+6.07Mb
-      - 🇹🇼TW_8869+|25.02Mb
-      - 🇹🇼TW_8982+|16.84Mb
-      - 🇮🇳IN_4840+|23.80Mb
-      - 🇰🇷KR_5609+|+2.59Mb
-      - 🇰🇷KR_5667+|+4.82Mb
-      - 🇰🇷KR_5671+|+3.84Mb
       - 🇭🇰HK_4251+|25.19Mb
-      - CH_54+@WangCai_1+4
-      - 🇸🇬SG_8447+|11.63Mb
-      - 🇸🇬SG_8378+|12.42Mb
-      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5677+|+2.39Mb
+      - 🇮🇳IN_4709+|11.60Mb
+      - CH_76+@WangCai_1+4
+      - 🇰🇷KR_5594+|+3.72Mb
+      - Pool_🇦🇹AT_01
+      - 🇺🇸US_31
+      - CH_47+@WangCai_1+5
+      - 🇮🇳IN_4995+|15.66Mb
+      - AT_25+@WangCai_1+3
+      - 🇹🇼TW_9104+|25.21Mb
+      - 🇰🇷KR_5658+|+5.56Mb
+      - 🇮🇳IN_4838+|24.67Mb
+      - 🇮🇳IN_4952+|+8.59Mb
+      - 🇰🇷KR_5824+|22.73Mb
+      - 🇯🇵JP_5547+|30.93Mb
+      - 🇰🇷KR_5597+|+2.34Mb
+      - 🇰🇷KR_5615+|+6.01Mb
+      - 🇹🇼TW_8869+|25.02Mb
       - 🇮🇳IN_4929+|11.58Mb
       - 🇹🇼TW_8927+|25.39Mb
-      - 🇰🇷KR_5911+|25.04Mb
-      - n_45.88.179.12_123
-      - 🇮🇳IN_4928+|11.52Mb
-      - 🇮🇳IN_4818+|11.55Mb
       - 🇮🇳IN_4841+|24.81Mb
       - 🇰🇷KR_5584+|+8.49Mb
       - 🇰🇷KR_5607+|+3.48Mb
-      - 🇰🇷KR_5618+|+3.47Mb
-      - 🇰🇷KR_5677+|+2.39Mb
-      - 🇹🇼TW_8981+|24.39Mb
-      - 🇰🇷KR_5598+|+5.38Mb
-      - 🇰🇷KR_5603+|+2.42Mb
-      - 🇰🇷KR_5613+|+7.90Mb
       - 🇰🇷KR_5643+|+3.39Mb
       - 🇰🇷KR_5649+|+5.99Mb
-      - 🇰🇷KR_5664+|+4.01Mb
-      - 🇰🇷KR_5674+|+5.80Mb
       - 🇰🇷KR_5596+|+7.12Mb
-      - 🇰🇷KR_5665+|+3.30Mb
-      - 🇮🇳IN_4709+|11.60Mb
-      - CH_76+@WangCai_1+4
-      - 🇮🇳IN_4702+|11.66Mb
-      - 🇮🇳IN_4921+|11.92Mb
-      - 🇰🇷KR_5656+|+4.61Mb
-      - 🇰🇷KR_5590+|+4.62Mb
-      - 🇹🇼TW_9096+|25.05Mb
-      - 🇰🇷KR_5594+|+3.72Mb
-      - Pool_🇦🇹AT_01
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇭🇰HK_17
-      - 🇮🇹IT_18
-      - 🇯🇵JP_19
       - 🇸🇬SG_27
-      - 🇦🇺AU_02
-      - 🇦🇺AU_03
-      - 🇺🇸US_31
-      - 🇸🇬SG_28
-      - Relay_🇫🇷FR-🇫🇷FR_14
+      - CH_56+@WangCai_1+5
+      - CH_11+@WangCai_1+4
+      - 🇸🇬SG_8414+|11.17Mb
+      - 🇸🇬SG_8402+|11.34Mb
+      - CH_36+@WangCai_1+4
+      - CH_43+@WangCai_1+4
+      - 🇮🇳IN_4850+|11.66Mb
+      - 🇮🇳IN_4964+|11.47Mb
+      - 🇰🇷KR_5623+|+5.71Mb
+      - 🇹🇼TW_8893+|24.52Mb
+      - 🇹🇼TW_8982+|16.84Mb
+      - 🇰🇷KR_5667+|+4.82Mb
+      - CH_05+@WangCai_1+5
+      - 🇰🇷KR_5911+|25.04Mb
+      - 🇮🇳IN_4928+|11.52Mb
+      - 🇰🇷KR_5618+|+3.47Mb
+      - 🇰🇷KR_5674+|+5.80Mb
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
