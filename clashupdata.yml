@@ -5,6 +5,10 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+  - {name: 'Pool_馃嚟馃嚢HK_3622', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Pool_馃嚬馃嚰TW_8051', server: 2.58.242.53, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 'Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12410', server: 154.17.2.160, port: 18340, type: ss, cipher: chacha20-ietf-poly1305, password: 3cYxOFTA270pCaezFlDu4AjNBX9wa3ZD8ESg3Cypx6C8S5IynqR3ROZeDYlSKa}
+  - {name: 'Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12339', server: 154.17.2.178, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: OSejD7aK2AR0R4z89SaxlxZ8NEYBCaweDpA3IT6DgncXlZOyqy533pFCSFCY3u}
   - {name: 'AT_81+@WangCai_1+2', server: 89.187.168.42, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
   - {name: 'AT_02+@WangCai_1+2', server: 89.187.168.42, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
   - {name: 'CH_59+@WangCai_1+4', server: 156.146.62.45, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
@@ -17,7 +21,7 @@ proxies:
   - {name: 'AT_38+@WangCai_1+2', server: 89.187.168.42, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
   - {name: 'AT_44+@WangCai_1+2', server: 89.187.168.42, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
   - {name: 'AT_54+@WangCai_1+2', server: 89.187.168.42, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: '🇺🇲+095美国∞直连_13', server: 156.146.62.45, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: '🇺🇲+095美国∞直连_17', server: 156.146.62.45, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
   - {name: 'AT_23+@WangCai_1+2', server: 89.187.168.42, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
   - {name: 'CH_38+@WangCai_1+4', server: 156.146.62.45, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
   - {name: 'Relay_🇺🇸US-🇰🇷KR_12812', server: 154.17.6.71, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: RaFE0xaR9O5lYpNcyuS34yBDAXSD8Ca87gCSeZxADOwCzKYIjp3qZle3F3T62n}
@@ -30,6 +34,7 @@ proxies:
   - {name: 'AT_06+@WangCai_1+2', server: 89.187.168.42, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
   - {name: 'v2rayse_🇩🇪_DE_德国_9', server: 82.102.16.102, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
   - {name: 'Relay_🇺🇸US-🇰🇷KR_11589', server: 154.17.2.178, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: OSejD7aK2AR0R4z89SaxlxZ8NEYBCaweDpA3IT6DgncXlZOyqy533pFCSFCY3u}
+  - {name: '馃嚭馃嚫US_12507', server: 156.146.62.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 'AT_26+@WangCai_1+2', server: 89.187.168.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 'AT_69+@WangCai_1+2', server: 89.187.168.42, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
   - {name: 'v2rayse_🇩🇪_DE_德国_11', server: 82.102.16.102, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
@@ -51,25 +56,33 @@ proxies:
   - {name: 'AT_15+@WangCai_1+2', server: 89.187.168.42, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
   - {name: 'AT_47+@WangCai_1+2', server: 89.187.168.42, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
   - {name: 'AT_01+@WangCai_1+2', server: 89.187.168.42, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: '🇩🇪+024德国∞直连_47', server: 82.102.16.102, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: '🇩🇪+024德国∞直连_52', server: 82.102.16.102, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
   - {name: 'CH_23+@WangCai_1+4', server: 156.146.62.45, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: '🇺🇲+088美国∞直连_49', server: 156.146.62.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '🇺🇲+088美国∞直连_54', server: 156.146.62.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 'CH_31+@WangCai_1+4', server: 156.146.62.45, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
   - {name: 'AT_80+@WangCai_1+2', server: 89.187.168.42, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: '🇺🇲+075美国∞直连_52', server: 156.146.62.45, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
-  - {name: '🇺🇲+078美国∞直连_53', server: 156.146.62.45, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
+  - {name: '🇺🇲+075美国∞直连_57', server: 156.146.62.45, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: '🇺🇲+078美国∞直连_58', server: 156.146.62.45, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
   - {name: 'v2rayse_🇳🇴_NO_挪威_12', server: 91.219.215.53, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
   - {name: 'CH_09+@WangCai_1+4', server: 156.146.62.45, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 'CH_55+@WangCai_1+3', server: 156.146.62.45, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: '🇷🇴+040罗马尼亚∞直连_57', server: 89.37.95.16, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: '🇺🇲+092美国∞直连_58', server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: '🇷🇴+040罗马尼亚∞直连_62', server: 89.37.95.16, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '🇺🇲+092美国∞直连_63', server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 'CH_58+@WangCai_1+4', server: 156.146.62.45, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '馃嚭馃嚫US_374', server: 156.146.62.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 'Pool_馃嚬馃嚰TW_8051_67', server: 2.58.242.53, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: '馃嚭馃嚫US_12470', server: 156.146.62.45, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 'Pool_馃嚟馃嚢HK_3569', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Pool_馃嚟馃嚢HK_3622
+      - Pool_馃嚬馃嚰TW_8051
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12410
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12339
       - AT_81+@WangCai_1+2
       - AT_02+@WangCai_1+2
       - CH_59+@WangCai_1+4
@@ -82,7 +95,7 @@ proxy-groups:
       - AT_38+@WangCai_1+2
       - AT_44+@WangCai_1+2
       - AT_54+@WangCai_1+2
-      - 🇺🇲+095美国∞直连_13
+      - 🇺🇲+095美国∞直连_17
       - AT_23+@WangCai_1+2
       - CH_38+@WangCai_1+4
       - Relay_🇺🇸US-🇰🇷KR_12812
@@ -95,6 +108,7 @@ proxy-groups:
       - AT_06+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_9
       - Relay_🇺🇸US-🇰🇷KR_11589
+      - 馃嚭馃嚫US_12507
       - AT_26+@WangCai_1+2
       - AT_69+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_11
@@ -116,24 +130,32 @@ proxy-groups:
       - AT_15+@WangCai_1+2
       - AT_47+@WangCai_1+2
       - AT_01+@WangCai_1+2
-      - 🇩🇪+024德国∞直连_47
+      - 🇩🇪+024德国∞直连_52
       - CH_23+@WangCai_1+4
-      - 🇺🇲+088美国∞直连_49
+      - 🇺🇲+088美国∞直连_54
       - CH_31+@WangCai_1+4
       - AT_80+@WangCai_1+2
-      - 🇺🇲+075美国∞直连_52
-      - 🇺🇲+078美国∞直连_53
+      - 🇺🇲+075美国∞直连_57
+      - 🇺🇲+078美国∞直连_58
       - v2rayse_🇳🇴_NO_挪威_12
       - CH_09+@WangCai_1+4
       - CH_55+@WangCai_1+3
-      - 🇷🇴+040罗马尼亚∞直连_57
-      - 🇺🇲+092美国∞直连_58
+      - 🇷🇴+040罗马尼亚∞直连_62
+      - 🇺🇲+092美国∞直连_63
       - CH_58+@WangCai_1+4
+      - 馃嚭馃嚫US_374
+      - Pool_馃嚬馃嚰TW_8051_67
+      - 馃嚭馃嚫US_12470
+      - Pool_馃嚟馃嚢HK_3569
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Pool_馃嚟馃嚢HK_3622
+      - Pool_馃嚬馃嚰TW_8051
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12410
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12339
       - AT_81+@WangCai_1+2
       - AT_02+@WangCai_1+2
       - CH_59+@WangCai_1+4
@@ -146,7 +168,7 @@ proxy-groups:
       - AT_38+@WangCai_1+2
       - AT_44+@WangCai_1+2
       - AT_54+@WangCai_1+2
-      - 🇺🇲+095美国∞直连_13
+      - 🇺🇲+095美国∞直连_17
       - AT_23+@WangCai_1+2
       - CH_38+@WangCai_1+4
       - Relay_🇺🇸US-🇰🇷KR_12812
@@ -159,6 +181,7 @@ proxy-groups:
       - AT_06+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_9
       - Relay_🇺🇸US-🇰🇷KR_11589
+      - 馃嚭馃嚫US_12507
       - AT_26+@WangCai_1+2
       - AT_69+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_11
@@ -180,25 +203,33 @@ proxy-groups:
       - AT_15+@WangCai_1+2
       - AT_47+@WangCai_1+2
       - AT_01+@WangCai_1+2
-      - 🇩🇪+024德国∞直连_47
+      - 🇩🇪+024德国∞直连_52
       - CH_23+@WangCai_1+4
-      - 🇺🇲+088美国∞直连_49
+      - 🇺🇲+088美国∞直连_54
       - CH_31+@WangCai_1+4
       - AT_80+@WangCai_1+2
-      - 🇺🇲+075美国∞直连_52
-      - 🇺🇲+078美国∞直连_53
+      - 🇺🇲+075美国∞直连_57
+      - 🇺🇲+078美国∞直连_58
       - v2rayse_🇳🇴_NO_挪威_12
       - CH_09+@WangCai_1+4
       - CH_55+@WangCai_1+3
-      - 🇷🇴+040罗马尼亚∞直连_57
-      - 🇺🇲+092美国∞直连_58
+      - 🇷🇴+040罗马尼亚∞直连_62
+      - 🇺🇲+092美国∞直连_63
       - CH_58+@WangCai_1+4
+      - 馃嚭馃嚫US_374
+      - Pool_馃嚬馃嚰TW_8051_67
+      - 馃嚭馃嚫US_12470
+      - Pool_馃嚟馃嚢HK_3569
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Pool_馃嚟馃嚢HK_3622
+      - Pool_馃嚬馃嚰TW_8051
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12410
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12339
       - AT_81+@WangCai_1+2
       - AT_02+@WangCai_1+2
       - CH_59+@WangCai_1+4
@@ -211,7 +242,7 @@ proxy-groups:
       - AT_38+@WangCai_1+2
       - AT_44+@WangCai_1+2
       - AT_54+@WangCai_1+2
-      - 🇺🇲+095美国∞直连_13
+      - 🇺🇲+095美国∞直连_17
       - AT_23+@WangCai_1+2
       - CH_38+@WangCai_1+4
       - Relay_🇺🇸US-🇰🇷KR_12812
@@ -224,6 +255,7 @@ proxy-groups:
       - AT_06+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_9
       - Relay_🇺🇸US-🇰🇷KR_11589
+      - 馃嚭馃嚫US_12507
       - AT_26+@WangCai_1+2
       - AT_69+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_11
@@ -245,24 +277,32 @@ proxy-groups:
       - AT_15+@WangCai_1+2
       - AT_47+@WangCai_1+2
       - AT_01+@WangCai_1+2
-      - 🇩🇪+024德国∞直连_47
+      - 🇩🇪+024德国∞直连_52
       - CH_23+@WangCai_1+4
-      - 🇺🇲+088美国∞直连_49
+      - 🇺🇲+088美国∞直连_54
       - CH_31+@WangCai_1+4
       - AT_80+@WangCai_1+2
-      - 🇺🇲+075美国∞直连_52
-      - 🇺🇲+078美国∞直连_53
+      - 🇺🇲+075美国∞直连_57
+      - 🇺🇲+078美国∞直连_58
       - v2rayse_🇳🇴_NO_挪威_12
       - CH_09+@WangCai_1+4
       - CH_55+@WangCai_1+3
-      - 🇷🇴+040罗马尼亚∞直连_57
-      - 🇺🇲+092美国∞直连_58
+      - 🇷🇴+040罗马尼亚∞直连_62
+      - 🇺🇲+092美国∞直连_63
       - CH_58+@WangCai_1+4
+      - 馃嚭馃嚫US_374
+      - Pool_馃嚬馃嚰TW_8051_67
+      - 馃嚭馃嚫US_12470
+      - Pool_馃嚟馃嚢HK_3569
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Pool_馃嚟馃嚢HK_3622
+      - Pool_馃嚬馃嚰TW_8051
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12410
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12339
       - AT_81+@WangCai_1+2
       - AT_02+@WangCai_1+2
       - CH_59+@WangCai_1+4
@@ -275,7 +315,7 @@ proxy-groups:
       - AT_38+@WangCai_1+2
       - AT_44+@WangCai_1+2
       - AT_54+@WangCai_1+2
-      - 🇺🇲+095美国∞直连_13
+      - 🇺🇲+095美国∞直连_17
       - AT_23+@WangCai_1+2
       - CH_38+@WangCai_1+4
       - Relay_🇺🇸US-🇰🇷KR_12812
@@ -288,6 +328,7 @@ proxy-groups:
       - AT_06+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_9
       - Relay_🇺🇸US-🇰🇷KR_11589
+      - 馃嚭馃嚫US_12507
       - AT_26+@WangCai_1+2
       - AT_69+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_11
@@ -309,24 +350,32 @@ proxy-groups:
       - AT_15+@WangCai_1+2
       - AT_47+@WangCai_1+2
       - AT_01+@WangCai_1+2
-      - 🇩🇪+024德国∞直连_47
+      - 🇩🇪+024德国∞直连_52
       - CH_23+@WangCai_1+4
-      - 🇺🇲+088美国∞直连_49
+      - 🇺🇲+088美国∞直连_54
       - CH_31+@WangCai_1+4
       - AT_80+@WangCai_1+2
-      - 🇺🇲+075美国∞直连_52
-      - 🇺🇲+078美国∞直连_53
+      - 🇺🇲+075美国∞直连_57
+      - 🇺🇲+078美国∞直连_58
       - v2rayse_🇳🇴_NO_挪威_12
       - CH_09+@WangCai_1+4
       - CH_55+@WangCai_1+3
-      - 🇷🇴+040罗马尼亚∞直连_57
-      - 🇺🇲+092美国∞直连_58
+      - 🇷🇴+040罗马尼亚∞直连_62
+      - 🇺🇲+092美国∞直连_63
       - CH_58+@WangCai_1+4
+      - 馃嚭馃嚫US_374
+      - Pool_馃嚬馃嚰TW_8051_67
+      - 馃嚭馃嚫US_12470
+      - Pool_馃嚟馃嚢HK_3569
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Pool_馃嚟馃嚢HK_3622
+      - Pool_馃嚬馃嚰TW_8051
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12410
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12339
       - AT_81+@WangCai_1+2
       - AT_02+@WangCai_1+2
       - CH_59+@WangCai_1+4
@@ -339,7 +388,7 @@ proxy-groups:
       - AT_38+@WangCai_1+2
       - AT_44+@WangCai_1+2
       - AT_54+@WangCai_1+2
-      - 🇺🇲+095美国∞直连_13
+      - 🇺🇲+095美国∞直连_17
       - AT_23+@WangCai_1+2
       - CH_38+@WangCai_1+4
       - Relay_🇺🇸US-🇰🇷KR_12812
@@ -352,6 +401,7 @@ proxy-groups:
       - AT_06+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_9
       - Relay_🇺🇸US-🇰🇷KR_11589
+      - 馃嚭馃嚫US_12507
       - AT_26+@WangCai_1+2
       - AT_69+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_11
@@ -373,24 +423,32 @@ proxy-groups:
       - AT_15+@WangCai_1+2
       - AT_47+@WangCai_1+2
       - AT_01+@WangCai_1+2
-      - 🇩🇪+024德国∞直连_47
+      - 🇩🇪+024德国∞直连_52
       - CH_23+@WangCai_1+4
-      - 🇺🇲+088美国∞直连_49
+      - 🇺🇲+088美国∞直连_54
       - CH_31+@WangCai_1+4
       - AT_80+@WangCai_1+2
-      - 🇺🇲+075美国∞直连_52
-      - 🇺🇲+078美国∞直连_53
+      - 🇺🇲+075美国∞直连_57
+      - 🇺🇲+078美国∞直连_58
       - v2rayse_🇳🇴_NO_挪威_12
       - CH_09+@WangCai_1+4
       - CH_55+@WangCai_1+3
-      - 🇷🇴+040罗马尼亚∞直连_57
-      - 🇺🇲+092美国∞直连_58
+      - 🇷🇴+040罗马尼亚∞直连_62
+      - 🇺🇲+092美国∞直连_63
       - CH_58+@WangCai_1+4
+      - 馃嚭馃嚫US_374
+      - Pool_馃嚬馃嚰TW_8051_67
+      - 馃嚭馃嚫US_12470
+      - Pool_馃嚟馃嚢HK_3569
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Pool_馃嚟馃嚢HK_3622
+      - Pool_馃嚬馃嚰TW_8051
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12410
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12339
       - AT_81+@WangCai_1+2
       - AT_02+@WangCai_1+2
       - CH_59+@WangCai_1+4
@@ -403,7 +461,7 @@ proxy-groups:
       - AT_38+@WangCai_1+2
       - AT_44+@WangCai_1+2
       - AT_54+@WangCai_1+2
-      - 🇺🇲+095美国∞直连_13
+      - 🇺🇲+095美国∞直连_17
       - AT_23+@WangCai_1+2
       - CH_38+@WangCai_1+4
       - Relay_🇺🇸US-🇰🇷KR_12812
@@ -416,6 +474,7 @@ proxy-groups:
       - AT_06+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_9
       - Relay_🇺🇸US-🇰🇷KR_11589
+      - 馃嚭馃嚫US_12507
       - AT_26+@WangCai_1+2
       - AT_69+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_11
@@ -437,25 +496,33 @@ proxy-groups:
       - AT_15+@WangCai_1+2
       - AT_47+@WangCai_1+2
       - AT_01+@WangCai_1+2
-      - 🇩🇪+024德国∞直连_47
+      - 🇩🇪+024德国∞直连_52
       - CH_23+@WangCai_1+4
-      - 🇺🇲+088美国∞直连_49
+      - 🇺🇲+088美国∞直连_54
       - CH_31+@WangCai_1+4
       - AT_80+@WangCai_1+2
-      - 🇺🇲+075美国∞直连_52
-      - 🇺🇲+078美国∞直连_53
+      - 🇺🇲+075美国∞直连_57
+      - 🇺🇲+078美国∞直连_58
       - v2rayse_🇳🇴_NO_挪威_12
       - CH_09+@WangCai_1+4
       - CH_55+@WangCai_1+3
-      - 🇷🇴+040罗马尼亚∞直连_57
-      - 🇺🇲+092美国∞直连_58
+      - 🇷🇴+040罗马尼亚∞直连_62
+      - 🇺🇲+092美国∞直连_63
       - CH_58+@WangCai_1+4
+      - 馃嚭馃嚫US_374
+      - Pool_馃嚬馃嚰TW_8051_67
+      - 馃嚭馃嚫US_12470
+      - Pool_馃嚟馃嚢HK_3569
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Pool_馃嚟馃嚢HK_3622
+      - Pool_馃嚬馃嚰TW_8051
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12410
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12339
       - AT_81+@WangCai_1+2
       - AT_02+@WangCai_1+2
       - CH_59+@WangCai_1+4
@@ -468,7 +535,7 @@ proxy-groups:
       - AT_38+@WangCai_1+2
       - AT_44+@WangCai_1+2
       - AT_54+@WangCai_1+2
-      - 🇺🇲+095美国∞直连_13
+      - 🇺🇲+095美国∞直连_17
       - AT_23+@WangCai_1+2
       - CH_38+@WangCai_1+4
       - Relay_🇺🇸US-🇰🇷KR_12812
@@ -481,6 +548,7 @@ proxy-groups:
       - AT_06+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_9
       - Relay_🇺🇸US-🇰🇷KR_11589
+      - 馃嚭馃嚫US_12507
       - AT_26+@WangCai_1+2
       - AT_69+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_11
@@ -502,19 +570,23 @@ proxy-groups:
       - AT_15+@WangCai_1+2
       - AT_47+@WangCai_1+2
       - AT_01+@WangCai_1+2
-      - 🇩🇪+024德国∞直连_47
+      - 🇩🇪+024德国∞直连_52
       - CH_23+@WangCai_1+4
-      - 🇺🇲+088美国∞直连_49
+      - 🇺🇲+088美国∞直连_54
       - CH_31+@WangCai_1+4
       - AT_80+@WangCai_1+2
-      - 🇺🇲+075美国∞直连_52
-      - 🇺🇲+078美国∞直连_53
+      - 🇺🇲+075美国∞直连_57
+      - 🇺🇲+078美国∞直连_58
       - v2rayse_🇳🇴_NO_挪威_12
       - CH_09+@WangCai_1+4
       - CH_55+@WangCai_1+3
-      - 🇷🇴+040罗马尼亚∞直连_57
-      - 🇺🇲+092美国∞直连_58
+      - 🇷🇴+040罗马尼亚∞直连_62
+      - 🇺🇲+092美国∞直连_63
       - CH_58+@WangCai_1+4
+      - 馃嚭馃嚫US_374
+      - Pool_馃嚬馃嚰TW_8051_67
+      - 馃嚭馃嚫US_12470
+      - Pool_馃嚟馃嚢HK_3569
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -530,6 +602,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Pool_馃嚟馃嚢HK_3622
+      - Pool_馃嚬馃嚰TW_8051
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12410
+      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_12339
       - AT_81+@WangCai_1+2
       - AT_02+@WangCai_1+2
       - CH_59+@WangCai_1+4
@@ -542,7 +618,7 @@ proxy-groups:
       - AT_38+@WangCai_1+2
       - AT_44+@WangCai_1+2
       - AT_54+@WangCai_1+2
-      - 🇺🇲+095美国∞直连_13
+      - 🇺🇲+095美国∞直连_17
       - AT_23+@WangCai_1+2
       - CH_38+@WangCai_1+4
       - Relay_🇺🇸US-🇰🇷KR_12812
@@ -555,6 +631,7 @@ proxy-groups:
       - AT_06+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_9
       - Relay_🇺🇸US-🇰🇷KR_11589
+      - 馃嚭馃嚫US_12507
       - AT_26+@WangCai_1+2
       - AT_69+@WangCai_1+2
       - v2rayse_🇩🇪_DE_德国_11
@@ -576,19 +653,23 @@ proxy-groups:
       - AT_15+@WangCai_1+2
       - AT_47+@WangCai_1+2
       - AT_01+@WangCai_1+2
-      - 🇩🇪+024德国∞直连_47
+      - 🇩🇪+024德国∞直连_52
       - CH_23+@WangCai_1+4
-      - 🇺🇲+088美国∞直连_49
+      - 🇺🇲+088美国∞直连_54
       - CH_31+@WangCai_1+4
       - AT_80+@WangCai_1+2
-      - 🇺🇲+075美国∞直连_52
-      - 🇺🇲+078美国∞直连_53
+      - 🇺🇲+075美国∞直连_57
+      - 🇺🇲+078美国∞直连_58
       - v2rayse_🇳🇴_NO_挪威_12
       - CH_09+@WangCai_1+4
       - CH_55+@WangCai_1+3
-      - 🇷🇴+040罗马尼亚∞直连_57
-      - 🇺🇲+092美国∞直连_58
+      - 🇷🇴+040罗马尼亚∞直连_62
+      - 🇺🇲+092美国∞直连_63
       - CH_58+@WangCai_1+4
+      - 馃嚭馃嚫US_374
+      - Pool_馃嚬馃嚰TW_8051_67
+      - 馃嚭馃嚫US_12470
+      - Pool_馃嚟馃嚢HK_3569
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
