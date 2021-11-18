@@ -5,308 +5,2092 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '日本阿伟科技-油管5_1', server: jpa.sttlink.xyz, port: 20189, type: vmess, uuid: ab60166b-d22d-3ae5-963f-e5867007ff08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ka}
-  - {name: '🇯🇵 40日本_2', server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: 84d4db68-2bc8-429d-9e2e-4f6994219f5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: '🇯🇵 39日本_3', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 84d4db68-2bc8-429d-9e2e-4f6994219f5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 'CYL-科技（2021.11.16）_4', server: 47.105.53.1, port: 31845, type: vmess, uuid: 3b7932fa-0fea-4682-8fb5-f42bd2dac957, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: '🇭🇰 73香港_5', server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 84d4db68-2bc8-429d-9e2e-4f6994219f5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: '🇳🇱 荷兰_001 关注Tg交流群_@Mshare_T_6', server: cu-cs.okvpn.xyz, port: 30020, type: vmess, uuid: 84d4db68-2bc8-429d-9e2e-4f6994219f5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: '🇭🇰 74香港_7', server: cm-jm.okvpn.xyz, port: 20003, type: vmess, uuid: 84d4db68-2bc8-429d-9e2e-4f6994219f5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: '电信一区广东_8', server: 47.113.190.48, port: 47912, type: vmess, uuid: d1f1e8e0-bf5c-4219-8ba4-48de32c50557, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: 'Pool_馃嚟馃嚢HK_3622', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Pool_馃嚬馃嚰TW_8051', server: 2.58.242.53, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 'CYL-科技（2021.11.16） 105_11', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: '🇷🇴+042罗马尼亚∞直连_12', server: 89.37.95.16, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: '捷克感谢订阅——科技网络_195', server: 185.108.106.172, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: '微信公众号：光头院长_1', server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: '🇸🇬 中转|新加坡Singtel01|微信ddly000_2', server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: '🇯🇵 中转|日本GMO06|微信ddly000_3', server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: '🇰🇷 韩国_006 Tg交流群 @Mshare_T_4', server: bei.speedmax.cc, port: 55001, type: vmess, uuid: 2d36a16d-d14f-441a-996c-5d11755a4de5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.iqiyi.com}}
+  - {name: '🇰🇷 韩国_008 Tg交流群 @Mshare_T_5', server: aws.threedollar.cloud, port: 55002, type: vmess, uuid: 2d36a16d-d14f-441a-996c-5d11755a4de5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.iqiyi.com}}
+  - {name: '🇰🇷 韩国_004 Tg交流群 @Mshare_T_6', server: aws.threedollar.cloud, port: 55004, type: vmess, uuid: 2d36a16d-d14f-441a-996c-5d11755a4de5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.iqiyi.com}}
+  - {name: '🇯🇵 中转|日本GMO10|华南隧道流媒体解锁_7', server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'CYL-科技（2021.11.16）_8', server: 47.105.53.1, port: 31845, type: vmess, uuid: 3b7932fa-0fea-4682-8fb5-f42bd2dac957, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '🇰🇷 韩国_002 Tg交流群 @Mshare_T_9', server: bei.speedmax.cc, port: 55003, type: vmess, uuid: 2d36a16d-d14f-441a-996c-5d11755a4de5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.iqiyi.com}}
+  - {name: '日本阿伟科技-油管5_10', server: jpa.sttlink.xyz, port: 20189, type: vmess, uuid: ab60166b-d22d-3ae5-963f-e5867007ff08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ka}
+  - {name: '🇭🇰 中转|香港HGC11|微信ddly000_11', server: cm-jm.okvpn.xyz, port: 20003, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: '🇮🇳IN_55+@WangCai_1', server: 103.108.117.148, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '比利时阿伟科技-油管1_13', server: 194.110.115.86, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: '🇭🇰 中转|香港CMHK07|微信ddly000_14', server: cu-cs.okvpn.xyz, port: 30011, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: '🇨🇳 中转|台湾中华电信01|微信ddly000_15', server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: '🇺🇸+美国_034+关注Tg交流群_@Mshare_T_16', server: 194.110.115.86, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 'CYL-科技（2021.11.16） 105_17', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '🇸🇪+瑞典欢迎订阅youtube：8度科技+15_18', server: 185.76.9.56, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: '🇫🇷+法国_010+关注Tg交流群_@Mshare_T_19', server: 185.76.9.56, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: '🇬🇧 中转|英国GTHost01|华南隧道流媒体解锁_20', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: '🇨🇦+加拿大_021+关注Tg交流群_@Mshare_T_21', server: 37.19.211.55, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: '🇫🇷+法国欢迎订阅youtube：8度科技+6_22', server: 185.76.9.56, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '🇨🇳 中转|台湾HiNet05|华南隧道流媒体解锁_23', server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: '🇨🇦+加拿大_007+关注Tg交流群_@Mshare_T_24', server: 37.19.211.113, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '🇷🇴+042罗马尼亚∞直连_25', server: 89.37.95.16, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: '🇺🇸+美国_035+关注Tg交流群_@Mshare_T_26', server: 194.110.115.86, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '🇪🇸+西班牙欢迎订阅youtube：8度科技+3_27', server: 89.37.95.16, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '🇪🇸+西班牙_006+关注Tg交流群_@Mshare_T_28', server: 89.37.95.16, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '🇷🇴+罗马尼亚欢迎订阅youtube：8度科技+2_29', server: 89.37.95.16, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '🇨🇦+加拿大_008+关注Tg交流群_@Mshare_T_30', server: 37.19.211.28, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '🇸🇪+瑞典欢迎订阅youtube：8度科技+13_31', server: 185.76.9.56, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: '🇪🇸+西班牙欢迎订阅youtube：8度科技+2_32', server: 89.37.95.16, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: '🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_33', server: 37.19.211.60, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: '🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_34', server: 37.19.211.75, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: '🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_35', server: 37.19.211.25, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: '🇸🇪+瑞典欢迎订阅youtube：8度科技+11_36', server: 185.76.9.56, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: '🇺🇸+美国_037+关注Tg交流群_@Mshare_T_37', server: 194.110.115.86, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: '荷兰感谢订阅——科技网络_207', server: 89.37.95.16, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: '荷兰感谢订阅——科技网络_219', server: 89.37.95.16, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: '捷克感谢订阅——科技网络_229', server: 185.108.106.175, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: '🇨🇦+加拿大_022+关注Tg交流群_@Mshare_T_39', server: 37.19.211.55, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: '🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_40', server: 37.19.211.83, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
   - {name: '美国感谢订阅——科技网络_202', server: 89.37.95.16, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: '捷克感谢订阅——科技网络_233', server: 185.108.106.172, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: '荷兰感谢订阅——科技网络_203', server: 89.37.95.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: '🇬🇧 英国_002 关注Tg交流群_@Mshare_T_20', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 84d4db68-2bc8-429d-9e2e-4f6994219f5d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 'CH_49+@WangCai_1+4', server: 156.146.62.45, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: '🇸🇪+瑞典_017+关注Tg交流群_@Mshare_T_42', server: 185.76.9.56, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: '🇨🇦+加拿大_027+关注Tg交流群_@Mshare_T_43', server: 37.19.211.78, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_44', server: 37.19.211.40, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: '🇷🇴+50罗马尼亚_45', server: 194.110.115.86, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '🇮🇳+印度_015+关注Tg交流群_@Mshare_T_46', server: 103.108.117.148, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '🇮🇳+印度_014+关注Tg交流群_@Mshare_T_47', server: 103.108.117.148, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: '🇮🇳+印度_017+关注Tg交流群_@Mshare_T_48', server: 103.108.117.148, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '🇨🇳 中转|台湾中华电信06|微信ddly000_49', server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
   - {name: '荷兰感谢订阅——科技网络_210', server: 89.37.95.16, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: '英国感谢订阅——科技网络_87', server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: '馃嚭馃嚫US_374', server: 156.146.62.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 'CH_03+@WangCai_1+4', server: 156.146.62.45, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: '英国感谢订阅——科技网络_72', server: 156.146.62.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 'CH_02+@WangCai_1+4', server: 156.146.62.45, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: '英国感谢订阅——科技网络_117', server: 156.146.62.45, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
-  - {name: '英国感谢订阅——科技网络_71', server: 156.146.62.45, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: 'CH_44+@WangCai_1+4', server: 156.146.62.45, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: '英国感谢订阅——科技网络_85', server: 156.146.62.45, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: '🇺🇲+079美国∞直连_32', server: 156.146.62.45, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 'CH_23+@WangCai_1+4', server: 156.146.62.45, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: '🇮🇳+印度_002+关注Tg交流群_@Mshare_T_51', server: 103.108.117.148, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '🇮🇳+印度_012+关注Tg交流群_@Mshare_T_52', server: 103.108.117.148, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: '🇮🇳+印度_013+关注Tg交流群_@Mshare_T_53', server: 103.108.117.148, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: '🇮🇳+印度_027+关注Tg交流群_@Mshare_T_54', server: 103.108.117.148, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '🇮🇳+印度_020+关注Tg交流群_@Mshare_T_55', server: 103.108.117.148, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: '🇮🇳+印度_030+关注Tg交流群_@Mshare_T_56', server: 103.108.117.148, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: '🇮🇳+印度_018+关注Tg交流群_@Mshare_T_57', server: 103.108.117.148, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: '🇮🇳+印度_019+关注Tg交流群_@Mshare_T_58', server: 103.108.117.148, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '🇮🇳+印度_024+关注Tg交流群_@Mshare_T_59', server: 103.108.117.148, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: '🇮🇳+印度_009+关注Tg交流群_@Mshare_T_60', server: 103.108.117.148, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: '🇮🇳+印度_025+关注Tg交流群_@Mshare_T_61', server: 103.108.117.148, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: '🇸🇬 中转|新加坡Singtel04|华中隧道流媒体解锁_62', server: cu-cs.okvpn.xyz, port: 30014, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: '🇮🇳+印度_016+关注Tg交流群_@Mshare_T_63', server: 103.108.117.148, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: '🇮🇳+印度_021+关注Tg交流群_@Mshare_T_64', server: 103.108.117.148, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: '🇮🇳+印度_022+关注Tg交流群_@Mshare_T_65', server: 103.108.117.148, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: '🇮🇳+印度_029+关注Tg交流群_@Mshare_T_66', server: 103.108.117.148, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: '🇸🇪+瑞典欢迎订阅youtube：8度科技+9_67', server: 185.76.9.56, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: '🇷🇺 俄罗斯_001 关注Tg交流群_@Mshare_T_68', server: 194.50.170.83, port: 80, type: vmess, uuid: a101e37d-3ccd-3b26-9fe5-6b293537e8a4, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /els, ws-headers: {Host: shoutingtoutiao3.10010.com}}
+  - {name: '🇮🇳+印度_023+关注Tg交流群_@Mshare_T_69', server: 103.108.117.148, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '🇮🇳+印度_008+关注Tg交流群_@Mshare_T_70', server: 103.108.117.148, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '🇮🇳+印度_028+关注Tg交流群_@Mshare_T_71', server: 103.108.117.148, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: '🇸🇪+瑞典欢迎订阅youtube：8度科技+3_72', server: 185.76.9.56, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '🇫🇷+法国欢迎订阅youtube：8度科技+3_73', server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: '🇸🇬 新加坡_008 关注Tg交流群_@Mshare_T_74', server: ukdll.52jjyun.top, port: 80, type: vmess, uuid: 1eb19a07-1ce2-4410-8349-c85f7d9d560b, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukdll.52jjyun.top}}
+  - {name: '🇮🇳+印度_007+关注Tg交流群_@Mshare_T_75', server: 103.108.117.148, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: '🇮🇳+印度_010+关注Tg交流群_@Mshare_T_76', server: 103.108.117.148, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '🇺🇸+US（感谢关注youtube：8度科技）_77', server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: '🇸🇪+瑞典欢迎订阅youtube：8度科技+14_78', server: 185.76.9.56, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '荷兰感谢订阅——科技网络_203', server: 89.37.95.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: '🇸🇪+瑞典欢迎订阅youtube：8度科技_80', server: 185.76.9.56, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: '🇮🇳+印度_001+关注Tg交流群_@Mshare_T_81', server: 103.108.117.148, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '🇸🇪+瑞典_021+关注Tg交流群_@Mshare_T_82', server: 185.76.9.56, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
+  - {name: '🇸🇪+瑞典欢迎订阅youtube：8度科技+4_83', server: 185.76.9.56, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: '🇮🇳+印度_026+关注Tg交流群_@Mshare_T_84', server: 103.108.117.148, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: '🇸🇪+瑞典_019+关注Tg交流群_@Mshare_T_85', server: 185.76.9.56, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: '🇸🇪+瑞典欢迎订阅youtube：8度科技+10_86', server: 185.76.9.56, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: '‌🇨🇦CA_08+@WangCai_1', server: 37.19.211.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '‌🇨🇦CA_47+@WangCai_1', server: 37.19.211.55, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '‌🇨🇦CA_31+@WangCai_1', server: 37.19.211.113, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: '‌🇨🇦CA_83+@WangCai_1', server: 37.19.211.120, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
+  - {name: '‌🇨🇦CA_82+@WangCai_1', server: 37.19.211.55, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
+  - {name: '‌🇨🇦CA_47+@WangCai_1_93', server: 37.19.211.120, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '‌🇨🇦CA_09+@WangCai_1', server: 37.19.211.120, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '‌🇨🇦CA_45+@WangCai_1', server: 37.19.211.55, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: '‌🇨🇦CA_65+@WangCai_1', server: 37.19.211.55, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: '‌🇨🇦CA_19+@WangCai_1', server: 37.19.211.65, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: '‌🇨🇦CA_12+@WangCai_1', server: 37.19.211.65, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: '‌🇨🇦CA_48+@WangCai_1', server: 37.19.211.85, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: '‌🇨🇦CA_12+@WangCai_1_100', server: 37.19.211.80, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: '‌🇨🇦CA_18+@WangCai_1', server: 37.19.211.110, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '‌🇨🇦CA_46+@WangCai_1', server: 37.19.211.55, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: '‌🇨🇦CA_41+@WangCai_1', server: 37.19.211.85, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: '‌🇨🇦CA_16+@WangCai_1', server: 37.19.211.108, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: '‌🇨🇦CA_09+@WangCai_1_105', server: 37.19.211.25, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '‌🇨🇦CA_28+@WangCai_1', server: 37.19.211.108, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: '‌🇨🇦CA_72+@WangCai_1', server: 37.19.211.85, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: '‌🇨🇦CA_51+@WangCai_1', server: 37.19.211.55, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: '‌🇨🇦CA_62+@WangCai_1', server: 37.19.211.65, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: '‌🇨🇦CA_09+@WangCai_1_110', server: 37.19.211.70, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '‌🇨🇦CA_70+@WangCai_1', server: 37.19.211.25, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: '‌🇨🇦CA_28+@WangCai_1_112', server: 37.19.211.28, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: '‌🇨🇦CA_31+@WangCai_1_113', server: 37.19.211.40, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: '‌🇨🇦CA_83+@WangCai_1_114', server: 37.19.211.65, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
+  - {name: '‌🇨🇦CA_25+@WangCai_1', server: 37.19.211.28, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: '‌🇨🇦CA_03+@WangCai_1', server: 37.19.211.60, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '‌🇨🇦CA_53+@WangCai_1', server: 37.19.211.75, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: '‌🇨🇦CA_69+@WangCai_1', server: 37.19.211.110, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: '‌🇨🇦CA_48+@WangCai_1_119', server: 37.19.211.113, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: '‌🇨🇦CA_64+@WangCai_1', server: 37.19.211.43, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: '‌🇨🇦CA_27+@WangCai_1', server: 37.19.211.110, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: '‌🇨🇦CA_10+@WangCai_1', server: 37.19.211.120, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: '‌🇨🇦CA_36+@WangCai_1', server: 37.19.211.85, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: '‌🇨🇦CA_47+@WangCai_1_124', server: 37.19.211.85, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '‌🇨🇦CA_61+@WangCai_1', server: 37.19.211.110, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '‌🇨🇦CA_82+@WangCai_1_126', server: 37.19.211.113, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
+  - {name: '‌🇨🇦CA_24+@WangCai_1', server: 37.19.211.120, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: '‌🇨🇦CA_15+@WangCai_1', server: 37.19.211.25, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: '‌🇨🇦CA_27+@WangCai_1_129', server: 37.19.211.108, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: '‌🇨🇦CA_14+@WangCai_1', server: 37.19.211.25, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: '‌🇨🇦CA_11+@WangCai_1', server: 37.19.211.113, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '‌🇨🇦CA_70+@WangCai_1_132', server: 37.19.211.85, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: '‌🇨🇦CA_13+@WangCai_1', server: 37.19.211.113, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '‌🇨🇦CA_30+@WangCai_1', server: 37.19.211.75, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '‌🇨🇦CA_67+@WangCai_1', server: 37.19.211.110, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: '‌🇨🇦CA_33+@WangCai_1', server: 37.19.211.75, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: '‌🇨🇦CA_13+@WangCai_1_137', server: 37.19.211.28, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '‌🇨🇦CA_18+@WangCai_1_138', server: 37.19.211.70, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '‌🇨🇦CA_69+@WangCai_1_139', server: 37.19.211.75, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: '‌🇨🇦CA_65+@WangCai_1_140', server: 37.19.211.93, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: '🇮🇳IN_24+@WangCai_1', server: 103.108.117.148, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: '‌🇨🇦CA_26+@WangCai_1', server: 37.19.211.88, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '‌🇨🇦CA_26+@WangCai_1_143', server: 37.19.211.80, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '‌🇨🇦CA_11+@WangCai_1_144', server: 37.19.211.65, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '‌🇨🇦CA_61+@WangCai_1_145', server: 37.19.211.113, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '‌🇨🇦CA_61+@WangCai_1_146', server: 37.19.211.78, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '‌🇨🇦CA_78+@WangCai_1', server: 37.19.211.113, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: '‌🇨🇦CA_18+@WangCai_1_148', server: 37.19.211.40, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '‌🇨🇦CA_58+@WangCai_1', server: 37.19.211.93, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '‌🇨🇦CA_64+@WangCai_1_150', server: 37.19.211.93, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: '‌🇨🇦CA_01+@WangCai_1', server: 37.19.211.65, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: '‌🇨🇦CA_81+@WangCai_1', server: 37.19.211.40, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: '‌🇨🇦CA_30+@WangCai_1_153', server: 37.19.211.40, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '‌🇨🇦CA_38+@WangCai_1', server: 37.19.211.25, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: '‌🇨🇦CA_29+@WangCai_1', server: 37.19.211.50, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: '‌🇨🇦CA_27+@WangCai_1_156', server: 37.19.211.138, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: '‌🇨🇦CA_78+@WangCai_1_157', server: 37.19.211.43, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: '‌🇨🇦CA_48+@WangCai_1_158', server: 37.19.211.75, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: '‌🇨🇦CA_08+@WangCai_1_159', server: 37.19.211.28, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '‌🇨🇦CA_68+@WangCai_1', server: 37.19.211.138, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: '‌🇨🇦CA_61+@WangCai_1_161', server: 37.19.211.63, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '‌🇨🇦CA_75+@WangCai_1', server: 37.19.211.70, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: '‌🇨🇦CA_47+@WangCai_1_163', server: 37.19.211.60, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '‌🇨🇦CA_31+@WangCai_1_164', server: 37.19.211.83, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: '‌🇨🇦CA_53+@WangCai_1_165', server: 37.19.211.138, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: '‌🇨🇦CA_57+@WangCai_1', server: 37.19.211.83, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: '‌🇨🇦CA_68+@WangCai_1_167', server: 37.19.211.93, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: '🇮🇳IN_09+@WangCai_1', server: 103.108.117.148, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: '🇮🇳IN_16+@WangCai_1', server: 103.108.117.148, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: '🇮🇳IN_37+@WangCai_1', server: 103.108.117.148, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: '🇮🇳IN_56+@WangCai_1', server: 103.108.117.148, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: '🇮🇳IN_59+@WangCai_1', server: 103.108.117.148, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: '🇮🇳IN_62+@WangCai_1', server: 103.108.117.148, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: '🇮🇳IN_11+@WangCai_1', server: 103.108.117.148, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: '🇮🇳IN_58+@WangCai_1', server: 103.108.117.148, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '🇮🇳IN_45+@WangCai_1', server: 103.108.117.148, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: '🇮🇳IN_50+@WangCai_1', server: 103.108.117.148, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: '🇮🇳IN_43+@WangCai_1', server: 103.108.117.148, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: '🇮🇳IN_53+@WangCai_1', server: 103.108.117.148, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: '‌🇨🇦CA_36+@WangCai_1_180', server: 37.19.211.63, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: '‌🇨🇦CA_44+@WangCai_1', server: 37.19.211.60, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: '‌🇨🇦CA_59+@WangCai_1', server: 37.19.211.78, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: '‌🇨🇦CA_41+@WangCai_1_183', server: 37.19.211.55, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: '‌🇨🇦CA_67+@WangCai_1_184', server: 37.19.211.93, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: '‌🇨🇦CA_22+@WangCai_1', server: 37.19.211.50, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '🇮🇳IN_33+@WangCai_1', server: 103.108.117.148, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: '🇮🇳IN_04+@WangCai_1', server: 103.108.117.148, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: '‌🇨🇦CA_48+@WangCai_1_188', server: 37.19.211.83, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: '🇮🇳IN_02+@WangCai_1', server: 103.108.117.148, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: '🇮🇳IN_03+@WangCai_1', server: 103.108.117.148, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '‌🇨🇦CA_30+@WangCai_1_191', server: 37.19.211.110, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '🇮🇳IN_18+@WangCai_1', server: 103.108.117.148, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '🇮🇳IN_69+@WangCai_1', server: 103.108.117.148, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: '🇮🇳IN_63+@WangCai_1', server: 103.108.117.148, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: '🇮🇳IN_21+@WangCai_1', server: 103.108.117.148, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: '🇮🇳IN_31+@WangCai_1', server: 103.108.117.148, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: '🇮🇳IN_38+@WangCai_1', server: 103.108.117.148, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: '🇮🇳IN_52+@WangCai_1', server: 103.108.117.148, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: '🇮🇳IN_65+@WangCai_1', server: 103.108.117.148, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: '🇮🇳IN_68+@WangCai_1', server: 103.108.117.148, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: '🇮🇳IN_14+@WangCai_1', server: 103.108.117.148, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: '🇮🇳IN_19+@WangCai_1', server: 103.108.117.148, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: '🇮🇳IN_20+@WangCai_1', server: 103.108.117.148, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: '🇮🇳IN_36+@WangCai_1', server: 103.108.117.148, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: '🇮🇳IN_12+@WangCai_1', server: 103.108.117.148, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: '‌🇨🇦CA_34+@WangCai_1', server: 37.19.211.78, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: '🇮🇳IN_15+@WangCai_1', server: 103.108.117.148, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: '‌🇨🇦CA_58+@WangCai_1_208', server: 37.19.211.83, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '‌🇨🇦CA_24+@WangCai_1_209', server: 37.19.211.75, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: '‌🇨🇦CA_28+@WangCai_1_210', server: 37.19.211.40, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: '🇮🇳IN_05+@WangCai_1', server: 103.108.117.148, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: '🇮🇳IN_66+@WangCai_1', server: 103.108.117.148, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: '🇮🇳IN_22+@WangCai_1', server: 103.108.117.148, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '🇮🇳IN_25+@WangCai_1', server: 103.108.117.148, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: '🇮🇳IN_27+@WangCai_1', server: 103.108.117.148, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: '🇮🇳IN_41+@WangCai_1', server: 103.108.117.148, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: '🇮🇳IN_44+@WangCai_1', server: 103.108.117.148, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: '🇮🇳IN_49+@WangCai_1', server: 103.108.117.148, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: '🇮🇳IN_51+@WangCai_1', server: 103.108.117.148, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: '🇮🇳IN_57+@WangCai_1', server: 103.108.117.148, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: '🇮🇳IN_61+@WangCai_1', server: 103.108.117.148, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '🇮🇳IN_64+@WangCai_1', server: 103.108.117.148, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: '🇮🇳IN_70+@WangCai_1', server: 103.108.117.148, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: '🇮🇳IN_29+@WangCai_1', server: 103.108.117.148, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: '🇮🇳IN_10+@WangCai_1', server: 103.108.117.148, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: '🇮🇳IN_17+@WangCai_1', server: 103.108.117.148, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: '‌🇨🇦CA_53+@WangCai_1_227', server: 37.19.211.78, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: '🇮🇳IN_39+@WangCai_1', server: 103.108.117.148, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: '‌🇨🇦CA_60+@WangCai_1', server: 37.19.211.78, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '‌🇨🇦CA_49+@WangCai_1', server: 37.19.211.60, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: '‌🇨🇦CA_80+@WangCai_1', server: 37.19.211.88, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: '‌🇨🇦CA_34+@WangCai_1_232', server: 37.19.211.63, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: '🇮🇳IN_23+@WangCai_1', server: 103.108.117.148, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: '🇮🇳IN_72+@WangCai_1', server: 103.108.117.148, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: '🇮🇳IN_40+@WangCai_1', server: 103.108.117.148, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: '🇮🇳IN_08+@WangCai_1', server: 103.108.117.148, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '‌🇨🇦CA_73+@WangCai_1', server: 37.19.211.88, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: '🇮🇳IN_79+@WangCai_1', server: 103.108.117.148, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
+  - {name: '🇮🇳IN_26+@WangCai_1', server: 103.108.117.148, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '🇮🇳IN_28+@WangCai_1', server: 103.108.117.148, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: '🇮🇳IN_60+@WangCai_1', server: 103.108.117.148, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '🇮🇳IN_46+@WangCai_1', server: 103.108.117.148, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
+  - {name: '🇮🇳IN_54+@WangCai_1', server: 103.108.117.148, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: '🇮🇳IN_67+@WangCai_1', server: 103.108.117.148, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: '🇮🇳IN_32+@WangCai_1', server: 103.108.117.148, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: '🇮🇳IN_48+@WangCai_1', server: 103.108.117.148, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: '‌🇨🇦CA_08+@WangCai_1_247', server: 37.19.211.80, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '🇮🇳IN_13+@WangCai_1', server: 103.108.117.148, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '🇮🇳IN_42+@WangCai_1', server: 103.108.117.148, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: '🇮🇳IN_47+@WangCai_1', server: 103.108.117.148, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '‌🇨🇦CA_54+@WangCai_1', server: 37.19.211.25, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: '‌🇨🇦CA_24+@WangCai_1_252', server: 37.19.211.28, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: '🇮🇳IN_30+@WangCai_1', server: 103.108.117.148, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '‌🇨🇦CA_59+@WangCai_1_254', server: 37.19.211.93, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: '‌🇨🇦CA_07+@WangCai_1', server: 37.19.211.75, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: '🇸🇪SE_03+@WangCai_1', server: 185.76.9.56, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '🇮🇳IN_35+@WangCai_1', server: 103.108.117.148, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本阿伟科技-油管5_1
-      - 🇯🇵 40日本_2
-      - 🇯🇵 39日本_3
-      - CYL-科技（2021.11.16）_4
-      - 🇭🇰 73香港_5
-      - 🇳🇱 荷兰_001 关注Tg交流群_@Mshare_T_6
-      - 🇭🇰 74香港_7
-      - 电信一区广东_8
-      - Pool_馃嚟馃嚢HK_3622
-      - Pool_馃嚬馃嚰TW_8051
-      - CYL-科技（2021.11.16） 105_11
-      - 🇷🇴+042罗马尼亚∞直连_12
-      - 捷克感谢订阅——科技网络_195
+      - 微信公众号：光头院长_1
+      - 🇸🇬 中转|新加坡Singtel01|微信ddly000_2
+      - 🇯🇵 中转|日本GMO06|微信ddly000_3
+      - 🇰🇷 韩国_006 Tg交流群 @Mshare_T_4
+      - 🇰🇷 韩国_008 Tg交流群 @Mshare_T_5
+      - 🇰🇷 韩国_004 Tg交流群 @Mshare_T_6
+      - 🇯🇵 中转|日本GMO10|华南隧道流媒体解锁_7
+      - CYL-科技（2021.11.16）_8
+      - 🇰🇷 韩国_002 Tg交流群 @Mshare_T_9
+      - 日本阿伟科技-油管5_10
+      - 🇭🇰 中转|香港HGC11|微信ddly000_11
+      - 🇮🇳IN_55+@WangCai_1
+      - 比利时阿伟科技-油管1_13
+      - 🇭🇰 中转|香港CMHK07|微信ddly000_14
+      - 🇨🇳 中转|台湾中华电信01|微信ddly000_15
+      - 🇺🇸+美国_034+关注Tg交流群_@Mshare_T_16
+      - CYL-科技（2021.11.16） 105_17
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+15_18
+      - 🇫🇷+法国_010+关注Tg交流群_@Mshare_T_19
+      - 🇬🇧 中转|英国GTHost01|华南隧道流媒体解锁_20
+      - 🇨🇦+加拿大_021+关注Tg交流群_@Mshare_T_21
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+6_22
+      - 🇨🇳 中转|台湾HiNet05|华南隧道流媒体解锁_23
+      - 🇨🇦+加拿大_007+关注Tg交流群_@Mshare_T_24
+      - 🇷🇴+042罗马尼亚∞直连_25
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_26
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+3_27
+      - 🇪🇸+西班牙_006+关注Tg交流群_@Mshare_T_28
+      - 🇷🇴+罗马尼亚欢迎订阅youtube：8度科技+2_29
+      - 🇨🇦+加拿大_008+关注Tg交流群_@Mshare_T_30
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+13_31
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+2_32
+      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_33
+      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_34
+      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_35
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+11_36
+      - 🇺🇸+美国_037+关注Tg交流群_@Mshare_T_37
       - 荷兰感谢订阅——科技网络_207
-      - 荷兰感谢订阅——科技网络_219
-      - 捷克感谢订阅——科技网络_229
+      - 🇨🇦+加拿大_022+关注Tg交流群_@Mshare_T_39
+      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_40
       - 美国感谢订阅——科技网络_202
-      - 捷克感谢订阅——科技网络_233
-      - 荷兰感谢订阅——科技网络_203
-      - 🇬🇧 英国_002 关注Tg交流群_@Mshare_T_20
-      - CH_49+@WangCai_1+4
+      - 🇸🇪+瑞典_017+关注Tg交流群_@Mshare_T_42
+      - 🇨🇦+加拿大_027+关注Tg交流群_@Mshare_T_43
+      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_44
+      - 🇷🇴+50罗马尼亚_45
+      - 🇮🇳+印度_015+关注Tg交流群_@Mshare_T_46
+      - 🇮🇳+印度_014+关注Tg交流群_@Mshare_T_47
+      - 🇮🇳+印度_017+关注Tg交流群_@Mshare_T_48
+      - 🇨🇳 中转|台湾中华电信06|微信ddly000_49
       - 荷兰感谢订阅——科技网络_210
-      - 英国感谢订阅——科技网络_87
-      - 馃嚭馃嚫US_374
-      - CH_03+@WangCai_1+4
-      - 英国感谢订阅——科技网络_72
-      - CH_02+@WangCai_1+4
-      - 英国感谢订阅——科技网络_117
-      - 英国感谢订阅——科技网络_71
-      - CH_44+@WangCai_1+4
-      - 英国感谢订阅——科技网络_85
-      - 🇺🇲+079美国∞直连_32
-      - CH_23+@WangCai_1+4
+      - 🇮🇳+印度_002+关注Tg交流群_@Mshare_T_51
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_52
+      - 🇮🇳+印度_013+关注Tg交流群_@Mshare_T_53
+      - 🇮🇳+印度_027+关注Tg交流群_@Mshare_T_54
+      - 🇮🇳+印度_020+关注Tg交流群_@Mshare_T_55
+      - 🇮🇳+印度_030+关注Tg交流群_@Mshare_T_56
+      - 🇮🇳+印度_018+关注Tg交流群_@Mshare_T_57
+      - 🇮🇳+印度_019+关注Tg交流群_@Mshare_T_58
+      - 🇮🇳+印度_024+关注Tg交流群_@Mshare_T_59
+      - 🇮🇳+印度_009+关注Tg交流群_@Mshare_T_60
+      - 🇮🇳+印度_025+关注Tg交流群_@Mshare_T_61
+      - 🇸🇬 中转|新加坡Singtel04|华中隧道流媒体解锁_62
+      - 🇮🇳+印度_016+关注Tg交流群_@Mshare_T_63
+      - 🇮🇳+印度_021+关注Tg交流群_@Mshare_T_64
+      - 🇮🇳+印度_022+关注Tg交流群_@Mshare_T_65
+      - 🇮🇳+印度_029+关注Tg交流群_@Mshare_T_66
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+9_67
+      - 🇷🇺 俄罗斯_001 关注Tg交流群_@Mshare_T_68
+      - 🇮🇳+印度_023+关注Tg交流群_@Mshare_T_69
+      - 🇮🇳+印度_008+关注Tg交流群_@Mshare_T_70
+      - 🇮🇳+印度_028+关注Tg交流群_@Mshare_T_71
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+3_72
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+3_73
+      - 🇸🇬 新加坡_008 关注Tg交流群_@Mshare_T_74
+      - 🇮🇳+印度_007+关注Tg交流群_@Mshare_T_75
+      - 🇮🇳+印度_010+关注Tg交流群_@Mshare_T_76
+      - 🇺🇸+US（感谢关注youtube：8度科技）_77
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+14_78
+      - 荷兰感谢订阅——科技网络_203
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技_80
+      - 🇮🇳+印度_001+关注Tg交流群_@Mshare_T_81
+      - 🇸🇪+瑞典_021+关注Tg交流群_@Mshare_T_82
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+4_83
+      - 🇮🇳+印度_026+关注Tg交流群_@Mshare_T_84
+      - 🇸🇪+瑞典_019+关注Tg交流群_@Mshare_T_85
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+10_86
+      - ‌🇨🇦CA_08+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1
+      - ‌🇨🇦CA_31+@WangCai_1
+      - ‌🇨🇦CA_83+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_93
+      - ‌🇨🇦CA_09+@WangCai_1
+      - ‌🇨🇦CA_45+@WangCai_1
+      - ‌🇨🇦CA_65+@WangCai_1
+      - ‌🇨🇦CA_19+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1_100
+      - ‌🇨🇦CA_18+@WangCai_1
+      - ‌🇨🇦CA_46+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1
+      - ‌🇨🇦CA_16+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_105
+      - ‌🇨🇦CA_28+@WangCai_1
+      - ‌🇨🇦CA_72+@WangCai_1
+      - ‌🇨🇦CA_51+@WangCai_1
+      - ‌🇨🇦CA_62+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_110
+      - ‌🇨🇦CA_70+@WangCai_1
+      - ‌🇨🇦CA_28+@WangCai_1_112
+      - ‌🇨🇦CA_31+@WangCai_1_113
+      - ‌🇨🇦CA_83+@WangCai_1_114
+      - ‌🇨🇦CA_25+@WangCai_1
+      - ‌🇨🇦CA_03+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1
+      - ‌🇨🇦CA_69+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_119
+      - ‌🇨🇦CA_64+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1
+      - ‌🇨🇦CA_10+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_124
+      - ‌🇨🇦CA_61+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1_126
+      - ‌🇨🇦CA_24+@WangCai_1
+      - ‌🇨🇦CA_15+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_129
+      - ‌🇨🇦CA_14+@WangCai_1
+      - ‌🇨🇦CA_11+@WangCai_1
+      - ‌🇨🇦CA_70+@WangCai_1_132
+      - ‌🇨🇦CA_13+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1
+      - ‌🇨🇦CA_67+@WangCai_1
+      - ‌🇨🇦CA_33+@WangCai_1
+      - ‌🇨🇦CA_13+@WangCai_1_137
+      - ‌🇨🇦CA_18+@WangCai_1_138
+      - ‌🇨🇦CA_69+@WangCai_1_139
+      - ‌🇨🇦CA_65+@WangCai_1_140
+      - 🇮🇳IN_24+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1_143
+      - ‌🇨🇦CA_11+@WangCai_1_144
+      - ‌🇨🇦CA_61+@WangCai_1_145
+      - ‌🇨🇦CA_61+@WangCai_1_146
+      - ‌🇨🇦CA_78+@WangCai_1
+      - ‌🇨🇦CA_18+@WangCai_1_148
+      - ‌🇨🇦CA_58+@WangCai_1
+      - ‌🇨🇦CA_64+@WangCai_1_150
+      - ‌🇨🇦CA_01+@WangCai_1
+      - ‌🇨🇦CA_81+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_153
+      - ‌🇨🇦CA_38+@WangCai_1
+      - ‌🇨🇦CA_29+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_156
+      - ‌🇨🇦CA_78+@WangCai_1_157
+      - ‌🇨🇦CA_48+@WangCai_1_158
+      - ‌🇨🇦CA_08+@WangCai_1_159
+      - ‌🇨🇦CA_68+@WangCai_1
+      - ‌🇨🇦CA_61+@WangCai_1_161
+      - ‌🇨🇦CA_75+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_163
+      - ‌🇨🇦CA_31+@WangCai_1_164
+      - ‌🇨🇦CA_53+@WangCai_1_165
+      - ‌🇨🇦CA_57+@WangCai_1
+      - ‌🇨🇦CA_68+@WangCai_1_167
+      - 🇮🇳IN_09+@WangCai_1
+      - 🇮🇳IN_16+@WangCai_1
+      - 🇮🇳IN_37+@WangCai_1
+      - 🇮🇳IN_56+@WangCai_1
+      - 🇮🇳IN_59+@WangCai_1
+      - 🇮🇳IN_62+@WangCai_1
+      - 🇮🇳IN_11+@WangCai_1
+      - 🇮🇳IN_58+@WangCai_1
+      - 🇮🇳IN_45+@WangCai_1
+      - 🇮🇳IN_50+@WangCai_1
+      - 🇮🇳IN_43+@WangCai_1
+      - 🇮🇳IN_53+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1_180
+      - ‌🇨🇦CA_44+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1_183
+      - ‌🇨🇦CA_67+@WangCai_1_184
+      - ‌🇨🇦CA_22+@WangCai_1
+      - 🇮🇳IN_33+@WangCai_1
+      - 🇮🇳IN_04+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_188
+      - 🇮🇳IN_02+@WangCai_1
+      - 🇮🇳IN_03+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_191
+      - 🇮🇳IN_18+@WangCai_1
+      - 🇮🇳IN_69+@WangCai_1
+      - 🇮🇳IN_63+@WangCai_1
+      - 🇮🇳IN_21+@WangCai_1
+      - 🇮🇳IN_31+@WangCai_1
+      - 🇮🇳IN_38+@WangCai_1
+      - 🇮🇳IN_52+@WangCai_1
+      - 🇮🇳IN_65+@WangCai_1
+      - 🇮🇳IN_68+@WangCai_1
+      - 🇮🇳IN_14+@WangCai_1
+      - 🇮🇳IN_19+@WangCai_1
+      - 🇮🇳IN_20+@WangCai_1
+      - 🇮🇳IN_36+@WangCai_1
+      - 🇮🇳IN_12+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1
+      - 🇮🇳IN_15+@WangCai_1
+      - ‌🇨🇦CA_58+@WangCai_1_208
+      - ‌🇨🇦CA_24+@WangCai_1_209
+      - ‌🇨🇦CA_28+@WangCai_1_210
+      - 🇮🇳IN_05+@WangCai_1
+      - 🇮🇳IN_66+@WangCai_1
+      - 🇮🇳IN_22+@WangCai_1
+      - 🇮🇳IN_25+@WangCai_1
+      - 🇮🇳IN_27+@WangCai_1
+      - 🇮🇳IN_41+@WangCai_1
+      - 🇮🇳IN_44+@WangCai_1
+      - 🇮🇳IN_49+@WangCai_1
+      - 🇮🇳IN_51+@WangCai_1
+      - 🇮🇳IN_57+@WangCai_1
+      - 🇮🇳IN_61+@WangCai_1
+      - 🇮🇳IN_64+@WangCai_1
+      - 🇮🇳IN_70+@WangCai_1
+      - 🇮🇳IN_29+@WangCai_1
+      - 🇮🇳IN_10+@WangCai_1
+      - 🇮🇳IN_17+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1_227
+      - 🇮🇳IN_39+@WangCai_1
+      - ‌🇨🇦CA_60+@WangCai_1
+      - ‌🇨🇦CA_49+@WangCai_1
+      - ‌🇨🇦CA_80+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1_232
+      - 🇮🇳IN_23+@WangCai_1
+      - 🇮🇳IN_72+@WangCai_1
+      - 🇮🇳IN_40+@WangCai_1
+      - 🇮🇳IN_08+@WangCai_1
+      - ‌🇨🇦CA_73+@WangCai_1
+      - 🇮🇳IN_79+@WangCai_1
+      - 🇮🇳IN_26+@WangCai_1
+      - 🇮🇳IN_28+@WangCai_1
+      - 🇮🇳IN_60+@WangCai_1
+      - 🇮🇳IN_46+@WangCai_1
+      - 🇮🇳IN_54+@WangCai_1
+      - 🇮🇳IN_67+@WangCai_1
+      - 🇮🇳IN_32+@WangCai_1
+      - 🇮🇳IN_48+@WangCai_1
+      - ‌🇨🇦CA_08+@WangCai_1_247
+      - 🇮🇳IN_13+@WangCai_1
+      - 🇮🇳IN_42+@WangCai_1
+      - 🇮🇳IN_47+@WangCai_1
+      - ‌🇨🇦CA_54+@WangCai_1
+      - ‌🇨🇦CA_24+@WangCai_1_252
+      - 🇮🇳IN_30+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1_254
+      - ‌🇨🇦CA_07+@WangCai_1
+      - 🇸🇪SE_03+@WangCai_1
+      - 🇮🇳IN_35+@WangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本阿伟科技-油管5_1
-      - 🇯🇵 40日本_2
-      - 🇯🇵 39日本_3
-      - CYL-科技（2021.11.16）_4
-      - 🇭🇰 73香港_5
-      - 🇳🇱 荷兰_001 关注Tg交流群_@Mshare_T_6
-      - 🇭🇰 74香港_7
-      - 电信一区广东_8
-      - Pool_馃嚟馃嚢HK_3622
-      - Pool_馃嚬馃嚰TW_8051
-      - CYL-科技（2021.11.16） 105_11
-      - 🇷🇴+042罗马尼亚∞直连_12
-      - 捷克感谢订阅——科技网络_195
+      - 微信公众号：光头院长_1
+      - 🇸🇬 中转|新加坡Singtel01|微信ddly000_2
+      - 🇯🇵 中转|日本GMO06|微信ddly000_3
+      - 🇰🇷 韩国_006 Tg交流群 @Mshare_T_4
+      - 🇰🇷 韩国_008 Tg交流群 @Mshare_T_5
+      - 🇰🇷 韩国_004 Tg交流群 @Mshare_T_6
+      - 🇯🇵 中转|日本GMO10|华南隧道流媒体解锁_7
+      - CYL-科技（2021.11.16）_8
+      - 🇰🇷 韩国_002 Tg交流群 @Mshare_T_9
+      - 日本阿伟科技-油管5_10
+      - 🇭🇰 中转|香港HGC11|微信ddly000_11
+      - 🇮🇳IN_55+@WangCai_1
+      - 比利时阿伟科技-油管1_13
+      - 🇭🇰 中转|香港CMHK07|微信ddly000_14
+      - 🇨🇳 中转|台湾中华电信01|微信ddly000_15
+      - 🇺🇸+美国_034+关注Tg交流群_@Mshare_T_16
+      - CYL-科技（2021.11.16） 105_17
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+15_18
+      - 🇫🇷+法国_010+关注Tg交流群_@Mshare_T_19
+      - 🇬🇧 中转|英国GTHost01|华南隧道流媒体解锁_20
+      - 🇨🇦+加拿大_021+关注Tg交流群_@Mshare_T_21
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+6_22
+      - 🇨🇳 中转|台湾HiNet05|华南隧道流媒体解锁_23
+      - 🇨🇦+加拿大_007+关注Tg交流群_@Mshare_T_24
+      - 🇷🇴+042罗马尼亚∞直连_25
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_26
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+3_27
+      - 🇪🇸+西班牙_006+关注Tg交流群_@Mshare_T_28
+      - 🇷🇴+罗马尼亚欢迎订阅youtube：8度科技+2_29
+      - 🇨🇦+加拿大_008+关注Tg交流群_@Mshare_T_30
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+13_31
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+2_32
+      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_33
+      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_34
+      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_35
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+11_36
+      - 🇺🇸+美国_037+关注Tg交流群_@Mshare_T_37
       - 荷兰感谢订阅——科技网络_207
-      - 荷兰感谢订阅——科技网络_219
-      - 捷克感谢订阅——科技网络_229
+      - 🇨🇦+加拿大_022+关注Tg交流群_@Mshare_T_39
+      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_40
       - 美国感谢订阅——科技网络_202
-      - 捷克感谢订阅——科技网络_233
-      - 荷兰感谢订阅——科技网络_203
-      - 🇬🇧 英国_002 关注Tg交流群_@Mshare_T_20
-      - CH_49+@WangCai_1+4
+      - 🇸🇪+瑞典_017+关注Tg交流群_@Mshare_T_42
+      - 🇨🇦+加拿大_027+关注Tg交流群_@Mshare_T_43
+      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_44
+      - 🇷🇴+50罗马尼亚_45
+      - 🇮🇳+印度_015+关注Tg交流群_@Mshare_T_46
+      - 🇮🇳+印度_014+关注Tg交流群_@Mshare_T_47
+      - 🇮🇳+印度_017+关注Tg交流群_@Mshare_T_48
+      - 🇨🇳 中转|台湾中华电信06|微信ddly000_49
       - 荷兰感谢订阅——科技网络_210
-      - 英国感谢订阅——科技网络_87
-      - 馃嚭馃嚫US_374
-      - CH_03+@WangCai_1+4
-      - 英国感谢订阅——科技网络_72
-      - CH_02+@WangCai_1+4
-      - 英国感谢订阅——科技网络_117
-      - 英国感谢订阅——科技网络_71
-      - CH_44+@WangCai_1+4
-      - 英国感谢订阅——科技网络_85
-      - 🇺🇲+079美国∞直连_32
-      - CH_23+@WangCai_1+4
+      - 🇮🇳+印度_002+关注Tg交流群_@Mshare_T_51
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_52
+      - 🇮🇳+印度_013+关注Tg交流群_@Mshare_T_53
+      - 🇮🇳+印度_027+关注Tg交流群_@Mshare_T_54
+      - 🇮🇳+印度_020+关注Tg交流群_@Mshare_T_55
+      - 🇮🇳+印度_030+关注Tg交流群_@Mshare_T_56
+      - 🇮🇳+印度_018+关注Tg交流群_@Mshare_T_57
+      - 🇮🇳+印度_019+关注Tg交流群_@Mshare_T_58
+      - 🇮🇳+印度_024+关注Tg交流群_@Mshare_T_59
+      - 🇮🇳+印度_009+关注Tg交流群_@Mshare_T_60
+      - 🇮🇳+印度_025+关注Tg交流群_@Mshare_T_61
+      - 🇸🇬 中转|新加坡Singtel04|华中隧道流媒体解锁_62
+      - 🇮🇳+印度_016+关注Tg交流群_@Mshare_T_63
+      - 🇮🇳+印度_021+关注Tg交流群_@Mshare_T_64
+      - 🇮🇳+印度_022+关注Tg交流群_@Mshare_T_65
+      - 🇮🇳+印度_029+关注Tg交流群_@Mshare_T_66
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+9_67
+      - 🇷🇺 俄罗斯_001 关注Tg交流群_@Mshare_T_68
+      - 🇮🇳+印度_023+关注Tg交流群_@Mshare_T_69
+      - 🇮🇳+印度_008+关注Tg交流群_@Mshare_T_70
+      - 🇮🇳+印度_028+关注Tg交流群_@Mshare_T_71
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+3_72
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+3_73
+      - 🇸🇬 新加坡_008 关注Tg交流群_@Mshare_T_74
+      - 🇮🇳+印度_007+关注Tg交流群_@Mshare_T_75
+      - 🇮🇳+印度_010+关注Tg交流群_@Mshare_T_76
+      - 🇺🇸+US（感谢关注youtube：8度科技）_77
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+14_78
+      - 荷兰感谢订阅——科技网络_203
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技_80
+      - 🇮🇳+印度_001+关注Tg交流群_@Mshare_T_81
+      - 🇸🇪+瑞典_021+关注Tg交流群_@Mshare_T_82
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+4_83
+      - 🇮🇳+印度_026+关注Tg交流群_@Mshare_T_84
+      - 🇸🇪+瑞典_019+关注Tg交流群_@Mshare_T_85
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+10_86
+      - ‌🇨🇦CA_08+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1
+      - ‌🇨🇦CA_31+@WangCai_1
+      - ‌🇨🇦CA_83+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_93
+      - ‌🇨🇦CA_09+@WangCai_1
+      - ‌🇨🇦CA_45+@WangCai_1
+      - ‌🇨🇦CA_65+@WangCai_1
+      - ‌🇨🇦CA_19+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1_100
+      - ‌🇨🇦CA_18+@WangCai_1
+      - ‌🇨🇦CA_46+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1
+      - ‌🇨🇦CA_16+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_105
+      - ‌🇨🇦CA_28+@WangCai_1
+      - ‌🇨🇦CA_72+@WangCai_1
+      - ‌🇨🇦CA_51+@WangCai_1
+      - ‌🇨🇦CA_62+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_110
+      - ‌🇨🇦CA_70+@WangCai_1
+      - ‌🇨🇦CA_28+@WangCai_1_112
+      - ‌🇨🇦CA_31+@WangCai_1_113
+      - ‌🇨🇦CA_83+@WangCai_1_114
+      - ‌🇨🇦CA_25+@WangCai_1
+      - ‌🇨🇦CA_03+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1
+      - ‌🇨🇦CA_69+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_119
+      - ‌🇨🇦CA_64+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1
+      - ‌🇨🇦CA_10+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_124
+      - ‌🇨🇦CA_61+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1_126
+      - ‌🇨🇦CA_24+@WangCai_1
+      - ‌🇨🇦CA_15+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_129
+      - ‌🇨🇦CA_14+@WangCai_1
+      - ‌🇨🇦CA_11+@WangCai_1
+      - ‌🇨🇦CA_70+@WangCai_1_132
+      - ‌🇨🇦CA_13+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1
+      - ‌🇨🇦CA_67+@WangCai_1
+      - ‌🇨🇦CA_33+@WangCai_1
+      - ‌🇨🇦CA_13+@WangCai_1_137
+      - ‌🇨🇦CA_18+@WangCai_1_138
+      - ‌🇨🇦CA_69+@WangCai_1_139
+      - ‌🇨🇦CA_65+@WangCai_1_140
+      - 🇮🇳IN_24+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1_143
+      - ‌🇨🇦CA_11+@WangCai_1_144
+      - ‌🇨🇦CA_61+@WangCai_1_145
+      - ‌🇨🇦CA_61+@WangCai_1_146
+      - ‌🇨🇦CA_78+@WangCai_1
+      - ‌🇨🇦CA_18+@WangCai_1_148
+      - ‌🇨🇦CA_58+@WangCai_1
+      - ‌🇨🇦CA_64+@WangCai_1_150
+      - ‌🇨🇦CA_01+@WangCai_1
+      - ‌🇨🇦CA_81+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_153
+      - ‌🇨🇦CA_38+@WangCai_1
+      - ‌🇨🇦CA_29+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_156
+      - ‌🇨🇦CA_78+@WangCai_1_157
+      - ‌🇨🇦CA_48+@WangCai_1_158
+      - ‌🇨🇦CA_08+@WangCai_1_159
+      - ‌🇨🇦CA_68+@WangCai_1
+      - ‌🇨🇦CA_61+@WangCai_1_161
+      - ‌🇨🇦CA_75+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_163
+      - ‌🇨🇦CA_31+@WangCai_1_164
+      - ‌🇨🇦CA_53+@WangCai_1_165
+      - ‌🇨🇦CA_57+@WangCai_1
+      - ‌🇨🇦CA_68+@WangCai_1_167
+      - 🇮🇳IN_09+@WangCai_1
+      - 🇮🇳IN_16+@WangCai_1
+      - 🇮🇳IN_37+@WangCai_1
+      - 🇮🇳IN_56+@WangCai_1
+      - 🇮🇳IN_59+@WangCai_1
+      - 🇮🇳IN_62+@WangCai_1
+      - 🇮🇳IN_11+@WangCai_1
+      - 🇮🇳IN_58+@WangCai_1
+      - 🇮🇳IN_45+@WangCai_1
+      - 🇮🇳IN_50+@WangCai_1
+      - 🇮🇳IN_43+@WangCai_1
+      - 🇮🇳IN_53+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1_180
+      - ‌🇨🇦CA_44+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1_183
+      - ‌🇨🇦CA_67+@WangCai_1_184
+      - ‌🇨🇦CA_22+@WangCai_1
+      - 🇮🇳IN_33+@WangCai_1
+      - 🇮🇳IN_04+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_188
+      - 🇮🇳IN_02+@WangCai_1
+      - 🇮🇳IN_03+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_191
+      - 🇮🇳IN_18+@WangCai_1
+      - 🇮🇳IN_69+@WangCai_1
+      - 🇮🇳IN_63+@WangCai_1
+      - 🇮🇳IN_21+@WangCai_1
+      - 🇮🇳IN_31+@WangCai_1
+      - 🇮🇳IN_38+@WangCai_1
+      - 🇮🇳IN_52+@WangCai_1
+      - 🇮🇳IN_65+@WangCai_1
+      - 🇮🇳IN_68+@WangCai_1
+      - 🇮🇳IN_14+@WangCai_1
+      - 🇮🇳IN_19+@WangCai_1
+      - 🇮🇳IN_20+@WangCai_1
+      - 🇮🇳IN_36+@WangCai_1
+      - 🇮🇳IN_12+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1
+      - 🇮🇳IN_15+@WangCai_1
+      - ‌🇨🇦CA_58+@WangCai_1_208
+      - ‌🇨🇦CA_24+@WangCai_1_209
+      - ‌🇨🇦CA_28+@WangCai_1_210
+      - 🇮🇳IN_05+@WangCai_1
+      - 🇮🇳IN_66+@WangCai_1
+      - 🇮🇳IN_22+@WangCai_1
+      - 🇮🇳IN_25+@WangCai_1
+      - 🇮🇳IN_27+@WangCai_1
+      - 🇮🇳IN_41+@WangCai_1
+      - 🇮🇳IN_44+@WangCai_1
+      - 🇮🇳IN_49+@WangCai_1
+      - 🇮🇳IN_51+@WangCai_1
+      - 🇮🇳IN_57+@WangCai_1
+      - 🇮🇳IN_61+@WangCai_1
+      - 🇮🇳IN_64+@WangCai_1
+      - 🇮🇳IN_70+@WangCai_1
+      - 🇮🇳IN_29+@WangCai_1
+      - 🇮🇳IN_10+@WangCai_1
+      - 🇮🇳IN_17+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1_227
+      - 🇮🇳IN_39+@WangCai_1
+      - ‌🇨🇦CA_60+@WangCai_1
+      - ‌🇨🇦CA_49+@WangCai_1
+      - ‌🇨🇦CA_80+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1_232
+      - 🇮🇳IN_23+@WangCai_1
+      - 🇮🇳IN_72+@WangCai_1
+      - 🇮🇳IN_40+@WangCai_1
+      - 🇮🇳IN_08+@WangCai_1
+      - ‌🇨🇦CA_73+@WangCai_1
+      - 🇮🇳IN_79+@WangCai_1
+      - 🇮🇳IN_26+@WangCai_1
+      - 🇮🇳IN_28+@WangCai_1
+      - 🇮🇳IN_60+@WangCai_1
+      - 🇮🇳IN_46+@WangCai_1
+      - 🇮🇳IN_54+@WangCai_1
+      - 🇮🇳IN_67+@WangCai_1
+      - 🇮🇳IN_32+@WangCai_1
+      - 🇮🇳IN_48+@WangCai_1
+      - ‌🇨🇦CA_08+@WangCai_1_247
+      - 🇮🇳IN_13+@WangCai_1
+      - 🇮🇳IN_42+@WangCai_1
+      - 🇮🇳IN_47+@WangCai_1
+      - ‌🇨🇦CA_54+@WangCai_1
+      - ‌🇨🇦CA_24+@WangCai_1_252
+      - 🇮🇳IN_30+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1_254
+      - ‌🇨🇦CA_07+@WangCai_1
+      - 🇸🇪SE_03+@WangCai_1
+      - 🇮🇳IN_35+@WangCai_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本阿伟科技-油管5_1
-      - 🇯🇵 40日本_2
-      - 🇯🇵 39日本_3
-      - CYL-科技（2021.11.16）_4
-      - 🇭🇰 73香港_5
-      - 🇳🇱 荷兰_001 关注Tg交流群_@Mshare_T_6
-      - 🇭🇰 74香港_7
-      - 电信一区广东_8
-      - Pool_馃嚟馃嚢HK_3622
-      - Pool_馃嚬馃嚰TW_8051
-      - CYL-科技（2021.11.16） 105_11
-      - 🇷🇴+042罗马尼亚∞直连_12
-      - 捷克感谢订阅——科技网络_195
+      - 微信公众号：光头院长_1
+      - 🇸🇬 中转|新加坡Singtel01|微信ddly000_2
+      - 🇯🇵 中转|日本GMO06|微信ddly000_3
+      - 🇰🇷 韩国_006 Tg交流群 @Mshare_T_4
+      - 🇰🇷 韩国_008 Tg交流群 @Mshare_T_5
+      - 🇰🇷 韩国_004 Tg交流群 @Mshare_T_6
+      - 🇯🇵 中转|日本GMO10|华南隧道流媒体解锁_7
+      - CYL-科技（2021.11.16）_8
+      - 🇰🇷 韩国_002 Tg交流群 @Mshare_T_9
+      - 日本阿伟科技-油管5_10
+      - 🇭🇰 中转|香港HGC11|微信ddly000_11
+      - 🇮🇳IN_55+@WangCai_1
+      - 比利时阿伟科技-油管1_13
+      - 🇭🇰 中转|香港CMHK07|微信ddly000_14
+      - 🇨🇳 中转|台湾中华电信01|微信ddly000_15
+      - 🇺🇸+美国_034+关注Tg交流群_@Mshare_T_16
+      - CYL-科技（2021.11.16） 105_17
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+15_18
+      - 🇫🇷+法国_010+关注Tg交流群_@Mshare_T_19
+      - 🇬🇧 中转|英国GTHost01|华南隧道流媒体解锁_20
+      - 🇨🇦+加拿大_021+关注Tg交流群_@Mshare_T_21
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+6_22
+      - 🇨🇳 中转|台湾HiNet05|华南隧道流媒体解锁_23
+      - 🇨🇦+加拿大_007+关注Tg交流群_@Mshare_T_24
+      - 🇷🇴+042罗马尼亚∞直连_25
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_26
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+3_27
+      - 🇪🇸+西班牙_006+关注Tg交流群_@Mshare_T_28
+      - 🇷🇴+罗马尼亚欢迎订阅youtube：8度科技+2_29
+      - 🇨🇦+加拿大_008+关注Tg交流群_@Mshare_T_30
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+13_31
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+2_32
+      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_33
+      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_34
+      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_35
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+11_36
+      - 🇺🇸+美国_037+关注Tg交流群_@Mshare_T_37
       - 荷兰感谢订阅——科技网络_207
-      - 荷兰感谢订阅——科技网络_219
-      - 捷克感谢订阅——科技网络_229
+      - 🇨🇦+加拿大_022+关注Tg交流群_@Mshare_T_39
+      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_40
       - 美国感谢订阅——科技网络_202
-      - 捷克感谢订阅——科技网络_233
-      - 荷兰感谢订阅——科技网络_203
-      - 🇬🇧 英国_002 关注Tg交流群_@Mshare_T_20
-      - CH_49+@WangCai_1+4
+      - 🇸🇪+瑞典_017+关注Tg交流群_@Mshare_T_42
+      - 🇨🇦+加拿大_027+关注Tg交流群_@Mshare_T_43
+      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_44
+      - 🇷🇴+50罗马尼亚_45
+      - 🇮🇳+印度_015+关注Tg交流群_@Mshare_T_46
+      - 🇮🇳+印度_014+关注Tg交流群_@Mshare_T_47
+      - 🇮🇳+印度_017+关注Tg交流群_@Mshare_T_48
+      - 🇨🇳 中转|台湾中华电信06|微信ddly000_49
       - 荷兰感谢订阅——科技网络_210
-      - 英国感谢订阅——科技网络_87
-      - 馃嚭馃嚫US_374
-      - CH_03+@WangCai_1+4
-      - 英国感谢订阅——科技网络_72
-      - CH_02+@WangCai_1+4
-      - 英国感谢订阅——科技网络_117
-      - 英国感谢订阅——科技网络_71
-      - CH_44+@WangCai_1+4
-      - 英国感谢订阅——科技网络_85
-      - 🇺🇲+079美国∞直连_32
-      - CH_23+@WangCai_1+4
+      - 🇮🇳+印度_002+关注Tg交流群_@Mshare_T_51
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_52
+      - 🇮🇳+印度_013+关注Tg交流群_@Mshare_T_53
+      - 🇮🇳+印度_027+关注Tg交流群_@Mshare_T_54
+      - 🇮🇳+印度_020+关注Tg交流群_@Mshare_T_55
+      - 🇮🇳+印度_030+关注Tg交流群_@Mshare_T_56
+      - 🇮🇳+印度_018+关注Tg交流群_@Mshare_T_57
+      - 🇮🇳+印度_019+关注Tg交流群_@Mshare_T_58
+      - 🇮🇳+印度_024+关注Tg交流群_@Mshare_T_59
+      - 🇮🇳+印度_009+关注Tg交流群_@Mshare_T_60
+      - 🇮🇳+印度_025+关注Tg交流群_@Mshare_T_61
+      - 🇸🇬 中转|新加坡Singtel04|华中隧道流媒体解锁_62
+      - 🇮🇳+印度_016+关注Tg交流群_@Mshare_T_63
+      - 🇮🇳+印度_021+关注Tg交流群_@Mshare_T_64
+      - 🇮🇳+印度_022+关注Tg交流群_@Mshare_T_65
+      - 🇮🇳+印度_029+关注Tg交流群_@Mshare_T_66
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+9_67
+      - 🇷🇺 俄罗斯_001 关注Tg交流群_@Mshare_T_68
+      - 🇮🇳+印度_023+关注Tg交流群_@Mshare_T_69
+      - 🇮🇳+印度_008+关注Tg交流群_@Mshare_T_70
+      - 🇮🇳+印度_028+关注Tg交流群_@Mshare_T_71
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+3_72
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+3_73
+      - 🇸🇬 新加坡_008 关注Tg交流群_@Mshare_T_74
+      - 🇮🇳+印度_007+关注Tg交流群_@Mshare_T_75
+      - 🇮🇳+印度_010+关注Tg交流群_@Mshare_T_76
+      - 🇺🇸+US（感谢关注youtube：8度科技）_77
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+14_78
+      - 荷兰感谢订阅——科技网络_203
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技_80
+      - 🇮🇳+印度_001+关注Tg交流群_@Mshare_T_81
+      - 🇸🇪+瑞典_021+关注Tg交流群_@Mshare_T_82
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+4_83
+      - 🇮🇳+印度_026+关注Tg交流群_@Mshare_T_84
+      - 🇸🇪+瑞典_019+关注Tg交流群_@Mshare_T_85
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+10_86
+      - ‌🇨🇦CA_08+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1
+      - ‌🇨🇦CA_31+@WangCai_1
+      - ‌🇨🇦CA_83+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_93
+      - ‌🇨🇦CA_09+@WangCai_1
+      - ‌🇨🇦CA_45+@WangCai_1
+      - ‌🇨🇦CA_65+@WangCai_1
+      - ‌🇨🇦CA_19+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1_100
+      - ‌🇨🇦CA_18+@WangCai_1
+      - ‌🇨🇦CA_46+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1
+      - ‌🇨🇦CA_16+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_105
+      - ‌🇨🇦CA_28+@WangCai_1
+      - ‌🇨🇦CA_72+@WangCai_1
+      - ‌🇨🇦CA_51+@WangCai_1
+      - ‌🇨🇦CA_62+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_110
+      - ‌🇨🇦CA_70+@WangCai_1
+      - ‌🇨🇦CA_28+@WangCai_1_112
+      - ‌🇨🇦CA_31+@WangCai_1_113
+      - ‌🇨🇦CA_83+@WangCai_1_114
+      - ‌🇨🇦CA_25+@WangCai_1
+      - ‌🇨🇦CA_03+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1
+      - ‌🇨🇦CA_69+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_119
+      - ‌🇨🇦CA_64+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1
+      - ‌🇨🇦CA_10+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_124
+      - ‌🇨🇦CA_61+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1_126
+      - ‌🇨🇦CA_24+@WangCai_1
+      - ‌🇨🇦CA_15+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_129
+      - ‌🇨🇦CA_14+@WangCai_1
+      - ‌🇨🇦CA_11+@WangCai_1
+      - ‌🇨🇦CA_70+@WangCai_1_132
+      - ‌🇨🇦CA_13+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1
+      - ‌🇨🇦CA_67+@WangCai_1
+      - ‌🇨🇦CA_33+@WangCai_1
+      - ‌🇨🇦CA_13+@WangCai_1_137
+      - ‌🇨🇦CA_18+@WangCai_1_138
+      - ‌🇨🇦CA_69+@WangCai_1_139
+      - ‌🇨🇦CA_65+@WangCai_1_140
+      - 🇮🇳IN_24+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1_143
+      - ‌🇨🇦CA_11+@WangCai_1_144
+      - ‌🇨🇦CA_61+@WangCai_1_145
+      - ‌🇨🇦CA_61+@WangCai_1_146
+      - ‌🇨🇦CA_78+@WangCai_1
+      - ‌🇨🇦CA_18+@WangCai_1_148
+      - ‌🇨🇦CA_58+@WangCai_1
+      - ‌🇨🇦CA_64+@WangCai_1_150
+      - ‌🇨🇦CA_01+@WangCai_1
+      - ‌🇨🇦CA_81+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_153
+      - ‌🇨🇦CA_38+@WangCai_1
+      - ‌🇨🇦CA_29+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_156
+      - ‌🇨🇦CA_78+@WangCai_1_157
+      - ‌🇨🇦CA_48+@WangCai_1_158
+      - ‌🇨🇦CA_08+@WangCai_1_159
+      - ‌🇨🇦CA_68+@WangCai_1
+      - ‌🇨🇦CA_61+@WangCai_1_161
+      - ‌🇨🇦CA_75+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_163
+      - ‌🇨🇦CA_31+@WangCai_1_164
+      - ‌🇨🇦CA_53+@WangCai_1_165
+      - ‌🇨🇦CA_57+@WangCai_1
+      - ‌🇨🇦CA_68+@WangCai_1_167
+      - 🇮🇳IN_09+@WangCai_1
+      - 🇮🇳IN_16+@WangCai_1
+      - 🇮🇳IN_37+@WangCai_1
+      - 🇮🇳IN_56+@WangCai_1
+      - 🇮🇳IN_59+@WangCai_1
+      - 🇮🇳IN_62+@WangCai_1
+      - 🇮🇳IN_11+@WangCai_1
+      - 🇮🇳IN_58+@WangCai_1
+      - 🇮🇳IN_45+@WangCai_1
+      - 🇮🇳IN_50+@WangCai_1
+      - 🇮🇳IN_43+@WangCai_1
+      - 🇮🇳IN_53+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1_180
+      - ‌🇨🇦CA_44+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1_183
+      - ‌🇨🇦CA_67+@WangCai_1_184
+      - ‌🇨🇦CA_22+@WangCai_1
+      - 🇮🇳IN_33+@WangCai_1
+      - 🇮🇳IN_04+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_188
+      - 🇮🇳IN_02+@WangCai_1
+      - 🇮🇳IN_03+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_191
+      - 🇮🇳IN_18+@WangCai_1
+      - 🇮🇳IN_69+@WangCai_1
+      - 🇮🇳IN_63+@WangCai_1
+      - 🇮🇳IN_21+@WangCai_1
+      - 🇮🇳IN_31+@WangCai_1
+      - 🇮🇳IN_38+@WangCai_1
+      - 🇮🇳IN_52+@WangCai_1
+      - 🇮🇳IN_65+@WangCai_1
+      - 🇮🇳IN_68+@WangCai_1
+      - 🇮🇳IN_14+@WangCai_1
+      - 🇮🇳IN_19+@WangCai_1
+      - 🇮🇳IN_20+@WangCai_1
+      - 🇮🇳IN_36+@WangCai_1
+      - 🇮🇳IN_12+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1
+      - 🇮🇳IN_15+@WangCai_1
+      - ‌🇨🇦CA_58+@WangCai_1_208
+      - ‌🇨🇦CA_24+@WangCai_1_209
+      - ‌🇨🇦CA_28+@WangCai_1_210
+      - 🇮🇳IN_05+@WangCai_1
+      - 🇮🇳IN_66+@WangCai_1
+      - 🇮🇳IN_22+@WangCai_1
+      - 🇮🇳IN_25+@WangCai_1
+      - 🇮🇳IN_27+@WangCai_1
+      - 🇮🇳IN_41+@WangCai_1
+      - 🇮🇳IN_44+@WangCai_1
+      - 🇮🇳IN_49+@WangCai_1
+      - 🇮🇳IN_51+@WangCai_1
+      - 🇮🇳IN_57+@WangCai_1
+      - 🇮🇳IN_61+@WangCai_1
+      - 🇮🇳IN_64+@WangCai_1
+      - 🇮🇳IN_70+@WangCai_1
+      - 🇮🇳IN_29+@WangCai_1
+      - 🇮🇳IN_10+@WangCai_1
+      - 🇮🇳IN_17+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1_227
+      - 🇮🇳IN_39+@WangCai_1
+      - ‌🇨🇦CA_60+@WangCai_1
+      - ‌🇨🇦CA_49+@WangCai_1
+      - ‌🇨🇦CA_80+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1_232
+      - 🇮🇳IN_23+@WangCai_1
+      - 🇮🇳IN_72+@WangCai_1
+      - 🇮🇳IN_40+@WangCai_1
+      - 🇮🇳IN_08+@WangCai_1
+      - ‌🇨🇦CA_73+@WangCai_1
+      - 🇮🇳IN_79+@WangCai_1
+      - 🇮🇳IN_26+@WangCai_1
+      - 🇮🇳IN_28+@WangCai_1
+      - 🇮🇳IN_60+@WangCai_1
+      - 🇮🇳IN_46+@WangCai_1
+      - 🇮🇳IN_54+@WangCai_1
+      - 🇮🇳IN_67+@WangCai_1
+      - 🇮🇳IN_32+@WangCai_1
+      - 🇮🇳IN_48+@WangCai_1
+      - ‌🇨🇦CA_08+@WangCai_1_247
+      - 🇮🇳IN_13+@WangCai_1
+      - 🇮🇳IN_42+@WangCai_1
+      - 🇮🇳IN_47+@WangCai_1
+      - ‌🇨🇦CA_54+@WangCai_1
+      - ‌🇨🇦CA_24+@WangCai_1_252
+      - 🇮🇳IN_30+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1_254
+      - ‌🇨🇦CA_07+@WangCai_1
+      - 🇸🇪SE_03+@WangCai_1
+      - 🇮🇳IN_35+@WangCai_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本阿伟科技-油管5_1
-      - 🇯🇵 40日本_2
-      - 🇯🇵 39日本_3
-      - CYL-科技（2021.11.16）_4
-      - 🇭🇰 73香港_5
-      - 🇳🇱 荷兰_001 关注Tg交流群_@Mshare_T_6
-      - 🇭🇰 74香港_7
-      - 电信一区广东_8
-      - Pool_馃嚟馃嚢HK_3622
-      - Pool_馃嚬馃嚰TW_8051
-      - CYL-科技（2021.11.16） 105_11
-      - 🇷🇴+042罗马尼亚∞直连_12
-      - 捷克感谢订阅——科技网络_195
+      - 微信公众号：光头院长_1
+      - 🇸🇬 中转|新加坡Singtel01|微信ddly000_2
+      - 🇯🇵 中转|日本GMO06|微信ddly000_3
+      - 🇰🇷 韩国_006 Tg交流群 @Mshare_T_4
+      - 🇰🇷 韩国_008 Tg交流群 @Mshare_T_5
+      - 🇰🇷 韩国_004 Tg交流群 @Mshare_T_6
+      - 🇯🇵 中转|日本GMO10|华南隧道流媒体解锁_7
+      - CYL-科技（2021.11.16）_8
+      - 🇰🇷 韩国_002 Tg交流群 @Mshare_T_9
+      - 日本阿伟科技-油管5_10
+      - 🇭🇰 中转|香港HGC11|微信ddly000_11
+      - 🇮🇳IN_55+@WangCai_1
+      - 比利时阿伟科技-油管1_13
+      - 🇭🇰 中转|香港CMHK07|微信ddly000_14
+      - 🇨🇳 中转|台湾中华电信01|微信ddly000_15
+      - 🇺🇸+美国_034+关注Tg交流群_@Mshare_T_16
+      - CYL-科技（2021.11.16） 105_17
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+15_18
+      - 🇫🇷+法国_010+关注Tg交流群_@Mshare_T_19
+      - 🇬🇧 中转|英国GTHost01|华南隧道流媒体解锁_20
+      - 🇨🇦+加拿大_021+关注Tg交流群_@Mshare_T_21
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+6_22
+      - 🇨🇳 中转|台湾HiNet05|华南隧道流媒体解锁_23
+      - 🇨🇦+加拿大_007+关注Tg交流群_@Mshare_T_24
+      - 🇷🇴+042罗马尼亚∞直连_25
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_26
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+3_27
+      - 🇪🇸+西班牙_006+关注Tg交流群_@Mshare_T_28
+      - 🇷🇴+罗马尼亚欢迎订阅youtube：8度科技+2_29
+      - 🇨🇦+加拿大_008+关注Tg交流群_@Mshare_T_30
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+13_31
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+2_32
+      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_33
+      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_34
+      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_35
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+11_36
+      - 🇺🇸+美国_037+关注Tg交流群_@Mshare_T_37
       - 荷兰感谢订阅——科技网络_207
-      - 荷兰感谢订阅——科技网络_219
-      - 捷克感谢订阅——科技网络_229
+      - 🇨🇦+加拿大_022+关注Tg交流群_@Mshare_T_39
+      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_40
       - 美国感谢订阅——科技网络_202
-      - 捷克感谢订阅——科技网络_233
-      - 荷兰感谢订阅——科技网络_203
-      - 🇬🇧 英国_002 关注Tg交流群_@Mshare_T_20
-      - CH_49+@WangCai_1+4
+      - 🇸🇪+瑞典_017+关注Tg交流群_@Mshare_T_42
+      - 🇨🇦+加拿大_027+关注Tg交流群_@Mshare_T_43
+      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_44
+      - 🇷🇴+50罗马尼亚_45
+      - 🇮🇳+印度_015+关注Tg交流群_@Mshare_T_46
+      - 🇮🇳+印度_014+关注Tg交流群_@Mshare_T_47
+      - 🇮🇳+印度_017+关注Tg交流群_@Mshare_T_48
+      - 🇨🇳 中转|台湾中华电信06|微信ddly000_49
       - 荷兰感谢订阅——科技网络_210
-      - 英国感谢订阅——科技网络_87
-      - 馃嚭馃嚫US_374
-      - CH_03+@WangCai_1+4
-      - 英国感谢订阅——科技网络_72
-      - CH_02+@WangCai_1+4
-      - 英国感谢订阅——科技网络_117
-      - 英国感谢订阅——科技网络_71
-      - CH_44+@WangCai_1+4
-      - 英国感谢订阅——科技网络_85
-      - 🇺🇲+079美国∞直连_32
-      - CH_23+@WangCai_1+4
+      - 🇮🇳+印度_002+关注Tg交流群_@Mshare_T_51
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_52
+      - 🇮🇳+印度_013+关注Tg交流群_@Mshare_T_53
+      - 🇮🇳+印度_027+关注Tg交流群_@Mshare_T_54
+      - 🇮🇳+印度_020+关注Tg交流群_@Mshare_T_55
+      - 🇮🇳+印度_030+关注Tg交流群_@Mshare_T_56
+      - 🇮🇳+印度_018+关注Tg交流群_@Mshare_T_57
+      - 🇮🇳+印度_019+关注Tg交流群_@Mshare_T_58
+      - 🇮🇳+印度_024+关注Tg交流群_@Mshare_T_59
+      - 🇮🇳+印度_009+关注Tg交流群_@Mshare_T_60
+      - 🇮🇳+印度_025+关注Tg交流群_@Mshare_T_61
+      - 🇸🇬 中转|新加坡Singtel04|华中隧道流媒体解锁_62
+      - 🇮🇳+印度_016+关注Tg交流群_@Mshare_T_63
+      - 🇮🇳+印度_021+关注Tg交流群_@Mshare_T_64
+      - 🇮🇳+印度_022+关注Tg交流群_@Mshare_T_65
+      - 🇮🇳+印度_029+关注Tg交流群_@Mshare_T_66
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+9_67
+      - 🇷🇺 俄罗斯_001 关注Tg交流群_@Mshare_T_68
+      - 🇮🇳+印度_023+关注Tg交流群_@Mshare_T_69
+      - 🇮🇳+印度_008+关注Tg交流群_@Mshare_T_70
+      - 🇮🇳+印度_028+关注Tg交流群_@Mshare_T_71
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+3_72
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+3_73
+      - 🇸🇬 新加坡_008 关注Tg交流群_@Mshare_T_74
+      - 🇮🇳+印度_007+关注Tg交流群_@Mshare_T_75
+      - 🇮🇳+印度_010+关注Tg交流群_@Mshare_T_76
+      - 🇺🇸+US（感谢关注youtube：8度科技）_77
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+14_78
+      - 荷兰感谢订阅——科技网络_203
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技_80
+      - 🇮🇳+印度_001+关注Tg交流群_@Mshare_T_81
+      - 🇸🇪+瑞典_021+关注Tg交流群_@Mshare_T_82
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+4_83
+      - 🇮🇳+印度_026+关注Tg交流群_@Mshare_T_84
+      - 🇸🇪+瑞典_019+关注Tg交流群_@Mshare_T_85
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+10_86
+      - ‌🇨🇦CA_08+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1
+      - ‌🇨🇦CA_31+@WangCai_1
+      - ‌🇨🇦CA_83+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_93
+      - ‌🇨🇦CA_09+@WangCai_1
+      - ‌🇨🇦CA_45+@WangCai_1
+      - ‌🇨🇦CA_65+@WangCai_1
+      - ‌🇨🇦CA_19+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1_100
+      - ‌🇨🇦CA_18+@WangCai_1
+      - ‌🇨🇦CA_46+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1
+      - ‌🇨🇦CA_16+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_105
+      - ‌🇨🇦CA_28+@WangCai_1
+      - ‌🇨🇦CA_72+@WangCai_1
+      - ‌🇨🇦CA_51+@WangCai_1
+      - ‌🇨🇦CA_62+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_110
+      - ‌🇨🇦CA_70+@WangCai_1
+      - ‌🇨🇦CA_28+@WangCai_1_112
+      - ‌🇨🇦CA_31+@WangCai_1_113
+      - ‌🇨🇦CA_83+@WangCai_1_114
+      - ‌🇨🇦CA_25+@WangCai_1
+      - ‌🇨🇦CA_03+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1
+      - ‌🇨🇦CA_69+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_119
+      - ‌🇨🇦CA_64+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1
+      - ‌🇨🇦CA_10+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_124
+      - ‌🇨🇦CA_61+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1_126
+      - ‌🇨🇦CA_24+@WangCai_1
+      - ‌🇨🇦CA_15+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_129
+      - ‌🇨🇦CA_14+@WangCai_1
+      - ‌🇨🇦CA_11+@WangCai_1
+      - ‌🇨🇦CA_70+@WangCai_1_132
+      - ‌🇨🇦CA_13+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1
+      - ‌🇨🇦CA_67+@WangCai_1
+      - ‌🇨🇦CA_33+@WangCai_1
+      - ‌🇨🇦CA_13+@WangCai_1_137
+      - ‌🇨🇦CA_18+@WangCai_1_138
+      - ‌🇨🇦CA_69+@WangCai_1_139
+      - ‌🇨🇦CA_65+@WangCai_1_140
+      - 🇮🇳IN_24+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1_143
+      - ‌🇨🇦CA_11+@WangCai_1_144
+      - ‌🇨🇦CA_61+@WangCai_1_145
+      - ‌🇨🇦CA_61+@WangCai_1_146
+      - ‌🇨🇦CA_78+@WangCai_1
+      - ‌🇨🇦CA_18+@WangCai_1_148
+      - ‌🇨🇦CA_58+@WangCai_1
+      - ‌🇨🇦CA_64+@WangCai_1_150
+      - ‌🇨🇦CA_01+@WangCai_1
+      - ‌🇨🇦CA_81+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_153
+      - ‌🇨🇦CA_38+@WangCai_1
+      - ‌🇨🇦CA_29+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_156
+      - ‌🇨🇦CA_78+@WangCai_1_157
+      - ‌🇨🇦CA_48+@WangCai_1_158
+      - ‌🇨🇦CA_08+@WangCai_1_159
+      - ‌🇨🇦CA_68+@WangCai_1
+      - ‌🇨🇦CA_61+@WangCai_1_161
+      - ‌🇨🇦CA_75+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_163
+      - ‌🇨🇦CA_31+@WangCai_1_164
+      - ‌🇨🇦CA_53+@WangCai_1_165
+      - ‌🇨🇦CA_57+@WangCai_1
+      - ‌🇨🇦CA_68+@WangCai_1_167
+      - 🇮🇳IN_09+@WangCai_1
+      - 🇮🇳IN_16+@WangCai_1
+      - 🇮🇳IN_37+@WangCai_1
+      - 🇮🇳IN_56+@WangCai_1
+      - 🇮🇳IN_59+@WangCai_1
+      - 🇮🇳IN_62+@WangCai_1
+      - 🇮🇳IN_11+@WangCai_1
+      - 🇮🇳IN_58+@WangCai_1
+      - 🇮🇳IN_45+@WangCai_1
+      - 🇮🇳IN_50+@WangCai_1
+      - 🇮🇳IN_43+@WangCai_1
+      - 🇮🇳IN_53+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1_180
+      - ‌🇨🇦CA_44+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1_183
+      - ‌🇨🇦CA_67+@WangCai_1_184
+      - ‌🇨🇦CA_22+@WangCai_1
+      - 🇮🇳IN_33+@WangCai_1
+      - 🇮🇳IN_04+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_188
+      - 🇮🇳IN_02+@WangCai_1
+      - 🇮🇳IN_03+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_191
+      - 🇮🇳IN_18+@WangCai_1
+      - 🇮🇳IN_69+@WangCai_1
+      - 🇮🇳IN_63+@WangCai_1
+      - 🇮🇳IN_21+@WangCai_1
+      - 🇮🇳IN_31+@WangCai_1
+      - 🇮🇳IN_38+@WangCai_1
+      - 🇮🇳IN_52+@WangCai_1
+      - 🇮🇳IN_65+@WangCai_1
+      - 🇮🇳IN_68+@WangCai_1
+      - 🇮🇳IN_14+@WangCai_1
+      - 🇮🇳IN_19+@WangCai_1
+      - 🇮🇳IN_20+@WangCai_1
+      - 🇮🇳IN_36+@WangCai_1
+      - 🇮🇳IN_12+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1
+      - 🇮🇳IN_15+@WangCai_1
+      - ‌🇨🇦CA_58+@WangCai_1_208
+      - ‌🇨🇦CA_24+@WangCai_1_209
+      - ‌🇨🇦CA_28+@WangCai_1_210
+      - 🇮🇳IN_05+@WangCai_1
+      - 🇮🇳IN_66+@WangCai_1
+      - 🇮🇳IN_22+@WangCai_1
+      - 🇮🇳IN_25+@WangCai_1
+      - 🇮🇳IN_27+@WangCai_1
+      - 🇮🇳IN_41+@WangCai_1
+      - 🇮🇳IN_44+@WangCai_1
+      - 🇮🇳IN_49+@WangCai_1
+      - 🇮🇳IN_51+@WangCai_1
+      - 🇮🇳IN_57+@WangCai_1
+      - 🇮🇳IN_61+@WangCai_1
+      - 🇮🇳IN_64+@WangCai_1
+      - 🇮🇳IN_70+@WangCai_1
+      - 🇮🇳IN_29+@WangCai_1
+      - 🇮🇳IN_10+@WangCai_1
+      - 🇮🇳IN_17+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1_227
+      - 🇮🇳IN_39+@WangCai_1
+      - ‌🇨🇦CA_60+@WangCai_1
+      - ‌🇨🇦CA_49+@WangCai_1
+      - ‌🇨🇦CA_80+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1_232
+      - 🇮🇳IN_23+@WangCai_1
+      - 🇮🇳IN_72+@WangCai_1
+      - 🇮🇳IN_40+@WangCai_1
+      - 🇮🇳IN_08+@WangCai_1
+      - ‌🇨🇦CA_73+@WangCai_1
+      - 🇮🇳IN_79+@WangCai_1
+      - 🇮🇳IN_26+@WangCai_1
+      - 🇮🇳IN_28+@WangCai_1
+      - 🇮🇳IN_60+@WangCai_1
+      - 🇮🇳IN_46+@WangCai_1
+      - 🇮🇳IN_54+@WangCai_1
+      - 🇮🇳IN_67+@WangCai_1
+      - 🇮🇳IN_32+@WangCai_1
+      - 🇮🇳IN_48+@WangCai_1
+      - ‌🇨🇦CA_08+@WangCai_1_247
+      - 🇮🇳IN_13+@WangCai_1
+      - 🇮🇳IN_42+@WangCai_1
+      - 🇮🇳IN_47+@WangCai_1
+      - ‌🇨🇦CA_54+@WangCai_1
+      - ‌🇨🇦CA_24+@WangCai_1_252
+      - 🇮🇳IN_30+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1_254
+      - ‌🇨🇦CA_07+@WangCai_1
+      - 🇸🇪SE_03+@WangCai_1
+      - 🇮🇳IN_35+@WangCai_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本阿伟科技-油管5_1
-      - 🇯🇵 40日本_2
-      - 🇯🇵 39日本_3
-      - CYL-科技（2021.11.16）_4
-      - 🇭🇰 73香港_5
-      - 🇳🇱 荷兰_001 关注Tg交流群_@Mshare_T_6
-      - 🇭🇰 74香港_7
-      - 电信一区广东_8
-      - Pool_馃嚟馃嚢HK_3622
-      - Pool_馃嚬馃嚰TW_8051
-      - CYL-科技（2021.11.16） 105_11
-      - 🇷🇴+042罗马尼亚∞直连_12
-      - 捷克感谢订阅——科技网络_195
+      - 微信公众号：光头院长_1
+      - 🇸🇬 中转|新加坡Singtel01|微信ddly000_2
+      - 🇯🇵 中转|日本GMO06|微信ddly000_3
+      - 🇰🇷 韩国_006 Tg交流群 @Mshare_T_4
+      - 🇰🇷 韩国_008 Tg交流群 @Mshare_T_5
+      - 🇰🇷 韩国_004 Tg交流群 @Mshare_T_6
+      - 🇯🇵 中转|日本GMO10|华南隧道流媒体解锁_7
+      - CYL-科技（2021.11.16）_8
+      - 🇰🇷 韩国_002 Tg交流群 @Mshare_T_9
+      - 日本阿伟科技-油管5_10
+      - 🇭🇰 中转|香港HGC11|微信ddly000_11
+      - 🇮🇳IN_55+@WangCai_1
+      - 比利时阿伟科技-油管1_13
+      - 🇭🇰 中转|香港CMHK07|微信ddly000_14
+      - 🇨🇳 中转|台湾中华电信01|微信ddly000_15
+      - 🇺🇸+美国_034+关注Tg交流群_@Mshare_T_16
+      - CYL-科技（2021.11.16） 105_17
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+15_18
+      - 🇫🇷+法国_010+关注Tg交流群_@Mshare_T_19
+      - 🇬🇧 中转|英国GTHost01|华南隧道流媒体解锁_20
+      - 🇨🇦+加拿大_021+关注Tg交流群_@Mshare_T_21
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+6_22
+      - 🇨🇳 中转|台湾HiNet05|华南隧道流媒体解锁_23
+      - 🇨🇦+加拿大_007+关注Tg交流群_@Mshare_T_24
+      - 🇷🇴+042罗马尼亚∞直连_25
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_26
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+3_27
+      - 🇪🇸+西班牙_006+关注Tg交流群_@Mshare_T_28
+      - 🇷🇴+罗马尼亚欢迎订阅youtube：8度科技+2_29
+      - 🇨🇦+加拿大_008+关注Tg交流群_@Mshare_T_30
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+13_31
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+2_32
+      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_33
+      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_34
+      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_35
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+11_36
+      - 🇺🇸+美国_037+关注Tg交流群_@Mshare_T_37
       - 荷兰感谢订阅——科技网络_207
-      - 荷兰感谢订阅——科技网络_219
-      - 捷克感谢订阅——科技网络_229
+      - 🇨🇦+加拿大_022+关注Tg交流群_@Mshare_T_39
+      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_40
       - 美国感谢订阅——科技网络_202
-      - 捷克感谢订阅——科技网络_233
-      - 荷兰感谢订阅——科技网络_203
-      - 🇬🇧 英国_002 关注Tg交流群_@Mshare_T_20
-      - CH_49+@WangCai_1+4
+      - 🇸🇪+瑞典_017+关注Tg交流群_@Mshare_T_42
+      - 🇨🇦+加拿大_027+关注Tg交流群_@Mshare_T_43
+      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_44
+      - 🇷🇴+50罗马尼亚_45
+      - 🇮🇳+印度_015+关注Tg交流群_@Mshare_T_46
+      - 🇮🇳+印度_014+关注Tg交流群_@Mshare_T_47
+      - 🇮🇳+印度_017+关注Tg交流群_@Mshare_T_48
+      - 🇨🇳 中转|台湾中华电信06|微信ddly000_49
       - 荷兰感谢订阅——科技网络_210
-      - 英国感谢订阅——科技网络_87
-      - 馃嚭馃嚫US_374
-      - CH_03+@WangCai_1+4
-      - 英国感谢订阅——科技网络_72
-      - CH_02+@WangCai_1+4
-      - 英国感谢订阅——科技网络_117
-      - 英国感谢订阅——科技网络_71
-      - CH_44+@WangCai_1+4
-      - 英国感谢订阅——科技网络_85
-      - 🇺🇲+079美国∞直连_32
-      - CH_23+@WangCai_1+4
+      - 🇮🇳+印度_002+关注Tg交流群_@Mshare_T_51
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_52
+      - 🇮🇳+印度_013+关注Tg交流群_@Mshare_T_53
+      - 🇮🇳+印度_027+关注Tg交流群_@Mshare_T_54
+      - 🇮🇳+印度_020+关注Tg交流群_@Mshare_T_55
+      - 🇮🇳+印度_030+关注Tg交流群_@Mshare_T_56
+      - 🇮🇳+印度_018+关注Tg交流群_@Mshare_T_57
+      - 🇮🇳+印度_019+关注Tg交流群_@Mshare_T_58
+      - 🇮🇳+印度_024+关注Tg交流群_@Mshare_T_59
+      - 🇮🇳+印度_009+关注Tg交流群_@Mshare_T_60
+      - 🇮🇳+印度_025+关注Tg交流群_@Mshare_T_61
+      - 🇸🇬 中转|新加坡Singtel04|华中隧道流媒体解锁_62
+      - 🇮🇳+印度_016+关注Tg交流群_@Mshare_T_63
+      - 🇮🇳+印度_021+关注Tg交流群_@Mshare_T_64
+      - 🇮🇳+印度_022+关注Tg交流群_@Mshare_T_65
+      - 🇮🇳+印度_029+关注Tg交流群_@Mshare_T_66
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+9_67
+      - 🇷🇺 俄罗斯_001 关注Tg交流群_@Mshare_T_68
+      - 🇮🇳+印度_023+关注Tg交流群_@Mshare_T_69
+      - 🇮🇳+印度_008+关注Tg交流群_@Mshare_T_70
+      - 🇮🇳+印度_028+关注Tg交流群_@Mshare_T_71
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+3_72
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+3_73
+      - 🇸🇬 新加坡_008 关注Tg交流群_@Mshare_T_74
+      - 🇮🇳+印度_007+关注Tg交流群_@Mshare_T_75
+      - 🇮🇳+印度_010+关注Tg交流群_@Mshare_T_76
+      - 🇺🇸+US（感谢关注youtube：8度科技）_77
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+14_78
+      - 荷兰感谢订阅——科技网络_203
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技_80
+      - 🇮🇳+印度_001+关注Tg交流群_@Mshare_T_81
+      - 🇸🇪+瑞典_021+关注Tg交流群_@Mshare_T_82
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+4_83
+      - 🇮🇳+印度_026+关注Tg交流群_@Mshare_T_84
+      - 🇸🇪+瑞典_019+关注Tg交流群_@Mshare_T_85
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+10_86
+      - ‌🇨🇦CA_08+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1
+      - ‌🇨🇦CA_31+@WangCai_1
+      - ‌🇨🇦CA_83+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_93
+      - ‌🇨🇦CA_09+@WangCai_1
+      - ‌🇨🇦CA_45+@WangCai_1
+      - ‌🇨🇦CA_65+@WangCai_1
+      - ‌🇨🇦CA_19+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1_100
+      - ‌🇨🇦CA_18+@WangCai_1
+      - ‌🇨🇦CA_46+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1
+      - ‌🇨🇦CA_16+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_105
+      - ‌🇨🇦CA_28+@WangCai_1
+      - ‌🇨🇦CA_72+@WangCai_1
+      - ‌🇨🇦CA_51+@WangCai_1
+      - ‌🇨🇦CA_62+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_110
+      - ‌🇨🇦CA_70+@WangCai_1
+      - ‌🇨🇦CA_28+@WangCai_1_112
+      - ‌🇨🇦CA_31+@WangCai_1_113
+      - ‌🇨🇦CA_83+@WangCai_1_114
+      - ‌🇨🇦CA_25+@WangCai_1
+      - ‌🇨🇦CA_03+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1
+      - ‌🇨🇦CA_69+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_119
+      - ‌🇨🇦CA_64+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1
+      - ‌🇨🇦CA_10+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_124
+      - ‌🇨🇦CA_61+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1_126
+      - ‌🇨🇦CA_24+@WangCai_1
+      - ‌🇨🇦CA_15+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_129
+      - ‌🇨🇦CA_14+@WangCai_1
+      - ‌🇨🇦CA_11+@WangCai_1
+      - ‌🇨🇦CA_70+@WangCai_1_132
+      - ‌🇨🇦CA_13+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1
+      - ‌🇨🇦CA_67+@WangCai_1
+      - ‌🇨🇦CA_33+@WangCai_1
+      - ‌🇨🇦CA_13+@WangCai_1_137
+      - ‌🇨🇦CA_18+@WangCai_1_138
+      - ‌🇨🇦CA_69+@WangCai_1_139
+      - ‌🇨🇦CA_65+@WangCai_1_140
+      - 🇮🇳IN_24+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1_143
+      - ‌🇨🇦CA_11+@WangCai_1_144
+      - ‌🇨🇦CA_61+@WangCai_1_145
+      - ‌🇨🇦CA_61+@WangCai_1_146
+      - ‌🇨🇦CA_78+@WangCai_1
+      - ‌🇨🇦CA_18+@WangCai_1_148
+      - ‌🇨🇦CA_58+@WangCai_1
+      - ‌🇨🇦CA_64+@WangCai_1_150
+      - ‌🇨🇦CA_01+@WangCai_1
+      - ‌🇨🇦CA_81+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_153
+      - ‌🇨🇦CA_38+@WangCai_1
+      - ‌🇨🇦CA_29+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_156
+      - ‌🇨🇦CA_78+@WangCai_1_157
+      - ‌🇨🇦CA_48+@WangCai_1_158
+      - ‌🇨🇦CA_08+@WangCai_1_159
+      - ‌🇨🇦CA_68+@WangCai_1
+      - ‌🇨🇦CA_61+@WangCai_1_161
+      - ‌🇨🇦CA_75+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_163
+      - ‌🇨🇦CA_31+@WangCai_1_164
+      - ‌🇨🇦CA_53+@WangCai_1_165
+      - ‌🇨🇦CA_57+@WangCai_1
+      - ‌🇨🇦CA_68+@WangCai_1_167
+      - 🇮🇳IN_09+@WangCai_1
+      - 🇮🇳IN_16+@WangCai_1
+      - 🇮🇳IN_37+@WangCai_1
+      - 🇮🇳IN_56+@WangCai_1
+      - 🇮🇳IN_59+@WangCai_1
+      - 🇮🇳IN_62+@WangCai_1
+      - 🇮🇳IN_11+@WangCai_1
+      - 🇮🇳IN_58+@WangCai_1
+      - 🇮🇳IN_45+@WangCai_1
+      - 🇮🇳IN_50+@WangCai_1
+      - 🇮🇳IN_43+@WangCai_1
+      - 🇮🇳IN_53+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1_180
+      - ‌🇨🇦CA_44+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1_183
+      - ‌🇨🇦CA_67+@WangCai_1_184
+      - ‌🇨🇦CA_22+@WangCai_1
+      - 🇮🇳IN_33+@WangCai_1
+      - 🇮🇳IN_04+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_188
+      - 🇮🇳IN_02+@WangCai_1
+      - 🇮🇳IN_03+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_191
+      - 🇮🇳IN_18+@WangCai_1
+      - 🇮🇳IN_69+@WangCai_1
+      - 🇮🇳IN_63+@WangCai_1
+      - 🇮🇳IN_21+@WangCai_1
+      - 🇮🇳IN_31+@WangCai_1
+      - 🇮🇳IN_38+@WangCai_1
+      - 🇮🇳IN_52+@WangCai_1
+      - 🇮🇳IN_65+@WangCai_1
+      - 🇮🇳IN_68+@WangCai_1
+      - 🇮🇳IN_14+@WangCai_1
+      - 🇮🇳IN_19+@WangCai_1
+      - 🇮🇳IN_20+@WangCai_1
+      - 🇮🇳IN_36+@WangCai_1
+      - 🇮🇳IN_12+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1
+      - 🇮🇳IN_15+@WangCai_1
+      - ‌🇨🇦CA_58+@WangCai_1_208
+      - ‌🇨🇦CA_24+@WangCai_1_209
+      - ‌🇨🇦CA_28+@WangCai_1_210
+      - 🇮🇳IN_05+@WangCai_1
+      - 🇮🇳IN_66+@WangCai_1
+      - 🇮🇳IN_22+@WangCai_1
+      - 🇮🇳IN_25+@WangCai_1
+      - 🇮🇳IN_27+@WangCai_1
+      - 🇮🇳IN_41+@WangCai_1
+      - 🇮🇳IN_44+@WangCai_1
+      - 🇮🇳IN_49+@WangCai_1
+      - 🇮🇳IN_51+@WangCai_1
+      - 🇮🇳IN_57+@WangCai_1
+      - 🇮🇳IN_61+@WangCai_1
+      - 🇮🇳IN_64+@WangCai_1
+      - 🇮🇳IN_70+@WangCai_1
+      - 🇮🇳IN_29+@WangCai_1
+      - 🇮🇳IN_10+@WangCai_1
+      - 🇮🇳IN_17+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1_227
+      - 🇮🇳IN_39+@WangCai_1
+      - ‌🇨🇦CA_60+@WangCai_1
+      - ‌🇨🇦CA_49+@WangCai_1
+      - ‌🇨🇦CA_80+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1_232
+      - 🇮🇳IN_23+@WangCai_1
+      - 🇮🇳IN_72+@WangCai_1
+      - 🇮🇳IN_40+@WangCai_1
+      - 🇮🇳IN_08+@WangCai_1
+      - ‌🇨🇦CA_73+@WangCai_1
+      - 🇮🇳IN_79+@WangCai_1
+      - 🇮🇳IN_26+@WangCai_1
+      - 🇮🇳IN_28+@WangCai_1
+      - 🇮🇳IN_60+@WangCai_1
+      - 🇮🇳IN_46+@WangCai_1
+      - 🇮🇳IN_54+@WangCai_1
+      - 🇮🇳IN_67+@WangCai_1
+      - 🇮🇳IN_32+@WangCai_1
+      - 🇮🇳IN_48+@WangCai_1
+      - ‌🇨🇦CA_08+@WangCai_1_247
+      - 🇮🇳IN_13+@WangCai_1
+      - 🇮🇳IN_42+@WangCai_1
+      - 🇮🇳IN_47+@WangCai_1
+      - ‌🇨🇦CA_54+@WangCai_1
+      - ‌🇨🇦CA_24+@WangCai_1_252
+      - 🇮🇳IN_30+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1_254
+      - ‌🇨🇦CA_07+@WangCai_1
+      - 🇸🇪SE_03+@WangCai_1
+      - 🇮🇳IN_35+@WangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本阿伟科技-油管5_1
-      - 🇯🇵 40日本_2
-      - 🇯🇵 39日本_3
-      - CYL-科技（2021.11.16）_4
-      - 🇭🇰 73香港_5
-      - 🇳🇱 荷兰_001 关注Tg交流群_@Mshare_T_6
-      - 🇭🇰 74香港_7
-      - 电信一区广东_8
-      - Pool_馃嚟馃嚢HK_3622
-      - Pool_馃嚬馃嚰TW_8051
-      - CYL-科技（2021.11.16） 105_11
-      - 🇷🇴+042罗马尼亚∞直连_12
-      - 捷克感谢订阅——科技网络_195
+      - 微信公众号：光头院长_1
+      - 🇸🇬 中转|新加坡Singtel01|微信ddly000_2
+      - 🇯🇵 中转|日本GMO06|微信ddly000_3
+      - 🇰🇷 韩国_006 Tg交流群 @Mshare_T_4
+      - 🇰🇷 韩国_008 Tg交流群 @Mshare_T_5
+      - 🇰🇷 韩国_004 Tg交流群 @Mshare_T_6
+      - 🇯🇵 中转|日本GMO10|华南隧道流媒体解锁_7
+      - CYL-科技（2021.11.16）_8
+      - 🇰🇷 韩国_002 Tg交流群 @Mshare_T_9
+      - 日本阿伟科技-油管5_10
+      - 🇭🇰 中转|香港HGC11|微信ddly000_11
+      - 🇮🇳IN_55+@WangCai_1
+      - 比利时阿伟科技-油管1_13
+      - 🇭🇰 中转|香港CMHK07|微信ddly000_14
+      - 🇨🇳 中转|台湾中华电信01|微信ddly000_15
+      - 🇺🇸+美国_034+关注Tg交流群_@Mshare_T_16
+      - CYL-科技（2021.11.16） 105_17
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+15_18
+      - 🇫🇷+法国_010+关注Tg交流群_@Mshare_T_19
+      - 🇬🇧 中转|英国GTHost01|华南隧道流媒体解锁_20
+      - 🇨🇦+加拿大_021+关注Tg交流群_@Mshare_T_21
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+6_22
+      - 🇨🇳 中转|台湾HiNet05|华南隧道流媒体解锁_23
+      - 🇨🇦+加拿大_007+关注Tg交流群_@Mshare_T_24
+      - 🇷🇴+042罗马尼亚∞直连_25
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_26
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+3_27
+      - 🇪🇸+西班牙_006+关注Tg交流群_@Mshare_T_28
+      - 🇷🇴+罗马尼亚欢迎订阅youtube：8度科技+2_29
+      - 🇨🇦+加拿大_008+关注Tg交流群_@Mshare_T_30
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+13_31
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+2_32
+      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_33
+      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_34
+      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_35
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+11_36
+      - 🇺🇸+美国_037+关注Tg交流群_@Mshare_T_37
       - 荷兰感谢订阅——科技网络_207
-      - 荷兰感谢订阅——科技网络_219
-      - 捷克感谢订阅——科技网络_229
+      - 🇨🇦+加拿大_022+关注Tg交流群_@Mshare_T_39
+      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_40
       - 美国感谢订阅——科技网络_202
-      - 捷克感谢订阅——科技网络_233
-      - 荷兰感谢订阅——科技网络_203
-      - 🇬🇧 英国_002 关注Tg交流群_@Mshare_T_20
-      - CH_49+@WangCai_1+4
+      - 🇸🇪+瑞典_017+关注Tg交流群_@Mshare_T_42
+      - 🇨🇦+加拿大_027+关注Tg交流群_@Mshare_T_43
+      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_44
+      - 🇷🇴+50罗马尼亚_45
+      - 🇮🇳+印度_015+关注Tg交流群_@Mshare_T_46
+      - 🇮🇳+印度_014+关注Tg交流群_@Mshare_T_47
+      - 🇮🇳+印度_017+关注Tg交流群_@Mshare_T_48
+      - 🇨🇳 中转|台湾中华电信06|微信ddly000_49
       - 荷兰感谢订阅——科技网络_210
-      - 英国感谢订阅——科技网络_87
-      - 馃嚭馃嚫US_374
-      - CH_03+@WangCai_1+4
-      - 英国感谢订阅——科技网络_72
-      - CH_02+@WangCai_1+4
-      - 英国感谢订阅——科技网络_117
-      - 英国感谢订阅——科技网络_71
-      - CH_44+@WangCai_1+4
-      - 英国感谢订阅——科技网络_85
-      - 🇺🇲+079美国∞直连_32
-      - CH_23+@WangCai_1+4
+      - 🇮🇳+印度_002+关注Tg交流群_@Mshare_T_51
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_52
+      - 🇮🇳+印度_013+关注Tg交流群_@Mshare_T_53
+      - 🇮🇳+印度_027+关注Tg交流群_@Mshare_T_54
+      - 🇮🇳+印度_020+关注Tg交流群_@Mshare_T_55
+      - 🇮🇳+印度_030+关注Tg交流群_@Mshare_T_56
+      - 🇮🇳+印度_018+关注Tg交流群_@Mshare_T_57
+      - 🇮🇳+印度_019+关注Tg交流群_@Mshare_T_58
+      - 🇮🇳+印度_024+关注Tg交流群_@Mshare_T_59
+      - 🇮🇳+印度_009+关注Tg交流群_@Mshare_T_60
+      - 🇮🇳+印度_025+关注Tg交流群_@Mshare_T_61
+      - 🇸🇬 中转|新加坡Singtel04|华中隧道流媒体解锁_62
+      - 🇮🇳+印度_016+关注Tg交流群_@Mshare_T_63
+      - 🇮🇳+印度_021+关注Tg交流群_@Mshare_T_64
+      - 🇮🇳+印度_022+关注Tg交流群_@Mshare_T_65
+      - 🇮🇳+印度_029+关注Tg交流群_@Mshare_T_66
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+9_67
+      - 🇷🇺 俄罗斯_001 关注Tg交流群_@Mshare_T_68
+      - 🇮🇳+印度_023+关注Tg交流群_@Mshare_T_69
+      - 🇮🇳+印度_008+关注Tg交流群_@Mshare_T_70
+      - 🇮🇳+印度_028+关注Tg交流群_@Mshare_T_71
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+3_72
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+3_73
+      - 🇸🇬 新加坡_008 关注Tg交流群_@Mshare_T_74
+      - 🇮🇳+印度_007+关注Tg交流群_@Mshare_T_75
+      - 🇮🇳+印度_010+关注Tg交流群_@Mshare_T_76
+      - 🇺🇸+US（感谢关注youtube：8度科技）_77
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+14_78
+      - 荷兰感谢订阅——科技网络_203
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技_80
+      - 🇮🇳+印度_001+关注Tg交流群_@Mshare_T_81
+      - 🇸🇪+瑞典_021+关注Tg交流群_@Mshare_T_82
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+4_83
+      - 🇮🇳+印度_026+关注Tg交流群_@Mshare_T_84
+      - 🇸🇪+瑞典_019+关注Tg交流群_@Mshare_T_85
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+10_86
+      - ‌🇨🇦CA_08+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1
+      - ‌🇨🇦CA_31+@WangCai_1
+      - ‌🇨🇦CA_83+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_93
+      - ‌🇨🇦CA_09+@WangCai_1
+      - ‌🇨🇦CA_45+@WangCai_1
+      - ‌🇨🇦CA_65+@WangCai_1
+      - ‌🇨🇦CA_19+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1_100
+      - ‌🇨🇦CA_18+@WangCai_1
+      - ‌🇨🇦CA_46+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1
+      - ‌🇨🇦CA_16+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_105
+      - ‌🇨🇦CA_28+@WangCai_1
+      - ‌🇨🇦CA_72+@WangCai_1
+      - ‌🇨🇦CA_51+@WangCai_1
+      - ‌🇨🇦CA_62+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_110
+      - ‌🇨🇦CA_70+@WangCai_1
+      - ‌🇨🇦CA_28+@WangCai_1_112
+      - ‌🇨🇦CA_31+@WangCai_1_113
+      - ‌🇨🇦CA_83+@WangCai_1_114
+      - ‌🇨🇦CA_25+@WangCai_1
+      - ‌🇨🇦CA_03+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1
+      - ‌🇨🇦CA_69+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_119
+      - ‌🇨🇦CA_64+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1
+      - ‌🇨🇦CA_10+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_124
+      - ‌🇨🇦CA_61+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1_126
+      - ‌🇨🇦CA_24+@WangCai_1
+      - ‌🇨🇦CA_15+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_129
+      - ‌🇨🇦CA_14+@WangCai_1
+      - ‌🇨🇦CA_11+@WangCai_1
+      - ‌🇨🇦CA_70+@WangCai_1_132
+      - ‌🇨🇦CA_13+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1
+      - ‌🇨🇦CA_67+@WangCai_1
+      - ‌🇨🇦CA_33+@WangCai_1
+      - ‌🇨🇦CA_13+@WangCai_1_137
+      - ‌🇨🇦CA_18+@WangCai_1_138
+      - ‌🇨🇦CA_69+@WangCai_1_139
+      - ‌🇨🇦CA_65+@WangCai_1_140
+      - 🇮🇳IN_24+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1_143
+      - ‌🇨🇦CA_11+@WangCai_1_144
+      - ‌🇨🇦CA_61+@WangCai_1_145
+      - ‌🇨🇦CA_61+@WangCai_1_146
+      - ‌🇨🇦CA_78+@WangCai_1
+      - ‌🇨🇦CA_18+@WangCai_1_148
+      - ‌🇨🇦CA_58+@WangCai_1
+      - ‌🇨🇦CA_64+@WangCai_1_150
+      - ‌🇨🇦CA_01+@WangCai_1
+      - ‌🇨🇦CA_81+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_153
+      - ‌🇨🇦CA_38+@WangCai_1
+      - ‌🇨🇦CA_29+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_156
+      - ‌🇨🇦CA_78+@WangCai_1_157
+      - ‌🇨🇦CA_48+@WangCai_1_158
+      - ‌🇨🇦CA_08+@WangCai_1_159
+      - ‌🇨🇦CA_68+@WangCai_1
+      - ‌🇨🇦CA_61+@WangCai_1_161
+      - ‌🇨🇦CA_75+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_163
+      - ‌🇨🇦CA_31+@WangCai_1_164
+      - ‌🇨🇦CA_53+@WangCai_1_165
+      - ‌🇨🇦CA_57+@WangCai_1
+      - ‌🇨🇦CA_68+@WangCai_1_167
+      - 🇮🇳IN_09+@WangCai_1
+      - 🇮🇳IN_16+@WangCai_1
+      - 🇮🇳IN_37+@WangCai_1
+      - 🇮🇳IN_56+@WangCai_1
+      - 🇮🇳IN_59+@WangCai_1
+      - 🇮🇳IN_62+@WangCai_1
+      - 🇮🇳IN_11+@WangCai_1
+      - 🇮🇳IN_58+@WangCai_1
+      - 🇮🇳IN_45+@WangCai_1
+      - 🇮🇳IN_50+@WangCai_1
+      - 🇮🇳IN_43+@WangCai_1
+      - 🇮🇳IN_53+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1_180
+      - ‌🇨🇦CA_44+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1_183
+      - ‌🇨🇦CA_67+@WangCai_1_184
+      - ‌🇨🇦CA_22+@WangCai_1
+      - 🇮🇳IN_33+@WangCai_1
+      - 🇮🇳IN_04+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_188
+      - 🇮🇳IN_02+@WangCai_1
+      - 🇮🇳IN_03+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_191
+      - 🇮🇳IN_18+@WangCai_1
+      - 🇮🇳IN_69+@WangCai_1
+      - 🇮🇳IN_63+@WangCai_1
+      - 🇮🇳IN_21+@WangCai_1
+      - 🇮🇳IN_31+@WangCai_1
+      - 🇮🇳IN_38+@WangCai_1
+      - 🇮🇳IN_52+@WangCai_1
+      - 🇮🇳IN_65+@WangCai_1
+      - 🇮🇳IN_68+@WangCai_1
+      - 🇮🇳IN_14+@WangCai_1
+      - 🇮🇳IN_19+@WangCai_1
+      - 🇮🇳IN_20+@WangCai_1
+      - 🇮🇳IN_36+@WangCai_1
+      - 🇮🇳IN_12+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1
+      - 🇮🇳IN_15+@WangCai_1
+      - ‌🇨🇦CA_58+@WangCai_1_208
+      - ‌🇨🇦CA_24+@WangCai_1_209
+      - ‌🇨🇦CA_28+@WangCai_1_210
+      - 🇮🇳IN_05+@WangCai_1
+      - 🇮🇳IN_66+@WangCai_1
+      - 🇮🇳IN_22+@WangCai_1
+      - 🇮🇳IN_25+@WangCai_1
+      - 🇮🇳IN_27+@WangCai_1
+      - 🇮🇳IN_41+@WangCai_1
+      - 🇮🇳IN_44+@WangCai_1
+      - 🇮🇳IN_49+@WangCai_1
+      - 🇮🇳IN_51+@WangCai_1
+      - 🇮🇳IN_57+@WangCai_1
+      - 🇮🇳IN_61+@WangCai_1
+      - 🇮🇳IN_64+@WangCai_1
+      - 🇮🇳IN_70+@WangCai_1
+      - 🇮🇳IN_29+@WangCai_1
+      - 🇮🇳IN_10+@WangCai_1
+      - 🇮🇳IN_17+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1_227
+      - 🇮🇳IN_39+@WangCai_1
+      - ‌🇨🇦CA_60+@WangCai_1
+      - ‌🇨🇦CA_49+@WangCai_1
+      - ‌🇨🇦CA_80+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1_232
+      - 🇮🇳IN_23+@WangCai_1
+      - 🇮🇳IN_72+@WangCai_1
+      - 🇮🇳IN_40+@WangCai_1
+      - 🇮🇳IN_08+@WangCai_1
+      - ‌🇨🇦CA_73+@WangCai_1
+      - 🇮🇳IN_79+@WangCai_1
+      - 🇮🇳IN_26+@WangCai_1
+      - 🇮🇳IN_28+@WangCai_1
+      - 🇮🇳IN_60+@WangCai_1
+      - 🇮🇳IN_46+@WangCai_1
+      - 🇮🇳IN_54+@WangCai_1
+      - 🇮🇳IN_67+@WangCai_1
+      - 🇮🇳IN_32+@WangCai_1
+      - 🇮🇳IN_48+@WangCai_1
+      - ‌🇨🇦CA_08+@WangCai_1_247
+      - 🇮🇳IN_13+@WangCai_1
+      - 🇮🇳IN_42+@WangCai_1
+      - 🇮🇳IN_47+@WangCai_1
+      - ‌🇨🇦CA_54+@WangCai_1
+      - ‌🇨🇦CA_24+@WangCai_1_252
+      - 🇮🇳IN_30+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1_254
+      - ‌🇨🇦CA_07+@WangCai_1
+      - 🇸🇪SE_03+@WangCai_1
+      - 🇮🇳IN_35+@WangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本阿伟科技-油管5_1
-      - 🇯🇵 40日本_2
-      - 🇯🇵 39日本_3
-      - CYL-科技（2021.11.16）_4
-      - 🇭🇰 73香港_5
-      - 🇳🇱 荷兰_001 关注Tg交流群_@Mshare_T_6
-      - 🇭🇰 74香港_7
-      - 电信一区广东_8
-      - Pool_馃嚟馃嚢HK_3622
-      - Pool_馃嚬馃嚰TW_8051
-      - CYL-科技（2021.11.16） 105_11
-      - 🇷🇴+042罗马尼亚∞直连_12
-      - 捷克感谢订阅——科技网络_195
+      - 微信公众号：光头院长_1
+      - 🇸🇬 中转|新加坡Singtel01|微信ddly000_2
+      - 🇯🇵 中转|日本GMO06|微信ddly000_3
+      - 🇰🇷 韩国_006 Tg交流群 @Mshare_T_4
+      - 🇰🇷 韩国_008 Tg交流群 @Mshare_T_5
+      - 🇰🇷 韩国_004 Tg交流群 @Mshare_T_6
+      - 🇯🇵 中转|日本GMO10|华南隧道流媒体解锁_7
+      - CYL-科技（2021.11.16）_8
+      - 🇰🇷 韩国_002 Tg交流群 @Mshare_T_9
+      - 日本阿伟科技-油管5_10
+      - 🇭🇰 中转|香港HGC11|微信ddly000_11
+      - 🇮🇳IN_55+@WangCai_1
+      - 比利时阿伟科技-油管1_13
+      - 🇭🇰 中转|香港CMHK07|微信ddly000_14
+      - 🇨🇳 中转|台湾中华电信01|微信ddly000_15
+      - 🇺🇸+美国_034+关注Tg交流群_@Mshare_T_16
+      - CYL-科技（2021.11.16） 105_17
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+15_18
+      - 🇫🇷+法国_010+关注Tg交流群_@Mshare_T_19
+      - 🇬🇧 中转|英国GTHost01|华南隧道流媒体解锁_20
+      - 🇨🇦+加拿大_021+关注Tg交流群_@Mshare_T_21
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+6_22
+      - 🇨🇳 中转|台湾HiNet05|华南隧道流媒体解锁_23
+      - 🇨🇦+加拿大_007+关注Tg交流群_@Mshare_T_24
+      - 🇷🇴+042罗马尼亚∞直连_25
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_26
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+3_27
+      - 🇪🇸+西班牙_006+关注Tg交流群_@Mshare_T_28
+      - 🇷🇴+罗马尼亚欢迎订阅youtube：8度科技+2_29
+      - 🇨🇦+加拿大_008+关注Tg交流群_@Mshare_T_30
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+13_31
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+2_32
+      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_33
+      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_34
+      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_35
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+11_36
+      - 🇺🇸+美国_037+关注Tg交流群_@Mshare_T_37
       - 荷兰感谢订阅——科技网络_207
-      - 荷兰感谢订阅——科技网络_219
-      - 捷克感谢订阅——科技网络_229
+      - 🇨🇦+加拿大_022+关注Tg交流群_@Mshare_T_39
+      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_40
       - 美国感谢订阅——科技网络_202
-      - 捷克感谢订阅——科技网络_233
-      - 荷兰感谢订阅——科技网络_203
-      - 🇬🇧 英国_002 关注Tg交流群_@Mshare_T_20
-      - CH_49+@WangCai_1+4
+      - 🇸🇪+瑞典_017+关注Tg交流群_@Mshare_T_42
+      - 🇨🇦+加拿大_027+关注Tg交流群_@Mshare_T_43
+      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_44
+      - 🇷🇴+50罗马尼亚_45
+      - 🇮🇳+印度_015+关注Tg交流群_@Mshare_T_46
+      - 🇮🇳+印度_014+关注Tg交流群_@Mshare_T_47
+      - 🇮🇳+印度_017+关注Tg交流群_@Mshare_T_48
+      - 🇨🇳 中转|台湾中华电信06|微信ddly000_49
       - 荷兰感谢订阅——科技网络_210
-      - 英国感谢订阅——科技网络_87
-      - 馃嚭馃嚫US_374
-      - CH_03+@WangCai_1+4
-      - 英国感谢订阅——科技网络_72
-      - CH_02+@WangCai_1+4
-      - 英国感谢订阅——科技网络_117
-      - 英国感谢订阅——科技网络_71
-      - CH_44+@WangCai_1+4
-      - 英国感谢订阅——科技网络_85
-      - 🇺🇲+079美国∞直连_32
-      - CH_23+@WangCai_1+4
+      - 🇮🇳+印度_002+关注Tg交流群_@Mshare_T_51
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_52
+      - 🇮🇳+印度_013+关注Tg交流群_@Mshare_T_53
+      - 🇮🇳+印度_027+关注Tg交流群_@Mshare_T_54
+      - 🇮🇳+印度_020+关注Tg交流群_@Mshare_T_55
+      - 🇮🇳+印度_030+关注Tg交流群_@Mshare_T_56
+      - 🇮🇳+印度_018+关注Tg交流群_@Mshare_T_57
+      - 🇮🇳+印度_019+关注Tg交流群_@Mshare_T_58
+      - 🇮🇳+印度_024+关注Tg交流群_@Mshare_T_59
+      - 🇮🇳+印度_009+关注Tg交流群_@Mshare_T_60
+      - 🇮🇳+印度_025+关注Tg交流群_@Mshare_T_61
+      - 🇸🇬 中转|新加坡Singtel04|华中隧道流媒体解锁_62
+      - 🇮🇳+印度_016+关注Tg交流群_@Mshare_T_63
+      - 🇮🇳+印度_021+关注Tg交流群_@Mshare_T_64
+      - 🇮🇳+印度_022+关注Tg交流群_@Mshare_T_65
+      - 🇮🇳+印度_029+关注Tg交流群_@Mshare_T_66
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+9_67
+      - 🇷🇺 俄罗斯_001 关注Tg交流群_@Mshare_T_68
+      - 🇮🇳+印度_023+关注Tg交流群_@Mshare_T_69
+      - 🇮🇳+印度_008+关注Tg交流群_@Mshare_T_70
+      - 🇮🇳+印度_028+关注Tg交流群_@Mshare_T_71
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+3_72
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+3_73
+      - 🇸🇬 新加坡_008 关注Tg交流群_@Mshare_T_74
+      - 🇮🇳+印度_007+关注Tg交流群_@Mshare_T_75
+      - 🇮🇳+印度_010+关注Tg交流群_@Mshare_T_76
+      - 🇺🇸+US（感谢关注youtube：8度科技）_77
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+14_78
+      - 荷兰感谢订阅——科技网络_203
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技_80
+      - 🇮🇳+印度_001+关注Tg交流群_@Mshare_T_81
+      - 🇸🇪+瑞典_021+关注Tg交流群_@Mshare_T_82
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+4_83
+      - 🇮🇳+印度_026+关注Tg交流群_@Mshare_T_84
+      - 🇸🇪+瑞典_019+关注Tg交流群_@Mshare_T_85
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+10_86
+      - ‌🇨🇦CA_08+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1
+      - ‌🇨🇦CA_31+@WangCai_1
+      - ‌🇨🇦CA_83+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_93
+      - ‌🇨🇦CA_09+@WangCai_1
+      - ‌🇨🇦CA_45+@WangCai_1
+      - ‌🇨🇦CA_65+@WangCai_1
+      - ‌🇨🇦CA_19+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1_100
+      - ‌🇨🇦CA_18+@WangCai_1
+      - ‌🇨🇦CA_46+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1
+      - ‌🇨🇦CA_16+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_105
+      - ‌🇨🇦CA_28+@WangCai_1
+      - ‌🇨🇦CA_72+@WangCai_1
+      - ‌🇨🇦CA_51+@WangCai_1
+      - ‌🇨🇦CA_62+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_110
+      - ‌🇨🇦CA_70+@WangCai_1
+      - ‌🇨🇦CA_28+@WangCai_1_112
+      - ‌🇨🇦CA_31+@WangCai_1_113
+      - ‌🇨🇦CA_83+@WangCai_1_114
+      - ‌🇨🇦CA_25+@WangCai_1
+      - ‌🇨🇦CA_03+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1
+      - ‌🇨🇦CA_69+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_119
+      - ‌🇨🇦CA_64+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1
+      - ‌🇨🇦CA_10+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_124
+      - ‌🇨🇦CA_61+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1_126
+      - ‌🇨🇦CA_24+@WangCai_1
+      - ‌🇨🇦CA_15+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_129
+      - ‌🇨🇦CA_14+@WangCai_1
+      - ‌🇨🇦CA_11+@WangCai_1
+      - ‌🇨🇦CA_70+@WangCai_1_132
+      - ‌🇨🇦CA_13+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1
+      - ‌🇨🇦CA_67+@WangCai_1
+      - ‌🇨🇦CA_33+@WangCai_1
+      - ‌🇨🇦CA_13+@WangCai_1_137
+      - ‌🇨🇦CA_18+@WangCai_1_138
+      - ‌🇨🇦CA_69+@WangCai_1_139
+      - ‌🇨🇦CA_65+@WangCai_1_140
+      - 🇮🇳IN_24+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1_143
+      - ‌🇨🇦CA_11+@WangCai_1_144
+      - ‌🇨🇦CA_61+@WangCai_1_145
+      - ‌🇨🇦CA_61+@WangCai_1_146
+      - ‌🇨🇦CA_78+@WangCai_1
+      - ‌🇨🇦CA_18+@WangCai_1_148
+      - ‌🇨🇦CA_58+@WangCai_1
+      - ‌🇨🇦CA_64+@WangCai_1_150
+      - ‌🇨🇦CA_01+@WangCai_1
+      - ‌🇨🇦CA_81+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_153
+      - ‌🇨🇦CA_38+@WangCai_1
+      - ‌🇨🇦CA_29+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_156
+      - ‌🇨🇦CA_78+@WangCai_1_157
+      - ‌🇨🇦CA_48+@WangCai_1_158
+      - ‌🇨🇦CA_08+@WangCai_1_159
+      - ‌🇨🇦CA_68+@WangCai_1
+      - ‌🇨🇦CA_61+@WangCai_1_161
+      - ‌🇨🇦CA_75+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_163
+      - ‌🇨🇦CA_31+@WangCai_1_164
+      - ‌🇨🇦CA_53+@WangCai_1_165
+      - ‌🇨🇦CA_57+@WangCai_1
+      - ‌🇨🇦CA_68+@WangCai_1_167
+      - 🇮🇳IN_09+@WangCai_1
+      - 🇮🇳IN_16+@WangCai_1
+      - 🇮🇳IN_37+@WangCai_1
+      - 🇮🇳IN_56+@WangCai_1
+      - 🇮🇳IN_59+@WangCai_1
+      - 🇮🇳IN_62+@WangCai_1
+      - 🇮🇳IN_11+@WangCai_1
+      - 🇮🇳IN_58+@WangCai_1
+      - 🇮🇳IN_45+@WangCai_1
+      - 🇮🇳IN_50+@WangCai_1
+      - 🇮🇳IN_43+@WangCai_1
+      - 🇮🇳IN_53+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1_180
+      - ‌🇨🇦CA_44+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1_183
+      - ‌🇨🇦CA_67+@WangCai_1_184
+      - ‌🇨🇦CA_22+@WangCai_1
+      - 🇮🇳IN_33+@WangCai_1
+      - 🇮🇳IN_04+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_188
+      - 🇮🇳IN_02+@WangCai_1
+      - 🇮🇳IN_03+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_191
+      - 🇮🇳IN_18+@WangCai_1
+      - 🇮🇳IN_69+@WangCai_1
+      - 🇮🇳IN_63+@WangCai_1
+      - 🇮🇳IN_21+@WangCai_1
+      - 🇮🇳IN_31+@WangCai_1
+      - 🇮🇳IN_38+@WangCai_1
+      - 🇮🇳IN_52+@WangCai_1
+      - 🇮🇳IN_65+@WangCai_1
+      - 🇮🇳IN_68+@WangCai_1
+      - 🇮🇳IN_14+@WangCai_1
+      - 🇮🇳IN_19+@WangCai_1
+      - 🇮🇳IN_20+@WangCai_1
+      - 🇮🇳IN_36+@WangCai_1
+      - 🇮🇳IN_12+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1
+      - 🇮🇳IN_15+@WangCai_1
+      - ‌🇨🇦CA_58+@WangCai_1_208
+      - ‌🇨🇦CA_24+@WangCai_1_209
+      - ‌🇨🇦CA_28+@WangCai_1_210
+      - 🇮🇳IN_05+@WangCai_1
+      - 🇮🇳IN_66+@WangCai_1
+      - 🇮🇳IN_22+@WangCai_1
+      - 🇮🇳IN_25+@WangCai_1
+      - 🇮🇳IN_27+@WangCai_1
+      - 🇮🇳IN_41+@WangCai_1
+      - 🇮🇳IN_44+@WangCai_1
+      - 🇮🇳IN_49+@WangCai_1
+      - 🇮🇳IN_51+@WangCai_1
+      - 🇮🇳IN_57+@WangCai_1
+      - 🇮🇳IN_61+@WangCai_1
+      - 🇮🇳IN_64+@WangCai_1
+      - 🇮🇳IN_70+@WangCai_1
+      - 🇮🇳IN_29+@WangCai_1
+      - 🇮🇳IN_10+@WangCai_1
+      - 🇮🇳IN_17+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1_227
+      - 🇮🇳IN_39+@WangCai_1
+      - ‌🇨🇦CA_60+@WangCai_1
+      - ‌🇨🇦CA_49+@WangCai_1
+      - ‌🇨🇦CA_80+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1_232
+      - 🇮🇳IN_23+@WangCai_1
+      - 🇮🇳IN_72+@WangCai_1
+      - 🇮🇳IN_40+@WangCai_1
+      - 🇮🇳IN_08+@WangCai_1
+      - ‌🇨🇦CA_73+@WangCai_1
+      - 🇮🇳IN_79+@WangCai_1
+      - 🇮🇳IN_26+@WangCai_1
+      - 🇮🇳IN_28+@WangCai_1
+      - 🇮🇳IN_60+@WangCai_1
+      - 🇮🇳IN_46+@WangCai_1
+      - 🇮🇳IN_54+@WangCai_1
+      - 🇮🇳IN_67+@WangCai_1
+      - 🇮🇳IN_32+@WangCai_1
+      - 🇮🇳IN_48+@WangCai_1
+      - ‌🇨🇦CA_08+@WangCai_1_247
+      - 🇮🇳IN_13+@WangCai_1
+      - 🇮🇳IN_42+@WangCai_1
+      - 🇮🇳IN_47+@WangCai_1
+      - ‌🇨🇦CA_54+@WangCai_1
+      - ‌🇨🇦CA_24+@WangCai_1_252
+      - 🇮🇳IN_30+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1_254
+      - ‌🇨🇦CA_07+@WangCai_1
+      - 🇸🇪SE_03+@WangCai_1
+      - 🇮🇳IN_35+@WangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -322,39 +2106,262 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本阿伟科技-油管5_1
-      - 🇯🇵 40日本_2
-      - 🇯🇵 39日本_3
-      - CYL-科技（2021.11.16）_4
-      - 🇭🇰 73香港_5
-      - 🇳🇱 荷兰_001 关注Tg交流群_@Mshare_T_6
-      - 🇭🇰 74香港_7
-      - 电信一区广东_8
-      - Pool_馃嚟馃嚢HK_3622
-      - Pool_馃嚬馃嚰TW_8051
-      - CYL-科技（2021.11.16） 105_11
-      - 🇷🇴+042罗马尼亚∞直连_12
-      - 捷克感谢订阅——科技网络_195
+      - 微信公众号：光头院长_1
+      - 🇸🇬 中转|新加坡Singtel01|微信ddly000_2
+      - 🇯🇵 中转|日本GMO06|微信ddly000_3
+      - 🇰🇷 韩国_006 Tg交流群 @Mshare_T_4
+      - 🇰🇷 韩国_008 Tg交流群 @Mshare_T_5
+      - 🇰🇷 韩国_004 Tg交流群 @Mshare_T_6
+      - 🇯🇵 中转|日本GMO10|华南隧道流媒体解锁_7
+      - CYL-科技（2021.11.16）_8
+      - 🇰🇷 韩国_002 Tg交流群 @Mshare_T_9
+      - 日本阿伟科技-油管5_10
+      - 🇭🇰 中转|香港HGC11|微信ddly000_11
+      - 🇮🇳IN_55+@WangCai_1
+      - 比利时阿伟科技-油管1_13
+      - 🇭🇰 中转|香港CMHK07|微信ddly000_14
+      - 🇨🇳 中转|台湾中华电信01|微信ddly000_15
+      - 🇺🇸+美国_034+关注Tg交流群_@Mshare_T_16
+      - CYL-科技（2021.11.16） 105_17
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+15_18
+      - 🇫🇷+法国_010+关注Tg交流群_@Mshare_T_19
+      - 🇬🇧 中转|英国GTHost01|华南隧道流媒体解锁_20
+      - 🇨🇦+加拿大_021+关注Tg交流群_@Mshare_T_21
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+6_22
+      - 🇨🇳 中转|台湾HiNet05|华南隧道流媒体解锁_23
+      - 🇨🇦+加拿大_007+关注Tg交流群_@Mshare_T_24
+      - 🇷🇴+042罗马尼亚∞直连_25
+      - 🇺🇸+美国_035+关注Tg交流群_@Mshare_T_26
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+3_27
+      - 🇪🇸+西班牙_006+关注Tg交流群_@Mshare_T_28
+      - 🇷🇴+罗马尼亚欢迎订阅youtube：8度科技+2_29
+      - 🇨🇦+加拿大_008+关注Tg交流群_@Mshare_T_30
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+13_31
+      - 🇪🇸+西班牙欢迎订阅youtube：8度科技+2_32
+      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_33
+      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_34
+      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_35
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+11_36
+      - 🇺🇸+美国_037+关注Tg交流群_@Mshare_T_37
       - 荷兰感谢订阅——科技网络_207
-      - 荷兰感谢订阅——科技网络_219
-      - 捷克感谢订阅——科技网络_229
+      - 🇨🇦+加拿大_022+关注Tg交流群_@Mshare_T_39
+      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_40
       - 美国感谢订阅——科技网络_202
-      - 捷克感谢订阅——科技网络_233
-      - 荷兰感谢订阅——科技网络_203
-      - 🇬🇧 英国_002 关注Tg交流群_@Mshare_T_20
-      - CH_49+@WangCai_1+4
+      - 🇸🇪+瑞典_017+关注Tg交流群_@Mshare_T_42
+      - 🇨🇦+加拿大_027+关注Tg交流群_@Mshare_T_43
+      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_44
+      - 🇷🇴+50罗马尼亚_45
+      - 🇮🇳+印度_015+关注Tg交流群_@Mshare_T_46
+      - 🇮🇳+印度_014+关注Tg交流群_@Mshare_T_47
+      - 🇮🇳+印度_017+关注Tg交流群_@Mshare_T_48
+      - 🇨🇳 中转|台湾中华电信06|微信ddly000_49
       - 荷兰感谢订阅——科技网络_210
-      - 英国感谢订阅——科技网络_87
-      - 馃嚭馃嚫US_374
-      - CH_03+@WangCai_1+4
-      - 英国感谢订阅——科技网络_72
-      - CH_02+@WangCai_1+4
-      - 英国感谢订阅——科技网络_117
-      - 英国感谢订阅——科技网络_71
-      - CH_44+@WangCai_1+4
-      - 英国感谢订阅——科技网络_85
-      - 🇺🇲+079美国∞直连_32
-      - CH_23+@WangCai_1+4
+      - 🇮🇳+印度_002+关注Tg交流群_@Mshare_T_51
+      - 🇮🇳+印度_012+关注Tg交流群_@Mshare_T_52
+      - 🇮🇳+印度_013+关注Tg交流群_@Mshare_T_53
+      - 🇮🇳+印度_027+关注Tg交流群_@Mshare_T_54
+      - 🇮🇳+印度_020+关注Tg交流群_@Mshare_T_55
+      - 🇮🇳+印度_030+关注Tg交流群_@Mshare_T_56
+      - 🇮🇳+印度_018+关注Tg交流群_@Mshare_T_57
+      - 🇮🇳+印度_019+关注Tg交流群_@Mshare_T_58
+      - 🇮🇳+印度_024+关注Tg交流群_@Mshare_T_59
+      - 🇮🇳+印度_009+关注Tg交流群_@Mshare_T_60
+      - 🇮🇳+印度_025+关注Tg交流群_@Mshare_T_61
+      - 🇸🇬 中转|新加坡Singtel04|华中隧道流媒体解锁_62
+      - 🇮🇳+印度_016+关注Tg交流群_@Mshare_T_63
+      - 🇮🇳+印度_021+关注Tg交流群_@Mshare_T_64
+      - 🇮🇳+印度_022+关注Tg交流群_@Mshare_T_65
+      - 🇮🇳+印度_029+关注Tg交流群_@Mshare_T_66
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+9_67
+      - 🇷🇺 俄罗斯_001 关注Tg交流群_@Mshare_T_68
+      - 🇮🇳+印度_023+关注Tg交流群_@Mshare_T_69
+      - 🇮🇳+印度_008+关注Tg交流群_@Mshare_T_70
+      - 🇮🇳+印度_028+关注Tg交流群_@Mshare_T_71
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+3_72
+      - 🇫🇷+法国欢迎订阅youtube：8度科技+3_73
+      - 🇸🇬 新加坡_008 关注Tg交流群_@Mshare_T_74
+      - 🇮🇳+印度_007+关注Tg交流群_@Mshare_T_75
+      - 🇮🇳+印度_010+关注Tg交流群_@Mshare_T_76
+      - 🇺🇸+US（感谢关注youtube：8度科技）_77
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+14_78
+      - 荷兰感谢订阅——科技网络_203
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技_80
+      - 🇮🇳+印度_001+关注Tg交流群_@Mshare_T_81
+      - 🇸🇪+瑞典_021+关注Tg交流群_@Mshare_T_82
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+4_83
+      - 🇮🇳+印度_026+关注Tg交流群_@Mshare_T_84
+      - 🇸🇪+瑞典_019+关注Tg交流群_@Mshare_T_85
+      - 🇸🇪+瑞典欢迎订阅youtube：8度科技+10_86
+      - ‌🇨🇦CA_08+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1
+      - ‌🇨🇦CA_31+@WangCai_1
+      - ‌🇨🇦CA_83+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_93
+      - ‌🇨🇦CA_09+@WangCai_1
+      - ‌🇨🇦CA_45+@WangCai_1
+      - ‌🇨🇦CA_65+@WangCai_1
+      - ‌🇨🇦CA_19+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1
+      - ‌🇨🇦CA_12+@WangCai_1_100
+      - ‌🇨🇦CA_18+@WangCai_1
+      - ‌🇨🇦CA_46+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1
+      - ‌🇨🇦CA_16+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_105
+      - ‌🇨🇦CA_28+@WangCai_1
+      - ‌🇨🇦CA_72+@WangCai_1
+      - ‌🇨🇦CA_51+@WangCai_1
+      - ‌🇨🇦CA_62+@WangCai_1
+      - ‌🇨🇦CA_09+@WangCai_1_110
+      - ‌🇨🇦CA_70+@WangCai_1
+      - ‌🇨🇦CA_28+@WangCai_1_112
+      - ‌🇨🇦CA_31+@WangCai_1_113
+      - ‌🇨🇦CA_83+@WangCai_1_114
+      - ‌🇨🇦CA_25+@WangCai_1
+      - ‌🇨🇦CA_03+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1
+      - ‌🇨🇦CA_69+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_119
+      - ‌🇨🇦CA_64+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1
+      - ‌🇨🇦CA_10+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_124
+      - ‌🇨🇦CA_61+@WangCai_1
+      - ‌🇨🇦CA_82+@WangCai_1_126
+      - ‌🇨🇦CA_24+@WangCai_1
+      - ‌🇨🇦CA_15+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_129
+      - ‌🇨🇦CA_14+@WangCai_1
+      - ‌🇨🇦CA_11+@WangCai_1
+      - ‌🇨🇦CA_70+@WangCai_1_132
+      - ‌🇨🇦CA_13+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1
+      - ‌🇨🇦CA_67+@WangCai_1
+      - ‌🇨🇦CA_33+@WangCai_1
+      - ‌🇨🇦CA_13+@WangCai_1_137
+      - ‌🇨🇦CA_18+@WangCai_1_138
+      - ‌🇨🇦CA_69+@WangCai_1_139
+      - ‌🇨🇦CA_65+@WangCai_1_140
+      - 🇮🇳IN_24+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1
+      - ‌🇨🇦CA_26+@WangCai_1_143
+      - ‌🇨🇦CA_11+@WangCai_1_144
+      - ‌🇨🇦CA_61+@WangCai_1_145
+      - ‌🇨🇦CA_61+@WangCai_1_146
+      - ‌🇨🇦CA_78+@WangCai_1
+      - ‌🇨🇦CA_18+@WangCai_1_148
+      - ‌🇨🇦CA_58+@WangCai_1
+      - ‌🇨🇦CA_64+@WangCai_1_150
+      - ‌🇨🇦CA_01+@WangCai_1
+      - ‌🇨🇦CA_81+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_153
+      - ‌🇨🇦CA_38+@WangCai_1
+      - ‌🇨🇦CA_29+@WangCai_1
+      - ‌🇨🇦CA_27+@WangCai_1_156
+      - ‌🇨🇦CA_78+@WangCai_1_157
+      - ‌🇨🇦CA_48+@WangCai_1_158
+      - ‌🇨🇦CA_08+@WangCai_1_159
+      - ‌🇨🇦CA_68+@WangCai_1
+      - ‌🇨🇦CA_61+@WangCai_1_161
+      - ‌🇨🇦CA_75+@WangCai_1
+      - ‌🇨🇦CA_47+@WangCai_1_163
+      - ‌🇨🇦CA_31+@WangCai_1_164
+      - ‌🇨🇦CA_53+@WangCai_1_165
+      - ‌🇨🇦CA_57+@WangCai_1
+      - ‌🇨🇦CA_68+@WangCai_1_167
+      - 🇮🇳IN_09+@WangCai_1
+      - 🇮🇳IN_16+@WangCai_1
+      - 🇮🇳IN_37+@WangCai_1
+      - 🇮🇳IN_56+@WangCai_1
+      - 🇮🇳IN_59+@WangCai_1
+      - 🇮🇳IN_62+@WangCai_1
+      - 🇮🇳IN_11+@WangCai_1
+      - 🇮🇳IN_58+@WangCai_1
+      - 🇮🇳IN_45+@WangCai_1
+      - 🇮🇳IN_50+@WangCai_1
+      - 🇮🇳IN_43+@WangCai_1
+      - 🇮🇳IN_53+@WangCai_1
+      - ‌🇨🇦CA_36+@WangCai_1_180
+      - ‌🇨🇦CA_44+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1
+      - ‌🇨🇦CA_41+@WangCai_1_183
+      - ‌🇨🇦CA_67+@WangCai_1_184
+      - ‌🇨🇦CA_22+@WangCai_1
+      - 🇮🇳IN_33+@WangCai_1
+      - 🇮🇳IN_04+@WangCai_1
+      - ‌🇨🇦CA_48+@WangCai_1_188
+      - 🇮🇳IN_02+@WangCai_1
+      - 🇮🇳IN_03+@WangCai_1
+      - ‌🇨🇦CA_30+@WangCai_1_191
+      - 🇮🇳IN_18+@WangCai_1
+      - 🇮🇳IN_69+@WangCai_1
+      - 🇮🇳IN_63+@WangCai_1
+      - 🇮🇳IN_21+@WangCai_1
+      - 🇮🇳IN_31+@WangCai_1
+      - 🇮🇳IN_38+@WangCai_1
+      - 🇮🇳IN_52+@WangCai_1
+      - 🇮🇳IN_65+@WangCai_1
+      - 🇮🇳IN_68+@WangCai_1
+      - 🇮🇳IN_14+@WangCai_1
+      - 🇮🇳IN_19+@WangCai_1
+      - 🇮🇳IN_20+@WangCai_1
+      - 🇮🇳IN_36+@WangCai_1
+      - 🇮🇳IN_12+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1
+      - 🇮🇳IN_15+@WangCai_1
+      - ‌🇨🇦CA_58+@WangCai_1_208
+      - ‌🇨🇦CA_24+@WangCai_1_209
+      - ‌🇨🇦CA_28+@WangCai_1_210
+      - 🇮🇳IN_05+@WangCai_1
+      - 🇮🇳IN_66+@WangCai_1
+      - 🇮🇳IN_22+@WangCai_1
+      - 🇮🇳IN_25+@WangCai_1
+      - 🇮🇳IN_27+@WangCai_1
+      - 🇮🇳IN_41+@WangCai_1
+      - 🇮🇳IN_44+@WangCai_1
+      - 🇮🇳IN_49+@WangCai_1
+      - 🇮🇳IN_51+@WangCai_1
+      - 🇮🇳IN_57+@WangCai_1
+      - 🇮🇳IN_61+@WangCai_1
+      - 🇮🇳IN_64+@WangCai_1
+      - 🇮🇳IN_70+@WangCai_1
+      - 🇮🇳IN_29+@WangCai_1
+      - 🇮🇳IN_10+@WangCai_1
+      - 🇮🇳IN_17+@WangCai_1
+      - ‌🇨🇦CA_53+@WangCai_1_227
+      - 🇮🇳IN_39+@WangCai_1
+      - ‌🇨🇦CA_60+@WangCai_1
+      - ‌🇨🇦CA_49+@WangCai_1
+      - ‌🇨🇦CA_80+@WangCai_1
+      - ‌🇨🇦CA_34+@WangCai_1_232
+      - 🇮🇳IN_23+@WangCai_1
+      - 🇮🇳IN_72+@WangCai_1
+      - 🇮🇳IN_40+@WangCai_1
+      - 🇮🇳IN_08+@WangCai_1
+      - ‌🇨🇦CA_73+@WangCai_1
+      - 🇮🇳IN_79+@WangCai_1
+      - 🇮🇳IN_26+@WangCai_1
+      - 🇮🇳IN_28+@WangCai_1
+      - 🇮🇳IN_60+@WangCai_1
+      - 🇮🇳IN_46+@WangCai_1
+      - 🇮🇳IN_54+@WangCai_1
+      - 🇮🇳IN_67+@WangCai_1
+      - 🇮🇳IN_32+@WangCai_1
+      - 🇮🇳IN_48+@WangCai_1
+      - ‌🇨🇦CA_08+@WangCai_1_247
+      - 🇮🇳IN_13+@WangCai_1
+      - 🇮🇳IN_42+@WangCai_1
+      - 🇮🇳IN_47+@WangCai_1
+      - ‌🇨🇦CA_54+@WangCai_1
+      - ‌🇨🇦CA_24+@WangCai_1_252
+      - 🇮🇳IN_30+@WangCai_1
+      - ‌🇨🇦CA_59+@WangCai_1_254
+      - ‌🇨🇦CA_07+@WangCai_1
+      - 🇸🇪SE_03+@WangCai_1
+      - 🇮🇳IN_35+@WangCai_1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
