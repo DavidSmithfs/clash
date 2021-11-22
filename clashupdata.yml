@@ -5,1012 +5,156 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '日本阿伟科技1-YouTube_2', server: yp.wokuaitule.xyz, port: 1873, type: vmess, uuid: 6c97c3da-8945-3083-b7b7-e497b5a493f3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index}
-  - {name: '新加坡阿伟科技1-YouTube_1', server: jm.01.nkeo.top, port: 45063, type: vmess, uuid: 6c97c3da-8945-3083-b7b7-e497b5a493f3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index}
-  - {name: '🇮🇳+印度阿伟科技-油管3+2_36', server: 103.108.117.148, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: '🇮🇳+印度阿伟科技-油管4_30', server: 103.108.117.148, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: '🇮🇳+印度阿伟科技-油管3_15', server: 103.108.117.148, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: '🇩🇪+德国阿伟科技-油管2_25', server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: '🇮🇳+印度阿伟科技-油管5_29', server: 103.108.117.148, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: '🇮🇳+印度阿伟科技-油管3+3_37', server: 103.108.117.148, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: '法国阿伟科技-YouTube_3', server: az.wokuaitule.xyz, port: 17720, type: vmess, uuid: 6c97c3da-8945-3083-b7b7-e497b5a493f3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index}
-  - {name: '🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T_10', server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: '🇺🇸 美国_001 关注Tg交流群_@Mshare_T_11', server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: '加拿大感谢订阅——科技网络_267', server: 37.19.211.85, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: '‌🇨🇦CA_12+@WangCai_1', server: 37.19.211.65, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: '‌🇨🇦CA_48+@WangCai_1', server: 37.19.211.113, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: '乌克兰感谢订阅——科技网络_169', server: 37.19.211.120, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: '‌🇨🇦CA_44+@WangCai_1+2', server: 37.19.211.120, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: '‌🇨🇦CA_28+@WangCai_1', server: 37.19.211.108, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: '‌🇨🇦CA_31+@WangCai_1', server: 37.19.211.113, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: '乌克兰感谢订阅——科技网络_264', server: 37.19.211.55, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
-  - {name: '欧洲感谢订阅——科技网络_311', server: 37.19.211.55, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: '乌克兰感谢订阅——科技网络_298', server: 37.19.211.55, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: '‌🇨🇦CA_16+@WangCai_1', server: 37.19.211.108, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: '‌🇨🇦CA_82+@WangCai_1', server: 37.19.211.113, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
-  - {name: '‌🇨🇦CA_44+@WangCai_1', server: 37.19.211.60, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: '加拿大感谢订阅——科技网络_272', server: 37.19.211.85, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: '乌克兰感谢订阅——科技网络_314', server: 37.19.211.85, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: '日本感谢订阅——科技网络_326', server: 185.108.106.172, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: '🇩🇪+德国_001+关注Tg交流群_@Mshare_T_28', server: 82.102.16.102, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
-  - {name: '加拿大感谢订阅——科技网络_292', server: 37.19.211.28, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
-  - {name: '‌🇨🇦CA_27+@WangCai_1', server: 37.19.211.108, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: '‌🇨🇦CA_61+@WangCai_1', server: 37.19.211.113, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: '‌🇨🇦CA_08+@WangCai_1', server: 37.19.211.80, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '‌🇨🇦CA_70+@WangCai_1', server: 37.19.211.25, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: '‌🇨🇦CA_07+@WangCai_1', server: 37.19.211.75, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: '‌🇨🇦CA_70+@WangCai_1+2', server: 37.19.211.85, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: '加拿大感谢订阅——科技网络_225', server: 37.19.211.28, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: '日本感谢订阅——科技网络_294', server: 185.108.106.172, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: '欧洲感谢订阅——科技网络_289', server: 37.19.211.85, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
-  - {name: '‌🇨🇦CA_78+@WangCai_1', server: 37.19.211.113, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
-  - {name: '‌🇨🇦CA_80+@WangCai_1', server: 37.19.211.88, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: '‌🇨🇦CA_26+@WangCai_1', server: 37.19.211.80, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: '加拿大感谢订阅——科技网络_274', server: 37.19.211.85, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: '加拿大感谢订阅——科技网络_260', server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '欧洲感谢订阅——科技网络_193', server: 37.19.211.120, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: '‌🇨🇦CA_45+@WangCai_1', server: 37.19.211.55, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: '‌🇨🇦CA_83+@WangCai_1', server: 37.19.211.65, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
-  - {name: '‌🇨🇦CA_58+@WangCai_1', server: 37.19.211.93, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: '欧洲感谢订阅——科技网络_210', server: 37.19.211.70, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
-  - {name: '印度感谢订阅——科技网络_59', server: 103.108.117.148, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
-  - {name: '加拿大感谢订阅——科技网络_266', server: 37.19.211.85, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
-  - {name: '印度感谢订阅——科技网络_69', server: 103.108.117.148, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: '加拿大感谢订阅——科技网络_363', server: 37.19.211.120, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: '‌🇨🇦CA_01+@WangCai_1', server: 37.19.211.65, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: '‌🇨🇦CA_62+@WangCai_1', server: 37.19.211.65, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: '‌🇨🇦CA_03+@WangCai_1', server: 37.19.211.60, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: '‌🇨🇦CA_28+@WangCai_1_57', server: 37.19.211.40, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: '‌🇨🇦CA_57+@WangCai_1', server: 37.19.211.83, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: '‌🇨🇦CA_48+@WangCai_1_59', server: 37.19.211.75, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: '乌克兰_018+关注Tg交流群_@Mshare_T_59', server: 37.19.211.120, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
-  - {name: '加拿大感谢订阅——科技网络_254', server: 37.19.211.55, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: '印度感谢订阅——科技网络_74', server: 103.108.117.148, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: '‌🇨🇦CA_64+@WangCai_1', server: 37.19.211.43, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: '‌🇨🇦CA_65+@WangCai_1', server: 37.19.211.93, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: '‌🇨🇦CA_73+@WangCai_1', server: 37.19.211.88, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: '‌🇨🇦CA_68+@WangCai_1', server: 37.19.211.93, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: '🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_66', server: 37.19.211.83, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: '‌🇨🇦CA_69+@WangCai_1', server: 37.19.211.75, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: '‌🇨🇦CA_09+@WangCai_1+2', server: 37.19.211.120, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: '印度感谢订阅——科技网络_66', server: 103.108.117.148, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: '印度感谢订阅——科技网络_73', server: 103.108.117.148, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: '印度感谢订阅——科技网络_88', server: 103.108.117.148, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: '印度感谢订阅——科技网络_41', server: 103.108.117.148, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: '‌🇨🇦CA_19+@WangCai_1', server: 37.19.211.65, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: '‌🇨🇦CA_12+@WangCai_1_75', server: 37.19.211.80, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: '‌🇨🇦CA_24+@WangCai_1', server: 37.19.211.75, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: '🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_76', server: 37.19.211.40, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: '加拿大感谢订阅——科技网络_228', server: 37.19.211.70, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: '‌🇨🇦CA_28+@WangCai_1+4', server: 37.19.211.28, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: '印度感谢订阅——科技网络_16', server: 103.108.117.148, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: '印度感谢订阅——科技网络_94', server: 103.108.117.148, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: '印度感谢订阅——科技网络_33', server: 103.108.117.148, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: '印度感谢订阅——科技网络_50', server: 103.108.117.148, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: '🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_83', server: 37.19.211.60, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: '‌🇨🇦CA_59+@WangCai_1', server: 37.19.211.93, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: '乌克兰感谢订阅——科技网络_307', server: 37.19.211.40, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: '印度感谢订阅——科技网络_26', server: 103.108.117.148, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: '乌克兰感谢订阅——科技网络_320', server: 37.19.211.55, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: '‌🇨🇦CA_41+@WangCai_1', server: 37.19.211.55, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
-  - {name: '‌🇨🇦CA_08+@WangCai_1_90', server: 37.19.211.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_90', server: 37.19.211.75, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: '‌🇨🇦CA_49+@WangCai_1', server: 37.19.211.60, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: '‌🇨🇦CA_53+@WangCai_1', server: 37.19.211.75, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: '‌🇨🇦CA_34+@WangCai_1', server: 37.19.211.78, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
-  - {name: '加拿大感谢订阅——科技网络_305', server: 37.19.211.78, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: '加拿大感谢订阅——科技网络_229', server: 37.19.211.138, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: '‌🇨🇦CA_64+@WangCai_1_97', server: 37.19.211.93, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: '‌🇨🇦CA_61+@WangCai_1_98', server: 37.19.211.63, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: '‌🇨🇦CA_81+@WangCai_1', server: 37.19.211.40, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: '欧洲感谢订阅——科技网络_213', server: 37.19.211.28, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: '印度感谢订阅——科技网络_29', server: 103.108.117.148, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: '印度感谢订阅——科技网络_75', server: 103.108.117.148, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: '加拿大感谢订阅——科技网络_7', server: 37.19.211.120, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 'v2rayse_🇫🇷_FR_法国_1', server: 185.108.106.172, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: '‌🇨🇦CA_48+@WangCai_1_105', server: 37.19.211.83, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: '‌🇨🇦CA_36+@WangCai_1', server: 37.19.211.63, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: '‌🇨🇦CA_11+@WangCai_1', server: 37.19.211.65, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: '印度感谢订阅——科技网络_187', server: 103.108.117.148, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: '🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_108', server: 37.19.211.28, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '乌克兰感谢订阅——科技网络_285', server: 37.19.211.85, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
-  - {name: '‌🇨🇦CA_13+@WangCai_1', server: 37.19.211.113, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: '加拿大感谢订阅——科技网络_223', server: 37.19.211.28, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: '乌克兰感谢订阅——科技网络_201', server: 185.108.106.172, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: '印度感谢订阅——科技网络_23', server: 103.108.117.148, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: '‌🇨🇦CA_38+@WangCai_1', server: 37.19.211.25, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
-  - {name: '‌🇨🇦CA_18+@WangCai_1', server: 37.19.211.40, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: '印度感谢订阅——科技网络_31', server: 103.108.117.148, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: '印度感谢订阅——科技网络_21', server: 103.108.117.148, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: '🇩🇪+德国_004+关注Tg交流群_@Mshare_T_118', server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: '‌🇨🇦CA_75+@WangCai_1', server: 37.19.211.70, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: '‌🇨🇦CA_18+@WangCai_1_121', server: 37.19.211.70, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: '🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_121', server: 37.19.211.25, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: '🇨🇳CN_176 |11.36Mb', server: ngzyd-1.okex-tradebot.xyz, port: 30002, type: vmess, uuid: 353f88e0-ec8d-43cb-8941-622fd5e6583d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇨🇳CN_166 |11.37Mb', server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: 353f88e0-ec8d-43cb-8941-622fd5e6583d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇨🇳CN_174 |11.11Mb', server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 353f88e0-ec8d-43cb-8941-622fd5e6583d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚥馃嚲MY_1472', server: ngzyd-1.okex-tradebot.xyz, port: 30014, type: vmess, uuid: 353f88e0-ec8d-43cb-8941-622fd5e6583d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇨🇳CN_178 |10.71Mb', server: ngzyd-1.okex-tradebot.xyz, port: 30000, type: vmess, uuid: 353f88e0-ec8d-43cb-8941-622fd5e6583d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇨🇳CN_173 |11.57Mb', server: ngzyd-1.okex-tradebot.xyz, port: 30012, type: vmess, uuid: 353f88e0-ec8d-43cb-8941-622fd5e6583d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇨🇳CN_169 |29.50Mb', server: 101.132.173.78, port: 41906, type: vmess, uuid: e24ac30e-e296-4761-af23-7bda2781ba85, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇦🇺AU_40+|22.60Mb', server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇭 23瑞士_9', server: 101.132.173.78, port: 41906, type: vmess, uuid: e24ac30e-e296-4761-af23-7bda2781ba85, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '🏁ZZ_1266+|34.56Mb', server: 134.195.196.219, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '+|+2.15Mb_13', server: 134.195.196.219, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '+|+1.99Mb_8', server: 134.195.196.219, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏁ZZ_1294+|19.70Mb', server: 134.195.196.219, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '欧洲欢迎订阅Youtube破解资源君+26_14', server: 134.195.196.219, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本阿伟科技1-YouTube_2
-      - 新加坡阿伟科技1-YouTube_1
-      - 🇮🇳+印度阿伟科技-油管3+2_36
-      - 🇮🇳+印度阿伟科技-油管4_30
-      - 🇮🇳+印度阿伟科技-油管3_15
-      - 🇩🇪+德国阿伟科技-油管2_25
-      - 🇮🇳+印度阿伟科技-油管5_29
-      - 🇮🇳+印度阿伟科技-油管3+3_37
-      - 法国阿伟科技-YouTube_3
-      - 🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T_10
-      - 🇺🇸 美国_001 关注Tg交流群_@Mshare_T_11
-      - 加拿大感谢订阅——科技网络_267
-      - ‌🇨🇦CA_12+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_169
-      - ‌🇨🇦CA_44+@WangCai_1+2
-      - ‌🇨🇦CA_28+@WangCai_1
-      - ‌🇨🇦CA_31+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_264
-      - 欧洲感谢订阅——科技网络_311
-      - 乌克兰感谢订阅——科技网络_298
-      - ‌🇨🇦CA_16+@WangCai_1
-      - ‌🇨🇦CA_82+@WangCai_1
-      - ‌🇨🇦CA_44+@WangCai_1
-      - 加拿大感谢订阅——科技网络_272
-      - 乌克兰感谢订阅——科技网络_314
-      - 日本感谢订阅——科技网络_326
-      - 🇩🇪+德国_001+关注Tg交流群_@Mshare_T_28
-      - 加拿大感谢订阅——科技网络_292
-      - ‌🇨🇦CA_27+@WangCai_1
-      - ‌🇨🇦CA_61+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1
-      - ‌🇨🇦CA_07+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1+2
-      - 加拿大感谢订阅——科技网络_225
-      - 日本感谢订阅——科技网络_294
-      - 欧洲感谢订阅——科技网络_289
-      - ‌🇨🇦CA_78+@WangCai_1
-      - ‌🇨🇦CA_80+@WangCai_1
-      - ‌🇨🇦CA_26+@WangCai_1
-      - 加拿大感谢订阅——科技网络_274
-      - 加拿大感谢订阅——科技网络_260
-      - 欧洲感谢订阅——科技网络_193
-      - ‌🇨🇦CA_45+@WangCai_1
-      - ‌🇨🇦CA_83+@WangCai_1
-      - ‌🇨🇦CA_58+@WangCai_1
-      - 欧洲感谢订阅——科技网络_210
-      - 印度感谢订阅——科技网络_59
-      - 加拿大感谢订阅——科技网络_266
-      - 印度感谢订阅——科技网络_69
-      - 加拿大感谢订阅——科技网络_363
-      - ‌🇨🇦CA_01+@WangCai_1
-      - ‌🇨🇦CA_62+@WangCai_1
-      - ‌🇨🇦CA_03+@WangCai_1
-      - ‌🇨🇦CA_28+@WangCai_1_57
-      - ‌🇨🇦CA_57+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1_59
-      - 乌克兰_018+关注Tg交流群_@Mshare_T_59
-      - 加拿大感谢订阅——科技网络_254
-      - 印度感谢订阅——科技网络_74
-      - ‌🇨🇦CA_64+@WangCai_1
-      - ‌🇨🇦CA_65+@WangCai_1
-      - ‌🇨🇦CA_73+@WangCai_1
-      - ‌🇨🇦CA_68+@WangCai_1
-      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_66
-      - ‌🇨🇦CA_69+@WangCai_1
-      - ‌🇨🇦CA_09+@WangCai_1+2
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_88
-      - 印度感谢订阅——科技网络_41
-      - ‌🇨🇦CA_19+@WangCai_1
-      - ‌🇨🇦CA_12+@WangCai_1_75
-      - ‌🇨🇦CA_24+@WangCai_1
-      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_76
-      - 加拿大感谢订阅——科技网络_228
-      - ‌🇨🇦CA_28+@WangCai_1+4
-      - 印度感谢订阅——科技网络_16
-      - 印度感谢订阅——科技网络_94
-      - 印度感谢订阅——科技网络_33
-      - 印度感谢订阅——科技网络_50
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_83
-      - ‌🇨🇦CA_59+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_307
-      - 印度感谢订阅——科技网络_26
-      - 乌克兰感谢订阅——科技网络_320
-      - ‌🇨🇦CA_41+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1_90
-      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_90
-      - ‌🇨🇦CA_49+@WangCai_1
-      - ‌🇨🇦CA_53+@WangCai_1
-      - ‌🇨🇦CA_34+@WangCai_1
-      - 加拿大感谢订阅——科技网络_305
-      - 加拿大感谢订阅——科技网络_229
-      - ‌🇨🇦CA_64+@WangCai_1_97
-      - ‌🇨🇦CA_61+@WangCai_1_98
-      - ‌🇨🇦CA_81+@WangCai_1
-      - 欧洲感谢订阅——科技网络_213
-      - 印度感谢订阅——科技网络_29
-      - 印度感谢订阅——科技网络_75
-      - 加拿大感谢订阅——科技网络_7
-      - v2rayse_🇫🇷_FR_法国_1
-      - ‌🇨🇦CA_48+@WangCai_1_105
-      - ‌🇨🇦CA_36+@WangCai_1
-      - ‌🇨🇦CA_11+@WangCai_1
-      - 印度感谢订阅——科技网络_187
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_108
-      - 乌克兰感谢订阅——科技网络_285
-      - ‌🇨🇦CA_13+@WangCai_1
-      - 加拿大感谢订阅——科技网络_223
-      - 乌克兰感谢订阅——科技网络_201
-      - 印度感谢订阅——科技网络_23
-      - ‌🇨🇦CA_38+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1
-      - 印度感谢订阅——科技网络_31
-      - 印度感谢订阅——科技网络_21
-      - 🇩🇪+德国_004+关注Tg交流群_@Mshare_T_118
-      - ‌🇨🇦CA_75+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1_121
-      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_121
+      - 🇨🇳CN_176 |11.36Mb
+      - 🇨🇳CN_166 |11.37Mb
+      - 🇨🇳CN_174 |11.11Mb
+      - Relay_馃嚚馃嚦CN-馃嚥馃嚲MY_1472
+      - 🇨🇳CN_178 |10.71Mb
+      - 🇨🇳CN_173 |11.57Mb
+      - 🇨🇳CN_169 |29.50Mb
+      - 🇦🇺AU_40+|22.60Mb
+      - 🇨🇭 23瑞士_9
+      - 🏁ZZ_1266+|34.56Mb
+      - +|+2.15Mb_13
+      - +|+1.99Mb_8
+      - 🏁ZZ_1294+|19.70Mb
+      - 欧洲欢迎订阅Youtube破解资源君+26_14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本阿伟科技1-YouTube_2
-      - 新加坡阿伟科技1-YouTube_1
-      - 🇮🇳+印度阿伟科技-油管3+2_36
-      - 🇮🇳+印度阿伟科技-油管4_30
-      - 🇮🇳+印度阿伟科技-油管3_15
-      - 🇩🇪+德国阿伟科技-油管2_25
-      - 🇮🇳+印度阿伟科技-油管5_29
-      - 🇮🇳+印度阿伟科技-油管3+3_37
-      - 法国阿伟科技-YouTube_3
-      - 🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T_10
-      - 🇺🇸 美国_001 关注Tg交流群_@Mshare_T_11
-      - 加拿大感谢订阅——科技网络_267
-      - ‌🇨🇦CA_12+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_169
-      - ‌🇨🇦CA_44+@WangCai_1+2
-      - ‌🇨🇦CA_28+@WangCai_1
-      - ‌🇨🇦CA_31+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_264
-      - 欧洲感谢订阅——科技网络_311
-      - 乌克兰感谢订阅——科技网络_298
-      - ‌🇨🇦CA_16+@WangCai_1
-      - ‌🇨🇦CA_82+@WangCai_1
-      - ‌🇨🇦CA_44+@WangCai_1
-      - 加拿大感谢订阅——科技网络_272
-      - 乌克兰感谢订阅——科技网络_314
-      - 日本感谢订阅——科技网络_326
-      - 🇩🇪+德国_001+关注Tg交流群_@Mshare_T_28
-      - 加拿大感谢订阅——科技网络_292
-      - ‌🇨🇦CA_27+@WangCai_1
-      - ‌🇨🇦CA_61+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1
-      - ‌🇨🇦CA_07+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1+2
-      - 加拿大感谢订阅——科技网络_225
-      - 日本感谢订阅——科技网络_294
-      - 欧洲感谢订阅——科技网络_289
-      - ‌🇨🇦CA_78+@WangCai_1
-      - ‌🇨🇦CA_80+@WangCai_1
-      - ‌🇨🇦CA_26+@WangCai_1
-      - 加拿大感谢订阅——科技网络_274
-      - 加拿大感谢订阅——科技网络_260
-      - 欧洲感谢订阅——科技网络_193
-      - ‌🇨🇦CA_45+@WangCai_1
-      - ‌🇨🇦CA_83+@WangCai_1
-      - ‌🇨🇦CA_58+@WangCai_1
-      - 欧洲感谢订阅——科技网络_210
-      - 印度感谢订阅——科技网络_59
-      - 加拿大感谢订阅——科技网络_266
-      - 印度感谢订阅——科技网络_69
-      - 加拿大感谢订阅——科技网络_363
-      - ‌🇨🇦CA_01+@WangCai_1
-      - ‌🇨🇦CA_62+@WangCai_1
-      - ‌🇨🇦CA_03+@WangCai_1
-      - ‌🇨🇦CA_28+@WangCai_1_57
-      - ‌🇨🇦CA_57+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1_59
-      - 乌克兰_018+关注Tg交流群_@Mshare_T_59
-      - 加拿大感谢订阅——科技网络_254
-      - 印度感谢订阅——科技网络_74
-      - ‌🇨🇦CA_64+@WangCai_1
-      - ‌🇨🇦CA_65+@WangCai_1
-      - ‌🇨🇦CA_73+@WangCai_1
-      - ‌🇨🇦CA_68+@WangCai_1
-      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_66
-      - ‌🇨🇦CA_69+@WangCai_1
-      - ‌🇨🇦CA_09+@WangCai_1+2
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_88
-      - 印度感谢订阅——科技网络_41
-      - ‌🇨🇦CA_19+@WangCai_1
-      - ‌🇨🇦CA_12+@WangCai_1_75
-      - ‌🇨🇦CA_24+@WangCai_1
-      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_76
-      - 加拿大感谢订阅——科技网络_228
-      - ‌🇨🇦CA_28+@WangCai_1+4
-      - 印度感谢订阅——科技网络_16
-      - 印度感谢订阅——科技网络_94
-      - 印度感谢订阅——科技网络_33
-      - 印度感谢订阅——科技网络_50
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_83
-      - ‌🇨🇦CA_59+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_307
-      - 印度感谢订阅——科技网络_26
-      - 乌克兰感谢订阅——科技网络_320
-      - ‌🇨🇦CA_41+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1_90
-      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_90
-      - ‌🇨🇦CA_49+@WangCai_1
-      - ‌🇨🇦CA_53+@WangCai_1
-      - ‌🇨🇦CA_34+@WangCai_1
-      - 加拿大感谢订阅——科技网络_305
-      - 加拿大感谢订阅——科技网络_229
-      - ‌🇨🇦CA_64+@WangCai_1_97
-      - ‌🇨🇦CA_61+@WangCai_1_98
-      - ‌🇨🇦CA_81+@WangCai_1
-      - 欧洲感谢订阅——科技网络_213
-      - 印度感谢订阅——科技网络_29
-      - 印度感谢订阅——科技网络_75
-      - 加拿大感谢订阅——科技网络_7
-      - v2rayse_🇫🇷_FR_法国_1
-      - ‌🇨🇦CA_48+@WangCai_1_105
-      - ‌🇨🇦CA_36+@WangCai_1
-      - ‌🇨🇦CA_11+@WangCai_1
-      - 印度感谢订阅——科技网络_187
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_108
-      - 乌克兰感谢订阅——科技网络_285
-      - ‌🇨🇦CA_13+@WangCai_1
-      - 加拿大感谢订阅——科技网络_223
-      - 乌克兰感谢订阅——科技网络_201
-      - 印度感谢订阅——科技网络_23
-      - ‌🇨🇦CA_38+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1
-      - 印度感谢订阅——科技网络_31
-      - 印度感谢订阅——科技网络_21
-      - 🇩🇪+德国_004+关注Tg交流群_@Mshare_T_118
-      - ‌🇨🇦CA_75+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1_121
-      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_121
+      - 🇨🇳CN_176 |11.36Mb
+      - 🇨🇳CN_166 |11.37Mb
+      - 🇨🇳CN_174 |11.11Mb
+      - Relay_馃嚚馃嚦CN-馃嚥馃嚲MY_1472
+      - 🇨🇳CN_178 |10.71Mb
+      - 🇨🇳CN_173 |11.57Mb
+      - 🇨🇳CN_169 |29.50Mb
+      - 🇦🇺AU_40+|22.60Mb
+      - 🇨🇭 23瑞士_9
+      - 🏁ZZ_1266+|34.56Mb
+      - +|+2.15Mb_13
+      - +|+1.99Mb_8
+      - 🏁ZZ_1294+|19.70Mb
+      - 欧洲欢迎订阅Youtube破解资源君+26_14
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本阿伟科技1-YouTube_2
-      - 新加坡阿伟科技1-YouTube_1
-      - 🇮🇳+印度阿伟科技-油管3+2_36
-      - 🇮🇳+印度阿伟科技-油管4_30
-      - 🇮🇳+印度阿伟科技-油管3_15
-      - 🇩🇪+德国阿伟科技-油管2_25
-      - 🇮🇳+印度阿伟科技-油管5_29
-      - 🇮🇳+印度阿伟科技-油管3+3_37
-      - 法国阿伟科技-YouTube_3
-      - 🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T_10
-      - 🇺🇸 美国_001 关注Tg交流群_@Mshare_T_11
-      - 加拿大感谢订阅——科技网络_267
-      - ‌🇨🇦CA_12+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_169
-      - ‌🇨🇦CA_44+@WangCai_1+2
-      - ‌🇨🇦CA_28+@WangCai_1
-      - ‌🇨🇦CA_31+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_264
-      - 欧洲感谢订阅——科技网络_311
-      - 乌克兰感谢订阅——科技网络_298
-      - ‌🇨🇦CA_16+@WangCai_1
-      - ‌🇨🇦CA_82+@WangCai_1
-      - ‌🇨🇦CA_44+@WangCai_1
-      - 加拿大感谢订阅——科技网络_272
-      - 乌克兰感谢订阅——科技网络_314
-      - 日本感谢订阅——科技网络_326
-      - 🇩🇪+德国_001+关注Tg交流群_@Mshare_T_28
-      - 加拿大感谢订阅——科技网络_292
-      - ‌🇨🇦CA_27+@WangCai_1
-      - ‌🇨🇦CA_61+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1
-      - ‌🇨🇦CA_07+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1+2
-      - 加拿大感谢订阅——科技网络_225
-      - 日本感谢订阅——科技网络_294
-      - 欧洲感谢订阅——科技网络_289
-      - ‌🇨🇦CA_78+@WangCai_1
-      - ‌🇨🇦CA_80+@WangCai_1
-      - ‌🇨🇦CA_26+@WangCai_1
-      - 加拿大感谢订阅——科技网络_274
-      - 加拿大感谢订阅——科技网络_260
-      - 欧洲感谢订阅——科技网络_193
-      - ‌🇨🇦CA_45+@WangCai_1
-      - ‌🇨🇦CA_83+@WangCai_1
-      - ‌🇨🇦CA_58+@WangCai_1
-      - 欧洲感谢订阅——科技网络_210
-      - 印度感谢订阅——科技网络_59
-      - 加拿大感谢订阅——科技网络_266
-      - 印度感谢订阅——科技网络_69
-      - 加拿大感谢订阅——科技网络_363
-      - ‌🇨🇦CA_01+@WangCai_1
-      - ‌🇨🇦CA_62+@WangCai_1
-      - ‌🇨🇦CA_03+@WangCai_1
-      - ‌🇨🇦CA_28+@WangCai_1_57
-      - ‌🇨🇦CA_57+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1_59
-      - 乌克兰_018+关注Tg交流群_@Mshare_T_59
-      - 加拿大感谢订阅——科技网络_254
-      - 印度感谢订阅——科技网络_74
-      - ‌🇨🇦CA_64+@WangCai_1
-      - ‌🇨🇦CA_65+@WangCai_1
-      - ‌🇨🇦CA_73+@WangCai_1
-      - ‌🇨🇦CA_68+@WangCai_1
-      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_66
-      - ‌🇨🇦CA_69+@WangCai_1
-      - ‌🇨🇦CA_09+@WangCai_1+2
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_88
-      - 印度感谢订阅——科技网络_41
-      - ‌🇨🇦CA_19+@WangCai_1
-      - ‌🇨🇦CA_12+@WangCai_1_75
-      - ‌🇨🇦CA_24+@WangCai_1
-      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_76
-      - 加拿大感谢订阅——科技网络_228
-      - ‌🇨🇦CA_28+@WangCai_1+4
-      - 印度感谢订阅——科技网络_16
-      - 印度感谢订阅——科技网络_94
-      - 印度感谢订阅——科技网络_33
-      - 印度感谢订阅——科技网络_50
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_83
-      - ‌🇨🇦CA_59+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_307
-      - 印度感谢订阅——科技网络_26
-      - 乌克兰感谢订阅——科技网络_320
-      - ‌🇨🇦CA_41+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1_90
-      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_90
-      - ‌🇨🇦CA_49+@WangCai_1
-      - ‌🇨🇦CA_53+@WangCai_1
-      - ‌🇨🇦CA_34+@WangCai_1
-      - 加拿大感谢订阅——科技网络_305
-      - 加拿大感谢订阅——科技网络_229
-      - ‌🇨🇦CA_64+@WangCai_1_97
-      - ‌🇨🇦CA_61+@WangCai_1_98
-      - ‌🇨🇦CA_81+@WangCai_1
-      - 欧洲感谢订阅——科技网络_213
-      - 印度感谢订阅——科技网络_29
-      - 印度感谢订阅——科技网络_75
-      - 加拿大感谢订阅——科技网络_7
-      - v2rayse_🇫🇷_FR_法国_1
-      - ‌🇨🇦CA_48+@WangCai_1_105
-      - ‌🇨🇦CA_36+@WangCai_1
-      - ‌🇨🇦CA_11+@WangCai_1
-      - 印度感谢订阅——科技网络_187
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_108
-      - 乌克兰感谢订阅——科技网络_285
-      - ‌🇨🇦CA_13+@WangCai_1
-      - 加拿大感谢订阅——科技网络_223
-      - 乌克兰感谢订阅——科技网络_201
-      - 印度感谢订阅——科技网络_23
-      - ‌🇨🇦CA_38+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1
-      - 印度感谢订阅——科技网络_31
-      - 印度感谢订阅——科技网络_21
-      - 🇩🇪+德国_004+关注Tg交流群_@Mshare_T_118
-      - ‌🇨🇦CA_75+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1_121
-      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_121
+      - 🇨🇳CN_176 |11.36Mb
+      - 🇨🇳CN_166 |11.37Mb
+      - 🇨🇳CN_174 |11.11Mb
+      - Relay_馃嚚馃嚦CN-馃嚥馃嚲MY_1472
+      - 🇨🇳CN_178 |10.71Mb
+      - 🇨🇳CN_173 |11.57Mb
+      - 🇨🇳CN_169 |29.50Mb
+      - 🇦🇺AU_40+|22.60Mb
+      - 🇨🇭 23瑞士_9
+      - 🏁ZZ_1266+|34.56Mb
+      - +|+2.15Mb_13
+      - +|+1.99Mb_8
+      - 🏁ZZ_1294+|19.70Mb
+      - 欧洲欢迎订阅Youtube破解资源君+26_14
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本阿伟科技1-YouTube_2
-      - 新加坡阿伟科技1-YouTube_1
-      - 🇮🇳+印度阿伟科技-油管3+2_36
-      - 🇮🇳+印度阿伟科技-油管4_30
-      - 🇮🇳+印度阿伟科技-油管3_15
-      - 🇩🇪+德国阿伟科技-油管2_25
-      - 🇮🇳+印度阿伟科技-油管5_29
-      - 🇮🇳+印度阿伟科技-油管3+3_37
-      - 法国阿伟科技-YouTube_3
-      - 🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T_10
-      - 🇺🇸 美国_001 关注Tg交流群_@Mshare_T_11
-      - 加拿大感谢订阅——科技网络_267
-      - ‌🇨🇦CA_12+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_169
-      - ‌🇨🇦CA_44+@WangCai_1+2
-      - ‌🇨🇦CA_28+@WangCai_1
-      - ‌🇨🇦CA_31+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_264
-      - 欧洲感谢订阅——科技网络_311
-      - 乌克兰感谢订阅——科技网络_298
-      - ‌🇨🇦CA_16+@WangCai_1
-      - ‌🇨🇦CA_82+@WangCai_1
-      - ‌🇨🇦CA_44+@WangCai_1
-      - 加拿大感谢订阅——科技网络_272
-      - 乌克兰感谢订阅——科技网络_314
-      - 日本感谢订阅——科技网络_326
-      - 🇩🇪+德国_001+关注Tg交流群_@Mshare_T_28
-      - 加拿大感谢订阅——科技网络_292
-      - ‌🇨🇦CA_27+@WangCai_1
-      - ‌🇨🇦CA_61+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1
-      - ‌🇨🇦CA_07+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1+2
-      - 加拿大感谢订阅——科技网络_225
-      - 日本感谢订阅——科技网络_294
-      - 欧洲感谢订阅——科技网络_289
-      - ‌🇨🇦CA_78+@WangCai_1
-      - ‌🇨🇦CA_80+@WangCai_1
-      - ‌🇨🇦CA_26+@WangCai_1
-      - 加拿大感谢订阅——科技网络_274
-      - 加拿大感谢订阅——科技网络_260
-      - 欧洲感谢订阅——科技网络_193
-      - ‌🇨🇦CA_45+@WangCai_1
-      - ‌🇨🇦CA_83+@WangCai_1
-      - ‌🇨🇦CA_58+@WangCai_1
-      - 欧洲感谢订阅——科技网络_210
-      - 印度感谢订阅——科技网络_59
-      - 加拿大感谢订阅——科技网络_266
-      - 印度感谢订阅——科技网络_69
-      - 加拿大感谢订阅——科技网络_363
-      - ‌🇨🇦CA_01+@WangCai_1
-      - ‌🇨🇦CA_62+@WangCai_1
-      - ‌🇨🇦CA_03+@WangCai_1
-      - ‌🇨🇦CA_28+@WangCai_1_57
-      - ‌🇨🇦CA_57+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1_59
-      - 乌克兰_018+关注Tg交流群_@Mshare_T_59
-      - 加拿大感谢订阅——科技网络_254
-      - 印度感谢订阅——科技网络_74
-      - ‌🇨🇦CA_64+@WangCai_1
-      - ‌🇨🇦CA_65+@WangCai_1
-      - ‌🇨🇦CA_73+@WangCai_1
-      - ‌🇨🇦CA_68+@WangCai_1
-      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_66
-      - ‌🇨🇦CA_69+@WangCai_1
-      - ‌🇨🇦CA_09+@WangCai_1+2
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_88
-      - 印度感谢订阅——科技网络_41
-      - ‌🇨🇦CA_19+@WangCai_1
-      - ‌🇨🇦CA_12+@WangCai_1_75
-      - ‌🇨🇦CA_24+@WangCai_1
-      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_76
-      - 加拿大感谢订阅——科技网络_228
-      - ‌🇨🇦CA_28+@WangCai_1+4
-      - 印度感谢订阅——科技网络_16
-      - 印度感谢订阅——科技网络_94
-      - 印度感谢订阅——科技网络_33
-      - 印度感谢订阅——科技网络_50
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_83
-      - ‌🇨🇦CA_59+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_307
-      - 印度感谢订阅——科技网络_26
-      - 乌克兰感谢订阅——科技网络_320
-      - ‌🇨🇦CA_41+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1_90
-      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_90
-      - ‌🇨🇦CA_49+@WangCai_1
-      - ‌🇨🇦CA_53+@WangCai_1
-      - ‌🇨🇦CA_34+@WangCai_1
-      - 加拿大感谢订阅——科技网络_305
-      - 加拿大感谢订阅——科技网络_229
-      - ‌🇨🇦CA_64+@WangCai_1_97
-      - ‌🇨🇦CA_61+@WangCai_1_98
-      - ‌🇨🇦CA_81+@WangCai_1
-      - 欧洲感谢订阅——科技网络_213
-      - 印度感谢订阅——科技网络_29
-      - 印度感谢订阅——科技网络_75
-      - 加拿大感谢订阅——科技网络_7
-      - v2rayse_🇫🇷_FR_法国_1
-      - ‌🇨🇦CA_48+@WangCai_1_105
-      - ‌🇨🇦CA_36+@WangCai_1
-      - ‌🇨🇦CA_11+@WangCai_1
-      - 印度感谢订阅——科技网络_187
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_108
-      - 乌克兰感谢订阅——科技网络_285
-      - ‌🇨🇦CA_13+@WangCai_1
-      - 加拿大感谢订阅——科技网络_223
-      - 乌克兰感谢订阅——科技网络_201
-      - 印度感谢订阅——科技网络_23
-      - ‌🇨🇦CA_38+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1
-      - 印度感谢订阅——科技网络_31
-      - 印度感谢订阅——科技网络_21
-      - 🇩🇪+德国_004+关注Tg交流群_@Mshare_T_118
-      - ‌🇨🇦CA_75+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1_121
-      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_121
+      - 🇨🇳CN_176 |11.36Mb
+      - 🇨🇳CN_166 |11.37Mb
+      - 🇨🇳CN_174 |11.11Mb
+      - Relay_馃嚚馃嚦CN-馃嚥馃嚲MY_1472
+      - 🇨🇳CN_178 |10.71Mb
+      - 🇨🇳CN_173 |11.57Mb
+      - 🇨🇳CN_169 |29.50Mb
+      - 🇦🇺AU_40+|22.60Mb
+      - 🇨🇭 23瑞士_9
+      - 🏁ZZ_1266+|34.56Mb
+      - +|+2.15Mb_13
+      - +|+1.99Mb_8
+      - 🏁ZZ_1294+|19.70Mb
+      - 欧洲欢迎订阅Youtube破解资源君+26_14
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本阿伟科技1-YouTube_2
-      - 新加坡阿伟科技1-YouTube_1
-      - 🇮🇳+印度阿伟科技-油管3+2_36
-      - 🇮🇳+印度阿伟科技-油管4_30
-      - 🇮🇳+印度阿伟科技-油管3_15
-      - 🇩🇪+德国阿伟科技-油管2_25
-      - 🇮🇳+印度阿伟科技-油管5_29
-      - 🇮🇳+印度阿伟科技-油管3+3_37
-      - 法国阿伟科技-YouTube_3
-      - 🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T_10
-      - 🇺🇸 美国_001 关注Tg交流群_@Mshare_T_11
-      - 加拿大感谢订阅——科技网络_267
-      - ‌🇨🇦CA_12+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_169
-      - ‌🇨🇦CA_44+@WangCai_1+2
-      - ‌🇨🇦CA_28+@WangCai_1
-      - ‌🇨🇦CA_31+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_264
-      - 欧洲感谢订阅——科技网络_311
-      - 乌克兰感谢订阅——科技网络_298
-      - ‌🇨🇦CA_16+@WangCai_1
-      - ‌🇨🇦CA_82+@WangCai_1
-      - ‌🇨🇦CA_44+@WangCai_1
-      - 加拿大感谢订阅——科技网络_272
-      - 乌克兰感谢订阅——科技网络_314
-      - 日本感谢订阅——科技网络_326
-      - 🇩🇪+德国_001+关注Tg交流群_@Mshare_T_28
-      - 加拿大感谢订阅——科技网络_292
-      - ‌🇨🇦CA_27+@WangCai_1
-      - ‌🇨🇦CA_61+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1
-      - ‌🇨🇦CA_07+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1+2
-      - 加拿大感谢订阅——科技网络_225
-      - 日本感谢订阅——科技网络_294
-      - 欧洲感谢订阅——科技网络_289
-      - ‌🇨🇦CA_78+@WangCai_1
-      - ‌🇨🇦CA_80+@WangCai_1
-      - ‌🇨🇦CA_26+@WangCai_1
-      - 加拿大感谢订阅——科技网络_274
-      - 加拿大感谢订阅——科技网络_260
-      - 欧洲感谢订阅——科技网络_193
-      - ‌🇨🇦CA_45+@WangCai_1
-      - ‌🇨🇦CA_83+@WangCai_1
-      - ‌🇨🇦CA_58+@WangCai_1
-      - 欧洲感谢订阅——科技网络_210
-      - 印度感谢订阅——科技网络_59
-      - 加拿大感谢订阅——科技网络_266
-      - 印度感谢订阅——科技网络_69
-      - 加拿大感谢订阅——科技网络_363
-      - ‌🇨🇦CA_01+@WangCai_1
-      - ‌🇨🇦CA_62+@WangCai_1
-      - ‌🇨🇦CA_03+@WangCai_1
-      - ‌🇨🇦CA_28+@WangCai_1_57
-      - ‌🇨🇦CA_57+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1_59
-      - 乌克兰_018+关注Tg交流群_@Mshare_T_59
-      - 加拿大感谢订阅——科技网络_254
-      - 印度感谢订阅——科技网络_74
-      - ‌🇨🇦CA_64+@WangCai_1
-      - ‌🇨🇦CA_65+@WangCai_1
-      - ‌🇨🇦CA_73+@WangCai_1
-      - ‌🇨🇦CA_68+@WangCai_1
-      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_66
-      - ‌🇨🇦CA_69+@WangCai_1
-      - ‌🇨🇦CA_09+@WangCai_1+2
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_88
-      - 印度感谢订阅——科技网络_41
-      - ‌🇨🇦CA_19+@WangCai_1
-      - ‌🇨🇦CA_12+@WangCai_1_75
-      - ‌🇨🇦CA_24+@WangCai_1
-      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_76
-      - 加拿大感谢订阅——科技网络_228
-      - ‌🇨🇦CA_28+@WangCai_1+4
-      - 印度感谢订阅——科技网络_16
-      - 印度感谢订阅——科技网络_94
-      - 印度感谢订阅——科技网络_33
-      - 印度感谢订阅——科技网络_50
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_83
-      - ‌🇨🇦CA_59+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_307
-      - 印度感谢订阅——科技网络_26
-      - 乌克兰感谢订阅——科技网络_320
-      - ‌🇨🇦CA_41+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1_90
-      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_90
-      - ‌🇨🇦CA_49+@WangCai_1
-      - ‌🇨🇦CA_53+@WangCai_1
-      - ‌🇨🇦CA_34+@WangCai_1
-      - 加拿大感谢订阅——科技网络_305
-      - 加拿大感谢订阅——科技网络_229
-      - ‌🇨🇦CA_64+@WangCai_1_97
-      - ‌🇨🇦CA_61+@WangCai_1_98
-      - ‌🇨🇦CA_81+@WangCai_1
-      - 欧洲感谢订阅——科技网络_213
-      - 印度感谢订阅——科技网络_29
-      - 印度感谢订阅——科技网络_75
-      - 加拿大感谢订阅——科技网络_7
-      - v2rayse_🇫🇷_FR_法国_1
-      - ‌🇨🇦CA_48+@WangCai_1_105
-      - ‌🇨🇦CA_36+@WangCai_1
-      - ‌🇨🇦CA_11+@WangCai_1
-      - 印度感谢订阅——科技网络_187
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_108
-      - 乌克兰感谢订阅——科技网络_285
-      - ‌🇨🇦CA_13+@WangCai_1
-      - 加拿大感谢订阅——科技网络_223
-      - 乌克兰感谢订阅——科技网络_201
-      - 印度感谢订阅——科技网络_23
-      - ‌🇨🇦CA_38+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1
-      - 印度感谢订阅——科技网络_31
-      - 印度感谢订阅——科技网络_21
-      - 🇩🇪+德国_004+关注Tg交流群_@Mshare_T_118
-      - ‌🇨🇦CA_75+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1_121
-      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_121
+      - 🇨🇳CN_176 |11.36Mb
+      - 🇨🇳CN_166 |11.37Mb
+      - 🇨🇳CN_174 |11.11Mb
+      - Relay_馃嚚馃嚦CN-馃嚥馃嚲MY_1472
+      - 🇨🇳CN_178 |10.71Mb
+      - 🇨🇳CN_173 |11.57Mb
+      - 🇨🇳CN_169 |29.50Mb
+      - 🇦🇺AU_40+|22.60Mb
+      - 🇨🇭 23瑞士_9
+      - 🏁ZZ_1266+|34.56Mb
+      - +|+2.15Mb_13
+      - +|+1.99Mb_8
+      - 🏁ZZ_1294+|19.70Mb
+      - 欧洲欢迎订阅Youtube破解资源君+26_14
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本阿伟科技1-YouTube_2
-      - 新加坡阿伟科技1-YouTube_1
-      - 🇮🇳+印度阿伟科技-油管3+2_36
-      - 🇮🇳+印度阿伟科技-油管4_30
-      - 🇮🇳+印度阿伟科技-油管3_15
-      - 🇩🇪+德国阿伟科技-油管2_25
-      - 🇮🇳+印度阿伟科技-油管5_29
-      - 🇮🇳+印度阿伟科技-油管3+3_37
-      - 法国阿伟科技-YouTube_3
-      - 🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T_10
-      - 🇺🇸 美国_001 关注Tg交流群_@Mshare_T_11
-      - 加拿大感谢订阅——科技网络_267
-      - ‌🇨🇦CA_12+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_169
-      - ‌🇨🇦CA_44+@WangCai_1+2
-      - ‌🇨🇦CA_28+@WangCai_1
-      - ‌🇨🇦CA_31+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_264
-      - 欧洲感谢订阅——科技网络_311
-      - 乌克兰感谢订阅——科技网络_298
-      - ‌🇨🇦CA_16+@WangCai_1
-      - ‌🇨🇦CA_82+@WangCai_1
-      - ‌🇨🇦CA_44+@WangCai_1
-      - 加拿大感谢订阅——科技网络_272
-      - 乌克兰感谢订阅——科技网络_314
-      - 日本感谢订阅——科技网络_326
-      - 🇩🇪+德国_001+关注Tg交流群_@Mshare_T_28
-      - 加拿大感谢订阅——科技网络_292
-      - ‌🇨🇦CA_27+@WangCai_1
-      - ‌🇨🇦CA_61+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1
-      - ‌🇨🇦CA_07+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1+2
-      - 加拿大感谢订阅——科技网络_225
-      - 日本感谢订阅——科技网络_294
-      - 欧洲感谢订阅——科技网络_289
-      - ‌🇨🇦CA_78+@WangCai_1
-      - ‌🇨🇦CA_80+@WangCai_1
-      - ‌🇨🇦CA_26+@WangCai_1
-      - 加拿大感谢订阅——科技网络_274
-      - 加拿大感谢订阅——科技网络_260
-      - 欧洲感谢订阅——科技网络_193
-      - ‌🇨🇦CA_45+@WangCai_1
-      - ‌🇨🇦CA_83+@WangCai_1
-      - ‌🇨🇦CA_58+@WangCai_1
-      - 欧洲感谢订阅——科技网络_210
-      - 印度感谢订阅——科技网络_59
-      - 加拿大感谢订阅——科技网络_266
-      - 印度感谢订阅——科技网络_69
-      - 加拿大感谢订阅——科技网络_363
-      - ‌🇨🇦CA_01+@WangCai_1
-      - ‌🇨🇦CA_62+@WangCai_1
-      - ‌🇨🇦CA_03+@WangCai_1
-      - ‌🇨🇦CA_28+@WangCai_1_57
-      - ‌🇨🇦CA_57+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1_59
-      - 乌克兰_018+关注Tg交流群_@Mshare_T_59
-      - 加拿大感谢订阅——科技网络_254
-      - 印度感谢订阅——科技网络_74
-      - ‌🇨🇦CA_64+@WangCai_1
-      - ‌🇨🇦CA_65+@WangCai_1
-      - ‌🇨🇦CA_73+@WangCai_1
-      - ‌🇨🇦CA_68+@WangCai_1
-      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_66
-      - ‌🇨🇦CA_69+@WangCai_1
-      - ‌🇨🇦CA_09+@WangCai_1+2
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_88
-      - 印度感谢订阅——科技网络_41
-      - ‌🇨🇦CA_19+@WangCai_1
-      - ‌🇨🇦CA_12+@WangCai_1_75
-      - ‌🇨🇦CA_24+@WangCai_1
-      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_76
-      - 加拿大感谢订阅——科技网络_228
-      - ‌🇨🇦CA_28+@WangCai_1+4
-      - 印度感谢订阅——科技网络_16
-      - 印度感谢订阅——科技网络_94
-      - 印度感谢订阅——科技网络_33
-      - 印度感谢订阅——科技网络_50
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_83
-      - ‌🇨🇦CA_59+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_307
-      - 印度感谢订阅——科技网络_26
-      - 乌克兰感谢订阅——科技网络_320
-      - ‌🇨🇦CA_41+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1_90
-      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_90
-      - ‌🇨🇦CA_49+@WangCai_1
-      - ‌🇨🇦CA_53+@WangCai_1
-      - ‌🇨🇦CA_34+@WangCai_1
-      - 加拿大感谢订阅——科技网络_305
-      - 加拿大感谢订阅——科技网络_229
-      - ‌🇨🇦CA_64+@WangCai_1_97
-      - ‌🇨🇦CA_61+@WangCai_1_98
-      - ‌🇨🇦CA_81+@WangCai_1
-      - 欧洲感谢订阅——科技网络_213
-      - 印度感谢订阅——科技网络_29
-      - 印度感谢订阅——科技网络_75
-      - 加拿大感谢订阅——科技网络_7
-      - v2rayse_🇫🇷_FR_法国_1
-      - ‌🇨🇦CA_48+@WangCai_1_105
-      - ‌🇨🇦CA_36+@WangCai_1
-      - ‌🇨🇦CA_11+@WangCai_1
-      - 印度感谢订阅——科技网络_187
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_108
-      - 乌克兰感谢订阅——科技网络_285
-      - ‌🇨🇦CA_13+@WangCai_1
-      - 加拿大感谢订阅——科技网络_223
-      - 乌克兰感谢订阅——科技网络_201
-      - 印度感谢订阅——科技网络_23
-      - ‌🇨🇦CA_38+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1
-      - 印度感谢订阅——科技网络_31
-      - 印度感谢订阅——科技网络_21
-      - 🇩🇪+德国_004+关注Tg交流群_@Mshare_T_118
-      - ‌🇨🇦CA_75+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1_121
-      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_121
+      - 🇨🇳CN_176 |11.36Mb
+      - 🇨🇳CN_166 |11.37Mb
+      - 🇨🇳CN_174 |11.11Mb
+      - Relay_馃嚚馃嚦CN-馃嚥馃嚲MY_1472
+      - 🇨🇳CN_178 |10.71Mb
+      - 🇨🇳CN_173 |11.57Mb
+      - 🇨🇳CN_169 |29.50Mb
+      - 🇦🇺AU_40+|22.60Mb
+      - 🇨🇭 23瑞士_9
+      - 🏁ZZ_1266+|34.56Mb
+      - +|+2.15Mb_13
+      - +|+1.99Mb_8
+      - 🏁ZZ_1294+|19.70Mb
+      - 欧洲欢迎订阅Youtube破解资源君+26_14
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本阿伟科技1-YouTube_2
-      - 新加坡阿伟科技1-YouTube_1
-      - 🇮🇳+印度阿伟科技-油管3+2_36
-      - 🇮🇳+印度阿伟科技-油管4_30
-      - 🇮🇳+印度阿伟科技-油管3_15
-      - 🇩🇪+德国阿伟科技-油管2_25
-      - 🇮🇳+印度阿伟科技-油管5_29
-      - 🇮🇳+印度阿伟科技-油管3+3_37
-      - 法国阿伟科技-YouTube_3
-      - 🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T_10
-      - 🇺🇸 美国_001 关注Tg交流群_@Mshare_T_11
-      - 加拿大感谢订阅——科技网络_267
-      - ‌🇨🇦CA_12+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_169
-      - ‌🇨🇦CA_44+@WangCai_1+2
-      - ‌🇨🇦CA_28+@WangCai_1
-      - ‌🇨🇦CA_31+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_264
-      - 欧洲感谢订阅——科技网络_311
-      - 乌克兰感谢订阅——科技网络_298
-      - ‌🇨🇦CA_16+@WangCai_1
-      - ‌🇨🇦CA_82+@WangCai_1
-      - ‌🇨🇦CA_44+@WangCai_1
-      - 加拿大感谢订阅——科技网络_272
-      - 乌克兰感谢订阅——科技网络_314
-      - 日本感谢订阅——科技网络_326
-      - 🇩🇪+德国_001+关注Tg交流群_@Mshare_T_28
-      - 加拿大感谢订阅——科技网络_292
-      - ‌🇨🇦CA_27+@WangCai_1
-      - ‌🇨🇦CA_61+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1
-      - ‌🇨🇦CA_07+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1+2
-      - 加拿大感谢订阅——科技网络_225
-      - 日本感谢订阅——科技网络_294
-      - 欧洲感谢订阅——科技网络_289
-      - ‌🇨🇦CA_78+@WangCai_1
-      - ‌🇨🇦CA_80+@WangCai_1
-      - ‌🇨🇦CA_26+@WangCai_1
-      - 加拿大感谢订阅——科技网络_274
-      - 加拿大感谢订阅——科技网络_260
-      - 欧洲感谢订阅——科技网络_193
-      - ‌🇨🇦CA_45+@WangCai_1
-      - ‌🇨🇦CA_83+@WangCai_1
-      - ‌🇨🇦CA_58+@WangCai_1
-      - 欧洲感谢订阅——科技网络_210
-      - 印度感谢订阅——科技网络_59
-      - 加拿大感谢订阅——科技网络_266
-      - 印度感谢订阅——科技网络_69
-      - 加拿大感谢订阅——科技网络_363
-      - ‌🇨🇦CA_01+@WangCai_1
-      - ‌🇨🇦CA_62+@WangCai_1
-      - ‌🇨🇦CA_03+@WangCai_1
-      - ‌🇨🇦CA_28+@WangCai_1_57
-      - ‌🇨🇦CA_57+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1_59
-      - 乌克兰_018+关注Tg交流群_@Mshare_T_59
-      - 加拿大感谢订阅——科技网络_254
-      - 印度感谢订阅——科技网络_74
-      - ‌🇨🇦CA_64+@WangCai_1
-      - ‌🇨🇦CA_65+@WangCai_1
-      - ‌🇨🇦CA_73+@WangCai_1
-      - ‌🇨🇦CA_68+@WangCai_1
-      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_66
-      - ‌🇨🇦CA_69+@WangCai_1
-      - ‌🇨🇦CA_09+@WangCai_1+2
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_88
-      - 印度感谢订阅——科技网络_41
-      - ‌🇨🇦CA_19+@WangCai_1
-      - ‌🇨🇦CA_12+@WangCai_1_75
-      - ‌🇨🇦CA_24+@WangCai_1
-      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_76
-      - 加拿大感谢订阅——科技网络_228
-      - ‌🇨🇦CA_28+@WangCai_1+4
-      - 印度感谢订阅——科技网络_16
-      - 印度感谢订阅——科技网络_94
-      - 印度感谢订阅——科技网络_33
-      - 印度感谢订阅——科技网络_50
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_83
-      - ‌🇨🇦CA_59+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_307
-      - 印度感谢订阅——科技网络_26
-      - 乌克兰感谢订阅——科技网络_320
-      - ‌🇨🇦CA_41+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1_90
-      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_90
-      - ‌🇨🇦CA_49+@WangCai_1
-      - ‌🇨🇦CA_53+@WangCai_1
-      - ‌🇨🇦CA_34+@WangCai_1
-      - 加拿大感谢订阅——科技网络_305
-      - 加拿大感谢订阅——科技网络_229
-      - ‌🇨🇦CA_64+@WangCai_1_97
-      - ‌🇨🇦CA_61+@WangCai_1_98
-      - ‌🇨🇦CA_81+@WangCai_1
-      - 欧洲感谢订阅——科技网络_213
-      - 印度感谢订阅——科技网络_29
-      - 印度感谢订阅——科技网络_75
-      - 加拿大感谢订阅——科技网络_7
-      - v2rayse_🇫🇷_FR_法国_1
-      - ‌🇨🇦CA_48+@WangCai_1_105
-      - ‌🇨🇦CA_36+@WangCai_1
-      - ‌🇨🇦CA_11+@WangCai_1
-      - 印度感谢订阅——科技网络_187
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_108
-      - 乌克兰感谢订阅——科技网络_285
-      - ‌🇨🇦CA_13+@WangCai_1
-      - 加拿大感谢订阅——科技网络_223
-      - 乌克兰感谢订阅——科技网络_201
-      - 印度感谢订阅——科技网络_23
-      - ‌🇨🇦CA_38+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1
-      - 印度感谢订阅——科技网络_31
-      - 印度感谢订阅——科技网络_21
-      - 🇩🇪+德国_004+关注Tg交流群_@Mshare_T_118
-      - ‌🇨🇦CA_75+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1_121
-      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_121
+      - 🇨🇳CN_176 |11.36Mb
+      - 🇨🇳CN_166 |11.37Mb
+      - 🇨🇳CN_174 |11.11Mb
+      - Relay_馃嚚馃嚦CN-馃嚥馃嚲MY_1472
+      - 🇨🇳CN_178 |10.71Mb
+      - 🇨🇳CN_173 |11.57Mb
+      - 🇨🇳CN_169 |29.50Mb
+      - 🇦🇺AU_40+|22.60Mb
+      - 🇨🇭 23瑞士_9
+      - 🏁ZZ_1266+|34.56Mb
+      - +|+2.15Mb_13
+      - +|+1.99Mb_8
+      - 🏁ZZ_1294+|19.70Mb
+      - 欧洲欢迎订阅Youtube破解资源君+26_14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1026,127 +170,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本阿伟科技1-YouTube_2
-      - 新加坡阿伟科技1-YouTube_1
-      - 🇮🇳+印度阿伟科技-油管3+2_36
-      - 🇮🇳+印度阿伟科技-油管4_30
-      - 🇮🇳+印度阿伟科技-油管3_15
-      - 🇩🇪+德国阿伟科技-油管2_25
-      - 🇮🇳+印度阿伟科技-油管5_29
-      - 🇮🇳+印度阿伟科技-油管3+3_37
-      - 法国阿伟科技-YouTube_3
-      - 🇸🇬 新加坡_001 关注Tg交流群_@Mshare_T_10
-      - 🇺🇸 美国_001 关注Tg交流群_@Mshare_T_11
-      - 加拿大感谢订阅——科技网络_267
-      - ‌🇨🇦CA_12+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_169
-      - ‌🇨🇦CA_44+@WangCai_1+2
-      - ‌🇨🇦CA_28+@WangCai_1
-      - ‌🇨🇦CA_31+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_264
-      - 欧洲感谢订阅——科技网络_311
-      - 乌克兰感谢订阅——科技网络_298
-      - ‌🇨🇦CA_16+@WangCai_1
-      - ‌🇨🇦CA_82+@WangCai_1
-      - ‌🇨🇦CA_44+@WangCai_1
-      - 加拿大感谢订阅——科技网络_272
-      - 乌克兰感谢订阅——科技网络_314
-      - 日本感谢订阅——科技网络_326
-      - 🇩🇪+德国_001+关注Tg交流群_@Mshare_T_28
-      - 加拿大感谢订阅——科技网络_292
-      - ‌🇨🇦CA_27+@WangCai_1
-      - ‌🇨🇦CA_61+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1
-      - ‌🇨🇦CA_07+@WangCai_1
-      - ‌🇨🇦CA_70+@WangCai_1+2
-      - 加拿大感谢订阅——科技网络_225
-      - 日本感谢订阅——科技网络_294
-      - 欧洲感谢订阅——科技网络_289
-      - ‌🇨🇦CA_78+@WangCai_1
-      - ‌🇨🇦CA_80+@WangCai_1
-      - ‌🇨🇦CA_26+@WangCai_1
-      - 加拿大感谢订阅——科技网络_274
-      - 加拿大感谢订阅——科技网络_260
-      - 欧洲感谢订阅——科技网络_193
-      - ‌🇨🇦CA_45+@WangCai_1
-      - ‌🇨🇦CA_83+@WangCai_1
-      - ‌🇨🇦CA_58+@WangCai_1
-      - 欧洲感谢订阅——科技网络_210
-      - 印度感谢订阅——科技网络_59
-      - 加拿大感谢订阅——科技网络_266
-      - 印度感谢订阅——科技网络_69
-      - 加拿大感谢订阅——科技网络_363
-      - ‌🇨🇦CA_01+@WangCai_1
-      - ‌🇨🇦CA_62+@WangCai_1
-      - ‌🇨🇦CA_03+@WangCai_1
-      - ‌🇨🇦CA_28+@WangCai_1_57
-      - ‌🇨🇦CA_57+@WangCai_1
-      - ‌🇨🇦CA_48+@WangCai_1_59
-      - 乌克兰_018+关注Tg交流群_@Mshare_T_59
-      - 加拿大感谢订阅——科技网络_254
-      - 印度感谢订阅——科技网络_74
-      - ‌🇨🇦CA_64+@WangCai_1
-      - ‌🇨🇦CA_65+@WangCai_1
-      - ‌🇨🇦CA_73+@WangCai_1
-      - ‌🇨🇦CA_68+@WangCai_1
-      - 🇨🇦+加拿大_018+关注Tg交流群_@Mshare_T_66
-      - ‌🇨🇦CA_69+@WangCai_1
-      - ‌🇨🇦CA_09+@WangCai_1+2
-      - 印度感谢订阅——科技网络_66
-      - 印度感谢订阅——科技网络_73
-      - 印度感谢订阅——科技网络_88
-      - 印度感谢订阅——科技网络_41
-      - ‌🇨🇦CA_19+@WangCai_1
-      - ‌🇨🇦CA_12+@WangCai_1_75
-      - ‌🇨🇦CA_24+@WangCai_1
-      - 🇨🇦+加拿大_026+关注Tg交流群_@Mshare_T_76
-      - 加拿大感谢订阅——科技网络_228
-      - ‌🇨🇦CA_28+@WangCai_1+4
-      - 印度感谢订阅——科技网络_16
-      - 印度感谢订阅——科技网络_94
-      - 印度感谢订阅——科技网络_33
-      - 印度感谢订阅——科技网络_50
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_83
-      - ‌🇨🇦CA_59+@WangCai_1
-      - 乌克兰感谢订阅——科技网络_307
-      - 印度感谢订阅——科技网络_26
-      - 乌克兰感谢订阅——科技网络_320
-      - ‌🇨🇦CA_41+@WangCai_1
-      - ‌🇨🇦CA_08+@WangCai_1_90
-      - 🇨🇦+加拿大_012+关注Tg交流群_@Mshare_T_90
-      - ‌🇨🇦CA_49+@WangCai_1
-      - ‌🇨🇦CA_53+@WangCai_1
-      - ‌🇨🇦CA_34+@WangCai_1
-      - 加拿大感谢订阅——科技网络_305
-      - 加拿大感谢订阅——科技网络_229
-      - ‌🇨🇦CA_64+@WangCai_1_97
-      - ‌🇨🇦CA_61+@WangCai_1_98
-      - ‌🇨🇦CA_81+@WangCai_1
-      - 欧洲感谢订阅——科技网络_213
-      - 印度感谢订阅——科技网络_29
-      - 印度感谢订阅——科技网络_75
-      - 加拿大感谢订阅——科技网络_7
-      - v2rayse_🇫🇷_FR_法国_1
-      - ‌🇨🇦CA_48+@WangCai_1_105
-      - ‌🇨🇦CA_36+@WangCai_1
-      - ‌🇨🇦CA_11+@WangCai_1
-      - 印度感谢订阅——科技网络_187
-      - 🇨🇦+加拿大_016+关注Tg交流群_@Mshare_T_108
-      - 乌克兰感谢订阅——科技网络_285
-      - ‌🇨🇦CA_13+@WangCai_1
-      - 加拿大感谢订阅——科技网络_223
-      - 乌克兰感谢订阅——科技网络_201
-      - 印度感谢订阅——科技网络_23
-      - ‌🇨🇦CA_38+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1
-      - 印度感谢订阅——科技网络_31
-      - 印度感谢订阅——科技网络_21
-      - 🇩🇪+德国_004+关注Tg交流群_@Mshare_T_118
-      - ‌🇨🇦CA_75+@WangCai_1
-      - ‌🇨🇦CA_18+@WangCai_1_121
-      - 🇨🇦+加拿大_029+关注Tg交流群_@Mshare_T_121
+      - 🇨🇳CN_176 |11.36Mb
+      - 🇨🇳CN_166 |11.37Mb
+      - 🇨🇳CN_174 |11.11Mb
+      - Relay_馃嚚馃嚦CN-馃嚥馃嚲MY_1472
+      - 🇨🇳CN_178 |10.71Mb
+      - 🇨🇳CN_173 |11.57Mb
+      - 🇨🇳CN_169 |29.50Mb
+      - 🇦🇺AU_40+|22.60Mb
+      - 🇨🇭 23瑞士_9
+      - 🏁ZZ_1266+|34.56Mb
+      - +|+2.15Mb_13
+      - +|+1.99Mb_8
+      - 🏁ZZ_1294+|19.70Mb
+      - 欧洲欢迎订阅Youtube破解资源君+26_14
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
