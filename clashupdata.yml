@@ -5,964 +5,428 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'CYL-科技（2021.11.30）_1', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
-  - {name: 'CYL-科技（2021.11.30）_2', server: 923my.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'CYL-科技（2021.11.30）_3', server: 1023sg.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Green公益节点_187', server: ukml.52jjyun.top, port: 80, type: vmess, uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
-  - {name: 'CYL-科技（2021.11.30）_5', server: zj.haojiahuo.club, port: 30057, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 'CYL-科技（2021.11.30）_7', server: 38.91.100.207, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.11.30）_8', server: viibah6u.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: viibah6u.com}}
-  - {name: 'CYL-科技（2021.11.30）_9', server: 1030us.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'CYL-科技（2021.11.30）_10', server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 'CYL-科技（2021.11.30）_11', server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}}
-  - {name: 'CYL-科技（2021.11.30）_13', server: armsan.yz-sh.pp.ua, port: 46655, type: vmess, uuid: 938d9a74-d3b0-454f-94c0-cd526cba2d3e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'CYL-科技（2021.11.30）_14', server: 173.82.192.61, port: 28482, type: vmess, uuid: 128356e8-405a-4879-e820-83876aed6247, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /114514}
-  - {name: 'CYL-科技（2021.11.30）_15', server: 192.3.127.109, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 192.3.127.109}}
-  - {name: 'CYL-科技（2021.11.30）_16', server: 188.241.179.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2SKtWLpv3tWyS97wqrxC}
-  - {name: 'CYL-科技（2021.11.30）_17', server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: 'CYL-科技（2021.11.30）_18', server: ex.oracleusa.ml, port: 443, type: vmess, uuid: 29d8e9c2-c88f-4a86-a615-2a76dcc2458b, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ex.oracleusa.ml}}
-  - {name: 'CYL-科技（2021.11.30）_19', server: 217.138.209.122, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: CxgRTZRE5urVfbbnGSyr}
-  - {name: 'CYL-科技（2021.11.30）_20', server: 137.184.184.83, port: 2053, type: vmess, uuid: 5580bd79-ba49-3f67-a710-5b917bdac2d8, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'CYL-科技（2021.11.30）_21', server: 173.82.192.61, port: 28482, type: vmess, uuid: 128356e8-405a-4879-e820-83876aed6247, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /114514, ws-headers: {Host: 173.82.192.61}}
-  - {name: 'CYL-科技（2021.11.30）_22', server: 38.91.100.207, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '德国感谢订阅——科技网络_95', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '美国感谢订阅——科技网络_122', server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_127', server: 38.75.136.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '美国感谢订阅——科技网络_17', server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.11.30）_27', server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.11.30）_28', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: 'CYL-科技（2021.11.30）_29', server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'CYL-科技（2021.11.30）_30', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: 'CYL-科技（2021.11.30）_31', server: 137.184.184.78, port: 2052, type: vmess, uuid: 5580bd79-ba49-3f67-a710-5b917bdac2d8, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'CYL-科技（2021.11.30）_32', server: 38.91.100.207, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_33', server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'CYL-科技（2021.11.30）_34', server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.11.30）_35', server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国感谢订阅——科技网络_135', server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_37', server: 172.105.244.165, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'CYL-科技（2021.11.30）_38', server: 38.91.100.207, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_39', server: 172.104.168.83, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_40', server: 38.75.137.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_41', server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
-  - {name: 'CYL-科技（2021.11.30）_42', server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}}
-  - {name: 'CYL-科技（2021.11.30）_43', server: 915ru1.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'CYL-科技（2021.11.30）_44', server: 134.195.196.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国感谢订阅——科技网络_129', server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'CYL-科技（2021.11.30）_46', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.11.30）_47', server: 81.90.188.137, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'CYL-科技（2021.11.30）_48', server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_49', server: 81.90.188.137, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'CYL-科技（2021.11.30）_50', server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.11.30）_51', server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.11.30）_52', server: 38.91.100.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'CYL-科技（2021.11.30）_53', server: ru.52jjyun.top, port: 80, type: vmess, uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ru.52jjyun.top}}
-  - {name: 'CYL-科技（2021.11.30）_54', server: 172.105.244.165, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_55', server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.11.30）_56', server: 81.90.188.137, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'CYL-科技（2021.11.30）_57', server: 81.90.188.137, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'CYL-科技（2021.11.30）_58', server: 38.91.100.207, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'CYL-科技（2021.11.30）_59', server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.11.30）_60', server: 38.68.135.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_61', server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国感谢订阅——科技网络_108', server: 38.114.114.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_63', server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: uk-manchester.eiw2eemo.com}}
-  - {name: 'CYL-科技（2021.11.30）_64', server: 81.90.188.137, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'CYL-科技（2021.11.30）_65', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: 'CYL-科技（2021.11.30）_66', server: 81.90.188.137, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'CYL-科技（2021.11.30）_67', server: 81.90.188.137, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'CYL-科技（2021.11.30）_68', server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'CYL-科技（2021.11.30）_69', server: 134.195.196.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.11.30）_70', server: 38.91.100.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.11.30）_71', server: 217.138.197.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
-  - {name: 'CYL-科技（2021.11.30）_72', server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_73', server: 38.91.100.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_74', server: 172.105.244.165, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_75', server: 38.91.100.27, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_76', server: 38.91.100.27, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.11.30）_77', server: 5.181.234.254, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'CYL-科技（2021.11.30）_78', server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.11.30）_79', server: 38.91.100.27, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'CYL-科技（2021.11.30）_80', server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_118', server: 38.75.137.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_82', server: 172.252.64.45, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 'CYL-科技（2021.11.30）_83', server: switzerland-zurich.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: switzerland-zurich.mah3Hoet.com}}
-  - {name: 'CYL-科技（2021.11.30）_84', server: 38.91.100.207, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.11.30）_85', server: 38.91.100.27, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_86', server: 38.91.101.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_87', server: 38.91.101.11, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_88', server: 38.91.100.207, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.11.30）_89', server: 38.91.100.207, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_90', server: 38.91.100.27, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_91', server: 142.202.48.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_92', server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_93', server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_94', server: 167.88.63.89, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国感谢订阅——科技网络_120', server: 38.68.134.85, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '欧洲感谢订阅——科技网络_139', server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'CYL-科技（2021.11.30）_97', server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: uk-manchester.eiw2eemo.com}}
-  - {name: 'CYL-科技（2021.11.30）_98', server: 81.90.188.137, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'CYL-科技（2021.11.30）_99', server: 38.91.100.27, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'CYL-科技（2021.11.30）_100', server: 38.91.100.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_101', server: 142.202.48.78, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '欧洲感谢订阅——科技网络_125', server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '欧洲感谢订阅——科技网络_159', server: 142.202.48.7, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_104', server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: 'CYL-科技（2021.11.30）_105', server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_106', server: 38.121.43.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'CYL-科技（2021.11.30）_107', server: 142.202.48.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.11.30）_108', server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'CYL-科技（2021.11.30）_109', server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.11.30）_110', server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'CYL-科技（2021.11.30）_111', server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '欧洲感谢订阅——科技网络_181', server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'CYL-科技（2021.11.30）_113', server: 134.195.196.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'CYL-科技（2021.11.30）_114', server: 142.202.48.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'CYL-科技（2021.11.30）_115', server: 142.202.48.105, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国感谢订阅——科技网络_130', server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '欧洲感谢订阅——科技网络_156', server: 167.88.62.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇸🇬 阿伟科技-油管Relay_🇨🇳CN-🇸🇬SG_265', server: 112.33.32.136, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: '🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_246', server: cn.zzv11.infonode.xyz, port: 17011, type: vmess, uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: cn.zzv11.infonode.xyz}}
+  - {name: '阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_427', server: ukml.52jjyun.top, port: 80, type: vmess, uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukml.52jjyun.top}}
+  - {name: '阿伟科技-油管🏁ZZ_2063', server: 134.195.196.52, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇳 阿伟科技-油管🇨🇳CN_258', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: '🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_249', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: '🇨🇳 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_260', server: 125.46.39.219, port: 60001, type: vmess, uuid: 0e4a0f2f-9cc9-3b11-9e6a-4392c4fcfc6c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: global-transit-01-hn.pucdn.me}}
+  - {name: '🇺🇸+阿伟科技-油管🇺🇸US_1705', server: 38.75.136.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '阿伟科技-油管🏁ZZ_2080', server: 134.195.196.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '阿伟科技-油管🏁ZZ_2253', server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'CYL-科技（2021.12.02）_11', server: 158.247.222.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'CYL-科技（2021.12.02）_12', server: 158.247.215.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'CYL-科技（2021.12.02）_13', server: 158.247.222.102, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'CYL-科技（2021.12.02）_14', server: 158.247.208.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'CYL-科技（2021.12.02）_15', server: 158.247.222.102, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'CYL-科技（2021.12.02）_16', server: 120.232.193.28, port: 5017, type: ss, cipher: aes-128-gcm, password: Ps5jQN}
+  - {name: 'CYL-科技（2021.12.02）_17', server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'CYL-科技（2021.12.02）_18', server: poo1faht.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: poo1faht.com}}
+  - {name: 'CYL-科技（2021.12.02）_19', server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'CYL-科技（2021.12.02）_20', server: 192.3.127.109, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 192.3.127.109}}
+  - {name: 'CYL-科技（2021.12.02）_21', server: 45.32.92.32, port: 28085, type: vmess, uuid: 34e75a3a-523c-11ec-958f-560003b6456a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /fR9iUNuI/}
+  - {name: 'CYL-科技（2021.12.02）_22', server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: 'CYL-科技（2021.12.02）_23', server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 'CYL-科技（2021.12.02）_24', server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'CYL-科技（2021.12.02）_25', server: 38.91.100.27, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'CYL-科技（2021.12.02）_26', server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'CYL-科技（2021.12.02）_27', server: 116.163.14.203, port: 5017, type: ss, cipher: aes-128-gcm, password: Ps5jQN}
+  - {name: 'CYL-科技（2021.12.02）_28', server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'CYL-科技（2021.12.02）_29', server: 167.88.62.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'CYL-科技（2021.12.02）_30', server: 38.91.100.27, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'CYL-科技（2021.12.02）_31', server: 18.185.81.194, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.185.81.194}}
+  - {name: 'CYL-科技（2021.12.02）_32', server: 77.243.177.78, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Qu9b6jbYLF5Dtha3n7W2}
+  - {name: 'CYL-科技（2021.12.02）_33', server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}}
+  - {name: 'CYL-科技（2021.12.02）_34', server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: 'CYL-科技（2021.12.02）_35', server: 142.202.48.7, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'CYL-科技（2021.12.02）_36', server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'CYL-科技（2021.12.02）_37', server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'CYL-科技（2021.12.02）_38', server: 38.91.100.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'CYL-科技（2021.12.02）_39', server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: 'CYL-科技（2021.12.02）_40', server: 134.195.196.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'CYL-科技（2021.12.02）_41', server: 38.91.101.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'CYL-科技（2021.12.02）_42', server: ukml.52jjyun.top, port: 80, type: vmess, uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: 'CYL-科技（2021.12.02）_43', server: 38.91.100.27, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'CYL-科技（2021.12.02）_44', server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'CYL-科技（2021.12.02）_45', server: 38.91.100.27, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'CYL-科技（2021.12.02）_46', server: 142.202.48.7, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'CYL-科技（2021.12.02）_47', server: ukml.52jjyun.top, port: 80, type: vmess, uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukml.52jjyun.top}}
+  - {name: 'CYL-科技（2021.12.02）_48', server: 85.208.108.194, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2021.11.30）_1
-      - CYL-科技（2021.11.30）_2
-      - CYL-科技（2021.11.30）_3
-      - Green公益节点_187
-      - CYL-科技（2021.11.30）_5
-      - CYL-科技（2021.11.30）_7
-      - CYL-科技（2021.11.30）_8
-      - CYL-科技（2021.11.30）_9
-      - CYL-科技（2021.11.30）_10
-      - CYL-科技（2021.11.30）_11
-      - CYL-科技（2021.11.30）_13
-      - CYL-科技（2021.11.30）_14
-      - CYL-科技（2021.11.30）_15
-      - CYL-科技（2021.11.30）_16
-      - CYL-科技（2021.11.30）_17
-      - CYL-科技（2021.11.30）_18
-      - CYL-科技（2021.11.30）_19
-      - CYL-科技（2021.11.30）_20
-      - CYL-科技（2021.11.30）_21
-      - CYL-科技（2021.11.30）_22
-      - 德国感谢订阅——科技网络_95
-      - 美国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_17
-      - CYL-科技（2021.11.30）_27
-      - CYL-科技（2021.11.30）_28
-      - CYL-科技（2021.11.30）_29
-      - CYL-科技（2021.11.30）_30
-      - CYL-科技（2021.11.30）_31
-      - CYL-科技（2021.11.30）_32
-      - CYL-科技（2021.11.30）_33
-      - CYL-科技（2021.11.30）_34
-      - CYL-科技（2021.11.30）_35
-      - 美国感谢订阅——科技网络_135
-      - CYL-科技（2021.11.30）_37
-      - CYL-科技（2021.11.30）_38
-      - CYL-科技（2021.11.30）_39
-      - CYL-科技（2021.11.30）_40
-      - CYL-科技（2021.11.30）_41
-      - CYL-科技（2021.11.30）_42
-      - CYL-科技（2021.11.30）_43
-      - CYL-科技（2021.11.30）_44
-      - 美国感谢订阅——科技网络_129
-      - CYL-科技（2021.11.30）_46
-      - CYL-科技（2021.11.30）_47
-      - CYL-科技（2021.11.30）_48
-      - CYL-科技（2021.11.30）_49
-      - CYL-科技（2021.11.30）_50
-      - CYL-科技（2021.11.30）_51
-      - CYL-科技（2021.11.30）_52
-      - CYL-科技（2021.11.30）_53
-      - CYL-科技（2021.11.30）_54
-      - CYL-科技（2021.11.30）_55
-      - CYL-科技（2021.11.30）_56
-      - CYL-科技（2021.11.30）_57
-      - CYL-科技（2021.11.30）_58
-      - CYL-科技（2021.11.30）_59
-      - CYL-科技（2021.11.30）_60
-      - CYL-科技（2021.11.30）_61
-      - 美国感谢订阅——科技网络_108
-      - CYL-科技（2021.11.30）_63
-      - CYL-科技（2021.11.30）_64
-      - CYL-科技（2021.11.30）_65
-      - CYL-科技（2021.11.30）_66
-      - CYL-科技（2021.11.30）_67
-      - CYL-科技（2021.11.30）_68
-      - CYL-科技（2021.11.30）_69
-      - CYL-科技（2021.11.30）_70
-      - CYL-科技（2021.11.30）_71
-      - CYL-科技（2021.11.30）_72
-      - CYL-科技（2021.11.30）_73
-      - CYL-科技（2021.11.30）_74
-      - CYL-科技（2021.11.30）_75
-      - CYL-科技（2021.11.30）_76
-      - CYL-科技（2021.11.30）_77
-      - CYL-科技（2021.11.30）_78
-      - CYL-科技（2021.11.30）_79
-      - CYL-科技（2021.11.30）_80
-      - 美国感谢订阅——科技网络_118
-      - CYL-科技（2021.11.30）_82
-      - CYL-科技（2021.11.30）_83
-      - CYL-科技（2021.11.30）_84
-      - CYL-科技（2021.11.30）_85
-      - CYL-科技（2021.11.30）_86
-      - CYL-科技（2021.11.30）_87
-      - CYL-科技（2021.11.30）_88
-      - CYL-科技（2021.11.30）_89
-      - CYL-科技（2021.11.30）_90
-      - CYL-科技（2021.11.30）_91
-      - CYL-科技（2021.11.30）_92
-      - CYL-科技（2021.11.30）_93
-      - CYL-科技（2021.11.30）_94
-      - 美国感谢订阅——科技网络_120
-      - 欧洲感谢订阅——科技网络_139
-      - CYL-科技（2021.11.30）_97
-      - CYL-科技（2021.11.30）_98
-      - CYL-科技（2021.11.30）_99
-      - CYL-科技（2021.11.30）_100
-      - CYL-科技（2021.11.30）_101
-      - 欧洲感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_159
-      - CYL-科技（2021.11.30）_104
-      - CYL-科技（2021.11.30）_105
-      - CYL-科技（2021.11.30）_106
-      - CYL-科技（2021.11.30）_107
-      - CYL-科技（2021.11.30）_108
-      - CYL-科技（2021.11.30）_109
-      - CYL-科技（2021.11.30）_110
-      - CYL-科技（2021.11.30）_111
-      - 欧洲感谢订阅——科技网络_181
-      - CYL-科技（2021.11.30）_113
-      - CYL-科技（2021.11.30）_114
-      - CYL-科技（2021.11.30）_115
-      - 美国感谢订阅——科技网络_130
-      - 欧洲感谢订阅——科技网络_156
+      - 🇸🇬 阿伟科技-油管Relay_🇨🇳CN-🇸🇬SG_265
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_246
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_427
+      - 阿伟科技-油管🏁ZZ_2063
+      - 🇨🇳 阿伟科技-油管🇨🇳CN_258
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_249
+      - 🇨🇳 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_260
+      - 🇺🇸+阿伟科技-油管🇺🇸US_1705
+      - 阿伟科技-油管🏁ZZ_2080
+      - 阿伟科技-油管🏁ZZ_2253
+      - CYL-科技（2021.12.02）_11
+      - CYL-科技（2021.12.02）_12
+      - CYL-科技（2021.12.02）_13
+      - CYL-科技（2021.12.02）_14
+      - CYL-科技（2021.12.02）_15
+      - CYL-科技（2021.12.02）_16
+      - CYL-科技（2021.12.02）_17
+      - CYL-科技（2021.12.02）_18
+      - CYL-科技（2021.12.02）_19
+      - CYL-科技（2021.12.02）_20
+      - CYL-科技（2021.12.02）_21
+      - CYL-科技（2021.12.02）_22
+      - CYL-科技（2021.12.02）_23
+      - CYL-科技（2021.12.02）_24
+      - CYL-科技（2021.12.02）_25
+      - CYL-科技（2021.12.02）_26
+      - CYL-科技（2021.12.02）_27
+      - CYL-科技（2021.12.02）_28
+      - CYL-科技（2021.12.02）_29
+      - CYL-科技（2021.12.02）_30
+      - CYL-科技（2021.12.02）_31
+      - CYL-科技（2021.12.02）_32
+      - CYL-科技（2021.12.02）_33
+      - CYL-科技（2021.12.02）_34
+      - CYL-科技（2021.12.02）_35
+      - CYL-科技（2021.12.02）_36
+      - CYL-科技（2021.12.02）_37
+      - CYL-科技（2021.12.02）_38
+      - CYL-科技（2021.12.02）_39
+      - CYL-科技（2021.12.02）_40
+      - CYL-科技（2021.12.02）_41
+      - CYL-科技（2021.12.02）_42
+      - CYL-科技（2021.12.02）_43
+      - CYL-科技（2021.12.02）_44
+      - CYL-科技（2021.12.02）_45
+      - CYL-科技（2021.12.02）_46
+      - CYL-科技（2021.12.02）_47
+      - CYL-科技（2021.12.02）_48
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CYL-科技（2021.11.30）_1
-      - CYL-科技（2021.11.30）_2
-      - CYL-科技（2021.11.30）_3
-      - Green公益节点_187
-      - CYL-科技（2021.11.30）_5
-      - CYL-科技（2021.11.30）_7
-      - CYL-科技（2021.11.30）_8
-      - CYL-科技（2021.11.30）_9
-      - CYL-科技（2021.11.30）_10
-      - CYL-科技（2021.11.30）_11
-      - CYL-科技（2021.11.30）_13
-      - CYL-科技（2021.11.30）_14
-      - CYL-科技（2021.11.30）_15
-      - CYL-科技（2021.11.30）_16
-      - CYL-科技（2021.11.30）_17
-      - CYL-科技（2021.11.30）_18
-      - CYL-科技（2021.11.30）_19
-      - CYL-科技（2021.11.30）_20
-      - CYL-科技（2021.11.30）_21
-      - CYL-科技（2021.11.30）_22
-      - 德国感谢订阅——科技网络_95
-      - 美国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_17
-      - CYL-科技（2021.11.30）_27
-      - CYL-科技（2021.11.30）_28
-      - CYL-科技（2021.11.30）_29
-      - CYL-科技（2021.11.30）_30
-      - CYL-科技（2021.11.30）_31
-      - CYL-科技（2021.11.30）_32
-      - CYL-科技（2021.11.30）_33
-      - CYL-科技（2021.11.30）_34
-      - CYL-科技（2021.11.30）_35
-      - 美国感谢订阅——科技网络_135
-      - CYL-科技（2021.11.30）_37
-      - CYL-科技（2021.11.30）_38
-      - CYL-科技（2021.11.30）_39
-      - CYL-科技（2021.11.30）_40
-      - CYL-科技（2021.11.30）_41
-      - CYL-科技（2021.11.30）_42
-      - CYL-科技（2021.11.30）_43
-      - CYL-科技（2021.11.30）_44
-      - 美国感谢订阅——科技网络_129
-      - CYL-科技（2021.11.30）_46
-      - CYL-科技（2021.11.30）_47
-      - CYL-科技（2021.11.30）_48
-      - CYL-科技（2021.11.30）_49
-      - CYL-科技（2021.11.30）_50
-      - CYL-科技（2021.11.30）_51
-      - CYL-科技（2021.11.30）_52
-      - CYL-科技（2021.11.30）_53
-      - CYL-科技（2021.11.30）_54
-      - CYL-科技（2021.11.30）_55
-      - CYL-科技（2021.11.30）_56
-      - CYL-科技（2021.11.30）_57
-      - CYL-科技（2021.11.30）_58
-      - CYL-科技（2021.11.30）_59
-      - CYL-科技（2021.11.30）_60
-      - CYL-科技（2021.11.30）_61
-      - 美国感谢订阅——科技网络_108
-      - CYL-科技（2021.11.30）_63
-      - CYL-科技（2021.11.30）_64
-      - CYL-科技（2021.11.30）_65
-      - CYL-科技（2021.11.30）_66
-      - CYL-科技（2021.11.30）_67
-      - CYL-科技（2021.11.30）_68
-      - CYL-科技（2021.11.30）_69
-      - CYL-科技（2021.11.30）_70
-      - CYL-科技（2021.11.30）_71
-      - CYL-科技（2021.11.30）_72
-      - CYL-科技（2021.11.30）_73
-      - CYL-科技（2021.11.30）_74
-      - CYL-科技（2021.11.30）_75
-      - CYL-科技（2021.11.30）_76
-      - CYL-科技（2021.11.30）_77
-      - CYL-科技（2021.11.30）_78
-      - CYL-科技（2021.11.30）_79
-      - CYL-科技（2021.11.30）_80
-      - 美国感谢订阅——科技网络_118
-      - CYL-科技（2021.11.30）_82
-      - CYL-科技（2021.11.30）_83
-      - CYL-科技（2021.11.30）_84
-      - CYL-科技（2021.11.30）_85
-      - CYL-科技（2021.11.30）_86
-      - CYL-科技（2021.11.30）_87
-      - CYL-科技（2021.11.30）_88
-      - CYL-科技（2021.11.30）_89
-      - CYL-科技（2021.11.30）_90
-      - CYL-科技（2021.11.30）_91
-      - CYL-科技（2021.11.30）_92
-      - CYL-科技（2021.11.30）_93
-      - CYL-科技（2021.11.30）_94
-      - 美国感谢订阅——科技网络_120
-      - 欧洲感谢订阅——科技网络_139
-      - CYL-科技（2021.11.30）_97
-      - CYL-科技（2021.11.30）_98
-      - CYL-科技（2021.11.30）_99
-      - CYL-科技（2021.11.30）_100
-      - CYL-科技（2021.11.30）_101
-      - 欧洲感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_159
-      - CYL-科技（2021.11.30）_104
-      - CYL-科技（2021.11.30）_105
-      - CYL-科技（2021.11.30）_106
-      - CYL-科技（2021.11.30）_107
-      - CYL-科技（2021.11.30）_108
-      - CYL-科技（2021.11.30）_109
-      - CYL-科技（2021.11.30）_110
-      - CYL-科技（2021.11.30）_111
-      - 欧洲感谢订阅——科技网络_181
-      - CYL-科技（2021.11.30）_113
-      - CYL-科技（2021.11.30）_114
-      - CYL-科技（2021.11.30）_115
-      - 美国感谢订阅——科技网络_130
-      - 欧洲感谢订阅——科技网络_156
+      - 🇸🇬 阿伟科技-油管Relay_🇨🇳CN-🇸🇬SG_265
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_246
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_427
+      - 阿伟科技-油管🏁ZZ_2063
+      - 🇨🇳 阿伟科技-油管🇨🇳CN_258
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_249
+      - 🇨🇳 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_260
+      - 🇺🇸+阿伟科技-油管🇺🇸US_1705
+      - 阿伟科技-油管🏁ZZ_2080
+      - 阿伟科技-油管🏁ZZ_2253
+      - CYL-科技（2021.12.02）_11
+      - CYL-科技（2021.12.02）_12
+      - CYL-科技（2021.12.02）_13
+      - CYL-科技（2021.12.02）_14
+      - CYL-科技（2021.12.02）_15
+      - CYL-科技（2021.12.02）_16
+      - CYL-科技（2021.12.02）_17
+      - CYL-科技（2021.12.02）_18
+      - CYL-科技（2021.12.02）_19
+      - CYL-科技（2021.12.02）_20
+      - CYL-科技（2021.12.02）_21
+      - CYL-科技（2021.12.02）_22
+      - CYL-科技（2021.12.02）_23
+      - CYL-科技（2021.12.02）_24
+      - CYL-科技（2021.12.02）_25
+      - CYL-科技（2021.12.02）_26
+      - CYL-科技（2021.12.02）_27
+      - CYL-科技（2021.12.02）_28
+      - CYL-科技（2021.12.02）_29
+      - CYL-科技（2021.12.02）_30
+      - CYL-科技（2021.12.02）_31
+      - CYL-科技（2021.12.02）_32
+      - CYL-科技（2021.12.02）_33
+      - CYL-科技（2021.12.02）_34
+      - CYL-科技（2021.12.02）_35
+      - CYL-科技（2021.12.02）_36
+      - CYL-科技（2021.12.02）_37
+      - CYL-科技（2021.12.02）_38
+      - CYL-科技（2021.12.02）_39
+      - CYL-科技（2021.12.02）_40
+      - CYL-科技（2021.12.02）_41
+      - CYL-科技（2021.12.02）_42
+      - CYL-科技（2021.12.02）_43
+      - CYL-科技（2021.12.02）_44
+      - CYL-科技（2021.12.02）_45
+      - CYL-科技（2021.12.02）_46
+      - CYL-科技（2021.12.02）_47
+      - CYL-科技（2021.12.02）_48
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2021.11.30）_1
-      - CYL-科技（2021.11.30）_2
-      - CYL-科技（2021.11.30）_3
-      - Green公益节点_187
-      - CYL-科技（2021.11.30）_5
-      - CYL-科技（2021.11.30）_7
-      - CYL-科技（2021.11.30）_8
-      - CYL-科技（2021.11.30）_9
-      - CYL-科技（2021.11.30）_10
-      - CYL-科技（2021.11.30）_11
-      - CYL-科技（2021.11.30）_13
-      - CYL-科技（2021.11.30）_14
-      - CYL-科技（2021.11.30）_15
-      - CYL-科技（2021.11.30）_16
-      - CYL-科技（2021.11.30）_17
-      - CYL-科技（2021.11.30）_18
-      - CYL-科技（2021.11.30）_19
-      - CYL-科技（2021.11.30）_20
-      - CYL-科技（2021.11.30）_21
-      - CYL-科技（2021.11.30）_22
-      - 德国感谢订阅——科技网络_95
-      - 美国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_17
-      - CYL-科技（2021.11.30）_27
-      - CYL-科技（2021.11.30）_28
-      - CYL-科技（2021.11.30）_29
-      - CYL-科技（2021.11.30）_30
-      - CYL-科技（2021.11.30）_31
-      - CYL-科技（2021.11.30）_32
-      - CYL-科技（2021.11.30）_33
-      - CYL-科技（2021.11.30）_34
-      - CYL-科技（2021.11.30）_35
-      - 美国感谢订阅——科技网络_135
-      - CYL-科技（2021.11.30）_37
-      - CYL-科技（2021.11.30）_38
-      - CYL-科技（2021.11.30）_39
-      - CYL-科技（2021.11.30）_40
-      - CYL-科技（2021.11.30）_41
-      - CYL-科技（2021.11.30）_42
-      - CYL-科技（2021.11.30）_43
-      - CYL-科技（2021.11.30）_44
-      - 美国感谢订阅——科技网络_129
-      - CYL-科技（2021.11.30）_46
-      - CYL-科技（2021.11.30）_47
-      - CYL-科技（2021.11.30）_48
-      - CYL-科技（2021.11.30）_49
-      - CYL-科技（2021.11.30）_50
-      - CYL-科技（2021.11.30）_51
-      - CYL-科技（2021.11.30）_52
-      - CYL-科技（2021.11.30）_53
-      - CYL-科技（2021.11.30）_54
-      - CYL-科技（2021.11.30）_55
-      - CYL-科技（2021.11.30）_56
-      - CYL-科技（2021.11.30）_57
-      - CYL-科技（2021.11.30）_58
-      - CYL-科技（2021.11.30）_59
-      - CYL-科技（2021.11.30）_60
-      - CYL-科技（2021.11.30）_61
-      - 美国感谢订阅——科技网络_108
-      - CYL-科技（2021.11.30）_63
-      - CYL-科技（2021.11.30）_64
-      - CYL-科技（2021.11.30）_65
-      - CYL-科技（2021.11.30）_66
-      - CYL-科技（2021.11.30）_67
-      - CYL-科技（2021.11.30）_68
-      - CYL-科技（2021.11.30）_69
-      - CYL-科技（2021.11.30）_70
-      - CYL-科技（2021.11.30）_71
-      - CYL-科技（2021.11.30）_72
-      - CYL-科技（2021.11.30）_73
-      - CYL-科技（2021.11.30）_74
-      - CYL-科技（2021.11.30）_75
-      - CYL-科技（2021.11.30）_76
-      - CYL-科技（2021.11.30）_77
-      - CYL-科技（2021.11.30）_78
-      - CYL-科技（2021.11.30）_79
-      - CYL-科技（2021.11.30）_80
-      - 美国感谢订阅——科技网络_118
-      - CYL-科技（2021.11.30）_82
-      - CYL-科技（2021.11.30）_83
-      - CYL-科技（2021.11.30）_84
-      - CYL-科技（2021.11.30）_85
-      - CYL-科技（2021.11.30）_86
-      - CYL-科技（2021.11.30）_87
-      - CYL-科技（2021.11.30）_88
-      - CYL-科技（2021.11.30）_89
-      - CYL-科技（2021.11.30）_90
-      - CYL-科技（2021.11.30）_91
-      - CYL-科技（2021.11.30）_92
-      - CYL-科技（2021.11.30）_93
-      - CYL-科技（2021.11.30）_94
-      - 美国感谢订阅——科技网络_120
-      - 欧洲感谢订阅——科技网络_139
-      - CYL-科技（2021.11.30）_97
-      - CYL-科技（2021.11.30）_98
-      - CYL-科技（2021.11.30）_99
-      - CYL-科技（2021.11.30）_100
-      - CYL-科技（2021.11.30）_101
-      - 欧洲感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_159
-      - CYL-科技（2021.11.30）_104
-      - CYL-科技（2021.11.30）_105
-      - CYL-科技（2021.11.30）_106
-      - CYL-科技（2021.11.30）_107
-      - CYL-科技（2021.11.30）_108
-      - CYL-科技（2021.11.30）_109
-      - CYL-科技（2021.11.30）_110
-      - CYL-科技（2021.11.30）_111
-      - 欧洲感谢订阅——科技网络_181
-      - CYL-科技（2021.11.30）_113
-      - CYL-科技（2021.11.30）_114
-      - CYL-科技（2021.11.30）_115
-      - 美国感谢订阅——科技网络_130
-      - 欧洲感谢订阅——科技网络_156
+      - 🇸🇬 阿伟科技-油管Relay_🇨🇳CN-🇸🇬SG_265
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_246
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_427
+      - 阿伟科技-油管🏁ZZ_2063
+      - 🇨🇳 阿伟科技-油管🇨🇳CN_258
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_249
+      - 🇨🇳 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_260
+      - 🇺🇸+阿伟科技-油管🇺🇸US_1705
+      - 阿伟科技-油管🏁ZZ_2080
+      - 阿伟科技-油管🏁ZZ_2253
+      - CYL-科技（2021.12.02）_11
+      - CYL-科技（2021.12.02）_12
+      - CYL-科技（2021.12.02）_13
+      - CYL-科技（2021.12.02）_14
+      - CYL-科技（2021.12.02）_15
+      - CYL-科技（2021.12.02）_16
+      - CYL-科技（2021.12.02）_17
+      - CYL-科技（2021.12.02）_18
+      - CYL-科技（2021.12.02）_19
+      - CYL-科技（2021.12.02）_20
+      - CYL-科技（2021.12.02）_21
+      - CYL-科技（2021.12.02）_22
+      - CYL-科技（2021.12.02）_23
+      - CYL-科技（2021.12.02）_24
+      - CYL-科技（2021.12.02）_25
+      - CYL-科技（2021.12.02）_26
+      - CYL-科技（2021.12.02）_27
+      - CYL-科技（2021.12.02）_28
+      - CYL-科技（2021.12.02）_29
+      - CYL-科技（2021.12.02）_30
+      - CYL-科技（2021.12.02）_31
+      - CYL-科技（2021.12.02）_32
+      - CYL-科技（2021.12.02）_33
+      - CYL-科技（2021.12.02）_34
+      - CYL-科技（2021.12.02）_35
+      - CYL-科技（2021.12.02）_36
+      - CYL-科技（2021.12.02）_37
+      - CYL-科技（2021.12.02）_38
+      - CYL-科技（2021.12.02）_39
+      - CYL-科技（2021.12.02）_40
+      - CYL-科技（2021.12.02）_41
+      - CYL-科技（2021.12.02）_42
+      - CYL-科技（2021.12.02）_43
+      - CYL-科技（2021.12.02）_44
+      - CYL-科技（2021.12.02）_45
+      - CYL-科技（2021.12.02）_46
+      - CYL-科技（2021.12.02）_47
+      - CYL-科技（2021.12.02）_48
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CYL-科技（2021.11.30）_1
-      - CYL-科技（2021.11.30）_2
-      - CYL-科技（2021.11.30）_3
-      - Green公益节点_187
-      - CYL-科技（2021.11.30）_5
-      - CYL-科技（2021.11.30）_7
-      - CYL-科技（2021.11.30）_8
-      - CYL-科技（2021.11.30）_9
-      - CYL-科技（2021.11.30）_10
-      - CYL-科技（2021.11.30）_11
-      - CYL-科技（2021.11.30）_13
-      - CYL-科技（2021.11.30）_14
-      - CYL-科技（2021.11.30）_15
-      - CYL-科技（2021.11.30）_16
-      - CYL-科技（2021.11.30）_17
-      - CYL-科技（2021.11.30）_18
-      - CYL-科技（2021.11.30）_19
-      - CYL-科技（2021.11.30）_20
-      - CYL-科技（2021.11.30）_21
-      - CYL-科技（2021.11.30）_22
-      - 德国感谢订阅——科技网络_95
-      - 美国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_17
-      - CYL-科技（2021.11.30）_27
-      - CYL-科技（2021.11.30）_28
-      - CYL-科技（2021.11.30）_29
-      - CYL-科技（2021.11.30）_30
-      - CYL-科技（2021.11.30）_31
-      - CYL-科技（2021.11.30）_32
-      - CYL-科技（2021.11.30）_33
-      - CYL-科技（2021.11.30）_34
-      - CYL-科技（2021.11.30）_35
-      - 美国感谢订阅——科技网络_135
-      - CYL-科技（2021.11.30）_37
-      - CYL-科技（2021.11.30）_38
-      - CYL-科技（2021.11.30）_39
-      - CYL-科技（2021.11.30）_40
-      - CYL-科技（2021.11.30）_41
-      - CYL-科技（2021.11.30）_42
-      - CYL-科技（2021.11.30）_43
-      - CYL-科技（2021.11.30）_44
-      - 美国感谢订阅——科技网络_129
-      - CYL-科技（2021.11.30）_46
-      - CYL-科技（2021.11.30）_47
-      - CYL-科技（2021.11.30）_48
-      - CYL-科技（2021.11.30）_49
-      - CYL-科技（2021.11.30）_50
-      - CYL-科技（2021.11.30）_51
-      - CYL-科技（2021.11.30）_52
-      - CYL-科技（2021.11.30）_53
-      - CYL-科技（2021.11.30）_54
-      - CYL-科技（2021.11.30）_55
-      - CYL-科技（2021.11.30）_56
-      - CYL-科技（2021.11.30）_57
-      - CYL-科技（2021.11.30）_58
-      - CYL-科技（2021.11.30）_59
-      - CYL-科技（2021.11.30）_60
-      - CYL-科技（2021.11.30）_61
-      - 美国感谢订阅——科技网络_108
-      - CYL-科技（2021.11.30）_63
-      - CYL-科技（2021.11.30）_64
-      - CYL-科技（2021.11.30）_65
-      - CYL-科技（2021.11.30）_66
-      - CYL-科技（2021.11.30）_67
-      - CYL-科技（2021.11.30）_68
-      - CYL-科技（2021.11.30）_69
-      - CYL-科技（2021.11.30）_70
-      - CYL-科技（2021.11.30）_71
-      - CYL-科技（2021.11.30）_72
-      - CYL-科技（2021.11.30）_73
-      - CYL-科技（2021.11.30）_74
-      - CYL-科技（2021.11.30）_75
-      - CYL-科技（2021.11.30）_76
-      - CYL-科技（2021.11.30）_77
-      - CYL-科技（2021.11.30）_78
-      - CYL-科技（2021.11.30）_79
-      - CYL-科技（2021.11.30）_80
-      - 美国感谢订阅——科技网络_118
-      - CYL-科技（2021.11.30）_82
-      - CYL-科技（2021.11.30）_83
-      - CYL-科技（2021.11.30）_84
-      - CYL-科技（2021.11.30）_85
-      - CYL-科技（2021.11.30）_86
-      - CYL-科技（2021.11.30）_87
-      - CYL-科技（2021.11.30）_88
-      - CYL-科技（2021.11.30）_89
-      - CYL-科技（2021.11.30）_90
-      - CYL-科技（2021.11.30）_91
-      - CYL-科技（2021.11.30）_92
-      - CYL-科技（2021.11.30）_93
-      - CYL-科技（2021.11.30）_94
-      - 美国感谢订阅——科技网络_120
-      - 欧洲感谢订阅——科技网络_139
-      - CYL-科技（2021.11.30）_97
-      - CYL-科技（2021.11.30）_98
-      - CYL-科技（2021.11.30）_99
-      - CYL-科技（2021.11.30）_100
-      - CYL-科技（2021.11.30）_101
-      - 欧洲感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_159
-      - CYL-科技（2021.11.30）_104
-      - CYL-科技（2021.11.30）_105
-      - CYL-科技（2021.11.30）_106
-      - CYL-科技（2021.11.30）_107
-      - CYL-科技（2021.11.30）_108
-      - CYL-科技（2021.11.30）_109
-      - CYL-科技（2021.11.30）_110
-      - CYL-科技（2021.11.30）_111
-      - 欧洲感谢订阅——科技网络_181
-      - CYL-科技（2021.11.30）_113
-      - CYL-科技（2021.11.30）_114
-      - CYL-科技（2021.11.30）_115
-      - 美国感谢订阅——科技网络_130
-      - 欧洲感谢订阅——科技网络_156
+      - 🇸🇬 阿伟科技-油管Relay_🇨🇳CN-🇸🇬SG_265
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_246
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_427
+      - 阿伟科技-油管🏁ZZ_2063
+      - 🇨🇳 阿伟科技-油管🇨🇳CN_258
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_249
+      - 🇨🇳 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_260
+      - 🇺🇸+阿伟科技-油管🇺🇸US_1705
+      - 阿伟科技-油管🏁ZZ_2080
+      - 阿伟科技-油管🏁ZZ_2253
+      - CYL-科技（2021.12.02）_11
+      - CYL-科技（2021.12.02）_12
+      - CYL-科技（2021.12.02）_13
+      - CYL-科技（2021.12.02）_14
+      - CYL-科技（2021.12.02）_15
+      - CYL-科技（2021.12.02）_16
+      - CYL-科技（2021.12.02）_17
+      - CYL-科技（2021.12.02）_18
+      - CYL-科技（2021.12.02）_19
+      - CYL-科技（2021.12.02）_20
+      - CYL-科技（2021.12.02）_21
+      - CYL-科技（2021.12.02）_22
+      - CYL-科技（2021.12.02）_23
+      - CYL-科技（2021.12.02）_24
+      - CYL-科技（2021.12.02）_25
+      - CYL-科技（2021.12.02）_26
+      - CYL-科技（2021.12.02）_27
+      - CYL-科技（2021.12.02）_28
+      - CYL-科技（2021.12.02）_29
+      - CYL-科技（2021.12.02）_30
+      - CYL-科技（2021.12.02）_31
+      - CYL-科技（2021.12.02）_32
+      - CYL-科技（2021.12.02）_33
+      - CYL-科技（2021.12.02）_34
+      - CYL-科技（2021.12.02）_35
+      - CYL-科技（2021.12.02）_36
+      - CYL-科技（2021.12.02）_37
+      - CYL-科技（2021.12.02）_38
+      - CYL-科技（2021.12.02）_39
+      - CYL-科技（2021.12.02）_40
+      - CYL-科技（2021.12.02）_41
+      - CYL-科技（2021.12.02）_42
+      - CYL-科技（2021.12.02）_43
+      - CYL-科技（2021.12.02）_44
+      - CYL-科技（2021.12.02）_45
+      - CYL-科技（2021.12.02）_46
+      - CYL-科技（2021.12.02）_47
+      - CYL-科技（2021.12.02）_48
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CYL-科技（2021.11.30）_1
-      - CYL-科技（2021.11.30）_2
-      - CYL-科技（2021.11.30）_3
-      - Green公益节点_187
-      - CYL-科技（2021.11.30）_5
-      - CYL-科技（2021.11.30）_7
-      - CYL-科技（2021.11.30）_8
-      - CYL-科技（2021.11.30）_9
-      - CYL-科技（2021.11.30）_10
-      - CYL-科技（2021.11.30）_11
-      - CYL-科技（2021.11.30）_13
-      - CYL-科技（2021.11.30）_14
-      - CYL-科技（2021.11.30）_15
-      - CYL-科技（2021.11.30）_16
-      - CYL-科技（2021.11.30）_17
-      - CYL-科技（2021.11.30）_18
-      - CYL-科技（2021.11.30）_19
-      - CYL-科技（2021.11.30）_20
-      - CYL-科技（2021.11.30）_21
-      - CYL-科技（2021.11.30）_22
-      - 德国感谢订阅——科技网络_95
-      - 美国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_17
-      - CYL-科技（2021.11.30）_27
-      - CYL-科技（2021.11.30）_28
-      - CYL-科技（2021.11.30）_29
-      - CYL-科技（2021.11.30）_30
-      - CYL-科技（2021.11.30）_31
-      - CYL-科技（2021.11.30）_32
-      - CYL-科技（2021.11.30）_33
-      - CYL-科技（2021.11.30）_34
-      - CYL-科技（2021.11.30）_35
-      - 美国感谢订阅——科技网络_135
-      - CYL-科技（2021.11.30）_37
-      - CYL-科技（2021.11.30）_38
-      - CYL-科技（2021.11.30）_39
-      - CYL-科技（2021.11.30）_40
-      - CYL-科技（2021.11.30）_41
-      - CYL-科技（2021.11.30）_42
-      - CYL-科技（2021.11.30）_43
-      - CYL-科技（2021.11.30）_44
-      - 美国感谢订阅——科技网络_129
-      - CYL-科技（2021.11.30）_46
-      - CYL-科技（2021.11.30）_47
-      - CYL-科技（2021.11.30）_48
-      - CYL-科技（2021.11.30）_49
-      - CYL-科技（2021.11.30）_50
-      - CYL-科技（2021.11.30）_51
-      - CYL-科技（2021.11.30）_52
-      - CYL-科技（2021.11.30）_53
-      - CYL-科技（2021.11.30）_54
-      - CYL-科技（2021.11.30）_55
-      - CYL-科技（2021.11.30）_56
-      - CYL-科技（2021.11.30）_57
-      - CYL-科技（2021.11.30）_58
-      - CYL-科技（2021.11.30）_59
-      - CYL-科技（2021.11.30）_60
-      - CYL-科技（2021.11.30）_61
-      - 美国感谢订阅——科技网络_108
-      - CYL-科技（2021.11.30）_63
-      - CYL-科技（2021.11.30）_64
-      - CYL-科技（2021.11.30）_65
-      - CYL-科技（2021.11.30）_66
-      - CYL-科技（2021.11.30）_67
-      - CYL-科技（2021.11.30）_68
-      - CYL-科技（2021.11.30）_69
-      - CYL-科技（2021.11.30）_70
-      - CYL-科技（2021.11.30）_71
-      - CYL-科技（2021.11.30）_72
-      - CYL-科技（2021.11.30）_73
-      - CYL-科技（2021.11.30）_74
-      - CYL-科技（2021.11.30）_75
-      - CYL-科技（2021.11.30）_76
-      - CYL-科技（2021.11.30）_77
-      - CYL-科技（2021.11.30）_78
-      - CYL-科技（2021.11.30）_79
-      - CYL-科技（2021.11.30）_80
-      - 美国感谢订阅——科技网络_118
-      - CYL-科技（2021.11.30）_82
-      - CYL-科技（2021.11.30）_83
-      - CYL-科技（2021.11.30）_84
-      - CYL-科技（2021.11.30）_85
-      - CYL-科技（2021.11.30）_86
-      - CYL-科技（2021.11.30）_87
-      - CYL-科技（2021.11.30）_88
-      - CYL-科技（2021.11.30）_89
-      - CYL-科技（2021.11.30）_90
-      - CYL-科技（2021.11.30）_91
-      - CYL-科技（2021.11.30）_92
-      - CYL-科技（2021.11.30）_93
-      - CYL-科技（2021.11.30）_94
-      - 美国感谢订阅——科技网络_120
-      - 欧洲感谢订阅——科技网络_139
-      - CYL-科技（2021.11.30）_97
-      - CYL-科技（2021.11.30）_98
-      - CYL-科技（2021.11.30）_99
-      - CYL-科技（2021.11.30）_100
-      - CYL-科技（2021.11.30）_101
-      - 欧洲感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_159
-      - CYL-科技（2021.11.30）_104
-      - CYL-科技（2021.11.30）_105
-      - CYL-科技（2021.11.30）_106
-      - CYL-科技（2021.11.30）_107
-      - CYL-科技（2021.11.30）_108
-      - CYL-科技（2021.11.30）_109
-      - CYL-科技（2021.11.30）_110
-      - CYL-科技（2021.11.30）_111
-      - 欧洲感谢订阅——科技网络_181
-      - CYL-科技（2021.11.30）_113
-      - CYL-科技（2021.11.30）_114
-      - CYL-科技（2021.11.30）_115
-      - 美国感谢订阅——科技网络_130
-      - 欧洲感谢订阅——科技网络_156
+      - 🇸🇬 阿伟科技-油管Relay_🇨🇳CN-🇸🇬SG_265
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_246
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_427
+      - 阿伟科技-油管🏁ZZ_2063
+      - 🇨🇳 阿伟科技-油管🇨🇳CN_258
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_249
+      - 🇨🇳 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_260
+      - 🇺🇸+阿伟科技-油管🇺🇸US_1705
+      - 阿伟科技-油管🏁ZZ_2080
+      - 阿伟科技-油管🏁ZZ_2253
+      - CYL-科技（2021.12.02）_11
+      - CYL-科技（2021.12.02）_12
+      - CYL-科技（2021.12.02）_13
+      - CYL-科技（2021.12.02）_14
+      - CYL-科技（2021.12.02）_15
+      - CYL-科技（2021.12.02）_16
+      - CYL-科技（2021.12.02）_17
+      - CYL-科技（2021.12.02）_18
+      - CYL-科技（2021.12.02）_19
+      - CYL-科技（2021.12.02）_20
+      - CYL-科技（2021.12.02）_21
+      - CYL-科技（2021.12.02）_22
+      - CYL-科技（2021.12.02）_23
+      - CYL-科技（2021.12.02）_24
+      - CYL-科技（2021.12.02）_25
+      - CYL-科技（2021.12.02）_26
+      - CYL-科技（2021.12.02）_27
+      - CYL-科技（2021.12.02）_28
+      - CYL-科技（2021.12.02）_29
+      - CYL-科技（2021.12.02）_30
+      - CYL-科技（2021.12.02）_31
+      - CYL-科技（2021.12.02）_32
+      - CYL-科技（2021.12.02）_33
+      - CYL-科技（2021.12.02）_34
+      - CYL-科技（2021.12.02）_35
+      - CYL-科技（2021.12.02）_36
+      - CYL-科技（2021.12.02）_37
+      - CYL-科技（2021.12.02）_38
+      - CYL-科技（2021.12.02）_39
+      - CYL-科技（2021.12.02）_40
+      - CYL-科技（2021.12.02）_41
+      - CYL-科技（2021.12.02）_42
+      - CYL-科技（2021.12.02）_43
+      - CYL-科技（2021.12.02）_44
+      - CYL-科技（2021.12.02）_45
+      - CYL-科技（2021.12.02）_46
+      - CYL-科技（2021.12.02）_47
+      - CYL-科技（2021.12.02）_48
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CYL-科技（2021.11.30）_1
-      - CYL-科技（2021.11.30）_2
-      - CYL-科技（2021.11.30）_3
-      - Green公益节点_187
-      - CYL-科技（2021.11.30）_5
-      - CYL-科技（2021.11.30）_7
-      - CYL-科技（2021.11.30）_8
-      - CYL-科技（2021.11.30）_9
-      - CYL-科技（2021.11.30）_10
-      - CYL-科技（2021.11.30）_11
-      - CYL-科技（2021.11.30）_13
-      - CYL-科技（2021.11.30）_14
-      - CYL-科技（2021.11.30）_15
-      - CYL-科技（2021.11.30）_16
-      - CYL-科技（2021.11.30）_17
-      - CYL-科技（2021.11.30）_18
-      - CYL-科技（2021.11.30）_19
-      - CYL-科技（2021.11.30）_20
-      - CYL-科技（2021.11.30）_21
-      - CYL-科技（2021.11.30）_22
-      - 德国感谢订阅——科技网络_95
-      - 美国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_17
-      - CYL-科技（2021.11.30）_27
-      - CYL-科技（2021.11.30）_28
-      - CYL-科技（2021.11.30）_29
-      - CYL-科技（2021.11.30）_30
-      - CYL-科技（2021.11.30）_31
-      - CYL-科技（2021.11.30）_32
-      - CYL-科技（2021.11.30）_33
-      - CYL-科技（2021.11.30）_34
-      - CYL-科技（2021.11.30）_35
-      - 美国感谢订阅——科技网络_135
-      - CYL-科技（2021.11.30）_37
-      - CYL-科技（2021.11.30）_38
-      - CYL-科技（2021.11.30）_39
-      - CYL-科技（2021.11.30）_40
-      - CYL-科技（2021.11.30）_41
-      - CYL-科技（2021.11.30）_42
-      - CYL-科技（2021.11.30）_43
-      - CYL-科技（2021.11.30）_44
-      - 美国感谢订阅——科技网络_129
-      - CYL-科技（2021.11.30）_46
-      - CYL-科技（2021.11.30）_47
-      - CYL-科技（2021.11.30）_48
-      - CYL-科技（2021.11.30）_49
-      - CYL-科技（2021.11.30）_50
-      - CYL-科技（2021.11.30）_51
-      - CYL-科技（2021.11.30）_52
-      - CYL-科技（2021.11.30）_53
-      - CYL-科技（2021.11.30）_54
-      - CYL-科技（2021.11.30）_55
-      - CYL-科技（2021.11.30）_56
-      - CYL-科技（2021.11.30）_57
-      - CYL-科技（2021.11.30）_58
-      - CYL-科技（2021.11.30）_59
-      - CYL-科技（2021.11.30）_60
-      - CYL-科技（2021.11.30）_61
-      - 美国感谢订阅——科技网络_108
-      - CYL-科技（2021.11.30）_63
-      - CYL-科技（2021.11.30）_64
-      - CYL-科技（2021.11.30）_65
-      - CYL-科技（2021.11.30）_66
-      - CYL-科技（2021.11.30）_67
-      - CYL-科技（2021.11.30）_68
-      - CYL-科技（2021.11.30）_69
-      - CYL-科技（2021.11.30）_70
-      - CYL-科技（2021.11.30）_71
-      - CYL-科技（2021.11.30）_72
-      - CYL-科技（2021.11.30）_73
-      - CYL-科技（2021.11.30）_74
-      - CYL-科技（2021.11.30）_75
-      - CYL-科技（2021.11.30）_76
-      - CYL-科技（2021.11.30）_77
-      - CYL-科技（2021.11.30）_78
-      - CYL-科技（2021.11.30）_79
-      - CYL-科技（2021.11.30）_80
-      - 美国感谢订阅——科技网络_118
-      - CYL-科技（2021.11.30）_82
-      - CYL-科技（2021.11.30）_83
-      - CYL-科技（2021.11.30）_84
-      - CYL-科技（2021.11.30）_85
-      - CYL-科技（2021.11.30）_86
-      - CYL-科技（2021.11.30）_87
-      - CYL-科技（2021.11.30）_88
-      - CYL-科技（2021.11.30）_89
-      - CYL-科技（2021.11.30）_90
-      - CYL-科技（2021.11.30）_91
-      - CYL-科技（2021.11.30）_92
-      - CYL-科技（2021.11.30）_93
-      - CYL-科技（2021.11.30）_94
-      - 美国感谢订阅——科技网络_120
-      - 欧洲感谢订阅——科技网络_139
-      - CYL-科技（2021.11.30）_97
-      - CYL-科技（2021.11.30）_98
-      - CYL-科技（2021.11.30）_99
-      - CYL-科技（2021.11.30）_100
-      - CYL-科技（2021.11.30）_101
-      - 欧洲感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_159
-      - CYL-科技（2021.11.30）_104
-      - CYL-科技（2021.11.30）_105
-      - CYL-科技（2021.11.30）_106
-      - CYL-科技（2021.11.30）_107
-      - CYL-科技（2021.11.30）_108
-      - CYL-科技（2021.11.30）_109
-      - CYL-科技（2021.11.30）_110
-      - CYL-科技（2021.11.30）_111
-      - 欧洲感谢订阅——科技网络_181
-      - CYL-科技（2021.11.30）_113
-      - CYL-科技（2021.11.30）_114
-      - CYL-科技（2021.11.30）_115
-      - 美国感谢订阅——科技网络_130
-      - 欧洲感谢订阅——科技网络_156
+      - 🇸🇬 阿伟科技-油管Relay_🇨🇳CN-🇸🇬SG_265
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_246
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_427
+      - 阿伟科技-油管🏁ZZ_2063
+      - 🇨🇳 阿伟科技-油管🇨🇳CN_258
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_249
+      - 🇨🇳 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_260
+      - 🇺🇸+阿伟科技-油管🇺🇸US_1705
+      - 阿伟科技-油管🏁ZZ_2080
+      - 阿伟科技-油管🏁ZZ_2253
+      - CYL-科技（2021.12.02）_11
+      - CYL-科技（2021.12.02）_12
+      - CYL-科技（2021.12.02）_13
+      - CYL-科技（2021.12.02）_14
+      - CYL-科技（2021.12.02）_15
+      - CYL-科技（2021.12.02）_16
+      - CYL-科技（2021.12.02）_17
+      - CYL-科技（2021.12.02）_18
+      - CYL-科技（2021.12.02）_19
+      - CYL-科技（2021.12.02）_20
+      - CYL-科技（2021.12.02）_21
+      - CYL-科技（2021.12.02）_22
+      - CYL-科技（2021.12.02）_23
+      - CYL-科技（2021.12.02）_24
+      - CYL-科技（2021.12.02）_25
+      - CYL-科技（2021.12.02）_26
+      - CYL-科技（2021.12.02）_27
+      - CYL-科技（2021.12.02）_28
+      - CYL-科技（2021.12.02）_29
+      - CYL-科技（2021.12.02）_30
+      - CYL-科技（2021.12.02）_31
+      - CYL-科技（2021.12.02）_32
+      - CYL-科技（2021.12.02）_33
+      - CYL-科技（2021.12.02）_34
+      - CYL-科技（2021.12.02）_35
+      - CYL-科技（2021.12.02）_36
+      - CYL-科技（2021.12.02）_37
+      - CYL-科技（2021.12.02）_38
+      - CYL-科技（2021.12.02）_39
+      - CYL-科技（2021.12.02）_40
+      - CYL-科技（2021.12.02）_41
+      - CYL-科技（2021.12.02）_42
+      - CYL-科技（2021.12.02）_43
+      - CYL-科技（2021.12.02）_44
+      - CYL-科技（2021.12.02）_45
+      - CYL-科技（2021.12.02）_46
+      - CYL-科技（2021.12.02）_47
+      - CYL-科技（2021.12.02）_48
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2021.11.30）_1
-      - CYL-科技（2021.11.30）_2
-      - CYL-科技（2021.11.30）_3
-      - Green公益节点_187
-      - CYL-科技（2021.11.30）_5
-      - CYL-科技（2021.11.30）_7
-      - CYL-科技（2021.11.30）_8
-      - CYL-科技（2021.11.30）_9
-      - CYL-科技（2021.11.30）_10
-      - CYL-科技（2021.11.30）_11
-      - CYL-科技（2021.11.30）_13
-      - CYL-科技（2021.11.30）_14
-      - CYL-科技（2021.11.30）_15
-      - CYL-科技（2021.11.30）_16
-      - CYL-科技（2021.11.30）_17
-      - CYL-科技（2021.11.30）_18
-      - CYL-科技（2021.11.30）_19
-      - CYL-科技（2021.11.30）_20
-      - CYL-科技（2021.11.30）_21
-      - CYL-科技（2021.11.30）_22
-      - 德国感谢订阅——科技网络_95
-      - 美国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_17
-      - CYL-科技（2021.11.30）_27
-      - CYL-科技（2021.11.30）_28
-      - CYL-科技（2021.11.30）_29
-      - CYL-科技（2021.11.30）_30
-      - CYL-科技（2021.11.30）_31
-      - CYL-科技（2021.11.30）_32
-      - CYL-科技（2021.11.30）_33
-      - CYL-科技（2021.11.30）_34
-      - CYL-科技（2021.11.30）_35
-      - 美国感谢订阅——科技网络_135
-      - CYL-科技（2021.11.30）_37
-      - CYL-科技（2021.11.30）_38
-      - CYL-科技（2021.11.30）_39
-      - CYL-科技（2021.11.30）_40
-      - CYL-科技（2021.11.30）_41
-      - CYL-科技（2021.11.30）_42
-      - CYL-科技（2021.11.30）_43
-      - CYL-科技（2021.11.30）_44
-      - 美国感谢订阅——科技网络_129
-      - CYL-科技（2021.11.30）_46
-      - CYL-科技（2021.11.30）_47
-      - CYL-科技（2021.11.30）_48
-      - CYL-科技（2021.11.30）_49
-      - CYL-科技（2021.11.30）_50
-      - CYL-科技（2021.11.30）_51
-      - CYL-科技（2021.11.30）_52
-      - CYL-科技（2021.11.30）_53
-      - CYL-科技（2021.11.30）_54
-      - CYL-科技（2021.11.30）_55
-      - CYL-科技（2021.11.30）_56
-      - CYL-科技（2021.11.30）_57
-      - CYL-科技（2021.11.30）_58
-      - CYL-科技（2021.11.30）_59
-      - CYL-科技（2021.11.30）_60
-      - CYL-科技（2021.11.30）_61
-      - 美国感谢订阅——科技网络_108
-      - CYL-科技（2021.11.30）_63
-      - CYL-科技（2021.11.30）_64
-      - CYL-科技（2021.11.30）_65
-      - CYL-科技（2021.11.30）_66
-      - CYL-科技（2021.11.30）_67
-      - CYL-科技（2021.11.30）_68
-      - CYL-科技（2021.11.30）_69
-      - CYL-科技（2021.11.30）_70
-      - CYL-科技（2021.11.30）_71
-      - CYL-科技（2021.11.30）_72
-      - CYL-科技（2021.11.30）_73
-      - CYL-科技（2021.11.30）_74
-      - CYL-科技（2021.11.30）_75
-      - CYL-科技（2021.11.30）_76
-      - CYL-科技（2021.11.30）_77
-      - CYL-科技（2021.11.30）_78
-      - CYL-科技（2021.11.30）_79
-      - CYL-科技（2021.11.30）_80
-      - 美国感谢订阅——科技网络_118
-      - CYL-科技（2021.11.30）_82
-      - CYL-科技（2021.11.30）_83
-      - CYL-科技（2021.11.30）_84
-      - CYL-科技（2021.11.30）_85
-      - CYL-科技（2021.11.30）_86
-      - CYL-科技（2021.11.30）_87
-      - CYL-科技（2021.11.30）_88
-      - CYL-科技（2021.11.30）_89
-      - CYL-科技（2021.11.30）_90
-      - CYL-科技（2021.11.30）_91
-      - CYL-科技（2021.11.30）_92
-      - CYL-科技（2021.11.30）_93
-      - CYL-科技（2021.11.30）_94
-      - 美国感谢订阅——科技网络_120
-      - 欧洲感谢订阅——科技网络_139
-      - CYL-科技（2021.11.30）_97
-      - CYL-科技（2021.11.30）_98
-      - CYL-科技（2021.11.30）_99
-      - CYL-科技（2021.11.30）_100
-      - CYL-科技（2021.11.30）_101
-      - 欧洲感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_159
-      - CYL-科技（2021.11.30）_104
-      - CYL-科技（2021.11.30）_105
-      - CYL-科技（2021.11.30）_106
-      - CYL-科技（2021.11.30）_107
-      - CYL-科技（2021.11.30）_108
-      - CYL-科技（2021.11.30）_109
-      - CYL-科技（2021.11.30）_110
-      - CYL-科技（2021.11.30）_111
-      - 欧洲感谢订阅——科技网络_181
-      - CYL-科技（2021.11.30）_113
-      - CYL-科技（2021.11.30）_114
-      - CYL-科技（2021.11.30）_115
-      - 美国感谢订阅——科技网络_130
-      - 欧洲感谢订阅——科技网络_156
+      - 🇸🇬 阿伟科技-油管Relay_🇨🇳CN-🇸🇬SG_265
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_246
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_427
+      - 阿伟科技-油管🏁ZZ_2063
+      - 🇨🇳 阿伟科技-油管🇨🇳CN_258
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_249
+      - 🇨🇳 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_260
+      - 🇺🇸+阿伟科技-油管🇺🇸US_1705
+      - 阿伟科技-油管🏁ZZ_2080
+      - 阿伟科技-油管🏁ZZ_2253
+      - CYL-科技（2021.12.02）_11
+      - CYL-科技（2021.12.02）_12
+      - CYL-科技（2021.12.02）_13
+      - CYL-科技（2021.12.02）_14
+      - CYL-科技（2021.12.02）_15
+      - CYL-科技（2021.12.02）_16
+      - CYL-科技（2021.12.02）_17
+      - CYL-科技（2021.12.02）_18
+      - CYL-科技（2021.12.02）_19
+      - CYL-科技（2021.12.02）_20
+      - CYL-科技（2021.12.02）_21
+      - CYL-科技（2021.12.02）_22
+      - CYL-科技（2021.12.02）_23
+      - CYL-科技（2021.12.02）_24
+      - CYL-科技（2021.12.02）_25
+      - CYL-科技（2021.12.02）_26
+      - CYL-科技（2021.12.02）_27
+      - CYL-科技（2021.12.02）_28
+      - CYL-科技（2021.12.02）_29
+      - CYL-科技（2021.12.02）_30
+      - CYL-科技（2021.12.02）_31
+      - CYL-科技（2021.12.02）_32
+      - CYL-科技（2021.12.02）_33
+      - CYL-科技（2021.12.02）_34
+      - CYL-科技（2021.12.02）_35
+      - CYL-科技（2021.12.02）_36
+      - CYL-科技（2021.12.02）_37
+      - CYL-科技（2021.12.02）_38
+      - CYL-科技（2021.12.02）_39
+      - CYL-科技（2021.12.02）_40
+      - CYL-科技（2021.12.02）_41
+      - CYL-科技（2021.12.02）_42
+      - CYL-科技（2021.12.02）_43
+      - CYL-科技（2021.12.02）_44
+      - CYL-科技（2021.12.02）_45
+      - CYL-科技（2021.12.02）_46
+      - CYL-科技（2021.12.02）_47
+      - CYL-科技（2021.12.02）_48
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -978,121 +442,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2021.11.30）_1
-      - CYL-科技（2021.11.30）_2
-      - CYL-科技（2021.11.30）_3
-      - Green公益节点_187
-      - CYL-科技（2021.11.30）_5
-      - CYL-科技（2021.11.30）_7
-      - CYL-科技（2021.11.30）_8
-      - CYL-科技（2021.11.30）_9
-      - CYL-科技（2021.11.30）_10
-      - CYL-科技（2021.11.30）_11
-      - CYL-科技（2021.11.30）_13
-      - CYL-科技（2021.11.30）_14
-      - CYL-科技（2021.11.30）_15
-      - CYL-科技（2021.11.30）_16
-      - CYL-科技（2021.11.30）_17
-      - CYL-科技（2021.11.30）_18
-      - CYL-科技（2021.11.30）_19
-      - CYL-科技（2021.11.30）_20
-      - CYL-科技（2021.11.30）_21
-      - CYL-科技（2021.11.30）_22
-      - 德国感谢订阅——科技网络_95
-      - 美国感谢订阅——科技网络_122
-      - 美国感谢订阅——科技网络_127
-      - 美国感谢订阅——科技网络_17
-      - CYL-科技（2021.11.30）_27
-      - CYL-科技（2021.11.30）_28
-      - CYL-科技（2021.11.30）_29
-      - CYL-科技（2021.11.30）_30
-      - CYL-科技（2021.11.30）_31
-      - CYL-科技（2021.11.30）_32
-      - CYL-科技（2021.11.30）_33
-      - CYL-科技（2021.11.30）_34
-      - CYL-科技（2021.11.30）_35
-      - 美国感谢订阅——科技网络_135
-      - CYL-科技（2021.11.30）_37
-      - CYL-科技（2021.11.30）_38
-      - CYL-科技（2021.11.30）_39
-      - CYL-科技（2021.11.30）_40
-      - CYL-科技（2021.11.30）_41
-      - CYL-科技（2021.11.30）_42
-      - CYL-科技（2021.11.30）_43
-      - CYL-科技（2021.11.30）_44
-      - 美国感谢订阅——科技网络_129
-      - CYL-科技（2021.11.30）_46
-      - CYL-科技（2021.11.30）_47
-      - CYL-科技（2021.11.30）_48
-      - CYL-科技（2021.11.30）_49
-      - CYL-科技（2021.11.30）_50
-      - CYL-科技（2021.11.30）_51
-      - CYL-科技（2021.11.30）_52
-      - CYL-科技（2021.11.30）_53
-      - CYL-科技（2021.11.30）_54
-      - CYL-科技（2021.11.30）_55
-      - CYL-科技（2021.11.30）_56
-      - CYL-科技（2021.11.30）_57
-      - CYL-科技（2021.11.30）_58
-      - CYL-科技（2021.11.30）_59
-      - CYL-科技（2021.11.30）_60
-      - CYL-科技（2021.11.30）_61
-      - 美国感谢订阅——科技网络_108
-      - CYL-科技（2021.11.30）_63
-      - CYL-科技（2021.11.30）_64
-      - CYL-科技（2021.11.30）_65
-      - CYL-科技（2021.11.30）_66
-      - CYL-科技（2021.11.30）_67
-      - CYL-科技（2021.11.30）_68
-      - CYL-科技（2021.11.30）_69
-      - CYL-科技（2021.11.30）_70
-      - CYL-科技（2021.11.30）_71
-      - CYL-科技（2021.11.30）_72
-      - CYL-科技（2021.11.30）_73
-      - CYL-科技（2021.11.30）_74
-      - CYL-科技（2021.11.30）_75
-      - CYL-科技（2021.11.30）_76
-      - CYL-科技（2021.11.30）_77
-      - CYL-科技（2021.11.30）_78
-      - CYL-科技（2021.11.30）_79
-      - CYL-科技（2021.11.30）_80
-      - 美国感谢订阅——科技网络_118
-      - CYL-科技（2021.11.30）_82
-      - CYL-科技（2021.11.30）_83
-      - CYL-科技（2021.11.30）_84
-      - CYL-科技（2021.11.30）_85
-      - CYL-科技（2021.11.30）_86
-      - CYL-科技（2021.11.30）_87
-      - CYL-科技（2021.11.30）_88
-      - CYL-科技（2021.11.30）_89
-      - CYL-科技（2021.11.30）_90
-      - CYL-科技（2021.11.30）_91
-      - CYL-科技（2021.11.30）_92
-      - CYL-科技（2021.11.30）_93
-      - CYL-科技（2021.11.30）_94
-      - 美国感谢订阅——科技网络_120
-      - 欧洲感谢订阅——科技网络_139
-      - CYL-科技（2021.11.30）_97
-      - CYL-科技（2021.11.30）_98
-      - CYL-科技（2021.11.30）_99
-      - CYL-科技（2021.11.30）_100
-      - CYL-科技（2021.11.30）_101
-      - 欧洲感谢订阅——科技网络_125
-      - 欧洲感谢订阅——科技网络_159
-      - CYL-科技（2021.11.30）_104
-      - CYL-科技（2021.11.30）_105
-      - CYL-科技（2021.11.30）_106
-      - CYL-科技（2021.11.30）_107
-      - CYL-科技（2021.11.30）_108
-      - CYL-科技（2021.11.30）_109
-      - CYL-科技（2021.11.30）_110
-      - CYL-科技（2021.11.30）_111
-      - 欧洲感谢订阅——科技网络_181
-      - CYL-科技（2021.11.30）_113
-      - CYL-科技（2021.11.30）_114
-      - CYL-科技（2021.11.30）_115
-      - 美国感谢订阅——科技网络_130
-      - 欧洲感谢订阅——科技网络_156
+      - 🇸🇬 阿伟科技-油管Relay_🇨🇳CN-🇸🇬SG_265
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_246
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_427
+      - 阿伟科技-油管🏁ZZ_2063
+      - 🇨🇳 阿伟科技-油管🇨🇳CN_258
+      - 🇺🇸 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_249
+      - 🇨🇳 阿伟科技-油管Relay_🇨🇳CN-🇮🇳IN_260
+      - 🇺🇸+阿伟科技-油管🇺🇸US_1705
+      - 阿伟科技-油管🏁ZZ_2080
+      - 阿伟科技-油管🏁ZZ_2253
+      - CYL-科技（2021.12.02）_11
+      - CYL-科技（2021.12.02）_12
+      - CYL-科技（2021.12.02）_13
+      - CYL-科技（2021.12.02）_14
+      - CYL-科技（2021.12.02）_15
+      - CYL-科技（2021.12.02）_16
+      - CYL-科技（2021.12.02）_17
+      - CYL-科技（2021.12.02）_18
+      - CYL-科技（2021.12.02）_19
+      - CYL-科技（2021.12.02）_20
+      - CYL-科技（2021.12.02）_21
+      - CYL-科技（2021.12.02）_22
+      - CYL-科技（2021.12.02）_23
+      - CYL-科技（2021.12.02）_24
+      - CYL-科技（2021.12.02）_25
+      - CYL-科技（2021.12.02）_26
+      - CYL-科技（2021.12.02）_27
+      - CYL-科技（2021.12.02）_28
+      - CYL-科技（2021.12.02）_29
+      - CYL-科技（2021.12.02）_30
+      - CYL-科技（2021.12.02）_31
+      - CYL-科技（2021.12.02）_32
+      - CYL-科技（2021.12.02）_33
+      - CYL-科技（2021.12.02）_34
+      - CYL-科技（2021.12.02）_35
+      - CYL-科技（2021.12.02）_36
+      - CYL-科技（2021.12.02）_37
+      - CYL-科技（2021.12.02）_38
+      - CYL-科技（2021.12.02）_39
+      - CYL-科技（2021.12.02）_40
+      - CYL-科技（2021.12.02）_41
+      - CYL-科技（2021.12.02）_42
+      - CYL-科技（2021.12.02）_43
+      - CYL-科技（2021.12.02）_44
+      - CYL-科技（2021.12.02）_45
+      - CYL-科技（2021.12.02）_46
+      - CYL-科技（2021.12.02）_47
+      - CYL-科技（2021.12.02）_48
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
