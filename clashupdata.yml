@@ -5,589 +5,645 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港感谢订阅——科技网络_42, server: 120.240.86.26, port: 26011, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港感谢订阅——科技网络_43, server: 120.240.86.26, port: 26010, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_22, server: 116.163.14.29, port: 26015, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国感谢订阅——科技网络_53, server: 116.163.14.137, port: 26020, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国感谢订阅——科技网络_101, server: 116.163.14.137, port: 26023, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本感谢订阅——科技网络_71, server: 120.240.86.26, port: 26007, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国感谢订阅——科技网络_63, server: 120.240.86.26, port: 26023, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国感谢订阅——科技网络_40, server: 120.240.86.26, port: 26012, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本感谢订阅——科技网络_78, server: 116.163.14.137, port: 26008, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_24, server: 116.163.14.29, port: 26012, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国感谢订阅——科技网络_58, server: 116.163.14.137, port: 26021, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国感谢订阅——科技网络_20, server: 116.163.14.29, port: 26014, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国感谢订阅——科技网络_53, server: 116.163.14.137, port: 26020, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本感谢订阅——科技网络_77, server: 120.240.86.51, port: 26007, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国感谢订阅——科技网络_64, server: 120.240.86.51, port: 26020, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国感谢订阅——科技网络_86, server: 116.163.14.29, port: 26021, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国感谢订阅——科技网络_88, server: 116.163.14.137, port: 26006, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本感谢订阅——科技网络_70, server: 116.163.14.137, port: 26009, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本感谢订阅——科技网络_71, server: 120.240.86.26, port: 26007, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本感谢订阅——科技网络_77, server: 120.240.86.51, port: 26007, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_41, server: 120.240.86.51, port: 26015, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本感谢订阅——科技网络_85, server: 116.163.14.29, port: 26007, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_75, server: 120.240.86.26, port: 26006, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港感谢订阅——科技网络_33, server: 120.240.86.51, port: 26012, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_28, server: 116.163.14.29, port: 26013, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.12.03）, server: 1023sg.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1023sg.fans8.xyz}}, udp: true}
-  - {name: 德国感谢订阅——科技网络_58, server: 116.163.14.137, port: 26021, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国感谢订阅——科技网络_101, server: 116.163.14.137, port: 26023, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_98, server: 122.192.154.54, port: 3389, type: trojan, password: ba4fedf8c217c146, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_103, server: 120.240.86.26, port: 26015, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国感谢订阅——科技网络_64, server: 120.240.86.51, port: 26020, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.12.03） 2, server: 192.3.127.109, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 192.3.127.109}}, udp: true}
-  - {name: 美国感谢订阅——科技网络_20, server: 116.163.14.29, port: 26014, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国感谢订阅——科技网络_86, server: 116.163.14.29, port: 26021, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.12.03） 3, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2021.12.03） 4, server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu-cs.okvpn.xyz}}, udp: true}
-  - {name: CYL-科技（2021.12.03） 5, server: t7.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_202, server: 120.240.86.26, port: 26002, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.12.03） 6, server: t7.ssrsub.com, port: 8443, type: trojan, password: 1b89d065-8640-4010-a80e-dc0c46a72aaf, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.12.03） 7, server: t2.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.12.03） 8, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF, udp: true}
-  - {name: 美国感谢订阅——科技网络_91, server: 116.163.14.137, port: 26002, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国感谢订阅——科技网络_118, server: 120.240.86.26, port: 26020, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_201, server: 120.240.86.26, port: 26003, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.12.03） 9, server: us09.xqkj.cloud, port: 1119, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us09.xqkj.cloud}}, udp: true}
-  - {name: CYL-科技（2021.12.03） 10, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: 美国感谢订阅——科技网络_193, server: 116.163.14.137, port: 26001, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_215, server: 120.240.86.26, port: 26001, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.12.03） 11, server: us06.xqkj.cloud, port: 1116, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us06.xqkj.cloud}}, udp: true}
-  - {name: CYL-科技（2021.12.03） 12, server: us10.xqkj.cloud, port: 1119, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us10.xqkj.cloud}}, udp: true}
-  - {name: 德国感谢订阅——科技网络_59, server: 116.163.14.29, port: 26020, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_181, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国感谢订阅——科技网络_188, server: 192.3.127.109, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 192.3.127.109}}, udp: true}
-  - {name: CYL-科技（2021.12.03） 13, server: 38.91.100.27, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国感谢订阅——科技网络_99, server: 142.202.48.78, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 台湾感谢订阅——科技网络_128, server: 116.163.14.137, port: 26024, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2021.12.03） 14, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
-  - {name: CYL-科技（2021.12.03） 15, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
-  - {name: CYL-科技（2021.12.03） 16, server: t6.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 德国感谢订阅——科技网络_187, server: 120.240.86.51, port: 26022, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲感谢订阅——科技网络_142, server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 加拿大感谢订阅——科技网络_161, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2021.12.03） 17, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: CYL-科技（2021.12.03） 18, server: cu-cs.okvpn.xyz, port: 30020, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu-cs.okvpn.xyz}}, udp: true}
-  - {name: CYL-科技（2021.12.03） 19, server: 64.32.13.3, port: 443, type: vmess, uuid: 4dc574eb-94e8-439e-aad6-4d74df1a38c5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/323127100515, headers: {Host: www.12001759.xyz}}, udp: true}
   - {name: 美国感谢订阅——科技网络_102, server: 120.240.86.26, port: 26014, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲感谢订阅——科技网络_153, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国感谢订阅——科技网络_24, server: 116.163.14.29, port: 26012, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_293, server: 120.240.86.26, port: 26011, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国感谢订阅——科技网络_75, server: 120.240.86.26, port: 26006, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本感谢订阅——科技网络_85, server: 116.163.14.29, port: 26007, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_314, server: 116.163.14.29, port: 26020, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国感谢订阅——科技网络_28, server: 116.163.14.29, port: 26013, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_328, server: 120.240.86.51, port: 26025, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国感谢订阅——科技网络_59, server: 116.163.14.29, port: 26020, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03）, server: ind01.xqkj.cloud, port: 1916, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ind01.xqkj.cloud}}, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_291, server: 120.240.86.51, port: 26008, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 2, server: 192.3.127.109, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 192.3.127.109}}, udp: true}
+  - {name: 日本感谢订阅——科技网络_78, server: 116.163.14.137, port: 26008, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国感谢订阅——科技网络_98, server: 122.192.154.54, port: 3389, type: trojan, password: ba4fedf8c217c146, skip-cert-verify: true, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_351, server: 120.240.86.51, port: 26002, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 3, server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu-cs.okvpn.xyz}}, udp: true}
+  - {name: 美国感谢订阅——科技网络_181, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 4, server: cu-cs.okvpn.xyz, port: 30020, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu-cs.okvpn.xyz}}, udp: true}
+  - {name: CYL-科技（2021.12.03） 5, server: 1023sg.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1023sg.fans8.xyz}}, udp: true}
+  - {name: 德国感谢订阅——科技网络_187, server: 120.240.86.51, port: 26022, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 6, server: ind02.xqkj.cloud, port: 1916, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ind02.xqkj.cloud}}, udp: true}
+  - {name: 美国感谢订阅——科技网络_22, server: 116.163.14.29, port: 26015, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国感谢订阅——科技网络_202, server: 120.240.86.26, port: 26002, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国感谢订阅——科技网络_62, server: 120.240.86.51, port: 26021, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 7, server: hl02.xqkj.cloud, port: 1912, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hl02.xqkj.cloud}}, udp: true}
+  - {name: 美国感谢订阅——科技网络_103, server: 120.240.86.26, port: 26015, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 8, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}, udp: true}
+  - {name: CYL-科技（2021.12.03） 9, server: 64.32.13.3, port: 443, type: vmess, uuid: 4dc574eb-94e8-439e-aad6-4d74df1a38c5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/323127100515, headers: {Host: www.12001759.xyz}}, udp: true}
+  - {name: 德国感谢订阅——科技网络_199, server: 120.240.86.26, port: 26021, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿伟科技-油管Relay_-🇨🇦CA_08, server: v3.ssrsub.com, port: 178, type: vmess, uuid: 0e13b5a9-cb62-44cd-b28e-47f137624694, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
   - {name: 美国感谢订阅——科技网络_218, server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP, udp: true}
-  - {name: CYL-科技（2021.12.03） 20, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
-  - {name: CYL-科技（2021.12.03） 21, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA, udp: true}
-  - {name: CYL-科技（2021.12.03） 22, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}, udp: true}
-  - {name: CYL-科技（2021.12.03） 23, server: 142.202.48.77, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2021.12.03） 24, server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲感谢订阅——科技网络_143, server: 134.195.196.51, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大感谢订阅——科技网络_161, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 德国感谢订阅——科技网络_56, server: 116.163.14.137, port: 26022, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 10, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6, udp: true}
+  - {name: 美国感谢订阅——科技网络_126, server: 120.240.86.51, port: 26001, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国感谢订阅——科技网络_204, server: 38.91.100.27, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_284, server: 116.163.14.29, port: 26008, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 11, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CYL-科技（2021.12.03） 12, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
+  - {name: 加拿大感谢订阅——科技网络_216, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CYL-科技（2021.12.03） 13, server: us10.xqkj.cloud, port: 1119, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us10.xqkj.cloud}}, udp: true}
+  - {name: CYL-科技（2021.12.03） 14, server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国感谢订阅——科技网络_124, server: 116.163.14.29, port: 26002, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 15, server: us06.xqkj.cloud, port: 1116, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us06.xqkj.cloud}}, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_274, server: 120.240.86.51, port: 26001, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_317, server: 120.240.86.26, port: 26001, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_349, server: 120.240.86.26, port: 26002, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国感谢订阅——科技网络_41, server: 120.240.86.51, port: 26015, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_292, server: 120.197.88.216, port: 20005, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_346, server: 116.163.14.29, port: 26001, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_319, server: 120.240.86.26, port: 26024, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 16, server: dg02.xqkj.cloud, port: 1915, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dg02.xqkj.cloud}}, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_310, server: 116.163.14.29, port: 26002, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_511, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}, udp: true}
+  - {name: 欧洲感谢订阅——科技网络_142, server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 美国感谢订阅——科技网络_148, server: 142.202.48.7, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 加拿大感谢订阅——科技网络_168, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国感谢订阅——科技网络_197, server: 116.163.14.137, port: 26003, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 17, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}, udp: true}
+  - {name: 美国感谢订阅——科技网络_188, server: 192.3.127.109, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 192.3.127.109}}, udp: true}
+  - {name: 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG, server: 20.205.122.120, port: 45514, type: vmess, uuid: 739ae3ef-3710-4a33-b0db-5c29a5cec85b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Net.Hibey.cc, headers: {Host: 20.205.122.120}}, udp: true}
+  - {name: 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_331, server: 116.163.14.29, port: 26003, type: vmess, uuid: 46390bdc-73bb-322f-8d5a-16ad86b10d9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.12.03） 18, server: t6.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港感谢订阅——科技网络_42
-      - 香港感谢订阅——科技网络_43
-      - 美国感谢订阅——科技网络_22
-      - 德国感谢订阅——科技网络_53
+      - 德国感谢订阅——科技网络_101
+      - 日本感谢订阅——科技网络_71
+      - 德国感谢订阅——科技网络_63
       - 美国感谢订阅——科技网络_40
-      - 日本感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_24
+      - 德国感谢订阅——科技网络_58
+      - 美国感谢订阅——科技网络_20
+      - 德国感谢订阅——科技网络_53
+      - 日本感谢订阅——科技网络_77
+      - 德国感谢订阅——科技网络_64
+      - 德国感谢订阅——科技网络_86
       - 美国感谢订阅——科技网络_88
       - 日本感谢订阅——科技网络_70
-      - 日本感谢订阅——科技网络_71
-      - 日本感谢订阅——科技网络_77
-      - 美国感谢订阅——科技网络_41
-      - 日本感谢订阅——科技网络_85
-      - 美国感谢订阅——科技网络_75
       - 香港感谢订阅——科技网络_33
+      - 美国感谢订阅——科技网络_102
+      - 美国感谢订阅——科技网络_24
+      - 阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_293
+      - 美国感谢订阅——科技网络_75
+      - 日本感谢订阅——科技网络_85
+      - 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_314
       - 美国感谢订阅——科技网络_28
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_328
+      - 德国感谢订阅——科技网络_59
       - CYL-科技（2021.12.03）
-      - 德国感谢订阅——科技网络_58
-      - 德国感谢订阅——科技网络_101
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_103
-      - 德国感谢订阅——科技网络_64
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_291
       - CYL-科技（2021.12.03） 2
-      - 美国感谢订阅——科技网络_20
-      - 德国感谢订阅——科技网络_86
+      - 日本感谢订阅——科技网络_78
+      - 美国感谢订阅——科技网络_98
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_351
       - CYL-科技（2021.12.03） 3
+      - 美国感谢订阅——科技网络_181
       - CYL-科技（2021.12.03） 4
       - CYL-科技（2021.12.03） 5
-      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_187
       - CYL-科技（2021.12.03） 6
+      - 美国感谢订阅——科技网络_22
+      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_62
       - CYL-科技（2021.12.03） 7
+      - 美国感谢订阅——科技网络_103
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
       - CYL-科技（2021.12.03） 8
-      - 美国感谢订阅——科技网络_91
-      - 德国感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_201
       - CYL-科技（2021.12.03） 9
+      - 德国感谢订阅——科技网络_199
+      - 阿伟科技-油管Relay_-🇨🇦CA_08
+      - 美国感谢订阅——科技网络_218
+      - 加拿大感谢订阅——科技网络_161
+      - 德国感谢订阅——科技网络_56
       - CYL-科技（2021.12.03） 10
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_215
+      - 美国感谢订阅——科技网络_126
+      - 美国感谢订阅——科技网络_204
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_284
       - CYL-科技（2021.12.03） 11
       - CYL-科技（2021.12.03） 12
-      - 德国感谢订阅——科技网络_59
-      - 美国感谢订阅——科技网络_181
-      - 美国感谢订阅——科技网络_188
+      - 加拿大感谢订阅——科技网络_216
       - CYL-科技（2021.12.03） 13
-      - 美国感谢订阅——科技网络_99
-      - 台湾感谢订阅——科技网络_128
       - CYL-科技（2021.12.03） 14
+      - 美国感谢订阅——科技网络_124
       - CYL-科技（2021.12.03） 15
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_274
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_317
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_349
+      - 美国感谢订阅——科技网络_41
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_292
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_346
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_319
       - CYL-科技（2021.12.03） 16
-      - 德国感谢订阅——科技网络_187
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_310
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_511
       - 欧洲感谢订阅——科技网络_142
-      - 加拿大感谢订阅——科技网络_161
-      - CYL-科技（2021.12.03） 17
-      - CYL-科技（2021.12.03） 18
-      - CYL-科技（2021.12.03） 19
-      - 美国感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_218
-      - CYL-科技（2021.12.03） 20
-      - CYL-科技（2021.12.03） 21
-      - CYL-科技（2021.12.03） 22
-      - CYL-科技（2021.12.03） 23
-      - CYL-科技（2021.12.03） 24
-      - 欧洲感谢订阅——科技网络_143
       - 美国感谢订阅——科技网络_148
-      - 加拿大感谢订阅——科技网络_168
-      - 美国感谢订阅——科技网络_197
+      - CYL-科技（2021.12.03） 17
+      - 美国感谢订阅——科技网络_188
+      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_331
+      - CYL-科技（2021.12.03） 18
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港感谢订阅——科技网络_42
-      - 香港感谢订阅——科技网络_43
-      - 美国感谢订阅——科技网络_22
-      - 德国感谢订阅——科技网络_53
+      - 德国感谢订阅——科技网络_101
+      - 日本感谢订阅——科技网络_71
+      - 德国感谢订阅——科技网络_63
       - 美国感谢订阅——科技网络_40
-      - 日本感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_24
+      - 德国感谢订阅——科技网络_58
+      - 美国感谢订阅——科技网络_20
+      - 德国感谢订阅——科技网络_53
+      - 日本感谢订阅——科技网络_77
+      - 德国感谢订阅——科技网络_64
+      - 德国感谢订阅——科技网络_86
       - 美国感谢订阅——科技网络_88
       - 日本感谢订阅——科技网络_70
-      - 日本感谢订阅——科技网络_71
-      - 日本感谢订阅——科技网络_77
-      - 美国感谢订阅——科技网络_41
-      - 日本感谢订阅——科技网络_85
-      - 美国感谢订阅——科技网络_75
       - 香港感谢订阅——科技网络_33
+      - 美国感谢订阅——科技网络_102
+      - 美国感谢订阅——科技网络_24
+      - 阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_293
+      - 美国感谢订阅——科技网络_75
+      - 日本感谢订阅——科技网络_85
+      - 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_314
       - 美国感谢订阅——科技网络_28
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_328
+      - 德国感谢订阅——科技网络_59
       - CYL-科技（2021.12.03）
-      - 德国感谢订阅——科技网络_58
-      - 德国感谢订阅——科技网络_101
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_103
-      - 德国感谢订阅——科技网络_64
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_291
       - CYL-科技（2021.12.03） 2
-      - 美国感谢订阅——科技网络_20
-      - 德国感谢订阅——科技网络_86
+      - 日本感谢订阅——科技网络_78
+      - 美国感谢订阅——科技网络_98
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_351
       - CYL-科技（2021.12.03） 3
+      - 美国感谢订阅——科技网络_181
       - CYL-科技（2021.12.03） 4
       - CYL-科技（2021.12.03） 5
-      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_187
       - CYL-科技（2021.12.03） 6
+      - 美国感谢订阅——科技网络_22
+      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_62
       - CYL-科技（2021.12.03） 7
+      - 美国感谢订阅——科技网络_103
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
       - CYL-科技（2021.12.03） 8
-      - 美国感谢订阅——科技网络_91
-      - 德国感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_201
       - CYL-科技（2021.12.03） 9
+      - 德国感谢订阅——科技网络_199
+      - 阿伟科技-油管Relay_-🇨🇦CA_08
+      - 美国感谢订阅——科技网络_218
+      - 加拿大感谢订阅——科技网络_161
+      - 德国感谢订阅——科技网络_56
       - CYL-科技（2021.12.03） 10
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_215
+      - 美国感谢订阅——科技网络_126
+      - 美国感谢订阅——科技网络_204
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_284
       - CYL-科技（2021.12.03） 11
       - CYL-科技（2021.12.03） 12
-      - 德国感谢订阅——科技网络_59
-      - 美国感谢订阅——科技网络_181
-      - 美国感谢订阅——科技网络_188
+      - 加拿大感谢订阅——科技网络_216
       - CYL-科技（2021.12.03） 13
-      - 美国感谢订阅——科技网络_99
-      - 台湾感谢订阅——科技网络_128
       - CYL-科技（2021.12.03） 14
+      - 美国感谢订阅——科技网络_124
       - CYL-科技（2021.12.03） 15
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_274
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_317
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_349
+      - 美国感谢订阅——科技网络_41
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_292
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_346
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_319
       - CYL-科技（2021.12.03） 16
-      - 德国感谢订阅——科技网络_187
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_310
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_511
       - 欧洲感谢订阅——科技网络_142
-      - 加拿大感谢订阅——科技网络_161
-      - CYL-科技（2021.12.03） 17
-      - CYL-科技（2021.12.03） 18
-      - CYL-科技（2021.12.03） 19
-      - 美国感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_218
-      - CYL-科技（2021.12.03） 20
-      - CYL-科技（2021.12.03） 21
-      - CYL-科技（2021.12.03） 22
-      - CYL-科技（2021.12.03） 23
-      - CYL-科技（2021.12.03） 24
-      - 欧洲感谢订阅——科技网络_143
       - 美国感谢订阅——科技网络_148
-      - 加拿大感谢订阅——科技网络_168
-      - 美国感谢订阅——科技网络_197
+      - CYL-科技（2021.12.03） 17
+      - 美国感谢订阅——科技网络_188
+      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_331
+      - CYL-科技（2021.12.03） 18
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港感谢订阅——科技网络_42
-      - 香港感谢订阅——科技网络_43
-      - 美国感谢订阅——科技网络_22
-      - 德国感谢订阅——科技网络_53
+      - 德国感谢订阅——科技网络_101
+      - 日本感谢订阅——科技网络_71
+      - 德国感谢订阅——科技网络_63
       - 美国感谢订阅——科技网络_40
-      - 日本感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_24
+      - 德国感谢订阅——科技网络_58
+      - 美国感谢订阅——科技网络_20
+      - 德国感谢订阅——科技网络_53
+      - 日本感谢订阅——科技网络_77
+      - 德国感谢订阅——科技网络_64
+      - 德国感谢订阅——科技网络_86
       - 美国感谢订阅——科技网络_88
       - 日本感谢订阅——科技网络_70
-      - 日本感谢订阅——科技网络_71
-      - 日本感谢订阅——科技网络_77
-      - 美国感谢订阅——科技网络_41
-      - 日本感谢订阅——科技网络_85
-      - 美国感谢订阅——科技网络_75
       - 香港感谢订阅——科技网络_33
+      - 美国感谢订阅——科技网络_102
+      - 美国感谢订阅——科技网络_24
+      - 阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_293
+      - 美国感谢订阅——科技网络_75
+      - 日本感谢订阅——科技网络_85
+      - 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_314
       - 美国感谢订阅——科技网络_28
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_328
+      - 德国感谢订阅——科技网络_59
       - CYL-科技（2021.12.03）
-      - 德国感谢订阅——科技网络_58
-      - 德国感谢订阅——科技网络_101
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_103
-      - 德国感谢订阅——科技网络_64
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_291
       - CYL-科技（2021.12.03） 2
-      - 美国感谢订阅——科技网络_20
-      - 德国感谢订阅——科技网络_86
+      - 日本感谢订阅——科技网络_78
+      - 美国感谢订阅——科技网络_98
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_351
       - CYL-科技（2021.12.03） 3
+      - 美国感谢订阅——科技网络_181
       - CYL-科技（2021.12.03） 4
       - CYL-科技（2021.12.03） 5
-      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_187
       - CYL-科技（2021.12.03） 6
+      - 美国感谢订阅——科技网络_22
+      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_62
       - CYL-科技（2021.12.03） 7
+      - 美国感谢订阅——科技网络_103
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
       - CYL-科技（2021.12.03） 8
-      - 美国感谢订阅——科技网络_91
-      - 德国感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_201
       - CYL-科技（2021.12.03） 9
+      - 德国感谢订阅——科技网络_199
+      - 阿伟科技-油管Relay_-🇨🇦CA_08
+      - 美国感谢订阅——科技网络_218
+      - 加拿大感谢订阅——科技网络_161
+      - 德国感谢订阅——科技网络_56
       - CYL-科技（2021.12.03） 10
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_215
+      - 美国感谢订阅——科技网络_126
+      - 美国感谢订阅——科技网络_204
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_284
       - CYL-科技（2021.12.03） 11
       - CYL-科技（2021.12.03） 12
-      - 德国感谢订阅——科技网络_59
-      - 美国感谢订阅——科技网络_181
-      - 美国感谢订阅——科技网络_188
+      - 加拿大感谢订阅——科技网络_216
       - CYL-科技（2021.12.03） 13
-      - 美国感谢订阅——科技网络_99
-      - 台湾感谢订阅——科技网络_128
       - CYL-科技（2021.12.03） 14
+      - 美国感谢订阅——科技网络_124
       - CYL-科技（2021.12.03） 15
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_274
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_317
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_349
+      - 美国感谢订阅——科技网络_41
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_292
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_346
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_319
       - CYL-科技（2021.12.03） 16
-      - 德国感谢订阅——科技网络_187
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_310
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_511
       - 欧洲感谢订阅——科技网络_142
-      - 加拿大感谢订阅——科技网络_161
-      - CYL-科技（2021.12.03） 17
-      - CYL-科技（2021.12.03） 18
-      - CYL-科技（2021.12.03） 19
-      - 美国感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_218
-      - CYL-科技（2021.12.03） 20
-      - CYL-科技（2021.12.03） 21
-      - CYL-科技（2021.12.03） 22
-      - CYL-科技（2021.12.03） 23
-      - CYL-科技（2021.12.03） 24
-      - 欧洲感谢订阅——科技网络_143
       - 美国感谢订阅——科技网络_148
-      - 加拿大感谢订阅——科技网络_168
-      - 美国感谢订阅——科技网络_197
+      - CYL-科技（2021.12.03） 17
+      - 美国感谢订阅——科技网络_188
+      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_331
+      - CYL-科技（2021.12.03） 18
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港感谢订阅——科技网络_42
-      - 香港感谢订阅——科技网络_43
-      - 美国感谢订阅——科技网络_22
-      - 德国感谢订阅——科技网络_53
+      - 德国感谢订阅——科技网络_101
+      - 日本感谢订阅——科技网络_71
+      - 德国感谢订阅——科技网络_63
       - 美国感谢订阅——科技网络_40
-      - 日本感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_24
+      - 德国感谢订阅——科技网络_58
+      - 美国感谢订阅——科技网络_20
+      - 德国感谢订阅——科技网络_53
+      - 日本感谢订阅——科技网络_77
+      - 德国感谢订阅——科技网络_64
+      - 德国感谢订阅——科技网络_86
       - 美国感谢订阅——科技网络_88
       - 日本感谢订阅——科技网络_70
-      - 日本感谢订阅——科技网络_71
-      - 日本感谢订阅——科技网络_77
-      - 美国感谢订阅——科技网络_41
-      - 日本感谢订阅——科技网络_85
-      - 美国感谢订阅——科技网络_75
       - 香港感谢订阅——科技网络_33
+      - 美国感谢订阅——科技网络_102
+      - 美国感谢订阅——科技网络_24
+      - 阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_293
+      - 美国感谢订阅——科技网络_75
+      - 日本感谢订阅——科技网络_85
+      - 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_314
       - 美国感谢订阅——科技网络_28
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_328
+      - 德国感谢订阅——科技网络_59
       - CYL-科技（2021.12.03）
-      - 德国感谢订阅——科技网络_58
-      - 德国感谢订阅——科技网络_101
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_103
-      - 德国感谢订阅——科技网络_64
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_291
       - CYL-科技（2021.12.03） 2
-      - 美国感谢订阅——科技网络_20
-      - 德国感谢订阅——科技网络_86
+      - 日本感谢订阅——科技网络_78
+      - 美国感谢订阅——科技网络_98
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_351
       - CYL-科技（2021.12.03） 3
+      - 美国感谢订阅——科技网络_181
       - CYL-科技（2021.12.03） 4
       - CYL-科技（2021.12.03） 5
-      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_187
       - CYL-科技（2021.12.03） 6
+      - 美国感谢订阅——科技网络_22
+      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_62
       - CYL-科技（2021.12.03） 7
+      - 美国感谢订阅——科技网络_103
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
       - CYL-科技（2021.12.03） 8
-      - 美国感谢订阅——科技网络_91
-      - 德国感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_201
       - CYL-科技（2021.12.03） 9
+      - 德国感谢订阅——科技网络_199
+      - 阿伟科技-油管Relay_-🇨🇦CA_08
+      - 美国感谢订阅——科技网络_218
+      - 加拿大感谢订阅——科技网络_161
+      - 德国感谢订阅——科技网络_56
       - CYL-科技（2021.12.03） 10
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_215
+      - 美国感谢订阅——科技网络_126
+      - 美国感谢订阅——科技网络_204
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_284
       - CYL-科技（2021.12.03） 11
       - CYL-科技（2021.12.03） 12
-      - 德国感谢订阅——科技网络_59
-      - 美国感谢订阅——科技网络_181
-      - 美国感谢订阅——科技网络_188
+      - 加拿大感谢订阅——科技网络_216
       - CYL-科技（2021.12.03） 13
-      - 美国感谢订阅——科技网络_99
-      - 台湾感谢订阅——科技网络_128
       - CYL-科技（2021.12.03） 14
+      - 美国感谢订阅——科技网络_124
       - CYL-科技（2021.12.03） 15
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_274
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_317
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_349
+      - 美国感谢订阅——科技网络_41
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_292
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_346
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_319
       - CYL-科技（2021.12.03） 16
-      - 德国感谢订阅——科技网络_187
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_310
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_511
       - 欧洲感谢订阅——科技网络_142
-      - 加拿大感谢订阅——科技网络_161
-      - CYL-科技（2021.12.03） 17
-      - CYL-科技（2021.12.03） 18
-      - CYL-科技（2021.12.03） 19
-      - 美国感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_218
-      - CYL-科技（2021.12.03） 20
-      - CYL-科技（2021.12.03） 21
-      - CYL-科技（2021.12.03） 22
-      - CYL-科技（2021.12.03） 23
-      - CYL-科技（2021.12.03） 24
-      - 欧洲感谢订阅——科技网络_143
       - 美国感谢订阅——科技网络_148
-      - 加拿大感谢订阅——科技网络_168
-      - 美国感谢订阅——科技网络_197
+      - CYL-科技（2021.12.03） 17
+      - 美国感谢订阅——科技网络_188
+      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_331
+      - CYL-科技（2021.12.03） 18
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港感谢订阅——科技网络_42
-      - 香港感谢订阅——科技网络_43
-      - 美国感谢订阅——科技网络_22
-      - 德国感谢订阅——科技网络_53
+      - 德国感谢订阅——科技网络_101
+      - 日本感谢订阅——科技网络_71
+      - 德国感谢订阅——科技网络_63
       - 美国感谢订阅——科技网络_40
-      - 日本感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_24
+      - 德国感谢订阅——科技网络_58
+      - 美国感谢订阅——科技网络_20
+      - 德国感谢订阅——科技网络_53
+      - 日本感谢订阅——科技网络_77
+      - 德国感谢订阅——科技网络_64
+      - 德国感谢订阅——科技网络_86
       - 美国感谢订阅——科技网络_88
       - 日本感谢订阅——科技网络_70
-      - 日本感谢订阅——科技网络_71
-      - 日本感谢订阅——科技网络_77
-      - 美国感谢订阅——科技网络_41
-      - 日本感谢订阅——科技网络_85
-      - 美国感谢订阅——科技网络_75
       - 香港感谢订阅——科技网络_33
+      - 美国感谢订阅——科技网络_102
+      - 美国感谢订阅——科技网络_24
+      - 阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_293
+      - 美国感谢订阅——科技网络_75
+      - 日本感谢订阅——科技网络_85
+      - 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_314
       - 美国感谢订阅——科技网络_28
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_328
+      - 德国感谢订阅——科技网络_59
       - CYL-科技（2021.12.03）
-      - 德国感谢订阅——科技网络_58
-      - 德国感谢订阅——科技网络_101
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_103
-      - 德国感谢订阅——科技网络_64
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_291
       - CYL-科技（2021.12.03） 2
-      - 美国感谢订阅——科技网络_20
-      - 德国感谢订阅——科技网络_86
+      - 日本感谢订阅——科技网络_78
+      - 美国感谢订阅——科技网络_98
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_351
       - CYL-科技（2021.12.03） 3
+      - 美国感谢订阅——科技网络_181
       - CYL-科技（2021.12.03） 4
       - CYL-科技（2021.12.03） 5
-      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_187
       - CYL-科技（2021.12.03） 6
+      - 美国感谢订阅——科技网络_22
+      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_62
       - CYL-科技（2021.12.03） 7
+      - 美国感谢订阅——科技网络_103
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
       - CYL-科技（2021.12.03） 8
-      - 美国感谢订阅——科技网络_91
-      - 德国感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_201
       - CYL-科技（2021.12.03） 9
+      - 德国感谢订阅——科技网络_199
+      - 阿伟科技-油管Relay_-🇨🇦CA_08
+      - 美国感谢订阅——科技网络_218
+      - 加拿大感谢订阅——科技网络_161
+      - 德国感谢订阅——科技网络_56
       - CYL-科技（2021.12.03） 10
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_215
+      - 美国感谢订阅——科技网络_126
+      - 美国感谢订阅——科技网络_204
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_284
       - CYL-科技（2021.12.03） 11
       - CYL-科技（2021.12.03） 12
-      - 德国感谢订阅——科技网络_59
-      - 美国感谢订阅——科技网络_181
-      - 美国感谢订阅——科技网络_188
+      - 加拿大感谢订阅——科技网络_216
       - CYL-科技（2021.12.03） 13
-      - 美国感谢订阅——科技网络_99
-      - 台湾感谢订阅——科技网络_128
       - CYL-科技（2021.12.03） 14
+      - 美国感谢订阅——科技网络_124
       - CYL-科技（2021.12.03） 15
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_274
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_317
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_349
+      - 美国感谢订阅——科技网络_41
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_292
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_346
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_319
       - CYL-科技（2021.12.03） 16
-      - 德国感谢订阅——科技网络_187
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_310
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_511
       - 欧洲感谢订阅——科技网络_142
-      - 加拿大感谢订阅——科技网络_161
-      - CYL-科技（2021.12.03） 17
-      - CYL-科技（2021.12.03） 18
-      - CYL-科技（2021.12.03） 19
-      - 美国感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_218
-      - CYL-科技（2021.12.03） 20
-      - CYL-科技（2021.12.03） 21
-      - CYL-科技（2021.12.03） 22
-      - CYL-科技（2021.12.03） 23
-      - CYL-科技（2021.12.03） 24
-      - 欧洲感谢订阅——科技网络_143
       - 美国感谢订阅——科技网络_148
-      - 加拿大感谢订阅——科技网络_168
-      - 美国感谢订阅——科技网络_197
+      - CYL-科技（2021.12.03） 17
+      - 美国感谢订阅——科技网络_188
+      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_331
+      - CYL-科技（2021.12.03） 18
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港感谢订阅——科技网络_42
-      - 香港感谢订阅——科技网络_43
-      - 美国感谢订阅——科技网络_22
-      - 德国感谢订阅——科技网络_53
+      - 德国感谢订阅——科技网络_101
+      - 日本感谢订阅——科技网络_71
+      - 德国感谢订阅——科技网络_63
       - 美国感谢订阅——科技网络_40
-      - 日本感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_24
+      - 德国感谢订阅——科技网络_58
+      - 美国感谢订阅——科技网络_20
+      - 德国感谢订阅——科技网络_53
+      - 日本感谢订阅——科技网络_77
+      - 德国感谢订阅——科技网络_64
+      - 德国感谢订阅——科技网络_86
       - 美国感谢订阅——科技网络_88
       - 日本感谢订阅——科技网络_70
-      - 日本感谢订阅——科技网络_71
-      - 日本感谢订阅——科技网络_77
-      - 美国感谢订阅——科技网络_41
-      - 日本感谢订阅——科技网络_85
-      - 美国感谢订阅——科技网络_75
       - 香港感谢订阅——科技网络_33
+      - 美国感谢订阅——科技网络_102
+      - 美国感谢订阅——科技网络_24
+      - 阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_293
+      - 美国感谢订阅——科技网络_75
+      - 日本感谢订阅——科技网络_85
+      - 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_314
       - 美国感谢订阅——科技网络_28
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_328
+      - 德国感谢订阅——科技网络_59
       - CYL-科技（2021.12.03）
-      - 德国感谢订阅——科技网络_58
-      - 德国感谢订阅——科技网络_101
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_103
-      - 德国感谢订阅——科技网络_64
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_291
       - CYL-科技（2021.12.03） 2
-      - 美国感谢订阅——科技网络_20
-      - 德国感谢订阅——科技网络_86
+      - 日本感谢订阅——科技网络_78
+      - 美国感谢订阅——科技网络_98
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_351
       - CYL-科技（2021.12.03） 3
+      - 美国感谢订阅——科技网络_181
       - CYL-科技（2021.12.03） 4
       - CYL-科技（2021.12.03） 5
-      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_187
       - CYL-科技（2021.12.03） 6
+      - 美国感谢订阅——科技网络_22
+      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_62
       - CYL-科技（2021.12.03） 7
+      - 美国感谢订阅——科技网络_103
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
       - CYL-科技（2021.12.03） 8
-      - 美国感谢订阅——科技网络_91
-      - 德国感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_201
       - CYL-科技（2021.12.03） 9
+      - 德国感谢订阅——科技网络_199
+      - 阿伟科技-油管Relay_-🇨🇦CA_08
+      - 美国感谢订阅——科技网络_218
+      - 加拿大感谢订阅——科技网络_161
+      - 德国感谢订阅——科技网络_56
       - CYL-科技（2021.12.03） 10
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_215
+      - 美国感谢订阅——科技网络_126
+      - 美国感谢订阅——科技网络_204
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_284
       - CYL-科技（2021.12.03） 11
       - CYL-科技（2021.12.03） 12
-      - 德国感谢订阅——科技网络_59
-      - 美国感谢订阅——科技网络_181
-      - 美国感谢订阅——科技网络_188
+      - 加拿大感谢订阅——科技网络_216
       - CYL-科技（2021.12.03） 13
-      - 美国感谢订阅——科技网络_99
-      - 台湾感谢订阅——科技网络_128
       - CYL-科技（2021.12.03） 14
+      - 美国感谢订阅——科技网络_124
       - CYL-科技（2021.12.03） 15
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_274
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_317
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_349
+      - 美国感谢订阅——科技网络_41
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_292
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_346
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_319
       - CYL-科技（2021.12.03） 16
-      - 德国感谢订阅——科技网络_187
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_310
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_511
       - 欧洲感谢订阅——科技网络_142
-      - 加拿大感谢订阅——科技网络_161
-      - CYL-科技（2021.12.03） 17
-      - CYL-科技（2021.12.03） 18
-      - CYL-科技（2021.12.03） 19
-      - 美国感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_218
-      - CYL-科技（2021.12.03） 20
-      - CYL-科技（2021.12.03） 21
-      - CYL-科技（2021.12.03） 22
-      - CYL-科技（2021.12.03） 23
-      - CYL-科技（2021.12.03） 24
-      - 欧洲感谢订阅——科技网络_143
       - 美国感谢订阅——科技网络_148
-      - 加拿大感谢订阅——科技网络_168
-      - 美国感谢订阅——科技网络_197
+      - CYL-科技（2021.12.03） 17
+      - 美国感谢订阅——科技网络_188
+      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_331
+      - CYL-科技（2021.12.03） 18
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港感谢订阅——科技网络_42
-      - 香港感谢订阅——科技网络_43
-      - 美国感谢订阅——科技网络_22
-      - 德国感谢订阅——科技网络_53
+      - 德国感谢订阅——科技网络_101
+      - 日本感谢订阅——科技网络_71
+      - 德国感谢订阅——科技网络_63
       - 美国感谢订阅——科技网络_40
-      - 日本感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_24
+      - 德国感谢订阅——科技网络_58
+      - 美国感谢订阅——科技网络_20
+      - 德国感谢订阅——科技网络_53
+      - 日本感谢订阅——科技网络_77
+      - 德国感谢订阅——科技网络_64
+      - 德国感谢订阅——科技网络_86
       - 美国感谢订阅——科技网络_88
       - 日本感谢订阅——科技网络_70
-      - 日本感谢订阅——科技网络_71
-      - 日本感谢订阅——科技网络_77
-      - 美国感谢订阅——科技网络_41
-      - 日本感谢订阅——科技网络_85
-      - 美国感谢订阅——科技网络_75
       - 香港感谢订阅——科技网络_33
+      - 美国感谢订阅——科技网络_102
+      - 美国感谢订阅——科技网络_24
+      - 阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_293
+      - 美国感谢订阅——科技网络_75
+      - 日本感谢订阅——科技网络_85
+      - 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_314
       - 美国感谢订阅——科技网络_28
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_328
+      - 德国感谢订阅——科技网络_59
       - CYL-科技（2021.12.03）
-      - 德国感谢订阅——科技网络_58
-      - 德国感谢订阅——科技网络_101
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_103
-      - 德国感谢订阅——科技网络_64
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_291
       - CYL-科技（2021.12.03） 2
-      - 美国感谢订阅——科技网络_20
-      - 德国感谢订阅——科技网络_86
+      - 日本感谢订阅——科技网络_78
+      - 美国感谢订阅——科技网络_98
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_351
       - CYL-科技（2021.12.03） 3
+      - 美国感谢订阅——科技网络_181
       - CYL-科技（2021.12.03） 4
       - CYL-科技（2021.12.03） 5
-      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_187
       - CYL-科技（2021.12.03） 6
+      - 美国感谢订阅——科技网络_22
+      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_62
       - CYL-科技（2021.12.03） 7
+      - 美国感谢订阅——科技网络_103
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
       - CYL-科技（2021.12.03） 8
-      - 美国感谢订阅——科技网络_91
-      - 德国感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_201
       - CYL-科技（2021.12.03） 9
+      - 德国感谢订阅——科技网络_199
+      - 阿伟科技-油管Relay_-🇨🇦CA_08
+      - 美国感谢订阅——科技网络_218
+      - 加拿大感谢订阅——科技网络_161
+      - 德国感谢订阅——科技网络_56
       - CYL-科技（2021.12.03） 10
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_215
+      - 美国感谢订阅——科技网络_126
+      - 美国感谢订阅——科技网络_204
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_284
       - CYL-科技（2021.12.03） 11
       - CYL-科技（2021.12.03） 12
-      - 德国感谢订阅——科技网络_59
-      - 美国感谢订阅——科技网络_181
-      - 美国感谢订阅——科技网络_188
+      - 加拿大感谢订阅——科技网络_216
       - CYL-科技（2021.12.03） 13
-      - 美国感谢订阅——科技网络_99
-      - 台湾感谢订阅——科技网络_128
       - CYL-科技（2021.12.03） 14
+      - 美国感谢订阅——科技网络_124
       - CYL-科技（2021.12.03） 15
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_274
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_317
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_349
+      - 美国感谢订阅——科技网络_41
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_292
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_346
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_319
       - CYL-科技（2021.12.03） 16
-      - 德国感谢订阅——科技网络_187
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_310
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_511
       - 欧洲感谢订阅——科技网络_142
-      - 加拿大感谢订阅——科技网络_161
-      - CYL-科技（2021.12.03） 17
-      - CYL-科技（2021.12.03） 18
-      - CYL-科技（2021.12.03） 19
-      - 美国感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_218
-      - CYL-科技（2021.12.03） 20
-      - CYL-科技（2021.12.03） 21
-      - CYL-科技（2021.12.03） 22
-      - CYL-科技（2021.12.03） 23
-      - CYL-科技（2021.12.03） 24
-      - 欧洲感谢订阅——科技网络_143
       - 美国感谢订阅——科技网络_148
-      - 加拿大感谢订阅——科技网络_168
-      - 美国感谢订阅——科技网络_197
+      - CYL-科技（2021.12.03） 17
+      - 美国感谢订阅——科技网络_188
+      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_331
+      - CYL-科技（2021.12.03） 18
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -610,74 +666,81 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港感谢订阅——科技网络_42
-      - 香港感谢订阅——科技网络_43
-      - 美国感谢订阅——科技网络_22
-      - 德国感谢订阅——科技网络_53
+      - 德国感谢订阅——科技网络_101
+      - 日本感谢订阅——科技网络_71
+      - 德国感谢订阅——科技网络_63
       - 美国感谢订阅——科技网络_40
-      - 日本感谢订阅——科技网络_78
-      - 美国感谢订阅——科技网络_24
+      - 德国感谢订阅——科技网络_58
+      - 美国感谢订阅——科技网络_20
+      - 德国感谢订阅——科技网络_53
+      - 日本感谢订阅——科技网络_77
+      - 德国感谢订阅——科技网络_64
+      - 德国感谢订阅——科技网络_86
       - 美国感谢订阅——科技网络_88
       - 日本感谢订阅——科技网络_70
-      - 日本感谢订阅——科技网络_71
-      - 日本感谢订阅——科技网络_77
-      - 美国感谢订阅——科技网络_41
-      - 日本感谢订阅——科技网络_85
-      - 美国感谢订阅——科技网络_75
       - 香港感谢订阅——科技网络_33
+      - 美国感谢订阅——科技网络_102
+      - 美国感谢订阅——科技网络_24
+      - 阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_293
+      - 美国感谢订阅——科技网络_75
+      - 日本感谢订阅——科技网络_85
+      - 阿伟科技-油管Relay_🇨🇳CN-🇩🇪DE_314
       - 美国感谢订阅——科技网络_28
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_328
+      - 德国感谢订阅——科技网络_59
       - CYL-科技（2021.12.03）
-      - 德国感谢订阅——科技网络_58
-      - 德国感谢订阅——科技网络_101
-      - 美国感谢订阅——科技网络_98
-      - 美国感谢订阅——科技网络_103
-      - 德国感谢订阅——科技网络_64
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_291
       - CYL-科技（2021.12.03） 2
-      - 美国感谢订阅——科技网络_20
-      - 德国感谢订阅——科技网络_86
+      - 日本感谢订阅——科技网络_78
+      - 美国感谢订阅——科技网络_98
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_351
       - CYL-科技（2021.12.03） 3
+      - 美国感谢订阅——科技网络_181
       - CYL-科技（2021.12.03） 4
       - CYL-科技（2021.12.03） 5
-      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_187
       - CYL-科技（2021.12.03） 6
+      - 美国感谢订阅——科技网络_22
+      - 美国感谢订阅——科技网络_202
+      - 德国感谢订阅——科技网络_62
       - CYL-科技（2021.12.03） 7
+      - 美国感谢订阅——科技网络_103
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_338
       - CYL-科技（2021.12.03） 8
-      - 美国感谢订阅——科技网络_91
-      - 德国感谢订阅——科技网络_118
-      - 美国感谢订阅——科技网络_201
       - CYL-科技（2021.12.03） 9
+      - 德国感谢订阅——科技网络_199
+      - 阿伟科技-油管Relay_-🇨🇦CA_08
+      - 美国感谢订阅——科技网络_218
+      - 加拿大感谢订阅——科技网络_161
+      - 德国感谢订阅——科技网络_56
       - CYL-科技（2021.12.03） 10
-      - 美国感谢订阅——科技网络_193
-      - 美国感谢订阅——科技网络_215
+      - 美国感谢订阅——科技网络_126
+      - 美国感谢订阅——科技网络_204
+      - 阿伟科技-油管Relay_🇨🇳CN-🇯🇵JP_284
       - CYL-科技（2021.12.03） 11
       - CYL-科技（2021.12.03） 12
-      - 德国感谢订阅——科技网络_59
-      - 美国感谢订阅——科技网络_181
-      - 美国感谢订阅——科技网络_188
+      - 加拿大感谢订阅——科技网络_216
       - CYL-科技（2021.12.03） 13
-      - 美国感谢订阅——科技网络_99
-      - 台湾感谢订阅——科技网络_128
       - CYL-科技（2021.12.03） 14
+      - 美国感谢订阅——科技网络_124
       - CYL-科技（2021.12.03） 15
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_274
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_317
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_349
+      - 美国感谢订阅——科技网络_41
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_292
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_346
+      - 阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_319
       - CYL-科技（2021.12.03） 16
-      - 德国感谢订阅——科技网络_187
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_310
+      - 阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_511
       - 欧洲感谢订阅——科技网络_142
-      - 加拿大感谢订阅——科技网络_161
-      - CYL-科技（2021.12.03） 17
-      - CYL-科技（2021.12.03） 18
-      - CYL-科技（2021.12.03） 19
-      - 美国感谢订阅——科技网络_102
-      - 欧洲感谢订阅——科技网络_153
-      - 美国感谢订阅——科技网络_218
-      - CYL-科技（2021.12.03） 20
-      - CYL-科技（2021.12.03） 21
-      - CYL-科技（2021.12.03） 22
-      - CYL-科技（2021.12.03） 23
-      - CYL-科技（2021.12.03） 24
-      - 欧洲感谢订阅——科技网络_143
       - 美国感谢订阅——科技网络_148
-      - 加拿大感谢订阅——科技网络_168
-      - 美国感谢订阅——科技网络_197
+      - CYL-科技（2021.12.03） 17
+      - 美国感谢订阅——科技网络_188
+      - 阿伟科技-油管Relay_🇸🇬SG-🇸🇬SG
+      - 阿伟科技-油管Relay_🇨🇳CN-🇺🇸US_331
+      - CYL-科技（2021.12.03） 18
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
