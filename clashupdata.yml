@@ -7,65 +7,42 @@ external-controller: 0.0.0.0:9090
 proxies:
   - {name: 'IN_703+|11.40Mb', server: 172.105.59.32, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 'IN_682+|11.64Mb', server: 172.105.59.32, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇮🇳_IN_印度_3', server: 172.105.59.32, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇮🇳_IN_印度_4', server: 172.105.59.32, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'n__418+|32.89Mb', server: 158.247.203.40, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: 'n__607+|41.07Mb', server: 141.164.52.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 'n__360+|19.72Mb', server: 5.180.76.74, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇮🇳_IN_印度_8', server: 172.105.59.32, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'n__540+|15.41Mb', server: 158.247.203.40, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: 'n__398+|35.12Mb', server: 5.180.76.74, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'n__621+|51.90Mb', server: 158.247.213.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'n__465+|10.96Mb', server: 141.164.38.135, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 'n__489+|31.82Mb', server: 141.164.38.135, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 'US_2147+|14.22Mb', server: 167.88.61.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_美国_13', server: 38.68.134.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'n__589+|37.27Mb', server: 158.247.213.165, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'US_2152+|25.80Mb', server: 158.247.224.121, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'n_61.44M_16', server: 192.46.208.123, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇨🇦_CA_加拿大_17', server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'n__483+|18.23Mb', server: 158.247.213.165, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '🇺🇸_US_美国_19', server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'n__621+|51.90Mb', server: 158.247.213.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'US_1295+|73.71Mb', server: 38.75.136.58, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_22', server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'n__465+|10.96Mb', server: 141.164.38.135, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'ZZ_2315+|210.78Mb', server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'US_1283+|229.62Mb', server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_10', server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_11', server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: 'US_1297+|75.93Mb', server: 38.75.136.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'US_1307+|79.93Mb', server: 38.75.136.58, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'ZZ_2379+|191.96Mb', server: 134.195.196.52, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇮🇳_IN_印度_29', server: 172.105.59.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_美国_30', server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇮🇳_IN_印度_31', server: 172.105.59.32, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'ZZ_2545+|21.06Mb', server: 169.197.143.157, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'ZZ_2577+|128.46Mb', server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'US_1289+|73.24Mb', server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_35', server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'n_26.26M_36', server: 167.88.61.204, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'ZZ_2374+|146.63Mb', server: 134.195.196.52, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'ZZ_2444+|170.50Mb', server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'US_2011+|70.91Mb', server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'ZZ_2563+|202.70Mb', server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'GB_517+|62.56Mb', server: 212.38.189.174, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'ZZ_2583+|196.29Mb', server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'US_1868+|256.89Mb', server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇨🇦_CA_加拿大_44', server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'US_1320+|134.67Mb', server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'n__483+|18.23Mb', server: 158.247.213.165, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'US_1295+|73.71Mb', server: 38.75.136.58, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'n__418+|32.89Mb', server: 158.247.203.40, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: 'US_1870+|268.36Mb', server: 38.91.101.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'ZZ_2425+|160.47Mb', server: 134.195.196.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'GB_514+|47.20Mb', server: 212.38.189.174, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'ZZ_2545+|21.06Mb', server: 169.197.143.157, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'US_1307+|79.93Mb', server: 38.75.136.58, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'US_1289+|73.24Mb', server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'US_2152+|25.80Mb', server: 158.247.224.121, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 'ZZ_2317+|197.83Mb', server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'US_1420+|171.76Mb', server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇨🇦_CA_加拿大_51', server: 134.195.196.52, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'US_2154+|68.80Mb', server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'US_1320+|134.67Mb', server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇮🇳_IN_印度_23', server: 172.105.59.32, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_24', server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'ZZ_2315+|210.78Mb', server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国_26', server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'ZZ_2425+|160.47Mb', server: 134.195.196.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦_CA_加拿大_28', server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'ZZ_2577+|128.46Mb', server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'ZZ_2444+|170.50Mb', server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 'US_1332+|39.93Mb', server: 142.202.48.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'ZZ_2421+|+4.08Mb', server: 134.195.198.250, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'ZZ_2422+|+3.78Mb', server: 134.195.198.250, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸_US_美国_32', server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'n__589+|37.27Mb', server: 158.247.213.165, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'US_2154+|68.80Mb', server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 'US_2172+|19.57Mb', server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'US_2173+|19.35Mb', server: 167.88.63.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'US_1831+|+8.90Mb', server: 167.88.61.204, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 'US_2156+|19.86Mb', server: 38.68.134.202, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'US_2173+|19.35Mb', server: 167.88.63.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 'US_2176+|19.31Mb', server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'ZZ_2416+|+5.22Mb', server: 134.195.198.250, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -74,65 +51,42 @@ proxy-groups:
       - 🎯 全球直连
       - IN_703+|11.40Mb
       - IN_682+|11.64Mb
-      - 🇮🇳_IN_印度_3
-      - 🇮🇳_IN_印度_4
-      - n__418+|32.89Mb
       - n__607+|41.07Mb
       - n__360+|19.72Mb
-      - 🇮🇳_IN_印度_8
-      - n__540+|15.41Mb
       - n__398+|35.12Mb
+      - n__621+|51.90Mb
+      - n__465+|10.96Mb
       - n__489+|31.82Mb
       - US_2147+|14.22Mb
-      - 🇺🇸_US_美国_13
-      - n__589+|37.27Mb
-      - US_2152+|25.80Mb
-      - n_61.44M_16
-      - 🇨🇦_CA_加拿大_17
-      - n__483+|18.23Mb
-      - 🇺🇸_US_美国_19
-      - n__621+|51.90Mb
-      - US_1295+|73.71Mb
-      - 🇺🇸_US_美国_22
-      - n__465+|10.96Mb
-      - ZZ_2315+|210.78Mb
-      - US_1283+|229.62Mb
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
       - US_1297+|75.93Mb
-      - US_1307+|79.93Mb
-      - ZZ_2379+|191.96Mb
-      - 🇮🇳_IN_印度_29
-      - 🇺🇸_US_美国_30
-      - 🇮🇳_IN_印度_31
-      - ZZ_2545+|21.06Mb
-      - ZZ_2577+|128.46Mb
-      - US_1289+|73.24Mb
-      - 🇺🇸_US_美国_35
-      - n_26.26M_36
-      - ZZ_2374+|146.63Mb
-      - ZZ_2444+|170.50Mb
-      - US_2011+|70.91Mb
-      - ZZ_2563+|202.70Mb
-      - GB_517+|62.56Mb
-      - ZZ_2583+|196.29Mb
-      - US_1868+|256.89Mb
-      - 🇨🇦_CA_加拿大_44
-      - US_1320+|134.67Mb
+      - n__483+|18.23Mb
+      - US_1295+|73.71Mb
+      - n__418+|32.89Mb
       - US_1870+|268.36Mb
-      - ZZ_2425+|160.47Mb
-      - GB_514+|47.20Mb
+      - ZZ_2545+|21.06Mb
+      - US_1307+|79.93Mb
+      - US_1289+|73.24Mb
+      - US_2152+|25.80Mb
       - ZZ_2317+|197.83Mb
-      - US_1420+|171.76Mb
-      - 🇨🇦_CA_加拿大_51
-      - US_2154+|68.80Mb
+      - US_1320+|134.67Mb
+      - 🇮🇳_IN_印度_23
+      - 🇨🇦_CA_加拿大_24
+      - ZZ_2315+|210.78Mb
+      - 🇺🇸_US_美国_26
+      - ZZ_2425+|160.47Mb
+      - 🇨🇦_CA_加拿大_28
+      - ZZ_2577+|128.46Mb
+      - ZZ_2444+|170.50Mb
       - US_1332+|39.93Mb
-      - ZZ_2421+|+4.08Mb
-      - ZZ_2422+|+3.78Mb
+      - 🇺🇸_US_美国_32
+      - n__589+|37.27Mb
+      - US_2154+|68.80Mb
       - US_2172+|19.57Mb
-      - US_2173+|19.35Mb
-      - US_1831+|+8.90Mb
       - US_2156+|19.86Mb
+      - US_2173+|19.35Mb
       - US_2176+|19.31Mb
-      - ZZ_2416+|+5.22Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -140,65 +94,42 @@ proxy-groups:
     proxies:
       - IN_703+|11.40Mb
       - IN_682+|11.64Mb
-      - 🇮🇳_IN_印度_3
-      - 🇮🇳_IN_印度_4
-      - n__418+|32.89Mb
       - n__607+|41.07Mb
       - n__360+|19.72Mb
-      - 🇮🇳_IN_印度_8
-      - n__540+|15.41Mb
       - n__398+|35.12Mb
+      - n__621+|51.90Mb
+      - n__465+|10.96Mb
       - n__489+|31.82Mb
       - US_2147+|14.22Mb
-      - 🇺🇸_US_美国_13
-      - n__589+|37.27Mb
-      - US_2152+|25.80Mb
-      - n_61.44M_16
-      - 🇨🇦_CA_加拿大_17
-      - n__483+|18.23Mb
-      - 🇺🇸_US_美国_19
-      - n__621+|51.90Mb
-      - US_1295+|73.71Mb
-      - 🇺🇸_US_美国_22
-      - n__465+|10.96Mb
-      - ZZ_2315+|210.78Mb
-      - US_1283+|229.62Mb
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
       - US_1297+|75.93Mb
-      - US_1307+|79.93Mb
-      - ZZ_2379+|191.96Mb
-      - 🇮🇳_IN_印度_29
-      - 🇺🇸_US_美国_30
-      - 🇮🇳_IN_印度_31
-      - ZZ_2545+|21.06Mb
-      - ZZ_2577+|128.46Mb
-      - US_1289+|73.24Mb
-      - 🇺🇸_US_美国_35
-      - n_26.26M_36
-      - ZZ_2374+|146.63Mb
-      - ZZ_2444+|170.50Mb
-      - US_2011+|70.91Mb
-      - ZZ_2563+|202.70Mb
-      - GB_517+|62.56Mb
-      - ZZ_2583+|196.29Mb
-      - US_1868+|256.89Mb
-      - 🇨🇦_CA_加拿大_44
-      - US_1320+|134.67Mb
+      - n__483+|18.23Mb
+      - US_1295+|73.71Mb
+      - n__418+|32.89Mb
       - US_1870+|268.36Mb
-      - ZZ_2425+|160.47Mb
-      - GB_514+|47.20Mb
+      - ZZ_2545+|21.06Mb
+      - US_1307+|79.93Mb
+      - US_1289+|73.24Mb
+      - US_2152+|25.80Mb
       - ZZ_2317+|197.83Mb
-      - US_1420+|171.76Mb
-      - 🇨🇦_CA_加拿大_51
-      - US_2154+|68.80Mb
+      - US_1320+|134.67Mb
+      - 🇮🇳_IN_印度_23
+      - 🇨🇦_CA_加拿大_24
+      - ZZ_2315+|210.78Mb
+      - 🇺🇸_US_美国_26
+      - ZZ_2425+|160.47Mb
+      - 🇨🇦_CA_加拿大_28
+      - ZZ_2577+|128.46Mb
+      - ZZ_2444+|170.50Mb
       - US_1332+|39.93Mb
-      - ZZ_2421+|+4.08Mb
-      - ZZ_2422+|+3.78Mb
+      - 🇺🇸_US_美国_32
+      - n__589+|37.27Mb
+      - US_2154+|68.80Mb
       - US_2172+|19.57Mb
-      - US_2173+|19.35Mb
-      - US_1831+|+8.90Mb
       - US_2156+|19.86Mb
+      - US_2173+|19.35Mb
       - US_2176+|19.31Mb
-      - ZZ_2416+|+5.22Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -207,65 +138,42 @@ proxy-groups:
       - 🎯 全球直连
       - IN_703+|11.40Mb
       - IN_682+|11.64Mb
-      - 🇮🇳_IN_印度_3
-      - 🇮🇳_IN_印度_4
-      - n__418+|32.89Mb
       - n__607+|41.07Mb
       - n__360+|19.72Mb
-      - 🇮🇳_IN_印度_8
-      - n__540+|15.41Mb
       - n__398+|35.12Mb
+      - n__621+|51.90Mb
+      - n__465+|10.96Mb
       - n__489+|31.82Mb
       - US_2147+|14.22Mb
-      - 🇺🇸_US_美国_13
-      - n__589+|37.27Mb
-      - US_2152+|25.80Mb
-      - n_61.44M_16
-      - 🇨🇦_CA_加拿大_17
-      - n__483+|18.23Mb
-      - 🇺🇸_US_美国_19
-      - n__621+|51.90Mb
-      - US_1295+|73.71Mb
-      - 🇺🇸_US_美国_22
-      - n__465+|10.96Mb
-      - ZZ_2315+|210.78Mb
-      - US_1283+|229.62Mb
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
       - US_1297+|75.93Mb
-      - US_1307+|79.93Mb
-      - ZZ_2379+|191.96Mb
-      - 🇮🇳_IN_印度_29
-      - 🇺🇸_US_美国_30
-      - 🇮🇳_IN_印度_31
-      - ZZ_2545+|21.06Mb
-      - ZZ_2577+|128.46Mb
-      - US_1289+|73.24Mb
-      - 🇺🇸_US_美国_35
-      - n_26.26M_36
-      - ZZ_2374+|146.63Mb
-      - ZZ_2444+|170.50Mb
-      - US_2011+|70.91Mb
-      - ZZ_2563+|202.70Mb
-      - GB_517+|62.56Mb
-      - ZZ_2583+|196.29Mb
-      - US_1868+|256.89Mb
-      - 🇨🇦_CA_加拿大_44
-      - US_1320+|134.67Mb
+      - n__483+|18.23Mb
+      - US_1295+|73.71Mb
+      - n__418+|32.89Mb
       - US_1870+|268.36Mb
-      - ZZ_2425+|160.47Mb
-      - GB_514+|47.20Mb
+      - ZZ_2545+|21.06Mb
+      - US_1307+|79.93Mb
+      - US_1289+|73.24Mb
+      - US_2152+|25.80Mb
       - ZZ_2317+|197.83Mb
-      - US_1420+|171.76Mb
-      - 🇨🇦_CA_加拿大_51
-      - US_2154+|68.80Mb
+      - US_1320+|134.67Mb
+      - 🇮🇳_IN_印度_23
+      - 🇨🇦_CA_加拿大_24
+      - ZZ_2315+|210.78Mb
+      - 🇺🇸_US_美国_26
+      - ZZ_2425+|160.47Mb
+      - 🇨🇦_CA_加拿大_28
+      - ZZ_2577+|128.46Mb
+      - ZZ_2444+|170.50Mb
       - US_1332+|39.93Mb
-      - ZZ_2421+|+4.08Mb
-      - ZZ_2422+|+3.78Mb
+      - 🇺🇸_US_美国_32
+      - n__589+|37.27Mb
+      - US_2154+|68.80Mb
       - US_2172+|19.57Mb
-      - US_2173+|19.35Mb
-      - US_1831+|+8.90Mb
       - US_2156+|19.86Mb
+      - US_2173+|19.35Mb
       - US_2176+|19.31Mb
-      - ZZ_2416+|+5.22Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -273,65 +181,42 @@ proxy-groups:
       - 🔰 节点选择
       - IN_703+|11.40Mb
       - IN_682+|11.64Mb
-      - 🇮🇳_IN_印度_3
-      - 🇮🇳_IN_印度_4
-      - n__418+|32.89Mb
       - n__607+|41.07Mb
       - n__360+|19.72Mb
-      - 🇮🇳_IN_印度_8
-      - n__540+|15.41Mb
       - n__398+|35.12Mb
+      - n__621+|51.90Mb
+      - n__465+|10.96Mb
       - n__489+|31.82Mb
       - US_2147+|14.22Mb
-      - 🇺🇸_US_美国_13
-      - n__589+|37.27Mb
-      - US_2152+|25.80Mb
-      - n_61.44M_16
-      - 🇨🇦_CA_加拿大_17
-      - n__483+|18.23Mb
-      - 🇺🇸_US_美国_19
-      - n__621+|51.90Mb
-      - US_1295+|73.71Mb
-      - 🇺🇸_US_美国_22
-      - n__465+|10.96Mb
-      - ZZ_2315+|210.78Mb
-      - US_1283+|229.62Mb
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
       - US_1297+|75.93Mb
-      - US_1307+|79.93Mb
-      - ZZ_2379+|191.96Mb
-      - 🇮🇳_IN_印度_29
-      - 🇺🇸_US_美国_30
-      - 🇮🇳_IN_印度_31
-      - ZZ_2545+|21.06Mb
-      - ZZ_2577+|128.46Mb
-      - US_1289+|73.24Mb
-      - 🇺🇸_US_美国_35
-      - n_26.26M_36
-      - ZZ_2374+|146.63Mb
-      - ZZ_2444+|170.50Mb
-      - US_2011+|70.91Mb
-      - ZZ_2563+|202.70Mb
-      - GB_517+|62.56Mb
-      - ZZ_2583+|196.29Mb
-      - US_1868+|256.89Mb
-      - 🇨🇦_CA_加拿大_44
-      - US_1320+|134.67Mb
+      - n__483+|18.23Mb
+      - US_1295+|73.71Mb
+      - n__418+|32.89Mb
       - US_1870+|268.36Mb
-      - ZZ_2425+|160.47Mb
-      - GB_514+|47.20Mb
+      - ZZ_2545+|21.06Mb
+      - US_1307+|79.93Mb
+      - US_1289+|73.24Mb
+      - US_2152+|25.80Mb
       - ZZ_2317+|197.83Mb
-      - US_1420+|171.76Mb
-      - 🇨🇦_CA_加拿大_51
-      - US_2154+|68.80Mb
+      - US_1320+|134.67Mb
+      - 🇮🇳_IN_印度_23
+      - 🇨🇦_CA_加拿大_24
+      - ZZ_2315+|210.78Mb
+      - 🇺🇸_US_美国_26
+      - ZZ_2425+|160.47Mb
+      - 🇨🇦_CA_加拿大_28
+      - ZZ_2577+|128.46Mb
+      - ZZ_2444+|170.50Mb
       - US_1332+|39.93Mb
-      - ZZ_2421+|+4.08Mb
-      - ZZ_2422+|+3.78Mb
+      - 🇺🇸_US_美国_32
+      - n__589+|37.27Mb
+      - US_2154+|68.80Mb
       - US_2172+|19.57Mb
-      - US_2173+|19.35Mb
-      - US_1831+|+8.90Mb
       - US_2156+|19.86Mb
+      - US_2173+|19.35Mb
       - US_2176+|19.31Mb
-      - ZZ_2416+|+5.22Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -339,65 +224,42 @@ proxy-groups:
       - 🔰 节点选择
       - IN_703+|11.40Mb
       - IN_682+|11.64Mb
-      - 🇮🇳_IN_印度_3
-      - 🇮🇳_IN_印度_4
-      - n__418+|32.89Mb
       - n__607+|41.07Mb
       - n__360+|19.72Mb
-      - 🇮🇳_IN_印度_8
-      - n__540+|15.41Mb
       - n__398+|35.12Mb
+      - n__621+|51.90Mb
+      - n__465+|10.96Mb
       - n__489+|31.82Mb
       - US_2147+|14.22Mb
-      - 🇺🇸_US_美国_13
-      - n__589+|37.27Mb
-      - US_2152+|25.80Mb
-      - n_61.44M_16
-      - 🇨🇦_CA_加拿大_17
-      - n__483+|18.23Mb
-      - 🇺🇸_US_美国_19
-      - n__621+|51.90Mb
-      - US_1295+|73.71Mb
-      - 🇺🇸_US_美国_22
-      - n__465+|10.96Mb
-      - ZZ_2315+|210.78Mb
-      - US_1283+|229.62Mb
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
       - US_1297+|75.93Mb
-      - US_1307+|79.93Mb
-      - ZZ_2379+|191.96Mb
-      - 🇮🇳_IN_印度_29
-      - 🇺🇸_US_美国_30
-      - 🇮🇳_IN_印度_31
-      - ZZ_2545+|21.06Mb
-      - ZZ_2577+|128.46Mb
-      - US_1289+|73.24Mb
-      - 🇺🇸_US_美国_35
-      - n_26.26M_36
-      - ZZ_2374+|146.63Mb
-      - ZZ_2444+|170.50Mb
-      - US_2011+|70.91Mb
-      - ZZ_2563+|202.70Mb
-      - GB_517+|62.56Mb
-      - ZZ_2583+|196.29Mb
-      - US_1868+|256.89Mb
-      - 🇨🇦_CA_加拿大_44
-      - US_1320+|134.67Mb
+      - n__483+|18.23Mb
+      - US_1295+|73.71Mb
+      - n__418+|32.89Mb
       - US_1870+|268.36Mb
-      - ZZ_2425+|160.47Mb
-      - GB_514+|47.20Mb
+      - ZZ_2545+|21.06Mb
+      - US_1307+|79.93Mb
+      - US_1289+|73.24Mb
+      - US_2152+|25.80Mb
       - ZZ_2317+|197.83Mb
-      - US_1420+|171.76Mb
-      - 🇨🇦_CA_加拿大_51
-      - US_2154+|68.80Mb
+      - US_1320+|134.67Mb
+      - 🇮🇳_IN_印度_23
+      - 🇨🇦_CA_加拿大_24
+      - ZZ_2315+|210.78Mb
+      - 🇺🇸_US_美国_26
+      - ZZ_2425+|160.47Mb
+      - 🇨🇦_CA_加拿大_28
+      - ZZ_2577+|128.46Mb
+      - ZZ_2444+|170.50Mb
       - US_1332+|39.93Mb
-      - ZZ_2421+|+4.08Mb
-      - ZZ_2422+|+3.78Mb
+      - 🇺🇸_US_美国_32
+      - n__589+|37.27Mb
+      - US_2154+|68.80Mb
       - US_2172+|19.57Mb
-      - US_2173+|19.35Mb
-      - US_1831+|+8.90Mb
       - US_2156+|19.86Mb
+      - US_2173+|19.35Mb
       - US_2176+|19.31Mb
-      - ZZ_2416+|+5.22Mb
   - name: 📲 电报信息
     type: select
     proxies:
@@ -405,65 +267,42 @@ proxy-groups:
       - 🎯 全球直连
       - IN_703+|11.40Mb
       - IN_682+|11.64Mb
-      - 🇮🇳_IN_印度_3
-      - 🇮🇳_IN_印度_4
-      - n__418+|32.89Mb
       - n__607+|41.07Mb
       - n__360+|19.72Mb
-      - 🇮🇳_IN_印度_8
-      - n__540+|15.41Mb
       - n__398+|35.12Mb
+      - n__621+|51.90Mb
+      - n__465+|10.96Mb
       - n__489+|31.82Mb
       - US_2147+|14.22Mb
-      - 🇺🇸_US_美国_13
-      - n__589+|37.27Mb
-      - US_2152+|25.80Mb
-      - n_61.44M_16
-      - 🇨🇦_CA_加拿大_17
-      - n__483+|18.23Mb
-      - 🇺🇸_US_美国_19
-      - n__621+|51.90Mb
-      - US_1295+|73.71Mb
-      - 🇺🇸_US_美国_22
-      - n__465+|10.96Mb
-      - ZZ_2315+|210.78Mb
-      - US_1283+|229.62Mb
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
       - US_1297+|75.93Mb
-      - US_1307+|79.93Mb
-      - ZZ_2379+|191.96Mb
-      - 🇮🇳_IN_印度_29
-      - 🇺🇸_US_美国_30
-      - 🇮🇳_IN_印度_31
-      - ZZ_2545+|21.06Mb
-      - ZZ_2577+|128.46Mb
-      - US_1289+|73.24Mb
-      - 🇺🇸_US_美国_35
-      - n_26.26M_36
-      - ZZ_2374+|146.63Mb
-      - ZZ_2444+|170.50Mb
-      - US_2011+|70.91Mb
-      - ZZ_2563+|202.70Mb
-      - GB_517+|62.56Mb
-      - ZZ_2583+|196.29Mb
-      - US_1868+|256.89Mb
-      - 🇨🇦_CA_加拿大_44
-      - US_1320+|134.67Mb
+      - n__483+|18.23Mb
+      - US_1295+|73.71Mb
+      - n__418+|32.89Mb
       - US_1870+|268.36Mb
-      - ZZ_2425+|160.47Mb
-      - GB_514+|47.20Mb
+      - ZZ_2545+|21.06Mb
+      - US_1307+|79.93Mb
+      - US_1289+|73.24Mb
+      - US_2152+|25.80Mb
       - ZZ_2317+|197.83Mb
-      - US_1420+|171.76Mb
-      - 🇨🇦_CA_加拿大_51
-      - US_2154+|68.80Mb
+      - US_1320+|134.67Mb
+      - 🇮🇳_IN_印度_23
+      - 🇨🇦_CA_加拿大_24
+      - ZZ_2315+|210.78Mb
+      - 🇺🇸_US_美国_26
+      - ZZ_2425+|160.47Mb
+      - 🇨🇦_CA_加拿大_28
+      - ZZ_2577+|128.46Mb
+      - ZZ_2444+|170.50Mb
       - US_1332+|39.93Mb
-      - ZZ_2421+|+4.08Mb
-      - ZZ_2422+|+3.78Mb
+      - 🇺🇸_US_美国_32
+      - n__589+|37.27Mb
+      - US_2154+|68.80Mb
       - US_2172+|19.57Mb
-      - US_2173+|19.35Mb
-      - US_1831+|+8.90Mb
       - US_2156+|19.86Mb
+      - US_2173+|19.35Mb
       - US_2176+|19.31Mb
-      - ZZ_2416+|+5.22Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -472,65 +311,42 @@ proxy-groups:
       - ♻️ 自动选择
       - IN_703+|11.40Mb
       - IN_682+|11.64Mb
-      - 🇮🇳_IN_印度_3
-      - 🇮🇳_IN_印度_4
-      - n__418+|32.89Mb
       - n__607+|41.07Mb
       - n__360+|19.72Mb
-      - 🇮🇳_IN_印度_8
-      - n__540+|15.41Mb
       - n__398+|35.12Mb
+      - n__621+|51.90Mb
+      - n__465+|10.96Mb
       - n__489+|31.82Mb
       - US_2147+|14.22Mb
-      - 🇺🇸_US_美国_13
-      - n__589+|37.27Mb
-      - US_2152+|25.80Mb
-      - n_61.44M_16
-      - 🇨🇦_CA_加拿大_17
-      - n__483+|18.23Mb
-      - 🇺🇸_US_美国_19
-      - n__621+|51.90Mb
-      - US_1295+|73.71Mb
-      - 🇺🇸_US_美国_22
-      - n__465+|10.96Mb
-      - ZZ_2315+|210.78Mb
-      - US_1283+|229.62Mb
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
       - US_1297+|75.93Mb
-      - US_1307+|79.93Mb
-      - ZZ_2379+|191.96Mb
-      - 🇮🇳_IN_印度_29
-      - 🇺🇸_US_美国_30
-      - 🇮🇳_IN_印度_31
-      - ZZ_2545+|21.06Mb
-      - ZZ_2577+|128.46Mb
-      - US_1289+|73.24Mb
-      - 🇺🇸_US_美国_35
-      - n_26.26M_36
-      - ZZ_2374+|146.63Mb
-      - ZZ_2444+|170.50Mb
-      - US_2011+|70.91Mb
-      - ZZ_2563+|202.70Mb
-      - GB_517+|62.56Mb
-      - ZZ_2583+|196.29Mb
-      - US_1868+|256.89Mb
-      - 🇨🇦_CA_加拿大_44
-      - US_1320+|134.67Mb
+      - n__483+|18.23Mb
+      - US_1295+|73.71Mb
+      - n__418+|32.89Mb
       - US_1870+|268.36Mb
-      - ZZ_2425+|160.47Mb
-      - GB_514+|47.20Mb
+      - ZZ_2545+|21.06Mb
+      - US_1307+|79.93Mb
+      - US_1289+|73.24Mb
+      - US_2152+|25.80Mb
       - ZZ_2317+|197.83Mb
-      - US_1420+|171.76Mb
-      - 🇨🇦_CA_加拿大_51
-      - US_2154+|68.80Mb
+      - US_1320+|134.67Mb
+      - 🇮🇳_IN_印度_23
+      - 🇨🇦_CA_加拿大_24
+      - ZZ_2315+|210.78Mb
+      - 🇺🇸_US_美国_26
+      - ZZ_2425+|160.47Mb
+      - 🇨🇦_CA_加拿大_28
+      - ZZ_2577+|128.46Mb
+      - ZZ_2444+|170.50Mb
       - US_1332+|39.93Mb
-      - ZZ_2421+|+4.08Mb
-      - ZZ_2422+|+3.78Mb
+      - 🇺🇸_US_美国_32
+      - n__589+|37.27Mb
+      - US_2154+|68.80Mb
       - US_2172+|19.57Mb
-      - US_2173+|19.35Mb
-      - US_1831+|+8.90Mb
       - US_2156+|19.86Mb
+      - US_2173+|19.35Mb
       - US_2176+|19.31Mb
-      - ZZ_2416+|+5.22Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -548,65 +364,42 @@ proxy-groups:
       - ♻️ 自动选择
       - IN_703+|11.40Mb
       - IN_682+|11.64Mb
-      - 🇮🇳_IN_印度_3
-      - 🇮🇳_IN_印度_4
-      - n__418+|32.89Mb
       - n__607+|41.07Mb
       - n__360+|19.72Mb
-      - 🇮🇳_IN_印度_8
-      - n__540+|15.41Mb
       - n__398+|35.12Mb
+      - n__621+|51.90Mb
+      - n__465+|10.96Mb
       - n__489+|31.82Mb
       - US_2147+|14.22Mb
-      - 🇺🇸_US_美国_13
-      - n__589+|37.27Mb
-      - US_2152+|25.80Mb
-      - n_61.44M_16
-      - 🇨🇦_CA_加拿大_17
-      - n__483+|18.23Mb
-      - 🇺🇸_US_美国_19
-      - n__621+|51.90Mb
-      - US_1295+|73.71Mb
-      - 🇺🇸_US_美国_22
-      - n__465+|10.96Mb
-      - ZZ_2315+|210.78Mb
-      - US_1283+|229.62Mb
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
       - US_1297+|75.93Mb
-      - US_1307+|79.93Mb
-      - ZZ_2379+|191.96Mb
-      - 🇮🇳_IN_印度_29
-      - 🇺🇸_US_美国_30
-      - 🇮🇳_IN_印度_31
-      - ZZ_2545+|21.06Mb
-      - ZZ_2577+|128.46Mb
-      - US_1289+|73.24Mb
-      - 🇺🇸_US_美国_35
-      - n_26.26M_36
-      - ZZ_2374+|146.63Mb
-      - ZZ_2444+|170.50Mb
-      - US_2011+|70.91Mb
-      - ZZ_2563+|202.70Mb
-      - GB_517+|62.56Mb
-      - ZZ_2583+|196.29Mb
-      - US_1868+|256.89Mb
-      - 🇨🇦_CA_加拿大_44
-      - US_1320+|134.67Mb
+      - n__483+|18.23Mb
+      - US_1295+|73.71Mb
+      - n__418+|32.89Mb
       - US_1870+|268.36Mb
-      - ZZ_2425+|160.47Mb
-      - GB_514+|47.20Mb
+      - ZZ_2545+|21.06Mb
+      - US_1307+|79.93Mb
+      - US_1289+|73.24Mb
+      - US_2152+|25.80Mb
       - ZZ_2317+|197.83Mb
-      - US_1420+|171.76Mb
-      - 🇨🇦_CA_加拿大_51
-      - US_2154+|68.80Mb
+      - US_1320+|134.67Mb
+      - 🇮🇳_IN_印度_23
+      - 🇨🇦_CA_加拿大_24
+      - ZZ_2315+|210.78Mb
+      - 🇺🇸_US_美国_26
+      - ZZ_2425+|160.47Mb
+      - 🇨🇦_CA_加拿大_28
+      - ZZ_2577+|128.46Mb
+      - ZZ_2444+|170.50Mb
       - US_1332+|39.93Mb
-      - ZZ_2421+|+4.08Mb
-      - ZZ_2422+|+3.78Mb
+      - 🇺🇸_US_美国_32
+      - n__589+|37.27Mb
+      - US_2154+|68.80Mb
       - US_2172+|19.57Mb
-      - US_2173+|19.35Mb
-      - US_1831+|+8.90Mb
       - US_2156+|19.86Mb
+      - US_2173+|19.35Mb
       - US_2176+|19.31Mb
-      - ZZ_2416+|+5.22Mb
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
