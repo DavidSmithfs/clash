@@ -5,186 +5,165 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"Relay_🇲🇴MO-🇲🇴MO_856","server":"polocloudmc.ednovas.net","port":41214,"type":"vmess","uuid":"061a5ca3-09f7-413e-8d4d-35775bb5c0eb","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","host":"polocloudmc.ednovas.net"}}
-  - {"name":"HK_627","server":"203.184.132.173","port":2087,"type":"vmess","uuid":"cbbcfa10-6aa3-39bc-96e0-a5899553138a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","host":"203.184.132.173"}}
-  - {"name":"HK_631","server":"203.184.132.170","port":2087,"type":"vmess","uuid":"cbbcfa10-6aa3-39bc-96e0-a5899553138a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","host":"203.184.132.170"}}
-  - {"name":"FR_330+_26_75Mb_4","server":"51.68.205.180","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"FR_499+_62_90Mb_5","server":"149.202.82.172","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"FR_329+_25_34Mb_6","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"ZZ_3172+_56_87Mb_7","server":"169.197.141.187","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"ZZ_3204+_32_87Mb_8","server":"169.197.142.216","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"_12+_89_39Mb_9","server":"134.195.198.95","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"ZZ_2900+_63_85Mb_10","server":"134.195.196.147","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"US_2654_21_43Mb_11","server":"104.160.43.43","port":443,"type":"vmess","uuid":"a307a6f7-b697-400e-bc7e-e6356de877c2","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/asdfaszzsdfa","host":"104.160.43.43"}}
-  - {"name":"US_2564","server":"147.182.249.191","port":30880,"type":"vmess","uuid":"b14e5862-ed44-4ef0-e310-335414d86882","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/114514","host":"147.182.249.191"}}
-  - {"name":"CA_198+_66_42Mb_13","server":"198.57.27.152","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"CA_154+_91_93Mb_14","server":"198.57.27.184","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"CA_200+_17_69Mb_15","server":"198.57.27.152","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"ZZ_3203+_45_17Mb_16","server":"169.197.142.216","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"US_1400+_57_56Mb_17","server":"142.202.48.34","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"CA_197+_10_86Mb_18","server":"198.57.27.184","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"CA_269+_74_58Mb_19","server":"198.57.27.184","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"CA_198+_12_46Mb_20","server":"198.57.27.184","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"Relay_🇸🇬SG-🇸🇬SG_1156","server":"lin-sg.tgproxy.wtf","port":443,"type":"vmess","uuid":"aeaaff19-bb0b-434d-b206-0f2a3f4d90e9","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi","host":"lin-sg.tgproxy.wtf"}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_2641","server":"vincent-jackson2022.ga","port":443,"type":"vmess","uuid":"5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/The-Great-Awakening_vws","host":"vincent-jackson2022.ga"}}
+  - {"name":"FR_538+_64_41Mb_2","server":"51.68.205.180","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)22_3","server":"107.155.83.152","port":443,"type":"vmess","uuid":"8f469f1b-1fd3-433b-9fd9-b4e041b9df16","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ray","host":"govacaxixo.watchdoctor.xyz"}}
+  - {"name":"CA_198+_66_42Mb_4","server":"198.57.27.152","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"US_2654_21_43Mb_5","server":"104.160.43.43","port":443,"type":"vmess","uuid":"a307a6f7-b697-400e-bc7e-e6356de877c2","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/asdfaszzsdfa","host":"104.160.43.43"}}
+  - {"name":"ZZ_3172+_56_87Mb_6","server":"169.197.141.187","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"CA_197+_10_86Mb_7","server":"198.57.27.184","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"FR_329+_25_34Mb_8","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"FR_330+_26_75Mb_9","server":"51.68.205.180","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"CN_370+_12_58Mb_10","server":"cn-6.crhnode.top","port":"565/?plugin=simple-obfs%3bobfs%3dhttp%3bobfs-host%3d20148-818nw7mYgF.download.microsoft.com","type":"ss","cipher":"rc4-md5","password":"AAEXNETWORKTECHNOLOGYLTD20170715"}
+  - {"name":"CN_371+_12_58Mb_11","server":"cn-6.crhnode.top","port":"563/?plugin=simple-obfs%3bobfs%3dhttp%3bobfs-host%3d20148-818nw7mYgF.download.microsoft.com","type":"ss","cipher":"rc4-md5","password":"AAEXNETWORKTECHNOLOGYLTD20170715"}
+  - {"name":"CN_386+_12_56Mb_12","server":"cn-6.crhnode.top","port":"569/?plugin=simple-obfs%3bobfs%3dhttp%3bobfs-host%3d20148-818nw7mYgF.download.microsoft.com","type":"ss","cipher":"rc4-md5","password":"AAEXNETWORKTECHNOLOGYLTD20170715"}
+  - {"name":"FR_499+_62_90Mb_13","server":"149.202.82.172","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"ZZ_3348+_+7_47Mb_14","server":"169.197.141.91","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"US_1393+_16_25Mb_15","server":"167.88.63.28","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"ZZ_2972+_53_67Mb_16","server":"134.195.196.147","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"US_1390+_29_98Mb_17","server":"172.99.190.39","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"ZZ_2900+_63_85Mb_18","server":"134.195.196.147","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_🇲🇴MO-🇲🇴MO_856
-      - HK_627
-      - HK_631
-      - FR_330+_26_75Mb_4
-      - FR_499+_62_90Mb_5
-      - FR_329+_25_34Mb_6
-      - ZZ_3172+_56_87Mb_7
-      - ZZ_3204+_32_87Mb_8
-      - _12+_89_39Mb_9
-      - ZZ_2900+_63_85Mb_10
-      - US_2654_21_43Mb_11
-      - US_2564
-      - CA_198+_66_42Mb_13
-      - CA_154+_91_93Mb_14
-      - CA_200+_17_69Mb_15
-      - ZZ_3203+_45_17Mb_16
-      - US_1400+_57_56Mb_17
-      - CA_197+_10_86Mb_18
-      - CA_269+_74_58Mb_19
-      - CA_198+_12_46Mb_20
-      - Relay_🇸🇬SG-🇸🇬SG_1156
+      - Relay_🇺🇸US-🇺🇸US_2641
+      - FR_538+_64_41Mb_2
+      - 美国(欢迎订阅Youtube破解资源君)22_3
+      - CA_198+_66_42Mb_4
+      - US_2654_21_43Mb_5
+      - ZZ_3172+_56_87Mb_6
+      - CA_197+_10_86Mb_7
+      - FR_329+_25_34Mb_8
+      - FR_330+_26_75Mb_9
+      - CN_370+_12_58Mb_10
+      - CN_371+_12_58Mb_11
+      - CN_386+_12_56Mb_12
+      - FR_499+_62_90Mb_13
+      - ZZ_3348+_+7_47Mb_14
+      - US_1393+_16_25Mb_15
+      - ZZ_2972+_53_67Mb_16
+      - US_1390+_29_98Mb_17
+      - ZZ_2900+_63_85Mb_18
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇲🇴MO-🇲🇴MO_856
-      - HK_627
-      - HK_631
-      - FR_330+_26_75Mb_4
-      - FR_499+_62_90Mb_5
-      - FR_329+_25_34Mb_6
-      - ZZ_3172+_56_87Mb_7
-      - ZZ_3204+_32_87Mb_8
-      - _12+_89_39Mb_9
-      - ZZ_2900+_63_85Mb_10
-      - US_2654_21_43Mb_11
-      - US_2564
-      - CA_198+_66_42Mb_13
-      - CA_154+_91_93Mb_14
-      - CA_200+_17_69Mb_15
-      - ZZ_3203+_45_17Mb_16
-      - US_1400+_57_56Mb_17
-      - CA_197+_10_86Mb_18
-      - CA_269+_74_58Mb_19
-      - CA_198+_12_46Mb_20
-      - Relay_🇸🇬SG-🇸🇬SG_1156
+      - Relay_🇺🇸US-🇺🇸US_2641
+      - FR_538+_64_41Mb_2
+      - 美国(欢迎订阅Youtube破解资源君)22_3
+      - CA_198+_66_42Mb_4
+      - US_2654_21_43Mb_5
+      - ZZ_3172+_56_87Mb_6
+      - CA_197+_10_86Mb_7
+      - FR_329+_25_34Mb_8
+      - FR_330+_26_75Mb_9
+      - CN_370+_12_58Mb_10
+      - CN_371+_12_58Mb_11
+      - CN_386+_12_56Mb_12
+      - FR_499+_62_90Mb_13
+      - ZZ_3348+_+7_47Mb_14
+      - US_1393+_16_25Mb_15
+      - ZZ_2972+_53_67Mb_16
+      - US_1390+_29_98Mb_17
+      - ZZ_2900+_63_85Mb_18
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇲🇴MO-🇲🇴MO_856
-      - HK_627
-      - HK_631
-      - FR_330+_26_75Mb_4
-      - FR_499+_62_90Mb_5
-      - FR_329+_25_34Mb_6
-      - ZZ_3172+_56_87Mb_7
-      - ZZ_3204+_32_87Mb_8
-      - _12+_89_39Mb_9
-      - ZZ_2900+_63_85Mb_10
-      - US_2654_21_43Mb_11
-      - US_2564
-      - CA_198+_66_42Mb_13
-      - CA_154+_91_93Mb_14
-      - CA_200+_17_69Mb_15
-      - ZZ_3203+_45_17Mb_16
-      - US_1400+_57_56Mb_17
-      - CA_197+_10_86Mb_18
-      - CA_269+_74_58Mb_19
-      - CA_198+_12_46Mb_20
-      - Relay_🇸🇬SG-🇸🇬SG_1156
+      - Relay_🇺🇸US-🇺🇸US_2641
+      - FR_538+_64_41Mb_2
+      - 美国(欢迎订阅Youtube破解资源君)22_3
+      - CA_198+_66_42Mb_4
+      - US_2654_21_43Mb_5
+      - ZZ_3172+_56_87Mb_6
+      - CA_197+_10_86Mb_7
+      - FR_329+_25_34Mb_8
+      - FR_330+_26_75Mb_9
+      - CN_370+_12_58Mb_10
+      - CN_371+_12_58Mb_11
+      - CN_386+_12_56Mb_12
+      - FR_499+_62_90Mb_13
+      - ZZ_3348+_+7_47Mb_14
+      - US_1393+_16_25Mb_15
+      - ZZ_2972+_53_67Mb_16
+      - US_1390+_29_98Mb_17
+      - ZZ_2900+_63_85Mb_18
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇲🇴MO-🇲🇴MO_856
-      - HK_627
-      - HK_631
-      - FR_330+_26_75Mb_4
-      - FR_499+_62_90Mb_5
-      - FR_329+_25_34Mb_6
-      - ZZ_3172+_56_87Mb_7
-      - ZZ_3204+_32_87Mb_8
-      - _12+_89_39Mb_9
-      - ZZ_2900+_63_85Mb_10
-      - US_2654_21_43Mb_11
-      - US_2564
-      - CA_198+_66_42Mb_13
-      - CA_154+_91_93Mb_14
-      - CA_200+_17_69Mb_15
-      - ZZ_3203+_45_17Mb_16
-      - US_1400+_57_56Mb_17
-      - CA_197+_10_86Mb_18
-      - CA_269+_74_58Mb_19
-      - CA_198+_12_46Mb_20
-      - Relay_🇸🇬SG-🇸🇬SG_1156
+      - Relay_🇺🇸US-🇺🇸US_2641
+      - FR_538+_64_41Mb_2
+      - 美国(欢迎订阅Youtube破解资源君)22_3
+      - CA_198+_66_42Mb_4
+      - US_2654_21_43Mb_5
+      - ZZ_3172+_56_87Mb_6
+      - CA_197+_10_86Mb_7
+      - FR_329+_25_34Mb_8
+      - FR_330+_26_75Mb_9
+      - CN_370+_12_58Mb_10
+      - CN_371+_12_58Mb_11
+      - CN_386+_12_56Mb_12
+      - FR_499+_62_90Mb_13
+      - ZZ_3348+_+7_47Mb_14
+      - US_1393+_16_25Mb_15
+      - ZZ_2972+_53_67Mb_16
+      - US_1390+_29_98Mb_17
+      - ZZ_2900+_63_85Mb_18
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_🇲🇴MO-🇲🇴MO_856
-      - HK_627
-      - HK_631
-      - FR_330+_26_75Mb_4
-      - FR_499+_62_90Mb_5
-      - FR_329+_25_34Mb_6
-      - ZZ_3172+_56_87Mb_7
-      - ZZ_3204+_32_87Mb_8
-      - _12+_89_39Mb_9
-      - ZZ_2900+_63_85Mb_10
-      - US_2654_21_43Mb_11
-      - US_2564
-      - CA_198+_66_42Mb_13
-      - CA_154+_91_93Mb_14
-      - CA_200+_17_69Mb_15
-      - ZZ_3203+_45_17Mb_16
-      - US_1400+_57_56Mb_17
-      - CA_197+_10_86Mb_18
-      - CA_269+_74_58Mb_19
-      - CA_198+_12_46Mb_20
-      - Relay_🇸🇬SG-🇸🇬SG_1156
+      - Relay_🇺🇸US-🇺🇸US_2641
+      - FR_538+_64_41Mb_2
+      - 美国(欢迎订阅Youtube破解资源君)22_3
+      - CA_198+_66_42Mb_4
+      - US_2654_21_43Mb_5
+      - ZZ_3172+_56_87Mb_6
+      - CA_197+_10_86Mb_7
+      - FR_329+_25_34Mb_8
+      - FR_330+_26_75Mb_9
+      - CN_370+_12_58Mb_10
+      - CN_371+_12_58Mb_11
+      - CN_386+_12_56Mb_12
+      - FR_499+_62_90Mb_13
+      - ZZ_3348+_+7_47Mb_14
+      - US_1393+_16_25Mb_15
+      - ZZ_2972+_53_67Mb_16
+      - US_1390+_29_98Mb_17
+      - ZZ_2900+_63_85Mb_18
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇲🇴MO-🇲🇴MO_856
-      - HK_627
-      - HK_631
-      - FR_330+_26_75Mb_4
-      - FR_499+_62_90Mb_5
-      - FR_329+_25_34Mb_6
-      - ZZ_3172+_56_87Mb_7
-      - ZZ_3204+_32_87Mb_8
-      - _12+_89_39Mb_9
-      - ZZ_2900+_63_85Mb_10
-      - US_2654_21_43Mb_11
-      - US_2564
-      - CA_198+_66_42Mb_13
-      - CA_154+_91_93Mb_14
-      - CA_200+_17_69Mb_15
-      - ZZ_3203+_45_17Mb_16
-      - US_1400+_57_56Mb_17
-      - CA_197+_10_86Mb_18
-      - CA_269+_74_58Mb_19
-      - CA_198+_12_46Mb_20
-      - Relay_🇸🇬SG-🇸🇬SG_1156
+      - Relay_🇺🇸US-🇺🇸US_2641
+      - FR_538+_64_41Mb_2
+      - 美国(欢迎订阅Youtube破解资源君)22_3
+      - CA_198+_66_42Mb_4
+      - US_2654_21_43Mb_5
+      - ZZ_3172+_56_87Mb_6
+      - CA_197+_10_86Mb_7
+      - FR_329+_25_34Mb_8
+      - FR_330+_26_75Mb_9
+      - CN_370+_12_58Mb_10
+      - CN_371+_12_58Mb_11
+      - CN_386+_12_56Mb_12
+      - FR_499+_62_90Mb_13
+      - ZZ_3348+_+7_47Mb_14
+      - US_1393+_16_25Mb_15
+      - ZZ_2972+_53_67Mb_16
+      - US_1390+_29_98Mb_17
+      - ZZ_2900+_63_85Mb_18
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -207,27 +186,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇲🇴MO-🇲🇴MO_856
-      - HK_627
-      - HK_631
-      - FR_330+_26_75Mb_4
-      - FR_499+_62_90Mb_5
-      - FR_329+_25_34Mb_6
-      - ZZ_3172+_56_87Mb_7
-      - ZZ_3204+_32_87Mb_8
-      - _12+_89_39Mb_9
-      - ZZ_2900+_63_85Mb_10
-      - US_2654_21_43Mb_11
-      - US_2564
-      - CA_198+_66_42Mb_13
-      - CA_154+_91_93Mb_14
-      - CA_200+_17_69Mb_15
-      - ZZ_3203+_45_17Mb_16
-      - US_1400+_57_56Mb_17
-      - CA_197+_10_86Mb_18
-      - CA_269+_74_58Mb_19
-      - CA_198+_12_46Mb_20
-      - Relay_🇸🇬SG-🇸🇬SG_1156
+      - Relay_🇺🇸US-🇺🇸US_2641
+      - FR_538+_64_41Mb_2
+      - 美国(欢迎订阅Youtube破解资源君)22_3
+      - CA_198+_66_42Mb_4
+      - US_2654_21_43Mb_5
+      - ZZ_3172+_56_87Mb_6
+      - CA_197+_10_86Mb_7
+      - FR_329+_25_34Mb_8
+      - FR_330+_26_75Mb_9
+      - CN_370+_12_58Mb_10
+      - CN_371+_12_58Mb_11
+      - CN_386+_12_56Mb_12
+      - FR_499+_62_90Mb_13
+      - ZZ_3348+_+7_47Mb_14
+      - US_1393+_16_25Mb_15
+      - ZZ_2972+_53_67Mb_16
+      - US_1390+_29_98Mb_17
+      - ZZ_2900+_63_85Mb_18
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
